@@ -1,16 +1,16 @@
-name: "netronium"
-repo: "sunkymp3g/netronium"
+name: "zeridmuth"
+repo: "xtarsagency/zeridmuth"
 minGameVersion: 145
-version: "v0.1.0-alpha"
+version: "v0.0.1-alpha"
 
-displayName: "Netronium"
-author: "Sunky.MP3G"
-subtitle: "Version: v0.1.0-alpha"
-description:
+displayName: "Zeridmuth"
+author: "Xtarsagency-Fomahault"
+subtitle: "Version: v0.0.1-alpha"
+description: a small mod made in android, maybe will lack some things i guess
 
 '''
-[white]The planet of robots!
+[yellow]a small mod made in android, maybe will lack some things i guess
 '''
 
 dependencies: []
-hideBrowser: true
+hideBrowser: false
