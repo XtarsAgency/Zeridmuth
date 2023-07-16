@@ -1,0 +1,16 @@
+name: "netronium"
+repo: "sunkymp3g/netronium"
+minGameVersion: 145
+version: "v0.1.0-alpha"
+
+displayName: "Netronium"
+author: "Sunky.MP3G"
+subtitle: "Version: v0.1.0-alpha"
+description:
+
+'''
+[white]The planet of robots!
+'''
+
+dependencies: []
+hideBrowser: true
