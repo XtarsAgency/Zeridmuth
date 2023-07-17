@@ -1,6 +1,6 @@
 name: "zeridmuth"
 repo: "xtarsagency/zeridmuth"
-minGameVersion: 145
+minGameVersion: 136
 version: "v0.0.1-alpha"
 
 displayName: "Zeridmuth"
