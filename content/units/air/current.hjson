@@ -1,1 +1,37 @@
+type: flying
+health: 200
+armor: 2
+hitSize: 11
 
+flying: true
+itemCapacity: 30
+
+speed: 4
+accel: 0.2
+drag: 0.015
+rotateSpeed: 7
+
+outlineColor: 2d2f39
+
+weapons: [
+    {
+        name: current-weapon
+        top: false
+        x: 0
+        y: 1.5
+		
+	    mirror: false
+	    alternate: false
+        reload: 20
+        shootSound: "railgun"
+        bullet: {
+            type: BasicBulletType
+            damage: 35
+	        lifetime: 30
+	        speed: 9
+			
+			width: 7
+		    height: 15
+		}
+    }
+]
