@@ -1,1 +1,38 @@
+type: ItemTurret
+category: turret
+size: 2
+health: 380
 
+reload: 30
+range: 185
+recoil: 0.9
+
+ammoTypes: {
+	iron-ore: {
+		type: BasicBulletType
+		damage: 37
+		speed: 9
+		lifetime: 20
+		
+		width: 11
+		height: 20
+		
+		ammoMultiplier: 2
+	}
+}
+
+requirements: [
+    "carbon-plates/35"
+]
+
+research: {
+    parent: "core-nouvagrad"
+    requirements: [
+        "carbon-plates/90"
+	]
+}
+
+drawer: {
+    type: DrawTurret
+    basePrefix: "zbase-"
+}
