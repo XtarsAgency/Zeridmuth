@@ -6,10 +6,11 @@ version: "v0.0.1-alpha"
 displayName: "Zeridmuth"
 author: "Xtarsagency-Fomahault"
 subtitle: "Version: v0.0.1-alpha"
-description: a small mod made in android, maybe will lack some things i guess
+description
 
 '''
 [yellow]a small mod made in android, maybe will lack some things i guess
+el so japones, T O Y O T A C O R O L L A
 '''
 
 dependencies: []
