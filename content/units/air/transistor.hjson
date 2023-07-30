@@ -1,0 +1,57 @@
+type: flying
+health: 55680
+armor: 35
+hitSize: 120
+
+flying: true
+itemCapacity: 590
+
+speed: 1
+accel: 0.9
+drag: 0.5
+rotateSpeed: 0.8
+
+outlineColor: 2d2f39
+
+weapons: [
+    {
+        name: transistor-weapon
+        top: false
+        x: 0
+        y: 18
+		
+	    mirror: false
+	    alternate: false
+        reload: 75
+        shootSound: "railgun"
+        bullet: {
+            type: BasicBulletType
+            damage: 5780.5
+	        lifetime: 50
+	        speed: 20
+			
+			width: 14
+		    height: 34
+		}
+    } 
+  {
+        name: electricity-weapon
+        top: false
+        x: 15
+        y: 4
+		
+	    mirror: true
+	    alternate: true
+        reload: 35
+        shootSound: "flame"
+        bullet: {
+            type: MissileBulletType
+            damage: 950.5
+	        lifetime: 90
+	        speed: 10
+			
+			width: 10
+		    height: 14
+		}
+}
+]
