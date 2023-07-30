@@ -4,7 +4,7 @@ armor: 5
 hitSize: 25
 
 flying: true
-itemCapacity: 170
+itemCapacity: 590
 
 speed: 1
 accel: 0.1
@@ -18,11 +18,11 @@ weapons: [
         name: electricity-weapon
         top: false
         x: 0
-        y: 2
+        y: 8
 		
 	    mirror: false
 	    alternate: false
-        reload: 20
+        reload: 55
         shootSound: "railgun"
         bullet: {
             type: BasicBulletType
@@ -30,8 +30,8 @@ weapons: [
 	        lifetime: 30
 	        speed: 20
 			
-			width: 4
-		    height: 7
+			width: 10
+		    height: 14
 		}
     }
 ]
