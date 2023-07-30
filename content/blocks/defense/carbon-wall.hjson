@@ -1,18 +1,15 @@
 type: Wall
 category: defense
-size: 1
-health: 500
+size: 2
+health: 625
 
 requirements: [
     "carbon/6"
 ]
 
 research: {
-    parent: "core-nouvagrad"
+    parent: "carbon-wall"
     requirements: [
-        "carbon/60"
+        "carbon/15"
     ]
-	objectives: [
-	    "etymology"
-	]
 }
