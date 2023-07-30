@@ -5,8 +5,8 @@ orbitRadius: 55
 hasAtmosphere: true
 updateLighting: false
 atmosphereRadIn: 0
-atmosphereRadOut: 0.5
-atmosphereColor: cc4e5c
+atmosphereRadOut: 0.8
+atmosphereColor: cfcfcf
 drawOrbit: true
 
 accessible: true
@@ -14,11 +14,11 @@ alwaysUnlocked: true
 defaultCore: "core-nouvagrad"
 sectorSeed: 0
 startSector: 0
-sectorSize: 15
+sectorSize: 5
 
 clearSectorOnLose: true
 allowSectorInvasion: false
-allowLaunchToNumbered: false
+allowLaunchToNumbered: true
 	
 cloudMesh: {
     type: HexSkyMesh
@@ -27,7 +27,7 @@ cloudMesh: {
     speed: 3
     radius: 0.1
     divisions: 5
-    color: 00bfffff
+    color: 00bfff
     octaves: 0
     persistence: 1
     scl: 2
@@ -36,10 +36,10 @@ cloudMesh: {
 	
 mesh: {
     type: NoiseMesh
-    planet: netronium
+    planet: zeridmuth
     seed: 552277
-    color1: 252850
-    color2: 116062
+    color1: b0bac0
+    color2: 3d3d3d
     divisions: 5
     radius: 0.9
     octaves: 10
@@ -51,7 +51,6 @@ mesh: {
 hiddenItems: [
     "copper"
     "lead"
-    "scrap"
     "graphite"
     "coal"
     "titanium"
@@ -69,6 +68,5 @@ hiddenItems: [
     "oxide"
     "tungsten"
     "carbide"
-    "fissile-matter"
     "dormant-cyst"
 ]
