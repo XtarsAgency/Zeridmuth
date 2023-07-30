@@ -34,4 +34,45 @@ weapons: [
 		    height: 14
 		}
     }
+{
+        name: rocket-weapon
+        top: false
+        x: 10
+        y: 2
+		
+	    mirror: true
+	    alternate: false
+        reload: 3
+        shootSound: "laserbig"
+        bullet: {
+            type: MissileBulletType
+            damage: 150.5
+	        lifetime: 45
+	        speed: 15
+			
+			width: 10
+		    height: 14
+		}
+    }
+{
+        name: rocket-weapon
+        top: false
+        x: 10
+        y: 2
+		
+	    mirror: true
+	    alternate: true
+        reload: 10
+        shootSound: "laserbig"
+        bullet: {
+            type: missileBulletType
+            damage: 150.5
+	        lifetime: 45
+	        speed: 15
+			
+			width: 10
+		    height: 14
+		}
+    }
 ]
+
