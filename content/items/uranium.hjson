@@ -1,0 +1,17 @@
+color: ff0fb0
+
+explosiveness: 19000000
+flammability: 0
+radioactivity: 78999
+charge: 83999
+cost: 2
+
+research: {
+    parent: "carbon"
+}
+
+buildable: true
+hiddenOnPlanets: [
+    "serpulo"
+    "erekir"
+]
