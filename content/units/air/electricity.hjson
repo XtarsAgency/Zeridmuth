@@ -1,14 +1,14 @@
 type: flying
-health: 5680
-armor: 5
-hitSize: 25
+health: 15680
+armor: 7
+hitSize: 75
 
 flying: true
 itemCapacity: 590
 
 speed: 1
 accel: 0.1
-drag: 0.015
+drag: 0.15
 rotateSpeed: 0.9
 
 outlineColor: 2d2f39
@@ -22,11 +22,11 @@ weapons: [
 		
 	    mirror: false
 	    alternate: false
-        reload: 55
+        reload: 75
         shootSound: "railgun"
         bullet: {
             type: BasicBulletType
-            damage: 1250.5
+            damage: 1950.5
 	        lifetime: 30
 	        speed: 20
 			
