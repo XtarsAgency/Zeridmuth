@@ -8,7 +8,7 @@ range: 185
 recoil: 0.9
 
 ammoTypes: {
-	iron-ore: {
+	carbon: {
 		type: BasicBulletType
 		damage: 37
 		speed: 9
