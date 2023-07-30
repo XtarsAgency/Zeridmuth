@@ -1,0 +1,19 @@
+type: Wall
+category: defense
+size: 12
+health: -1
+
+requirements: [
+    "carbon/1"
+]
+
+research: {
+    parent: "core-nouvagrad"
+    requirements: [
+        "carbon/60"
+    ]
+	objectives: [
+	    "etymology"
+	]
+}
+  
