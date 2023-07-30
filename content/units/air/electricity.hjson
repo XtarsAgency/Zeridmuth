@@ -42,8 +42,8 @@ weapons: [
 		
 	    mirror: true
 	    alternate: false
-        reload: 3
-        shootSound: "laserbig"
+        reload: 90
+        shootSound: "laser"
         bullet: {
             type: MissileBulletType
             damage: 150.5
@@ -62,8 +62,8 @@ weapons: [
 		
 	    mirror: true
 	    alternate: true
-        reload: 10
-        shootSound: "laserbig"
+        reload: 90
+        shootSound: "pulse"
         bullet: {
             type: missileBulletType
             damage: 150.5
