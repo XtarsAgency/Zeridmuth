@@ -1,6 +1,6 @@
 type: Wall
 category: defense
-size: 2
+size: 1
 health: 625
 
 requirements: [
