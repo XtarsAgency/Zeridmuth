@@ -1,6 +1,0 @@
-type: factory
-[ 
-  if == input=thorium
-  output= uranium
-]
-  print 0
