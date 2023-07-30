@@ -1,1 +1,149 @@
+# The planet's display name. If you want to support multiple languages, use bundles instead!
+localizedName: Zeridmuth
 
+# The mesh of the planet. Only NoiseMesh is still supported...
+mesh: {
+  # A class name.
+  type: NoiseMesh
+  # A planet to apply this mesh to.
+  planet: zeridmuth
+  # A number used for mesh generation.
+  seed: 33
+  # Mesh "quality". More divisions = more hexagons.
+  divisions: 2
+  # First color to be used.
+  color1: 00bfff
+  # Second color to be used.
+  color2: b0bac0
+  # Mesh radius.
+  radius: 0.6
+  # A noise property.
+  octaves: 3
+  # A noise property.
+  persistence: 0.8
+  # Noise scale.
+  scale: 1
+  # A noise property.
+  mag: 1.5
+}
+
+# The mesh used for clouds. (Now supported btw)
+cloudMesh: {
+  # A class name.
+  type: HexSkyMesh
+  # A planet to apply this mesh to.
+  planet: zeridmuth
+  # A number used for cloud generation.
+  seed: 10
+  # Cloud move speed.
+  speed: 0.9
+  # Cloud sphere radius.
+  radius: 0.05
+  # Clouds "quality". More divisions = more hexagons.
+  divisions: 8
+  # Cloud color.
+  color: 4662e87e
+  # A noise property.
+  octaves: 3
+  # A noise property.
+  persistence: 0.7
+  # Noise scale.
+  scl: 1
+  # Maximum number threshold for the noise.
+  thresh: 0.4
+}
+
+# A planet generator. For (H)JSON planets it's pre-determined (AsteroidGenerator) and cannot be changed.
+# But you can at least modify the existing one's fields. Highly not recommended unless you REALLY know what you're doing,
+# better make sector presets and don't waste your time with this.
+generator: {
+  # Mininum amount of asteroids.
+  min: 1
+  # Maximum amount of asteroids.
+  max: 1
+
+  # Noise properties.
+  octaves: 2
+  persistence: 0.4
+  scale: 30
+  mag: 0.4
+  thresh: 1
+  foct: 3
+  fmag: 0.5
+  fscl: 50
+  fper: 0.6
+
+  # Asteroid radius range.
+  radMin: 600
+  radMax: 600
+
+  # This one is ABSOLUTELY pointless, lmao.
+  stoneChance: 0
+
+  # Terrain generation chances, in order: ice > carbon > beryl > ferric.
+  iceChance: 0.5
+  carbonChance: 1
+  berylChance: 0
+  ferricChance: 1
+}
+
+# Make sure this planet is always accessible anytime.
+alwaysUnlocked: true
+# This determines the size of the sector grid.
+# Fun fact: The console will warn you about this "unknown" field, but it also functions properly at the same time.
+sectorSize: 1
+# Spacing between a parent (this) and satellites.
+orbitSpacing: 12
+# Radius of this planet's sphere.
+radius: 1
+# Minimum camera zoom.
+minZoom: 0.5
+# Whether to draw the orbit.
+drawOrbit: ,true
+# Atmosphere offset.
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+# Whether this can be landed on.
+accessible: true
+# Toggle day-night cycle.
+updateLighting: false
+# A number used for sector generation. If == -1, planet ID is picked instead.
+sectorSeed: 529
+# Whether this planet is blooming.
+bloom: true
+# This is self-explanatory...
+visible: true
+# Also self-explanatory...
+atmosphereColor: 3d3d3d
+# The color of the planet's icon displayed in top-left dialog.
+iconColor: 00bfff
+# Another self-explanatory field...
+hasAtmosphere: true
+# Whether simulate waves when off-planet.
+allowWaveSimulation: true
+# Whether allow to land on procedurally generated sectors at all. False = only presets are available.
+allowLaunchToNumbered: true
+# Whether sectors are reset when a player loses them.
+clearSectorOnLose: true
+# Whether waves are re-created when a sector is lost.
+allowWaves: true
+# Icon's name displayed in top-left dialog.
+icon: planet
+# Default core block for launch loadouts.
+defaultCore: core-nucleus
+# The parent of the planet.
+parent: serpulo
+# The parent of the whole solar system the planet is in. Affects lighting.
+solarSystem: sun
+# Possible planets that could be landed on from this planet.
+# In the current version, only 1 entry is applicable if you decide to use modded accelerators.
+# Probably useless since the Interplanetary Accelerator is hidden and not working.
+launchCandidates: []
+# Items not available in this planet. Commented out because itemWhitelist is used instead as seen below.
+#hiddenItems: [
+#  graphite, plastanium, phase-fabric
+#]
+# Only items available in this planet. Recommended over hiddenItems.
+itemWhitelist: [
+  copper, lead, beryllium, graphite, titanium
+]
