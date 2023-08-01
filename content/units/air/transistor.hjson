@@ -1,5 +1,5 @@
 type: flying
-health: 55680
+health: 55700
 armor: 35
 hitSize: 120
 
@@ -35,15 +35,15 @@ weapons: [
 		}
     } 
   {
-        name: electricity-weapon
+        name: missile-weapon
         top: false
-        x: 15
-        y: 4
+        x: 40
+        y: -5
 		
 	    mirror: true
 	    alternate: true
-        reload: 35
-        shootSound: "flame"
+        reload: 21
+        shootSound: "laser"
         bullet: {
             type: MissileBulletType
             damage: 950.5
