@@ -14,7 +14,7 @@ alwaysUnlocked: true
 defaultCore: "core-nouvagrad"
 sectorSeed: 0
 startSector: 0
-sectorSize: 15
+sectorSize: 6
 
 clearSectorOnLose: true
 allowSectorInvasion: false
