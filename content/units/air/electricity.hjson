@@ -1,6 +1,6 @@
 type: flying
 health: 15680
-armor: 7
+armor: 8
 hitSize: 75
 
 flying: true
@@ -37,16 +37,16 @@ weapons: [
 {
         name: rocket-weapon
         top: false
-        x: 10
+        x: 25
         y: 2
 		
 	    mirror: true
-	    alternate: false
+	    alternate: true
         reload: 90
         shootSound: "laser"
         bullet: {
             type: MissileBulletType
-            damage: 150.5
+            damage: 280.5
 	        lifetime: 45
 	        speed: 15
 			
@@ -57,16 +57,16 @@ weapons: [
 {
         name: rocket-weapon
         top: false
-        x: 10
+        x: 25
         y: 2
 		
 	    mirror: true
 	    alternate: true
         reload: 90
-        shootSound: "pulse"
+        shootSound: "laser"
         bullet: {
             type: missileBulletType
-            damage: 150.5
+            damage: 180.5
 	        lifetime: 45
 	        speed: 15
 			
