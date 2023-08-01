@@ -1,18 +1,18 @@
 type: ItemTurret
 category: turret
 size: 2
-health: 380
+health: 458
 
 reload: 30
-range: 185
-recoil: 0.9
+range: 235
+recoil: 1.2
 
 ammoTypes: {
 	carbon: {
 		type: BasicBulletType
 		damage: 37
-		speed: 9
-		lifetime: 20
+		speed: 8
+		lifetime: 45
 		
 		width: 11
 		height: 20
@@ -34,5 +34,5 @@ research: {
 
 drawer: {
     type: DrawTurret
-    basePrefix: "zbase-"
+    basePrefix: "block2"
 }
