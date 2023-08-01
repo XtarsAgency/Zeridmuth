@@ -1,16 +1,16 @@
 name: "zeridmuth"
 repo: "xtarsagency/zeridmuth"
 minGameVersion: 145.1
-version: "v0.0.2-alpha"
+version: "v0.1.6-beta"
 
 displayName: "Zeridmuth"
 author: "[red[]]Xtarsagency"
-subtitle: "Version: v0.0.2-alpha"
+subtitle: "Version: v0.1.6-alpha"
 description:
 
 '''
-This mod is made on android... WOOOO
-zive carous net, noyva.. noUVABLYAT
+A simple mindustry mod that consist of units turrets and some factories
+MADE ON ANDROID yes really im not joking
 '''
 
 dependencies: []
