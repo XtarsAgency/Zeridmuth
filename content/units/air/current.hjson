@@ -28,7 +28,7 @@ weapons: [
             type: BasicBulletType
             damage: 35
 	        lifetime: 30
-	        speed: 9
+	        speed: 5
 			
 			width: 1.5
 		    height: 3
