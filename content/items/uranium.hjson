@@ -1,10 +1,10 @@
 color: ff0fb0
 
-explosiveness: 19000000
+explosiveness: 45
 flammability: 0
-radioactivity: 78999
-charge: 83999
-cost: 2
+radioactivity: 450
+charge: 5
+cost: 3
 
 research: {
     parent: "carbon"
