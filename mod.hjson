@@ -1,16 +1,16 @@
 name: "zeridmuth"
 repo: "xtarsagency/zeridmuth"
 minGameVersion: 145.1
-version: "v0.1.6-beta"
+version: "v0.1.7-beta"
 
 displayName: "Zeridmuth: A new beginning"
 author: "[red[]]Xtarsagency"
-subtitle: "Version: v0.1.9-alpha"
+subtitle: "Version: v0.1.7-beta"
 description:
 
 '''
 A simple mindustry mod that contains a new planet, items, units and turrets
-[red[] WIP MADE ON ANDROID SO DEVELOPMENT MAY BE SLOW
+[red[]]WIP MADE ON ANDROID SO DEVELOPMENT MAY BE SLOW
 '''
 
 dependencies: []
