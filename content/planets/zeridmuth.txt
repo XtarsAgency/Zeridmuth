@@ -36,10 +36,10 @@ cloudMesh: {
 	
 mesh: {
     type: NoiseMesh
-    planet: netronium
+    planet: zeridmuth
     seed: 552277
-    color1: 252850
-    color2: 116062
+    color1: 000bff
+    color2: cfcfcf
     divisions: 5
     radius: 0.9
     octaves: 10
