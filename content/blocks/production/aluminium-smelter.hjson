@@ -1,14 +1,14 @@
 type: GenericCrafter
 category: crafting
 size: 2
-health: 350
+health: 470
 
-craftTime: 100
+craftTime: 145
 consumes: {
     items: [
-        "aluminium/2"
+        "aluminium/1"
 	]
-power/0.56
+	power: 0.85
 }
 outputItem: "aluminium-ingot/1"
 
