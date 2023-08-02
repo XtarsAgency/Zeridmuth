@@ -8,6 +8,7 @@ consumes: {
     items: [
         "aluminium/2"
 	]
+power/0.56
 }
 outputItem: "aluminium-ingot/1"
 
