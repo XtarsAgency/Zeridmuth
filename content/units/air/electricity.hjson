@@ -75,4 +75,11 @@ weapons: [
 		}
     }
 ]
-
+engines: [
+    {
+        x: 0
+        y: -10
+        radius: 2
+        rotation: 0
+    }
+]
