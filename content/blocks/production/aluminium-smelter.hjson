@@ -1,0 +1,39 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 350
+
+craftTime: 100
+consumes: {
+    items: [
+        "aluminium/2"
+	]
+}
+outputItem: "aluminium-ingot/1"
+
+squareSprite: false
+
+requirements: [
+    "carbon/30"
+  "aluminium/10"
+]
+
+research: {
+    parent: "core-husk"
+    requirements: [
+        "carbon/85"
+      "aluminium/25"
+    ]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+	{
+		type: DrawArcSmelt
+	}
+	{
+        type: DrawDefault
+    }
+]
