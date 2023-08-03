@@ -1,0 +1,17 @@
+color: 34a832
+
+explosiveness: 65
+flammability: 0
+radioactivity: 670
+charge: 2
+cost: 7
+
+research: {
+    parent: "uranium"
+}
+
+buildable: true
+hiddenOnPlanets: [
+    "serpulo"
+    "erekir"
+]
