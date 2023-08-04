@@ -23,7 +23,7 @@ weapons: [
 	    mirror: false
 	    alternate: false
         reload: 20
-        shootSound: "railgun"
+        shootSound: "laserBlast"
         bullet: {
             type: BasicBulletType
             damage: 35
