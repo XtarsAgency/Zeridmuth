@@ -23,7 +23,7 @@ weapons: [
 	    mirror: false
 	    alternate: false
         reload: 75
-        shootSound: "railgun"
+        shootSound: "pulseBlast"
         bullet: {
             type: BasicBulletType
             damage: 5780.5
@@ -37,16 +37,16 @@ weapons: [
   {
         name: missile-weapon
         top: false
-        x: 40
-        y: -5
+        x: 35
+        y: -2
 		
 	    mirror: true
 	    alternate: true
-        reload: 21
-        shootSound: "laser"
+        reload: 29
+        shootSound: "missileLaunch"
         bullet: {
             type: MissileBulletType
-            damage: 950.5
+            damage: 1050.5
 	        lifetime: 90
 	        speed: 10
 			
