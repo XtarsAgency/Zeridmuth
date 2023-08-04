@@ -8,7 +8,7 @@ consumes: {
     items: [
         "aluminium/1"
 	]
-	power: 0.85
+	power: 0.35
 }
 outputItem: "aluminium-ingot/1"
 
@@ -20,7 +20,7 @@ requirements: [
 ]
 
 research: {
-    parent: "core-husk"
+    parent: "carbon-compressor"
     requirements: [
         "carbon/85"
       "aluminium/25"
