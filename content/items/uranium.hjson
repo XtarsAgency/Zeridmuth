@@ -1,8 +1,8 @@
 color: ff0fb0
 
-explosiveness: 45
+explosiveness: 2
 flammability: 0
-radioactivity: 450
+radioactivity: 1.25
 charge: 5
 cost: 3
 
