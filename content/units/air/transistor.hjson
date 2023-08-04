@@ -4,6 +4,7 @@ armor: 35
 hitSize: 120
 
 flying: true
+buildSpeed: 2.7
 itemCapacity: 590
 
 speed: 1
