@@ -1,5 +1,5 @@
 type: flying
-health: 15680
+health: 35680
 armor: 8
 hitSize: 75
 
@@ -37,13 +37,13 @@ weapons: [
 {
         name: rocket-weapon
         top: false
-        x: 25
+        x: 18
         y: 2
 		
 	    mirror: true
 	    alternate: true
         reload: 90
-        shootSound: "laser"
+        shootSound: "missileLaunch"
         bullet: {
             type: MissileBulletType
             damage: 280.5
