@@ -9,19 +9,19 @@ isEnemy: false
 mineWalls: true
 mineFloor: true
 buildSpeed: 0.6
-itemCapacity: 0
+itemCapacity: 45
 
 speed: 4.5
 accel: 0.5
 drag: 0.15
 mineSpeed: 5
 mineTier: 1
-rotateSpeed: 5
+rotateSpeed: 7
 
 crashDamageMultiplier: 0
 hittable: false
 targetable: false
-fogRadius: 0
+fogRadius: 5
 coreUnitDock: true
 outlineColor: 2d2f39
 
@@ -37,7 +37,7 @@ weapons: [
         y: 2
         mirror: false
         shootY: 0
-		beamWidth: 0.7
+		beamWidth: 0.3
         repairSpeed: 3.1
         fractionRepairSpeed: 0.06
         shootCone: 15
@@ -46,10 +46,10 @@ weapons: [
         targetBuildings: true
         autoTarget: false
         controllable: true
-        laserColor: ffd37f
-        healColor: ffd37f
+        laserColor: 00bfff
+        healColor: 0bffff
 		bullet: {
-		    maxRange: 60
+		    maxRange: 45
 		}
     }
 ]
