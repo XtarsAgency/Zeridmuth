@@ -1,0 +1,16 @@
+color: ff0fff
+
+explosiveness: 20000000
+flammability: 9000000
+radioactivity: 1000000
+charge: 900000000
+cost: 3000
+
+research: {
+    parent: "copper"
+}
+
+buildable: true
+hiddenOnPlanets: [
+    "erekir"
+]
