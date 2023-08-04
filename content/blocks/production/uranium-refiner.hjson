@@ -8,7 +8,7 @@ consumes: {
         "uranium/10"
       "aluminium-ingot/5"
 	]
-	power: 1.4
+	power: 9.8
 }
 outputItem: "refined-uranium/2"
 
