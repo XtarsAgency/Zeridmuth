@@ -1,0 +1,41 @@
+type: ItemTurret
+category: turret
+size: 3
+health: 2860
+
+reload: 30
+range: 235
+recoil: 1.2
+
+ammoTypes: {
+	carbon: {
+		type: BasicBulletType
+		damage: 870.589
+		speed: 19
+		lifetime: 13
+		
+		width: 35
+		height: 59
+		
+		ammoMultiplier: 1
+	}
+}
+
+requirements: [
+    "carbon-plates/150"
+  "aluminium-ingot/55"
+]
+
+research: {
+    parent: "etymology"
+    requirements: [
+        "carbon-plates/560"
+      "aluminium-ingot/450"
+      "carbon/1570"
+	]
+}
+
+drawer: {
+    type: DrawTurret
+    basePrefix: "block2"
+}
