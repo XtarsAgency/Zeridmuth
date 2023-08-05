@@ -8,11 +8,23 @@ range: 235
 recoil: 1.2
 
 ammoTypes: {
-	carbon: {
+	aluminium-ingot: {
 		type: BasicBulletType
 		damage: 870.589
 		speed: 19
 		lifetime: 13
+		
+		width: 35
+		height: 59
+		
+		ammoMultiplier: 1
+	}
+
+	refined-uranium: {
+		type: MissileBulletType
+		damage: 1780.90
+		speed: 19
+		lifetime: 17
 		
 		width: 35
 		height: 59
@@ -37,5 +49,5 @@ research: {
 
 drawer: {
     type: DrawTurret
-    basePrefix: "block2"
+    basePrefix: "block3"
 }
