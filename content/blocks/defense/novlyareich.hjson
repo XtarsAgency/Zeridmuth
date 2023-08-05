@@ -3,16 +3,16 @@ category: turret
 size: 3
 health: 2860
 
-reload: 30
-range: 235
-recoil: 1.2
+reload: 140
+range: 2350
+recoil: 3.8
 
 ammoTypes: {
 	aluminium-ingot: {
 		type: BasicBulletType
 		damage: 870.589
 		speed: 19
-		lifetime: 13
+		lifetime: 100
 		
 		width: 35
 		height: 59
@@ -24,7 +24,7 @@ ammoTypes: {
 		type: MissileBulletType
 		damage: 1780.90
 		speed: 19
-		lifetime: 17
+		lifetime: 170
 		
 		width: 35
 		height: 59
@@ -34,8 +34,8 @@ ammoTypes: {
 }
 
 requirements: [
-    "carbon-plates/150"
-  "aluminium-ingot/55"
+    "carbon-plates/350"
+  "aluminium-ingot/105"
 ]
 
 research: {
