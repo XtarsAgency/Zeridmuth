@@ -24,12 +24,3 @@ research: {
 	    "carbon-plates"
 	]
 }
-drawer: [
-	{
-        type: "DrawRegion",
-        suffix: "-bottom"
-    }
-	{
-        type: "DrawDefault"
-    }
-]
