@@ -10,7 +10,7 @@ recoil: 3.8
 ammoTypes: {
 	aluminium-ingot: {
 		type: BasicBulletType
-		damage: 870.589
+		damage: 947.80
 		speed: 19
 		lifetime: 100
 		
@@ -22,7 +22,7 @@ ammoTypes: {
 
 	refined-uranium: {
 		type: MissileBulletType
-		damage: 1780.90
+		damage: 2280.90
 		speed: 19
 		lifetime: 170
 		
