@@ -17,7 +17,7 @@ ammoTypes: {
 		width: 35
 		height: 59
 		
-		ammoMultiplier: 1
+		ammoMultiplier: 4
 	}
 
 	refined-uranium: {
@@ -29,7 +29,18 @@ ammoTypes: {
 		width: 35
 		height: 59
 		
-		ammoMultiplier: 1
+		ammoMultiplier: 2
+	}
+	uranium: {
+		type: BasicBulletType
+		damage: 1897.25
+		speed: 19
+		lifetime: 100
+		
+		width: 35
+		height: 59
+		
+		ammoMultiplier: 2
 	}
 }
 
