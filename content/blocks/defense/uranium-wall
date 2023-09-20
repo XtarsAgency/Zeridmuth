@@ -1,0 +1,15 @@
+type: Wall
+category: defense
+size: 1
+health: 1740
+
+requirements: [
+    "uranium/8"
+]
+
+research: {
+    parent: "carbon-wall-large"
+    requirements: [
+        "uranium/37"
+    ]
+}
