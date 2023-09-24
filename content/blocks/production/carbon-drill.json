@@ -1,0 +1,14 @@
+type: Drill
+name: Carbon Drill
+description: A drill used to mine soft carbon ores
+health: 450
+size: 2
+tier: 3
+buildCostMultiplier: 10
+drillTime: 1
+hasItems: true
+itemCapacity: 20
+requirements: [
+  carbon/10
+]
+category: production
