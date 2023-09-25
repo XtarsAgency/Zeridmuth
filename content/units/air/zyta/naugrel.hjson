@@ -1,0 +1,37 @@
+type: flying
+health: 2490
+armor: 4
+hitSize: 19
+
+flying: true
+itemCapacity: 20
+
+speed: 2
+accel: 0.2
+drag: 0.3
+rotateSpeed: 2
+
+outlineColor: 2d2f39
+
+weapons: [
+    {
+        name: naugrel-weapon
+        top: false
+        x: 2
+        y: 0.6
+		
+	    mirror: true
+	    alternate: true
+        reload: 3
+        shootSound: "pew"
+        bullet: {
+            type: BasicBulletType
+            damage: 35
+	        lifetime: 30
+	        speed: 7
+			
+			width: 2
+		    height: 2
+		}
+    }
+]
