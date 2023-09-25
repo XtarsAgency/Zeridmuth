@@ -1,11 +1,11 @@
 name: "zeridmuth"
 repo: "xtarsagency/zeridmuth"
 minGameVersion: 136
-version: "v0.1.7.6-beta"
+version: "v0.1.8-beta"
 
 displayName: "Zeridmuth: A new beginning"
 author: "[red[]]Xtarsagency"
-subtitle: "Version: v0.1.7.6-beta"
+subtitle: "Version: v0.1.8-beta"
 description:
 
 '''
