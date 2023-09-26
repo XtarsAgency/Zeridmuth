@@ -26,6 +26,7 @@ research: {
     requirements: [
         "carbon/85"
       "aluminium/25"
+"carbon-plates/45
     ]
 }
 drawer: [
