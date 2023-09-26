@@ -1,0 +1,17 @@
+type: Router
+category: distribution
+name: Duct Router
+description: Seperates Duct inputs into 3 sides equally
+size: 1
+health: 170
+
+requirements: [
+    "carbon/3"
+]
+
+research: {
+    parent: "pressure-duct"
+    requirements: [
+        "carbon/20"
+    ]
+}
