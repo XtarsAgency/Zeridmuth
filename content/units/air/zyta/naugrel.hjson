@@ -24,11 +24,11 @@ weapons: [
 		
 	    mirror: true
 	    alternate: true
-        reload: 0.7
-        shootSound: "pew"
+        reload: 0.56
+        shootSound: "railgun"
         bullet: {
             type: BasicBulletType
-            damage: 35
+            damage: 1.50
 	        lifetime: 35
 	        speed: 7
 			
