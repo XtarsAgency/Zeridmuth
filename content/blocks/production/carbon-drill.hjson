@@ -12,3 +12,12 @@ requirements: [
   carbon/10
 ]
 category: production
+research: {
+    parent: "core-nouvagrad"
+    requirements: [
+        "carbon/70"
+    ]
+	objectives: [
+	    "carbon-plates"
+	]
+}
