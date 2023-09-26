@@ -1,12 +1,22 @@
 type: Duct
-name: Pressure Duct
-description: A duct to move items with pressure differential
-health: 270
-buildCostMultiplier: 0.00000005
-requirements: [
-  carbon/1
-]
 category: distribution
-speed: 1.3592
-hasColor: true
-mapColor: cfcfcf
+name: Pressure Duct
+description: Moves items forward with pressure differential
+size: 1
+health: 230
+
+speed: 1.5689
+
+requirements: [
+    "carbon/1"
+]
+
+research: {
+    parent: "core-nouvagrad"
+    requirements: [
+        "carbon/8"
+    ]
+	objectives: [
+	    "duct-router"
+	]
+}
