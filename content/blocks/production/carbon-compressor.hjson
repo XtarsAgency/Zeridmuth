@@ -16,7 +16,7 @@ requirements: [
 ]
 
 research: {
-    parent: "core-nouvagrad"
+    parent: "carbon-drill"
     requirements: [
         "carbon/70"
     ]
