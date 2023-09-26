@@ -1,0 +1,12 @@
+type: Duct
+name: Pressure Duct
+description: A duct to move items with pressure differential
+health: 270
+buildCostMultiplier: 0.00000005
+requirements: [
+  carbon/1
+]
+category: distribution
+speed: 1.3592
+hasColor: true
+mapColor: cfcfcf
