@@ -10,7 +10,8 @@ speed: 1.5689
 requirements: [
     "carbon/1"
 ]
-
+hasColor: true
+mapColor: cfcfcf
 research: {
     parent: "core-nouvagrad"
     requirements: [
