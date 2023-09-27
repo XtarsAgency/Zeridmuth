@@ -3,11 +3,11 @@ name: Carbon Drill
 description: A drill used to mine soft carbon ores
 health: 450
 size: 2
-tier: 2
-buildCostMultiplier: 0.0023
-drillTime: 10
+tier: 1
+buildCostMultiplier: 0.00023
+drillTime: 18
 hasItems: true
-itemCapacity: 20
+itemCapacity: 25
 requirements: [
   carbon/10
 ]
@@ -15,6 +15,6 @@ category: production
 research: {
     parent: "core-nouvagrad"
     requirements: [
-        "carbon/70"
+        "carbon/40"
     ]
 }
