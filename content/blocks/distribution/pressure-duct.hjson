@@ -1,11 +1,11 @@
 type: Duct
 category: distribution
 name: Pressure Duct
-description: Moves items forward with pressure differential
+description: Moves items forward slowly with pressure differential
 size: 1
 health: 230
 
-speed: 1.5689
+speed: 0.3589
 
 requirements: [
     "carbon/1"
