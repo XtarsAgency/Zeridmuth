@@ -1,0 +1,24 @@
+type: CoreBlock
+  name: Core: Seeker
+  description: Used for far away travel. summons "Memory" unit
+category: effect
+health: 420
+size: 2
+
+itemCapacity: 950
+unitCapModifier: 15
+unitType: "memory"
+incinerateNonBuildable: true
+isFirstTier: true
+
+requirements: [
+    "aluminium-ingots/170"
+]
+
+research: {
+    root: true
+    name: @v-techtree
+	planet: valora
+}
+
+alwaysUnlocked: true
