@@ -1,0 +1,65 @@
+type: payload
+flying: true
+health: 120
+armor: 1
+hitSize: 9
+  name: Memory
+  Description: A lightweight exploration drone, is buildable
+
+controller: BuilderAI
+isEnemy: false
+mineWalls: false
+mineFloor: true
+buildSpeed: 0.6
+itemCapacity: 20
+
+speed: 3.5
+accel: 0.3
+drag: 0.03
+mineSpeed: 5
+mineTier: 1
+rotateSpeed: 9
+
+crashDamageMultiplier: 1
+hittable: false
+targetable: false
+fogRadius: 9
+coreUnitDock: true
+outlineColor: 2d2f39
+
+payloadCapacity: 10
+pickupUnits: true
+vulnerableWithPayloads: false
+
+weapons: [
+    {
+        type: RepairBeamWeapon
+		widthSinMag: 0.075
+        x: 0
+        y: 1.8
+        mirror: false
+        shootY: 0
+		beamWidth: 0.19
+        repairSpeed: 2.1
+        fractionRepairSpeed: 0.06
+        shootCone: 30
+		
+        targetUnits: false
+        targetBuildings: true
+        autoTarget: false
+        controllable: true
+        laserColor: fc0bff
+        healColor: 000bff
+		bullet: {
+		    maxRange: 30
+		}
+    }
+]
+engines: [
+    {
+        x: 0
+        y: -2
+        radius: 0.6
+        rotation: 0
+    }
+]
