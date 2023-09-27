@@ -5,14 +5,14 @@ category: effect
 health: 420
 size: 2
 
-itemCapacity: 950
-unitCapModifier: 15
+itemCapacity: 400
+unitCapModifier: 5
 unitType: "memory"
 incinerateNonBuildable: true
 isFirstTier: true
 
 requirements: [
-    "aluminium-ingots/170"
+    "aluminium-ingots/30"
 ]
 
 research: {
