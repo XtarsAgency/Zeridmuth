@@ -5,7 +5,7 @@ description: Moves items forward slowly with pressure differential
 size: 1
 health: 230
 
-speed: 0.3589
+speed: 0.3
 
 requirements: [
     "carbon/1"
