@@ -1,0 +1,4 @@
+name: Peltier Generator
+description: Generates power through Peltier effect. due to low sunlight this is how to make power on Zeridmuth
+type: PowerSource
+  powerProduction: 0.11
