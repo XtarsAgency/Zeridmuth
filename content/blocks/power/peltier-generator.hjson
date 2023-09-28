@@ -5,3 +5,15 @@ name: Peltier Generator
 description: Generates power through Peltier effect. due to low sunlight this is how to make power on Zeridmuth
 type: PowerSource
   powerProduction: 0.11
+
+requirements: [
+    "carbon/3"
+  "aluminium/9"
+]
+
+research: {
+    parent: "core-nouvagrad"
+    requirements: [
+        "carbon/140"
+      "aluminium/98"
+    ]
