@@ -1,0 +1,23 @@
+name: Carbon Battery
+  description: Stores Electricity, useful for reserve power just in case
+type: Battery
+category: power
+size: 1
+health: 230
+
+conductivePower: true
+consumes: {
+  powerBuffered: 570
+}
+
+requirements: [
+    "carbon-plates/8"
+]
+
+research: {
+    parent: "peltier-generator"
+    requirements: [
+        "carbon-plates/60"
+      "aluminium/15"
+    ]
+      }
