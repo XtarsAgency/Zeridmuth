@@ -9,3 +9,11 @@ requirements: [
   "carbon/40"
   "carbon-plates/24"
 ]
+
+ research: {
+    parent: "pressure-duct"
+    requirements: [
+        "carbon/110"
+      "carbon-plates/70"
+    ]
+} 
