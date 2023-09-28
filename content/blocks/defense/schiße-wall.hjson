@@ -8,7 +8,7 @@ requirements: [
 ]
 
 research: {
-    parent: "core-nouvagrad"
+    parent: "core-seeker"
     requirements: [
         "carbon/696969"
 ]
