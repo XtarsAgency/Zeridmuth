@@ -1,3 +1,5 @@
+name: Carbon Battery
+description: Stores Power. 
 type: Battery
 category: power
 size: 1
