@@ -1,0 +1,11 @@
+name: Peltier Generator
+description: Generates small amounts power using the peltier effect
+type: SolarGenerator
+size: 1
+
+powerProduction: 0.16
+
+requirements: [
+  "carbon/5"
+  "aluminium/3"
+]
