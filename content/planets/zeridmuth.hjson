@@ -14,7 +14,7 @@ alwaysUnlocked: true
 defaultCore: "core-nouvagrad"
 sectorSeed: 0
 startSector: 5
-sectorSize: 8
+sectorSize: 4
 
 clearSectorOnLose: true
 allowSectorInvasion: false
@@ -26,7 +26,7 @@ cloudMesh: {
     seed: 1
     speed: 0.23
     radius: 0.15
-    divisions: 15
+    divisions: 7
     color: cfcfcfcf
     octaves: 0
     persistence: 1
