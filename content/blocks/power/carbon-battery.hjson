@@ -1,0 +1,21 @@
+type: Battery
+category: power
+size: 1
+health: 270
+
+conductivePower: true
+consumes: {
+  powerBuffered: 390
+}
+
+requirements: [
+    "carbon/5"
+  "aluminium/2"
+]
+
+research: {
+    parent: "peltier-generator"
+    requirements: [
+        "carbon/20"
+      "aluminium/18"
+    ]
