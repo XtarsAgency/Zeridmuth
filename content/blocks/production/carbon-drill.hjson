@@ -4,8 +4,8 @@ description: A drill used to mine soft carbon ores
 health: 450
 size: 2
 tier: 1
-buildCostMultiplier: 0.0000008
-drillTime: 24
+buildCostMultiplier: 0.000000009
+drillTime: 29
 hasItems: true
 itemCapacity: 25
 requirements: [
