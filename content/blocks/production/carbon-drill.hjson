@@ -5,9 +5,9 @@ health: 450
 size: 2
 tier: 1
 buildCostMultiplier: 0.000000009
-drillTime: 29
+drillTime: 40
 hasItems: true
-itemCapacity: 25
+itemCapacity: 30
 requirements: [
   carbon/10
 ]
