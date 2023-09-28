@@ -1,0 +1,23 @@
+type: BeamNode
+category: power
+size: 1
+health: 120
+
+consumesPower: true
+outputsPower: true
+range: 5
+consumes: {
+  powerBuffered: 30
+}
+
+requirements: [
+    "aluminium/1"
+  "carbon/2"
+]
+
+research: {
+    parent: "peltier-generator"
+    requirements: [
+        "iron-ingot/40"
+    ]
+      }
