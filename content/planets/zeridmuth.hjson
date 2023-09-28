@@ -1,7 +1,7 @@
 generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: 0bffff
-orbitRadius: 45
+orbitRadius: 58
 hasAtmosphere: true
 updateLighting: false
 atmosphereRadIn: 0
@@ -14,7 +14,7 @@ alwaysUnlocked: true
 defaultCore: "core-nouvagrad"
 sectorSeed: 0
 startSector: 5
-sectorSize: 3
+sectorSize: 8
 
 clearSectorOnLose: true
 allowSectorInvasion: false
@@ -24,9 +24,9 @@ cloudMesh: {
     type: HexSkyMesh
     planet: zeridmuth
     seed: 1
-    speed: 2
+    speed: 0.23
     radius: 0.15
-    divisions: 1
+    divisions: 15
     color: cfcfcfcf
     octaves: 0
     persistence: 1
