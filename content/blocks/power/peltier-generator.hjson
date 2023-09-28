@@ -9,3 +9,14 @@ requirements: [
   "carbon/5"
   "aluminium/3"
 ]
+
+  research: {
+    parent: "core-nouvagrad"
+    requirements: [
+        "carbon/30"
+      "aluminium/45"
+    ]
+	objectives: [
+	    "power-node"
+	]
+}
