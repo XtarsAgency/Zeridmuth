@@ -1,0 +1,11 @@
+name: Micro Container
+description: Stores items. Can extend core storage
+type: Vault
+hasItems: true
+itemCapacity: 130
+health: 480
+size: 1
+requirements: [
+  "carbon/40"
+  "carbon-plates/24"
+]
