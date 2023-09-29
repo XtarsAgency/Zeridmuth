@@ -1,7 +1,7 @@
 generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: 0bffff
-orbitRadius: 118
+orbitRadius: 180
 hasAtmosphere: true
 updateLighting: false
 atmosphereRadIn: 0
@@ -13,8 +13,8 @@ accessible: true
 alwaysUnlocked: true
 defaultCore: "core-nouvagrad"
 sectorSeed: 0
-startSector: 8
-sectorSize: 0.35
+startSector: 4
+sectorSize: 0.8
 
 clearSectorOnLose: true
 allowSectorInvasion: false
@@ -40,6 +40,7 @@ mesh: {
     seed: 331060
     color1: 3d3d3d
     color2: 0bffff
+color3: 000bff
     divisions: 5
     radius: 0.9
     octaves: 7
