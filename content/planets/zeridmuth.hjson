@@ -14,7 +14,7 @@ alwaysUnlocked: true
 defaultCore: "core-nouvagrad"
 sectorSeed: 0
 startSector: 4
-sectorSize: 0.8
+sectorSize: 0.96
 
 clearSectorOnLose: true
 allowSectorInvasion: false
@@ -24,7 +24,7 @@ cloudMesh: {
     type: HexSkyMesh
     planet: zeridmuth
     seed: 1
-    speed: 0.23
+    speed: 0.0027
     radius: 0.15
     divisions: 3
     color: cfcfcfcf
