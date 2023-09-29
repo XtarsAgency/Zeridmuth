@@ -1,0 +1,8 @@
+sector: 3
+planet: zeridmuth
+research: {
+    parent: "a-new-beginning"
+}
+captureWave: 8
+difficulty: 3
+alwaysUnlocked: true
