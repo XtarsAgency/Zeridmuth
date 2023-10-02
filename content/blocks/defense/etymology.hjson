@@ -19,6 +19,17 @@ ammoTypes: {
 		
 		ammoMultiplier: 2
 	}
+carbon: {
+		type: BasicBulletType
+		damage: 45
+		speed: 8
+		lifetime: 60
+		
+		width: 11
+		height: 20
+		
+		ammoMultiplier: 3
+	}
 }
 
 requirements: [
