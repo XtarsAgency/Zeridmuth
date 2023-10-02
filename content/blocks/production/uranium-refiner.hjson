@@ -18,15 +18,15 @@ squareSprite: false
 requirements: [
     "carbon-plates/30"
   "aluminium/10"
-  "uranium/15
+  "uranium/15"
 ]
 
 research: {
     parent: "aluminium-smelter"
     requirements: [
-        "carbon-plates/85"
-      "aluminium-ingots/25"
-      "uranium-10"
+        "carbon-plates/115"
+      "aluminium-ingots/125"
+      "uranium-90"
     ]
 }
 drawer: [
