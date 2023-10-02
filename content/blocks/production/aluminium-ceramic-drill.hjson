@@ -11,7 +11,7 @@ itemCapacity: 40
 requirements: [
   "carbon/40"
   "aluminium/20"
-  "aluminium-ingots/8"
+  "aluminium-ingot/8"
 ]
 category: production
 research: {
