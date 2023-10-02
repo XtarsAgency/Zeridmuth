@@ -6,7 +6,7 @@ health: 879
 craftTime: 145
 consumes: {
     items: [
-        "aluminium-ingots/1"
+        "aluminium-ingot/1"
       "uranium/3"
 	]
 	power: 0.76
@@ -25,7 +25,7 @@ research: {
     parent: "aluminium-smelter"
     requirements: [
         "carbon-plates/115"
-      "aluminium-ingots/125"
+      "aluminium-ingot/125"
       "uranium-90"
     ]
 }
