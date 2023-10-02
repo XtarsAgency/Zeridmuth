@@ -1,0 +1,43 @@
+type: GenericCrafter
+category: crafting
+size: 4
+health: 879
+
+craftTime: 145
+consumes: {
+    items: [
+        "aluminium-ingots/1"
+      "uranium/3"
+	]
+	power: 0.76
+}
+outputItem: "refined-uranium/1"
+
+squareSprite: false
+
+requirements: [
+    "carbon-plates/30"
+  "aluminium/10"
+  "uranium/15
+]
+
+research: {
+    parent: "aluminium-smelter"
+    requirements: [
+        "carbon-plates/85"
+      "aluminium-ingots/25"
+      "uranium-10"
+    ]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+	{
+		type: DrawArcSmelt
+	}
+	{
+        type: DrawDefault
+    }
+]
