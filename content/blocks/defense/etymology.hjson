@@ -19,7 +19,7 @@ ammoTypes: {
 		
 		ammoMultiplier: 2
 	}
-carbon: {
+aluminium: {
 		type: BasicBulletType
 		damage: 45
 		speed: 8
