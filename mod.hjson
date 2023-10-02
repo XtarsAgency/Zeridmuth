@@ -1,23 +1,26 @@
 name: "zeridmuth"
 repo: "xtarsagency/zeridmuth"
 minGameVersion: 136
-version: "v0.1.8-beta"
+version: "v0.1.9"
 
 displayName: "Zeridmuth: A new beginning"
 author: "[red[]]Xtarsagency"
-subtitle: "Version: v0.1.8-beta"
+subtitle: "Version: v0.1.9"
 description:
 
 '''
 Welcome to the world of Zeridmuth. Its a small planet located at the edge of the solar system
 It is also a good place [red]Start Over again[blue]
-->It is also more than just a planet, It has Fully working 
+It is also more than just a planet, It has Fully working 
+
 -Campaign(WIP)
+
 -A working Techtree that is balanced the way it is.
--New Sectors, Maps, Ores, Items and last but not least Units
+
+-New Sector, Maps, Ores, Items and last but not least Units
+
 -All of this is made on Android, which forces me to simplyfy the mod so much it only took less than 3 seconds for PC users!
-Thanks for playing this mod. We hope you have a nice playthrough
-[red]Disclaimer: mod is not fully polished yet, it may be in thr future to add more content as much as Java Mods but in HJSON![]
+[red]Disclaimer: mod is not fully polished yet, it may be in the future to add more content as much as Java Mods but in HJSON![]
 '''
 
 dependencies: []
