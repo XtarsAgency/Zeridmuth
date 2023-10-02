@@ -1,6 +1,6 @@
 type: Drill
 name: Aluminium-Ceramic Drill
-description: A drill used to mine faster and efficiently. Is able to mine [green]Uranium[]
+description: A drill used to mine faster and efficiently. Is able to mine Uranium
 health: 690
 size: 3
 tier: 4
@@ -17,6 +17,8 @@ category: production
 research: {
     parent: "carbon-drill"
     requirements: [
-        "carbon/40"
+        "carbon/100"
+"aluminium/60"
+"aluminium-ingots/20"
     ]
 }
