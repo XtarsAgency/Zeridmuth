@@ -19,6 +19,6 @@ research: {
     requirements: [
         "carbon/100"
 "aluminium/60"
-"aluminium-ingots/20"
+"aluminium-ingot/20"
     ]
 }
