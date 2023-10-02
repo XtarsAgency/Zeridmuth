@@ -1,0 +1,12 @@
+sector: 2
+planet: zeridmuth
+research: {
+    parent: "metallic-peaks"
+	objectives: [
+	    {
+        type: SectorComplete
+		preset: "metallic-peaks"
+		}
+	]
+}
+difficulty: 4
