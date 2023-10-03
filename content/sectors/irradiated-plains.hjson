@@ -1,0 +1,12 @@
+sector: 6
+planet: zeridmuth
+research: {
+    parent: "blue-caldera"
+	objectives: [
+	    {
+        type: SectorComplete
+		preset: "blue-caldera"
+		}
+	]
+}
+difficulty: 2
