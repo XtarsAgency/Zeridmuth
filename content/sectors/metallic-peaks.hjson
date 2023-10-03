@@ -2,7 +2,11 @@ sector: 3
 planet: zeridmuth
 research: {
     parent: "a-new-beginning"
+	objectives: [
+	    {
+        type: SectorComplete
+		preset: "a-new-beginning"
+		}
+	]
 }
-captureWave: 8
-difficulty: 3
-alwaysUnlocked: false
+difficulty: 1
