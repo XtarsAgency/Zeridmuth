@@ -16,7 +16,7 @@ outlineColor: 2d2f39
 
 weapons: [
     {
-        name: electron-weapon
+        name: railgun-weapon
         top: false
         x: 0
         y: 79
@@ -24,7 +24,7 @@ weapons: [
 	    mirror: false
 	    alternate: false
         reload: 86
-        shootSound: "bigExplosion"
+        shootSound: "pulse"
         bullet: {
             type: BasicBulletType
             damage: 15780.5
@@ -35,11 +35,31 @@ weapons: [
 		    height: 34
 		}
     } 
+{
+        name: electric-weapon
+        top: true
+        x: 48
+        y: 0
+		
+	    mirror: true
+	    alternate: true
+        reload: 0.045
+        shootSound: "bang"
+        bullet: {
+            type: BasicBulletType
+            damage: 780.5
+	        lifetime: 60
+	        speed: 16
+			
+			width: 10
+		    height: 20
+		}
+    }
   {
         name: missile-weapon
         top: true
-        x: 57
-        y: -2
+        x: 48
+        y: 5
 		
 	    mirror: true
 	    alternate: true
@@ -48,8 +68,8 @@ weapons: [
         bullet: {
             type: MissileBulletType
             damage: 5680.45
-	        lifetime: 185
-	        speed: 3
+	        lifetime: 345
+	        speed: 5
 			
 			width: 20
 		    height: 20
