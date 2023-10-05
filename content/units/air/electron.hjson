@@ -42,11 +42,11 @@ weapons: [
         top: true
         x: 48
         y: 0
-		
+
 	    mirror: true
 	    alternate: true
         reload: 0.045
-        shootSound: "bang"
+        shootSound: "pew"
         bullet: {
             type: BasicBulletType
             damage: 780.5
