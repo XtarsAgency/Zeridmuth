@@ -62,7 +62,6 @@ weapons: [
         top: true
         x: 48
         y: 5
-rotation: 90
 		
 	    mirror: true
 	    alternate: true
