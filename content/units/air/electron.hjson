@@ -1,0 +1,58 @@
+type: flying
+health: 855700
+armor: 156
+hitSize: 286
+
+flying: true
+buildSpeed: 4.9
+itemCapacity: 2000
+
+speed: 0.89
+accel: 0.5
+drag: 0.8
+rotateSpeed: 0.8
+
+outlineColor: 2d2f39
+
+weapons: [
+    {
+        name: electron-weapon
+        top: false
+        x: 0
+        y: 79
+		
+	    mirror: false
+	    alternate: false
+        reload: 86
+        shootSound: "bigExplosion"
+        bullet: {
+            type: BasicBulletType
+            damage: 15780.5
+	        lifetime: 60
+	        speed: 22
+			
+			width: 16
+		    height: 34
+		}
+    } 
+  {
+        name: missile-weapon
+        top: true
+        x: 57
+        y: -2
+		
+	    mirror: true
+	    alternate: true
+        reload: 29
+        shootSound: "railgun"
+        bullet: {
+            type: MissileBulletType
+            damage: 5680.45
+	        lifetime: 185
+	        speed: 3
+			
+			width: 20
+		    height: 20
+		}
+}
+]
