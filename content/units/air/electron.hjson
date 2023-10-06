@@ -43,7 +43,7 @@ weapons: [
 
 	    mirror: true
 	    alternate: true
-        reload: 9
+        reload: 50
         shootSound: "largeCannon"
         bullet: {
             type: BasicBulletType
@@ -58,8 +58,8 @@ weapons: [
   {
         name: missile-weapon
         top: true
-        x: 48
-        y: 5
+        x: 60
+        y: -28
 		
 	    mirror: true
 	    alternate: true
