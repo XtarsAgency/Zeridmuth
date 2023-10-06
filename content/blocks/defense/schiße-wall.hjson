@@ -1,7 +1,7 @@
 type: Wall
 category: defense
 size: 16
-health: 45
+health: 4500000
 
 requirements: [
     "carbon/1"
@@ -10,7 +10,7 @@ requirements: [
 research: {
     parent: "carbon-wall-large"
     requirements: [
-        "carbon/696969"
+        "carbon/6969"
 ]
 }
   
