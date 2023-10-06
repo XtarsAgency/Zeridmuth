@@ -24,7 +24,7 @@ weapons: [
 	    mirror: false
 	    alternate: false
         reload: 86
-        shootSound: "pulse"
+        shootSound: "laserBlast"
         bullet: {
             type: BasicBulletType
             damage: 15780.5
@@ -38,16 +38,16 @@ weapons: [
 {
         name: electric-weapon
         top: true
-        x: 48
-        y: 0
+        x: 40
+        y: -30
 
 	    mirror: true
 	    alternate: true
-        reload: 0.045
-        shootSound: "pew"
+        reload: 9
+        shootSound: "largeCannon"
         bullet: {
             type: BasicBulletType
-            damage: 780.5
+            damage: 980.5
 	        lifetime: 60
 	        speed: 16
 			
@@ -64,7 +64,7 @@ weapons: [
 	    mirror: true
 	    alternate: true
         reload: 29
-        shootSound: "railgun"
+        shootSound: "largeExplosion"
         bullet: {
             type: MissileBulletType
             damage: 5680.45
