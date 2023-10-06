@@ -1,7 +1,7 @@
 type: flying
-health: 855700
+health: 955700
 armor: 156
-hitSize: 286
+hitSize: 267
 
 flying: true
 buildSpeed: 4.9
@@ -38,12 +38,12 @@ weapons: [
 {
         name: electric-weapon
         top: true
-        x: 40
-        y: -30
+        x: 65
+        y: -48
 
 	    mirror: true
 	    alternate: true
-        reload: 50
+        reload: 78
         shootSound: "largeCannon"
         bullet: {
             type: BasicBulletType
