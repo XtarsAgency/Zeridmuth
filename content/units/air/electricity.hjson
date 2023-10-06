@@ -79,8 +79,8 @@ weapons: [
 engines: [
     {
         x: 0
-        y: -36
-        radius: 5
+        y: -89
+        radius: 11
         rotation: 0
     }
 ]
