@@ -7,9 +7,9 @@ flying: true
 buildSpeed: 4.9
 itemCapacity: 2000
 
-speed: 0.89
-accel: 0.5
-drag: 0.8
+speed: 1.78
+accel: 1
+drag: 0.95
 rotateSpeed: 0.8
 
 outlineColor: 2d2f39
