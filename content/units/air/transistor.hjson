@@ -56,3 +56,17 @@ weapons: [
 		}
 }
 ]
+engines: [
+    {
+        x: 28
+        y: -68
+        radius: 8
+        rotation: 0
+    }
+{
+        x: -28
+        y: -68
+        radius: 8
+        rotation: 0
+    }
+]
