@@ -38,16 +38,16 @@ weapons: [
 {
         name: electric-weapon
         top: true
-        x: 65
+        x: 49
         y: -48
 
 	    mirror: true
 	    alternate: true
-        reload: 78
+        reload: 89
         shootSound: "largeCannon"
         bullet: {
             type: BasicBulletType
-            damage: 980.5
+            damage: 1080.5
 	        lifetime: 60
 	        speed: 16
 			
@@ -58,8 +58,8 @@ weapons: [
   {
         name: missile-weapon
         top: true
-        x: 60
-        y: -28
+        x: 56
+        y: -17
 		
 	    mirror: true
 	    alternate: true
