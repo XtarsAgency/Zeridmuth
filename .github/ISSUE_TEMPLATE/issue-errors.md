@@ -1,0 +1,30 @@
+---
+name: Issue/Errors
+about: If you found a bug/issue, write them here
+title: ''
+labels: ''
+assignees: XtarsAgency
+
+---
+
+**IMPORTANT**
+Before Proceeding, please do note, that if you expirence the bug or error IF you use other mods in tandem with Zeridmuth.  We Will NOT accept the issue, because this mod was not meant to be played in tandem with other mods.
+
+**Describe the bug**
+Bug Title:
+Mod Version:
+
+**To Reproduce**
+Steps to reproduce the behavior:
+1: (e.g douse fridge in sulfuric acid)
+ect...
+
+**Screenshots**
+Pics must be Unedited to be understood better
+
+**Mindustry Version (Important):**
+ - Platform: (e.g fridge)
+ - Game Version: (e.g:136)
+
+**Additional context**
+Add any other context about the error.
