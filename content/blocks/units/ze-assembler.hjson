@@ -1,0 +1,39 @@
+type: UnitFactory
+health: 1180
+size: 2
+category: units
+name: Z.E Ship Constructor
+description: Produces Z.E Class ships (Zeridmuth Electric) to attack both enemy buildings and units. Outputs "Current" Units. Uses significant power
+
+consumes: {
+power: 27
+}
+requirements: [
+    "carbon-plates/40"
+	"aluminium/25"
+]
+plans: [
+  {
+    unit: "current"
+    time: 17
+    requirements: [
+      "carbon/20"
+"carbon-plates/15"
+"aluminium/7"
+    ]
+  }
+]
+research: {
+    parent: "core-nouvagrad"
+    requirements: [
+        "carbon/430"
+"carbon-plates/170"
+"aluminium/200"
+    ]
+	objectives: [
+	    {
+        type: OnSector
+		preset: "grass-plains"
+		}
+	]
+}
