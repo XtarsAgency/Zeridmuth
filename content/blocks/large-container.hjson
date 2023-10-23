@@ -5,6 +5,8 @@ hasItems: true
 itemCapacity: 520
 health: 670
 size: 2
+category: Distribution
+
 requirements: [
   "carbon/70"
   "carbon-plates/50"
