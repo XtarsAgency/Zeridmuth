@@ -4,8 +4,9 @@ minGameVersion: 136
 version: "v0.1.9"
 
 displayName: "Zeridmuth: A new beginning"
-author: "[red[]]Xtarsagency"
-subtitle: "Version: v0.1.9"
+author: "[red[]]Xtarsagency
+Contributors: [pink]Yoru-Kitsune, [cyan]Itz-Craft"
+subtitle: "Version: v0.1.9.7"
 description:
 
 '''
@@ -13,7 +14,7 @@ Welcome to the world of Zeridmuth. Its a small planet located at the edge of the
 It is also a good place [red]Start Over again[blue]
 It is also more than just a planet, It has Fully working 
 
--Campaign(WIP)
+-Campaign
 
 -A working Techtree that is balanced the way it is.
 
