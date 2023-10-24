@@ -5,7 +5,11 @@ type: consumeGenerator
   health: 650
   size: 2
 
-requirements:
+requirements: [
+    "carbon-plates/30"
+  "aluminium/130"
+"uranium/60"
+]
 
 hasPower: true
 powerProduction: 3
@@ -19,7 +23,7 @@ consumes: {
 	]
 }
 research: {
-    parent: "core-nouvagrad"
+    parent: "peltier-generator"
     requirements: [
         "uranium/60"
 "aluminium/240"
