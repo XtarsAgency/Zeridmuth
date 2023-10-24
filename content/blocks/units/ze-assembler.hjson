@@ -6,7 +6,7 @@ name: Z.E Ship Constructor
 description: Produces Z.E Class ships (Zeridmuth Electric) to attack both enemy buildings and units. Outputs "Current" Units. Uses significant power
 
 consumes: {
-power: 27
+power: 7.48
 }
 requirements: [
     "carbon-plates/40"
@@ -15,7 +15,7 @@ requirements: [
 plans: [
   {
     unit: "current"
-    time: 17
+    time: 2125
     requirements: [
       "carbon/20"
 "carbon-plates/15"
