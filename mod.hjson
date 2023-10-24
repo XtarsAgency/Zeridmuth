@@ -1,27 +1,27 @@
 name: "zeridmuth"
 repo: "xtarsagency/zeridmuth"
 minGameVersion: 136
-version: "v0.1.9"
+version: "v0.1.9.7"
 
 displayName: "Zeridmuth: A new beginning"
 author: "[red[]]Xtarsagency
-Contributors: [pink]Yoru-Kitsune, [cyan]Itz-Craft"
+[[yellow]]Contributors: [pink[]]Yoru-Kitsune, [cyan[]]Itz-Craft"
 subtitle: "Version: v0.1.9.7"
 description:
 
 '''
-Welcome to the world of Zeridmuth. Its a small planet located at the edge of the solar system
-It is also a good place [red]Start Over again[blue]
+Welcome to the world of Zeridmuth. Its a small bright blue planet located at the edge of the solar system
 It is also more than just a planet, It has Fully working 
 
 -Campaign
 
--A working Techtree that is balanced the way it is.
+-Techtree that is balanced the way it is.
 
--New Sector, Maps, Ores, Items and last but not least Units
+-New Sector, Maps, Ores, Powerful Units
 
--All of this is made on Android, which forces me to simplyfy the mod so much it only took less than 3 seconds for PC users!
-[red]Disclaimer: mod is not fully polished yet, it may be in the future to add more content as much as Java Mods but in HJSON![]
+-All of this is made on android. So please give it a star on GitHub if you like it :)
+
+[#0bffff]We have a small discord server, and any contribution is acceptable. 
 '''
 
 dependencies: []
