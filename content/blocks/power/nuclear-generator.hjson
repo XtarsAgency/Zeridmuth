@@ -1,0 +1,7 @@
+name: Nuclear Generator
+description: Generates power via Nuclear Reaction, uses significant amounts of uranium
+category: power
+  health: 650
+  size: 2
+powerGeneration: 3
+  
