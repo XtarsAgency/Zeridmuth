@@ -5,7 +5,7 @@ hasItems: true
 itemCapacity: 130
 health: 480
 size: 1
-category: Distribution
+category: distribution
 
 requirements: [
   "carbon/40"
