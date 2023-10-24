@@ -12,7 +12,7 @@ ammoTypes: {
 		type: BasicBulletType
 		damage: 37
 		speed: 8
-		lifetime: 45
+		lifetime: 38
 		
 		width: 11
 		height: 20
@@ -23,7 +23,7 @@ aluminium: {
 		type: BasicBulletType
 		damage: 45
 		speed: 8
-		lifetime: 60
+		lifetime: 45
 		
 		width: 11
 		height: 20
