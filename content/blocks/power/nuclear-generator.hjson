@@ -1,7 +1,26 @@
 name: Nuclear Generator
 description: Generates power via Nuclear Reaction, uses significant amounts of uranium
 category: power
+type: consumeGenerator
   health: 650
   size: 2
-powerGeneration: 3
-  
+
+requirements:
+
+hasPower: true
+powerProduction: 3
+itemDuration: 170
+squareSprite: false
+
+consumes: {
+    items: [
+		"uranium/1"
+"refined-uranium/1"
+	]
+}
+research: {
+    parent: "core-nouvagrad"
+    requirements: [
+        "uranium/60"
+"aluminium/240"
+"carbon-plates/90"
