@@ -19,7 +19,6 @@ squareSprite: false
 consumes: {
     items: [
 		"uranium/1"
-"refined-uranium/1"
 	]
 }
 research: {
