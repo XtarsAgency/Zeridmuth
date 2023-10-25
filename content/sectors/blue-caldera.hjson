@@ -1,11 +1,11 @@
 sector: 2
 planet: zeridmuth
 research: {
-    parent: "metallic-peaks"
+    parent: "blue-peaks"
 	objectives: [
 	    {
         type: SectorComplete
-		preset: "metallic-peaks"
+		preset: "blue-peaks"
 		}
 	]
 }
