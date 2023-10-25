@@ -1,0 +1,47 @@
+type: GenericCrafter
+category: crafting
+size: 3
+health: 950
+
+craftTime: 228
+consumes: {
+    items: [
+        "aluminium-ingot/5"
+      "uranium/2"
+      "carbon-plates/10"
+      "refined-uranium/1"
+	]
+	power: 1.88
+}
+outputItem: "electric-component"
+
+squareSprite: false
+
+requirements: [
+    "carbon-plates/200"
+  "aluminium-ingots/110"
+  "uranium/15"
+  "refined-uranium/5"
+]
+
+research: {
+    parent: "uranium-refiner"
+    requirements: [
+        "carbon-plates/800"
+      "aluminium-ingot/350"
+      "uranium/90"
+      "refined-uranium/20"
+    ]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-top"
+    }
+	{
+		type: DrawArcSmelt
+	}
+	{
+        type: DrawDefault
+    }
+]
