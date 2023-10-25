@@ -12,7 +12,7 @@ requirements: [
 ]
 
 hasPower: true
-powerProduction: 3
+powerProduction: 4.22
 itemDuration: 170
 squareSprite: false
 
