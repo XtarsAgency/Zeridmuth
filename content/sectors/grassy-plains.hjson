@@ -1,0 +1,12 @@
+sector: 1
+planet: zeridmuth
+research: {
+    parent: "irradiated-plains"
+	objectives: [
+	    {
+        type: SectorComplete
+		preset: "irradiated-plains"
+		}
+	]
+}
+difficulty: 4
