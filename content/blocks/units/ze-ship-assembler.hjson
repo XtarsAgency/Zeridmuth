@@ -30,9 +30,12 @@ plans: [
 research: {
     parent: "ze-assembler"
     requirements: [
-        "carbon/430"
-"carbon-plates/170"
-"aluminium/200"
+        "carbon/1300"
+"carbon-plates/570"
+"aluminium/900"
+"aluminium-ingots/270"
+"refined-uranium/80"
+"electric-component/1"
     ]
 	objectives: [
 	    {
