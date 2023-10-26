@@ -1,5 +1,6 @@
 sector: 3
 planet: zeridmuth
+captureWave: 12
 research: {
     parent: "a-new-beginning"
 	objectives: [
