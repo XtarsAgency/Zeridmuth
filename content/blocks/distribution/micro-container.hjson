@@ -16,7 +16,7 @@ research: {
     objectives: [
         {
             type: "OnSector",
-            preset: "blue-peaks"
+            preset: "grassy-plains"
         }
     ]
 },
