@@ -5,6 +5,9 @@ category: units
 name: Z.E Ship Constructor Tier 3-4
 description: Produces Z.E Class ships (Zeridmuth Electric) to attack both enemy buildings and units. Outputs "Current" Units. Uses significant power
 
+configurable: false
+regionSuffix: "-dark"
+
 consumes: {
 power: 10.48
 }
