@@ -1,4 +1,5 @@
 sector: 2
+captureWave: 12
 planet: zeridmuth
 research: {
     parent: "blue-peaks"

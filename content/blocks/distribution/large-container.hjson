@@ -1,0 +1,22 @@
+type: StorageBlock
+size: 2
+health: 670
+itemCapacity: 520
+category: distribution 
+requirements: [
+  carbon/70
+  carbon-plates/50
+]
+  researchCost: [
+    carbon/250
+    carbon-plates/120
+  ]
+research: {
+    parent: "micro-container",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "blue-peaks"
+        }
+    ]
+},
