@@ -19,7 +19,7 @@ squareSprite: false
 
 requirements: [
     "carbon-plates/200"
-  "aluminium-ingots/110"
+  "aluminium-ingot/110"
   "uranium/15"
   "refined-uranium/5"
 ]
