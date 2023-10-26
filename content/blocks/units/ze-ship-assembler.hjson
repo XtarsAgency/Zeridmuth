@@ -14,7 +14,7 @@ power: 10.48
 requirements: [
     "carbon-plates/80"
 	"aluminium/205"
-  "aluminium-ingots/60"
+  "aluminium-ingot/60"
   "refined-uranium/10"
 ]
 plans: [
@@ -25,7 +25,7 @@ plans: [
       "uranium/90"
 "carbon-plates/150"
 "electric-component/3"
-      "aluminium-ingots/60"
+      "aluminium-ingot/60"
       "refined-uranium/10"
     ]
   }
@@ -36,7 +36,7 @@ research: {
         "carbon/1300"
 "carbon-plates/570"
 "aluminium/900"
-"aluminium-ingots/270"
+"aluminium-ingot/270"
 "refined-uranium/80"
 "electric-component/1"
     ]
