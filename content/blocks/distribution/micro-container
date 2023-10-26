@@ -1,0 +1,22 @@
+type: StorageBlock
+size: 1
+health: 480
+itemCapacity: 130
+category: distribution 
+requirements: [
+  carbon/40
+  carbon-plates/24
+]
+  researchCost: [
+    carbon/110
+    carbon-plates/70
+  ]
+research: {
+    parent: "pressure-duct",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "blue-peaks"
+        }
+    ]
+},
