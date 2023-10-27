@@ -3,7 +3,7 @@ name: Uranium Wall
 description: Blocks Enemy Bullets
 category: defense
 size: 1
-health: 1570
+health: 1350
 
 requirements: [
     "uranium/6"
