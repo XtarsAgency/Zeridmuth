@@ -32,9 +32,10 @@ research: {
         "carbon/120"
       "alumninium/80"
       objectives: [
-      type: onSector {
-      grassy-plains
-      }
-      ]
+        {
+            type: "OnSector",
+            preset: "blue-caldera"
+        }
+    ]
 	]
   }
