@@ -1,0 +1,23 @@
+type: Wall
+name: Large Uranium Wall 
+description: Blocks Enemy Bullets
+category: defense
+size: 2
+health: 5870
+
+requirements: [
+    "uranium/24"
+]
+
+research: {
+    parent: "uranium-wall"
+    requirements: [
+        "uranium/215"
+    ]
+      objectives: [
+        {
+            type: "OnSector",
+            preset: "irradiated-plains"
+        }
+    ]
+}
