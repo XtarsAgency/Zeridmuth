@@ -4,7 +4,7 @@ description: A drill used to mine faster and efficiently. Is able to mine Uraniu
 health: 690
 size: 3
 tier: 4
-buildCostMultiplier: 6.5
+buildCostMultiplier: 3.5
 drillTime: 98
 hasItems: true
 itemCapacity: 40
