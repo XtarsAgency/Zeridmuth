@@ -1,5 +1,6 @@
 sector: 6
 planet: zeridmuth
+captureWave: 20
 research: {
     parent: "blue-caldera"
 	objectives: [
