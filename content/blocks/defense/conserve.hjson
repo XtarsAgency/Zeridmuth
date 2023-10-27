@@ -1,0 +1,40 @@
+type: ItemTurret
+category: turret
+size: 2
+health: 580
+
+reload: 15
+range: 450
+recoil: 1.8
+
+ammoTypes: {
+	carbon: {
+		type: BasicBulletType
+		damage: 17
+		speed: 8
+		lifetime: 38
+		
+		width: 7
+		height: 16
+		
+		ammoMultiplier: 6
+	}
+}
+
+requirements: [
+    "aluminium/35"
+  "carbon/55"
+]
+
+research: {
+    parent: "etymology"
+    requirements: [
+        "carbon/120"
+      "alumninium/80"
+      objectives: [
+      type: onSector {
+      grassy-plains
+      }
+      ]
+	]
+  }
