@@ -1,7 +1,5 @@
 type: Duct
 category: distribution
-name: Pressure Duct
-description: Moves items forward slowly with pressure differential
 size: 1
 health: 230
 
