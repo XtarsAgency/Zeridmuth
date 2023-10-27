@@ -1,3 +1,5 @@
+name: Electric Assembler
+description: Assembles Electric Component to be used for unit creation, outputs 2 items. Requires large amount of power.
 type: GenericCrafter
 category: crafting
 size: 3
