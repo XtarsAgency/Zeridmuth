@@ -43,7 +43,3 @@ research: {
 	]
 }
 
-drawer: {
-    type: DrawTurret
-    basePrefix: "block2"
-}
