@@ -31,11 +31,12 @@ research: {
     parent: "etymology"
     requirements: [
         "carbon/120"
-      "aluminium/80"
-      objectives: [
-        {
-            type: "OnSector",
-            preset: "blue-caldera"
-        }
+"aluminium/60"
     ]
-  }
+	objectives: [
+	    {
+        type: OnSector
+		preset: "irradiated-plains"
+		}
+	]
+}
