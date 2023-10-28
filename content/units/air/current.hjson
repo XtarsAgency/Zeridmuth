@@ -35,3 +35,12 @@ weapons: [
 		}
     }
 ]
+
+research: {
+    parent: "ze-assembler"
+    requirements: [
+        "carbon/20"
+"carbon-plates/5"
+"aluminium/5"
+    ]
+}
