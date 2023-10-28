@@ -57,8 +57,3 @@ research: {
       "carbon/1570"
 	]
 }
-
-drawer: {
-    type: DrawTurret
-    basePrefix: "block3"
-}
