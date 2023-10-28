@@ -3,9 +3,10 @@ category: turret
 size: 2
 health: 580
 
-reload: 15
+reload: 7
 range: 450
 recoil: 1.8
+inaccuracy: 15
 
 ammoTypes: {
 	carbon: {
@@ -30,7 +31,7 @@ research: {
     parent: "etymology"
     requirements: [
         "carbon/120"
-      "alumninium/80"
+      "aluminium/80"
       objectives: [
         {
             type: "OnSector",
