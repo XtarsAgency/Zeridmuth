@@ -1,11 +1,11 @@
-explosiveness: 1
-flammability: 3
-radioactivity: 1
-charge: 8
-cost: 20
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+cost: 4
 
 research: {
-    parent: "refined-uranium"
+    parent: "electric-component"
 }
 
 buildable: true
