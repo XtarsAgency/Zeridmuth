@@ -1,0 +1,15 @@
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+cost: 4
+
+research: {
+    parent: "electric-component"
+}
+
+buildable: true
+hiddenOnPlanets: [
+    "serpulo"
+    "erekir"
+]
