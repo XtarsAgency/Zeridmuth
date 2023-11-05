@@ -1,7 +1,7 @@
 explosiveness: 0
 flammability: 0
 radioactivity: 0
-charge: 0
+charge: 4
 cost: 4
 
 research: {
