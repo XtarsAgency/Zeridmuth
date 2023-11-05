@@ -1,0 +1,15 @@
+explosiveness: p
+flammability: 0
+radioactivity: 3
+charge: 6
+cost: 10
+
+research: {
+    parent: "maurixum"
+}
+
+buildable: true
+hiddenOnPlanets: [
+    "serpulo"
+    "erekir"
+]
