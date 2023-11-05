@@ -1,0 +1,15 @@
+explosiveness: 1
+flammability: 3
+radioactivity: 1
+charge: 8
+cost: 20
+
+research: {
+    parent: "refined-uranium"
+}
+
+buildable: true
+hiddenOnPlanets: [
+    "serpulo"
+    "erekir"
+]
