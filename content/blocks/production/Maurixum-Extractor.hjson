@@ -19,7 +19,7 @@
   "requirements": [
     carbon/20
   ],
-  "category": "crafting",
+  "category": "production",
   "outputItem": "maurixum/1"
 research: {
     parent: zettium-extractor
