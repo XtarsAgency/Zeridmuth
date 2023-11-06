@@ -1,0 +1,31 @@
+"type": "GenericCrafter",
+  "health": 250,
+  "size": 2,
+  "hasItems": true,
+  "craftTime": 120,
+  "craftEffect": "none"
+  "hasPower": true,
+  "updateEffect": "none",
+  liquidCapacity: 70
+  # Requirements
+  "consumes": {
+  "power": 9.8,
+    "items": [
+      "aluminium-ingot/190",
+      "carbon-plates/80",
+      "uranium/70",
+      "refined-uranium/1"
+    ],
+  },
+  "requirements": [
+    carbon/2
+  ],
+  "category": "production",
+  "outputItem": "zettium/1"
+research: {
+    parent: electricity-wing-assembler
+  
+},
+researchCost: [
+    carbon/4
+ ]

@@ -1,0 +1,30 @@
+"type": "GenericCrafter",
+  "health": 250,
+  "size": 2,
+  "hasItems": true,
+  "craftTime": 120,
+  "craftEffect": "none"
+  "hasPower": true,
+  "updateEffect": "none",
+  liquidCapacity: 70
+  # Requirements
+  "consumes": {
+  "power": 11.7,
+    "items": [
+      "carbon/490",
+      "dried-uranium/140"
+      "aluminium-ingot/60"
+    ],
+  },
+  "requirements": [
+    carbon/20
+  ],
+  "category": "production",
+  "outputItem": "maurixum/1"
+research: {
+    parent: zettium-extractor
+      
+},
+researchCost: [
+    carbon/400
+ ]
