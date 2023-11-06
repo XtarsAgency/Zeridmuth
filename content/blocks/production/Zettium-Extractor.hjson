@@ -9,17 +9,16 @@
   liquidCapacity: 70
   # Requirements
   "consumes": {
-  "power": 0.80,
+  "power": 9.8,
     "items": [
-      "asyuritium/5",
-      "dried-corals/3"
-      "kernir/1"
+      "aluminium-ingot/190",
+      "carbon-plates/80",
+      "uranium/70",
+      "refined-uranium/1"
     ],
   },
   "requirements": [
-    asyuritium/200
-    naritium/150
-    dried-corals/65
+    carbon/2
   ],
   "category": "production",
   "outputItem": "zettium/1"
@@ -28,8 +27,5 @@ research: {
   
 },
 researchCost: [
-    naritium/400
-    asyuritium/300
-    dried-corals/115
-    kernir/50
+    carbon/4
  ]
