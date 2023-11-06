@@ -21,7 +21,7 @@
     naritium/150
     dried-corals/65
   ],
-  "category": "crafting",
+  "category": "production",
   "outputItem": "zettium/1"
 research: {
     parent: electricity-wing-assembler
