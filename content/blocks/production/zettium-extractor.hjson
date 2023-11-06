@@ -1,5 +1,5 @@
 "type": "GenericCrafter",
-  "health": 250,
+  "health": 780,
   "size": 2,
   "hasItems": true,
   "craftTime": 120,
@@ -10,22 +10,25 @@
   # Requirements
   "consumes": {
   "power": 9.8,
-    "items": [
-      "aluminium-ingot/190",
-      "carbon-plates/80",
-      "uranium/70",
-      "refined-uranium/1"
+    "items": [",
+      "uranium/5",
     ],
   },
   "requirements": [
-    carbon/2
+    "carbon-plates/40"
+"uranium/40"
+"aluminium-ingot/70"
+"aluminium/150"
   ],
   "category": "production",
   "outputItem": "zettium/1"
 research: {
-    parent: electricity-wing-assembler
+    parent: "aluminium-ceramic-drill"
   
 },
 researchCost: [
-    carbon/4
+    "carbon-plates/240"
+"uranium/120"
+"aluminium-ingots/175"
+"aluminium/450"
  ]
