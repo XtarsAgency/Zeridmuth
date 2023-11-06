@@ -1,0 +1,35 @@
+"type": "GenericCrafter",
+  "health": 250,
+  "size": 2,
+  "hasItems": true,
+  "craftTime": 120,
+  "craftEffect": "none"
+  "hasPower": true,
+  "updateEffect": "none",
+  liquidCapacity: 70
+  # Requirements
+  "consumes": {
+  "power": 0.80,
+    "items": [
+      "asyuritium/5",
+      "dried-corals/3"
+      "kernir/1"
+    ],
+  },
+  "requirements": [
+    asyuritium/200
+    naritium/150
+    dried-corals/65
+  ],
+  "category": "crafting",
+  "outputItem": "zettium/1"
+research: {
+    parent: electricity-wing-assembler
+  
+},
+researchCost: [
+    naritium/400
+    asyuritium/300
+    dried-corals/115
+    kernir/50
+ ]
