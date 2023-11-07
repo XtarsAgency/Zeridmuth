@@ -18,7 +18,7 @@
   "requirements": [
     "carbon/200"
 "uranium/60"
-"aluminium-ingots/120"
+"aluminium-ingot/120"
 "zettium/18"
 
   ],
@@ -31,6 +31,6 @@ research: {
 researchCost: [
     "carbon/400"
 "uranium/120"
-"aluminium-ingots/240"
+"aluminium-ingot/240"
 "zettium/20"
  ]
