@@ -9,7 +9,7 @@ consumes: {
         "zettium/2"
       "maurixum/1"
 	]
-	power: 0.23
+	power: 14.8
 }
 outputItem: "zettiux-alloy/1"
 
