@@ -29,6 +29,6 @@ research: {
 researchCost: [
     "carbon-plates/240"
 "uranium/120"
-"aluminium-ingots/175"
+"aluminium-ingot/175"
 "aluminium/450"
  ]
