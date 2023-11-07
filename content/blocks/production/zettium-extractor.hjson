@@ -32,3 +32,9 @@ researchCost: [
 "aluminium-ingot/175"
 "aluminium/450"
  ]
+objectives: [
+	    {
+        type: OnSector
+		preset: "blue-caldera"
+		}
+	]
