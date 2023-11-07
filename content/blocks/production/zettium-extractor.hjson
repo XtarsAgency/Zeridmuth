@@ -10,7 +10,7 @@
   # Requirements
   "consumes": {
   "power": 9.8,
-    "items": [",
+    "items": [
       "uranium/5",
     ],
   },
