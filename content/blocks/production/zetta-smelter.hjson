@@ -1,0 +1,47 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 1250
+
+craftTime: 215
+consumes: {
+    items: [
+        "zettium/2"
+      "maurixum/1"
+	]
+	power: 0.23
+}
+outputItem: "zettiux-alloy/1"
+
+squareSprite: false
+
+requirements: [
+    "carbon/389"
+  "aluminium-ingot/120"
+  "carbon-plates/70"
+  "refined-uranium/5"
+  "zettium/10"
+]
+
+research: {
+    parent: "aluminium-smelter"
+    requirements: [
+        "carbon/1250"
+      "aluminium-ingot/215"
+      "refined-uranium/40"
+      "zettium/35"
+      "maurixum/5"
+    ]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+	{
+		type: DrawArcSmelt
+	}
+	{
+        type: DrawDefault
+    }
+]
