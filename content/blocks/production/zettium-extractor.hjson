@@ -35,6 +35,6 @@ researchCost: [
 objectives: [
 	    {
         type: OnSector
-		preset: "blue-caldera"
+		preset: "marzkit-corners"
 		}
 	]
