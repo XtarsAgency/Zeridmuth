@@ -31,6 +31,44 @@ aluminium: {
 		ammoMultiplier: 3
 	}
 }
+drawer:{
+
+ type: DrawTurret
+
+ parts: [
+
+     {
+
+         "type": "RegionPart",
+
+          "suffix": "-part1",
+
+         "mirror": false,
+
+         outline: false
+
+        "progress": {
+
+          "type": "warmup",
+
+          "op": "blend",
+
+          "other": "heat",
+
+          "amount": 0.15
+
+          }
+
+          "outlineLayerOffset": 0.001,
+
+         "moveY": 5,
+
+             layerOffset: 0.02
+
+         }
+
+]
+}
 
 requirements: [
     "carbon-plates/35"
