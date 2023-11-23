@@ -1,0 +1,62 @@
+type: ItemTurret
+category: turret
+size: 2
+health: 580
+
+reload: 7
+range: 450
+recoil: 1.8
+inaccuracy: 15
+
+ammoTypes: {
+	carbon: {
+		type: BasicBulletType
+		damage: 17
+		speed: 8
+		lifetime: 38
+		
+		width: 7
+		height: 16
+		
+		ammoMultiplier: 6
+	}
+}
+drawer:{
+ type: DrawTurret
+ parts: [
+     {
+         "type": "RegionPart",
+          "suffix": "-part0",
+         "mirror": true,
+         outline: false
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.15
+          }
+          "outlineLayerOffset": 0.001,
+         "moveX": -2,
+         "moveY": 1,
+             layerOffset: 0.02
+         }
+]
+}
+
+requirements: [
+    "aluminium/35"
+  "carbon/55"
+]
+
+research: {
+    parent: "etymology"
+    requirements: [
+        "carbon/120"
+"aluminium/60"
+    ]
+	objectives: [
+	    {
+        type: OnSector
+		preset: "irradiated-plains"
+		}
+	]
