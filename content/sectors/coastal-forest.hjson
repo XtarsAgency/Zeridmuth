@@ -1,0 +1,12 @@
+sector: 9
+planet: zeridmuth
+research: {
+    parent: "dense-forest"
+	objectives: [
+	    {
+        type: SectorComplete
+		preset: "dense-forest"
+		}
+	]
+}
+difficulty: 3
