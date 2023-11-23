@@ -1,51 +1,55 @@
 type: ItemTurret
 category: turret
 size: 2
-health: 580
+health:2940
 
-reload: 7
-range: 450
-recoil: 1.8
-inaccuracy: 15
+reload: int
+range: int
+recoil: int
+inaccuracy: int
 
 ammoTypes: {
-	carbon: {
+	Maurixum: {
 		type: BasicBulletType
-		damage: 17
-		speed: 8
-		lifetime: 38
+		damage: 11280
+		speed: int
+		lifetime: int
 		
-		width: 7
-		height: 16
+		width: int
+		height: int
 		
-		ammoMultiplier: 6
+		ammoMultiplier: int
+	},
+        Zettium: {
+		type: BasicBulletType
+		damage: 9320
+		speed: ## int
+		lifetime: ## int
+		
+		width: ## int
+		height: ## innt
+		
+		ammoMultiplier: ## int
+	},
+        refined-uranium: {
+		type: BasicBulletType
+		damage: 7450
+		speed: ## int
+		lifetime: ## int
+		
+		width: ## int
+		height: ## innt
+		
+		ammoMultiplier: ## int
 	}
 }
-drawer:{
- type: DrawTurret
- parts: [
-     {
-         "type": "RegionPart",
-          "suffix": "-part0",
-         "mirror": true,
-         outline: false
-        "progress": {
-          "type": "warmup",
-          "op": "blend",
-          "other": "heat",
-          "amount": 0.15
-          }
-          "outlineLayerOffset": 0.001,
-         "moveX": -2,
-         "moveY": 1,
-             layerOffset: 0.02
-         }
-]
-}
+
 
 requirements: [
-    "aluminium/35"
-  "carbon/55"
+    "refined-uranium/130",
+    "aluminium/630",
+    "aluminium-ingot/120",
+    "zettium/20"
 ]
 
 research: {
@@ -56,7 +60,7 @@ research: {
     ]
 	objectives: [
 	    {
-        type: OnSector
-		preset: "irradiated-plains"
+        type: SectorComplete
+		preset: "dense-forest"
 		}
 	]
