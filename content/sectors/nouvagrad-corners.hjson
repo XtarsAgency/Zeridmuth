@@ -1,0 +1,12 @@
+sector: 7
+planet: zeridmuth
+research: {
+    parent: "grassy-plains"
+	objectives: [
+	    {
+        type: SectorComplete
+		preset: "dense-forest"
+		}
+	]
+}
+difficulty: 8
