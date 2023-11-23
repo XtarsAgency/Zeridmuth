@@ -3,44 +3,44 @@ category: turret
 size: 2
 health:2940
 
-reload: int
-range: int
-recoil: int
-inaccuracy: int
+reload: 60
+range: 220
+recoil: 7
+inaccuracy: 0
 
 ammoTypes: {
 	Maurixum: {
 		type: BasicBulletType
 		damage: 11280
-		speed: int
-		lifetime: int
+		speed: 13
+		lifetime: 127
 		
-		width: int
-		height: int
+		width: 1
+		height: 1
 		
-		ammoMultiplier: int
+		ammoMultiplier: 1
 	},
         Zettium: {
 		type: BasicBulletType
 		damage: 9320
-		speed: ## int
-		lifetime: ## int
+		speed: 13
+		lifetime: 127
 		
-		width: ## int
-		height: ## innt
+		width: 1
+		height: 1
 		
-		ammoMultiplier: ## int
+		ammoMultiplier: 1
 	},
         refined-uranium: {
 		type: BasicBulletType
 		damage: 7450
-		speed: ## int
-		lifetime: ## int
+		speed: 13
+		lifetime: 127
 		
-		width: ## int
-		height: ## innt
+		width: 1
+		height: 1
 		
-		ammoMultiplier: ## int
+		ammoMultiplier: 1
 	}
 }
 
