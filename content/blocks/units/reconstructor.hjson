@@ -14,7 +14,7 @@ carbon-plates/55
     }
 }
 upgrades: [
-  Current, Voltage
+  [current, voltage]
 ]
 constructTime: 240
 
@@ -36,5 +36,5 @@ research: {
 researchCost: [
     carbon/670
 aluminium/540
-aluminium-ingots/545
+aluminium-ingot/545
   ]
