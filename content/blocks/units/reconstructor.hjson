@@ -14,7 +14,7 @@ carbon-plates/55
     }
 }
 upgrades: [
-  Current, Voltage
+  current, voltage
 ]
 constructTime: 240
 
