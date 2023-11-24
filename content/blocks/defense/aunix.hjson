@@ -20,7 +20,7 @@ ammoTypes: {
 		
 		ammoMultiplier: 1
 	},
-        Zettium: {
+        zettium: {
 		type: BasicBulletType
 		damage: 9320
 		speed: 13
