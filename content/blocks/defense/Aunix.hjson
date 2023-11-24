@@ -9,7 +9,7 @@ recoil: 7
 inaccuracy: 0
 
 ammoTypes: {
-	Maurixum: {
+	maurixum: {
 		type: BasicBulletType
 		damage: 11280
 		speed: 13
@@ -64,3 +64,4 @@ research: {
 		preset: "dense-forest"
 		}
 	]
+}
