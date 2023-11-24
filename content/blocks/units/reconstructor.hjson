@@ -1,0 +1,40 @@
+type: Reconstructor
+size: 3
+health: 1740
+category: units
+
+consumes: {
+  power: 19.4
+    items: {
+      items: [
+        carbon/25
+aluminium-ingot/40
+carbon-plates/55
+      ]
+    }
+}
+upgrades: [
+  Current, Voltage
+]
+constructTime: 240
+
+requirements: [
+  carbon/630
+aluminium-ingot/115
+carbon-plates/230
+]
+
+research: {
+    parent: "ze-assembler",
+    objectives: [
+        {
+            type: "sectorComplete",
+            preset: "dense-forest"
+        }
+    ]
+},
+researchCost: [
+    carbon/670
+aluminium/540
+aluminium-ingots/545
+  ]
