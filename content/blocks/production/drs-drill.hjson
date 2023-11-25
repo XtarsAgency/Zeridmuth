@@ -1,0 +1,30 @@
+type: Drill
+health: 1280
+size: 5
+tier: 6
+buildCostMultiplier: 2.5
+drillTime: 70
+hasItems: true
+itemCapacity: 75
+consumes: {
+    liquids: [
+        "bio-oil: 0.10"
+	]
+	power: 0.90
+}
+requirements: [
+carbon/120
+aluminium-ingots/55
+refined-uranium/5
+zettium/10
+]
+category: production
+research: {
+parent: "carbon-ceramic-drill"
+requirements: [
+"carbon/400"
+"aluminium-ingot/130"
+"zettium/15"
+"refined-uranium/25"
+    ]
+}
