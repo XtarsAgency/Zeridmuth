@@ -6,7 +6,7 @@ hardnessDrillMultiplier: 16
 liquidBoostIntensity: 2
 liquidCapacity: 55
 itemCapacity: 100
-category: Production
+category: production
 consumes: {
   power: 2.33
   liquid: {
