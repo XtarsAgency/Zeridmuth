@@ -1,7 +1,7 @@
 type: ItemTurret
 category: turret
 size: 5
-health:4640
+health: 4640
 
 reload: 60
 range: 980
