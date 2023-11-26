@@ -1,24 +1,24 @@
 type: ItemTurret
 category: turret
-size: 2
-health:2940
+size: 5
+health:4640
 
 reload: 60
-range: 220
+range: 980
 recoil: 7
 inaccuracy: 0
 
 ammoTypes: {
 	maurixum: {
-		type: BasicBulletType
+		type: MissileBulletTypr
 		damage: 11280
 		speed: 13
 		lifetime: 127
 		
-		width: 1
-		height: 1
+		width: 18
+		height: 23
 		
-		ammoMultiplier: 1
+		ammoMultiplier: 4
 	},
         zettium: {
 		type: BasicBulletType
@@ -26,21 +26,21 @@ ammoTypes: {
 		speed: 13
 		lifetime: 127
 		
-		width: 1
-		height: 1
+		width: 18
+		height: 23
 		
-		ammoMultiplier: 1
+		ammoMultiplier: 2
 	},
         refined-uranium: {
-		type: BasicBulletType
+		type: MissileBulletType
 		damage: 7450
 		speed: 13
 		lifetime: 127
 		
-		width: 1
-		height: 1
+		width: 18
+		height: 23
 		
-		ammoMultiplier: 1
+		ammoMultiplier: 6
 	}
 }
 
