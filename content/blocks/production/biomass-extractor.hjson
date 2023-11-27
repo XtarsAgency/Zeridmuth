@@ -1,6 +1,6 @@
 "type": "GenericCrafter",
   "health": 300,
-  "size":2,,
+  "size": 2,
   "hasItems": true,
   "craftTime": 174,
   "craftEffect": "none"
