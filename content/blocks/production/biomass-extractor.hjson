@@ -6,7 +6,7 @@
   "craftEffect": "none"
   "hasPower": true,
   "updateEffect": "none",
-  liquidCapacity: 70
+  itemCapacity: 100
   # Requirements
   "consumes": {
   "power": 1.7,
@@ -17,7 +17,7 @@
     ],
   },
   "requirements": [
-    "carbon/100
+    "carbon/100"
 "aluminium-ingot/65"
 "carbon-plates/50"
 
