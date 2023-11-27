@@ -25,7 +25,7 @@
   "category": "production",
   "outputItem": "biomass/1"
 research: {
-    parent: aluminium-smelter
+    parent: "aluminium-smelter"
       
 },
 researchCost: [
