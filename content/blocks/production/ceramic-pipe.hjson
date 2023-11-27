@@ -10,7 +10,7 @@ liquidCapacity: 5
 liquidPressure: 2
 category: liquid
 research: {
-    parent: "",
+    parent: "core-nouvagrad",
 },
 researchCost: [
     carbon/65
