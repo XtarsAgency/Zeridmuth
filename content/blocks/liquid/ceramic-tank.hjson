@@ -1,0 +1,17 @@
+type: LiquidRouter
+health: 150
+liquidCapacity: 350
+size: 2
+placeableLiquid: true
+requirements: [
+  carbon-plates/20
+  aluminium-ingot/8
+]
+research: {
+    parent: "ceramic-pipe",
+},
+category: liquid
+researchCost: [
+    carbon-plates/135
+    aluminium-ingot/100
+  ]
