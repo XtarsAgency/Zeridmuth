@@ -1,0 +1,31 @@
+  "type": "GenericCrafter",
+  "health": 200,
+  "size": 2,
+  "hasItems": true,
+  "craftTime": 125,
+  "craftEffect": "none",
+  "hasPower": true,
+  "hasLiquids": true,
+  "updateEffect": "none",
+  liquidCapacity: 50
+  "consumes": {
+  "power": 2.3,
+    "items": [
+      "aluminium/50",
+      "carbon-plates/20",
+      "aluminium-ingot/5"
+    ],
+  },
+  "requirements": [
+    carbon-plates/75
+    aluminium-ingot/45
+  ],
+  "category": "production",
+  "outputLiquid": "bio-oil/0.50"
+research: {
+    parent: "biomass-extractor"
+},
+researchCost: [
+    carbon-plates/250
+    aluminium-ingot/200
+  ] 

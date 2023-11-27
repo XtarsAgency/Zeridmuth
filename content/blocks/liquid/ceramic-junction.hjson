@@ -1,0 +1,14 @@
+type: LiquidJunction
+health: 50
+requirements: [
+  carbon/10
+  aluminium/5
+]
+research: {
+    parent: "ceramic-pipe",
+},
+category: liquid
+researchCost: [
+    carbon/125
+    aluminium/75
+  ]
