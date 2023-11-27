@@ -1,0 +1,18 @@
+type: Conduit
+leaks: true
+health: 35
+requirements: [
+  carbon/1
+  aluminium/2
+  
+]
+liquidCapacity: 5
+liquidPressure: 2
+category: liquid
+research: {
+    parent: "",
+},
+researchCost: [
+    carbon/65
+    aluminium/90
+  ]
