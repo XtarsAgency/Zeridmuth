@@ -12,9 +12,9 @@
   "power": 1.7
   },
   "requirements": [
-    "carbon/50"
-    "aluminium-ingot/20"
-    "carbon-plates/5"
+    carbon/50
+    aluminium-ingot/20
+    carbon-plates/5
   ],
   "category": "production",
   "outputItem": "biomass/1"
