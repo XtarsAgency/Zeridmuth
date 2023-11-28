@@ -11,14 +11,13 @@
   "consumes": {
   "power": 2.3,
     "items": [
-      "aluminium/50",
-      "carbon-plates/20",
-      "aluminium-ingot/5"
+      "biomass/1"
     ],
   },
   "requirements": [
-    carbon-plates/75
-    aluminium-ingot/45
+    aluminium/50
+    carbon-plates/20
+    aluminium-ingot/5
   ],
   "category": "production",
   "outputLiquid": "bio-oil/0.50"
