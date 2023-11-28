@@ -9,18 +9,12 @@
   itemCapacity: 100
   # Requirements
   "consumes": {
-  "power": 1.7,
-    "items": [
-      "carbon/50",
-      "aluminium-ingot/20",
-      "carbon-plates/5"
-    ],
+  "power": 1.7
   },
   "requirements": [
-    "carbon/100"
-"aluminium-ingot/65"
-"carbon-plates/50"
-
+    "carbon/50"
+    "aluminium-ingot/20"
+    "carbon-plates/5"
   ],
   "category": "production",
   "outputItem": "biomass/1"
