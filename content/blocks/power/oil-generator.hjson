@@ -1,0 +1,29 @@
+category: power
+type: consumeGenerator
+  health: 422
+  size: 3
+
+requirements: [
+    "carbon/57"
+  "carbon-plates/30"
+"aluminium-ingot/17"
+]
+
+hasPower: true
+powerProduction: 9.8
+liquidDuration: 170
+squareSprite: false
+
+consumes: {
+    liquid: [
+		"bio-oil/1"
+	]
+}
+research: {
+    parent: "nuclear-generator"
+    requirements: [
+        "carbon/230"
+"carbon-plates/120"
+"aluminium-ingot/70"
+]
+}
