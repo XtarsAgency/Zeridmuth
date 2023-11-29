@@ -16,7 +16,7 @@ squareSprite: false
 
 consumes: {
     liquids: [
-         "bio-oil/1"
+         "bio-oil/0.3"
 	]
 }
 research: {
