@@ -11,12 +11,12 @@ requirements: [
 
 hasPower: true
 powerProduction: 9.8
-liquidDuration: 170
+liquidCapacity: 70
 squareSprite: false
 
 consumes: {
-    liquid: [
-		"bio-oil/1"
+    liquids: [
+         "bio-oil/1"
 	]
 }
 research: {
