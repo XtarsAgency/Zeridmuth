@@ -21,9 +21,15 @@ consumes: {
 }
 research: {
     parent: "nuclear-generator"
-    requirements: [
-        "carbon/230"
-"carbon-plates/120"
-"aluminium-ingot/70"
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "coastal-forest"
+        }
 ]
 }
+ResearchCost: [
+        carbon/230
+carbon-plates/120
+aluminium-ingot/70
+] 
