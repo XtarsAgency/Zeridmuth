@@ -1,0 +1,12 @@
+sector: 12
+planet: zeridmuth
+research: {
+    parent: "coastal-forest"
+	objectives: [
+	    {
+        type: SectorComplete
+		preset: "coastal-forest"
+		}
+	]
+}
+difficulty: 18
