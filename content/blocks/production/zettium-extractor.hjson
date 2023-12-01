@@ -35,6 +35,6 @@ researchCost: [
 objectives: [
 	    {
         type: OnSector
-		preset: "marzkit-corners"
+		preset: "construction-base"
 		}
 	]
