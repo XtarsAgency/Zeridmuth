@@ -1,0 +1,75 @@
+type: naval
+
+health": 100
+
+armor: 100
+
+speed: 1.2
+
+buildSpeed: 2.6
+
+
+
+drag: 0.17
+
+hitSize: 2
+
+accel: 0.25
+
+rotateSpeed: 1.2
+
+
+
+trailLength: 25
+
+trailScl: 2
+
+waveTrailX: 5
+
+waveTrailY: -5
+
+
+
+faceTarget: true
+
+weapons: [
+
+    {
+
+        name: a
+
+        x: 0
+
+        y: 0.6
+
+		
+
+	    mirror: false
+
+	    alternate: false
+
+        reload: 10
+
+        shootSound: "laserBlast"
+
+        bullet: {
+
+            type: BasicBulletType
+
+            damage: 1
+
+	        lifetime: 1
+
+	        speed: 1
+
+			
+
+			width: 1
+
+		    height: 1
+
+		}
+
+    }
+
+]
