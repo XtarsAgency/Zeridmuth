@@ -8,7 +8,7 @@ controller: BuilderAI
 isEnemy: false
 mineWalls: true
 mineFloor: true
-buildSpeed: 0.6
+buildSpeed: 1.0
 itemCapacity: 45
 
 speed: 4.5
