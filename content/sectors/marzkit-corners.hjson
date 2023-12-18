@@ -1,11 +1,11 @@
 sector: 10
 planet: zeridmuth
 research: {
-    parent: "grassy-plains"
+    parent: "dense-forest"
 	objectives: [
 	    {
         type: SectorComplete
-		preset: "grassy-plains"
+		preset: "dense-forest"
 		}
 	]
 }
