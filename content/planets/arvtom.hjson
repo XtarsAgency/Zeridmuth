@@ -3,10 +3,10 @@ parent: sun
 iconColor: 404241
 orbitRadius: 100
 hasAtmosphere: true
-updateLighting: false
+updateLighting: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
-atmosphereColor: 0bfbff
+atmosphereColor: 242424
 drawOrbit: true
 
 accessible: false
