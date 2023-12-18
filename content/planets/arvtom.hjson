@@ -9,7 +9,7 @@ atmosphereRadOut: 0.3
 atmosphereColor: 0bfbff
 drawOrbit: true
 
-accessible: false
+accessible: true
 alwaysUnlocked: false
 defaultCore: "core-anirav"
 sectorSeed: 382
