@@ -1,7 +1,7 @@
 generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: 404241
-orbitRadius: 100
+orbitRadius: 80
 hasAtmosphere: false
 updateLighting: true
 atmosphereRadIn: 0
@@ -9,12 +9,12 @@ atmosphereRadOut: 0.3
 atmosphereColor: 000001
 drawOrbit: true
 
-accessible: false
+accessible: true
 alwaysUnlocked: true
 defaultCore: "core-anirav"
-sectorSeed: 382
-startSector: 12
-sectorSize: 1
+sectorSeed: 0
+startSector: 1
+sectorSize: 0.1
 
 clearSectorOnLose: true
 allowSectorInvasion: false
