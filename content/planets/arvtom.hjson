@@ -1,6 +1,6 @@
 generator: SerpuloPlanetGenerator
 parent: sun
-iconColor: 0bffff
+iconColor: 404241
 orbitRadius: 100
 hasAtmosphere: true
 updateLighting: false
@@ -27,7 +27,7 @@ cloudMesh: {
     speed: 0.28
     radius: 0.30
     divisions: 1
-    color: cfcfcfcf
+    color: 242424
     octaves: 0
     persistence: 1
     scl: 2
@@ -38,9 +38,8 @@ mesh: {
     type: NoiseMesh
     planet: arvtom
     seed: 3823
-    color1: 3d3d3d
-    color2: 0bffff
-color3: 000bff
+    color1: 242424
+    color2: 404241
     divisions: 3
     radius: 1.2
     octaves: 2
