@@ -1,7 +1,7 @@
 name: "zeridmuth"
 repo: "xtarsagency/zeridmuth"
 minGameVersion: 136
-version: "v0.2.6A"
+version: "v0.6.8B"
 
 displayName: "Zeridmuth: A New Beginning"
 author: "[red[]]Xtarsagency
@@ -22,7 +22,7 @@ It is also more than just a planet, It has Fully working
 -All of this is made on android. So please give it a star on GitHub if you like it :)
 
 [#0bffff]We have a small discord server, and any contribution are acceptable.
-[ff0000]This is part of a massive lore. [] So please await our future mods :)
+This is part of a massive lore. So please await our future mods :)
 '''
 
 dependencies: []
