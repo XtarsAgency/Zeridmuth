@@ -1,0 +1,22 @@
+type: CoreBlock
+category: effect
+health: 100
+size: 3
+
+itemCapacity: 950
+unitCapModifier: 15
+unitType: "zone"
+incinerateNonBuildable: true
+isFirstTier: false
+
+requirements: [
+    "carbon-plates/1"
+]
+
+research: {
+    root: true
+    name: @a-techtree
+	planet: arvtom
+}
+
+alwaysUnlocked: false
