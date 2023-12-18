@@ -2,11 +2,11 @@ generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: 404241
 orbitRadius: 100
-hasAtmosphere: true
+hasAtmosphere: false
 updateLighting: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
-atmosphereColor: 242424
+atmosphereColor: 000001
 drawOrbit: true
 
 accessible: false
@@ -24,8 +24,8 @@ cloudMesh: {
     type: HexSkyMesh
     planet: arvtom
     seed: 1
-    speed: 0.28
-    radius: 0.30
+    speed: 0.78
+    radius: 0.12
     divisions: 1
     color: 242424
     octaves: 0
