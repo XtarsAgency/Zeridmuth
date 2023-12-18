@@ -31,7 +31,7 @@ plans: [
   }
 ]
 research: {
-    parent: "ze-assembler"
+    parent: "reconstructor"
     requirements: [
         "carbon/1300"
 "carbon-plates/570"
@@ -43,7 +43,7 @@ research: {
 	objectives: [
 	    {
         type: OnSector
-		preset: "grassy-plains"
+		preset: "marzkit-corners"
 		}
 	]
   }
