@@ -28,7 +28,7 @@ plans: [
       "aluminium-ingot/60"
       "refined-uranium/10"
     ]
-    unit: "electron*
+    unit: "translator" 
     time: 6692
     requirements: [
         "uranium/180"
