@@ -1,0 +1,20 @@
+type: Duct
+category: distribution
+size: 1
+health: 450
+
+speed: 4.2
+
+requirements: [
+    "aluminium/1"
+  "carbon-plates/1"
+]
+hasColor: true
+mapColor: b0bac0
+research: {
+    parent: "pressure-duct"
+    requirements: [
+        "carbon-plates/120"
+      "aluminium/230"
+    ]
+}
