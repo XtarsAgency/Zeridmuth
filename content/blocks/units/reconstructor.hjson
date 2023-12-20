@@ -1,3 +1,5 @@
+name: Unit Reconstructor
+description: Reconstructs [yellow[]]Current Units to its second Tier
 type: Reconstructor
 size: 3
 health: 1740
@@ -16,7 +18,7 @@ carbon-plates/55
 upgrades: [
   [current, voltage]
 ]
-constructTime: 240
+constructTime: 930
 
 requirements: [
   carbon/630
