@@ -22,7 +22,7 @@ allowLaunchToNumbered: false
 	
 cloudMesh: {
     type: HexSkyMesh
-    planet: arvtom
+    planet: arvton
     seed: 1
     speed: 0.78
     radius: 0.12
@@ -36,7 +36,7 @@ cloudMesh: {
 	
 mesh: {
     type: NoiseMesh
-    planet: arvtom
+    planet: arvton
     seed: 3823
     color1: 242424
     color2: 404241
