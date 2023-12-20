@@ -40,6 +40,6 @@ research: {
     requirements: [
         "carbon/200"
 "carbon-plates/55"
-"aluminium-ingots/20"
+"aluminium-ingot/20"
     ]
 }

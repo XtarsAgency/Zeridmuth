@@ -1,0 +1,12 @@
+sector: 13
+planet: zeridmuth
+research: {
+    parent: "nouvagrad-corners"
+	objectives: [
+	    {
+        type: SectorComplete
+		preset: "dense-forest"
+		}
+	]
+}
+difficulty: 8
