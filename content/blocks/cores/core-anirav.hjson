@@ -16,7 +16,7 @@ requirements: [
 research: {
     root: true
     name: @a-techtree
-	planet: arvtom
+	planet: arvton
 }
 
 alwaysUnlocked: false
