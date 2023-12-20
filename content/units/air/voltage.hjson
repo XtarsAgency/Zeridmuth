@@ -35,3 +35,11 @@ weapons: [
 		}
     }
 ]
+research: {
+    parent: "reconstructor"
+    requirements: [
+        "carbon/200"
+"carbon-plates/55"
+"aluminium-ingots/20"
+    ]
+}
