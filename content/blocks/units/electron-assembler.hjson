@@ -1,5 +1,5 @@
 type: UnitFactory
-health: 748228
+health: 748250
 size: 12
 category: units
 name: Z.E Ship Constructor Tier 3-4
@@ -25,8 +25,11 @@ plans: [
       "uranium/900"
 "carbon-plates/1530"
 "electric-component/20"
-      "aluminium-ingot/60"
+      "aluminium-ingot/1630"
       "refined-uranium/10"
+"zettium/820"
+"maurixum/100"
+"zettiux-alloy/120"
   }
 ]
 research: {
@@ -45,7 +48,7 @@ research: {
 	objectives: [
 	    {
         type: OnSector
-		preset: "marzkit-corners"
+		preset: "construction-base"
 		}
 	]
 }
