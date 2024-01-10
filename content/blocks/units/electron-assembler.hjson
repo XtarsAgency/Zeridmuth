@@ -1,0 +1,51 @@
+type: UnitFactory
+health: 748228
+size: 12
+category: units
+name: Z.E Ship Constructor Tier 3-4
+description: Produces Z.E Class ships (Zeridmuth Electric) Tier 3-4. to attack both enemy buildings and units. Uses significant power
+
+configurable: false
+regionSuffix: "-dark"
+
+consumes: {
+power: 10.48
+}
+requirements: [
+    "carbon-plates/80"
+	"aluminium/205"
+  "aluminium-ingot/60"
+  "refined-uranium/10"
+]
+plans: [
+  {
+    unit: "electron"
+    time: 26428
+    requirements: [
+      "uranium/900"
+"carbon-plates/1530"
+"electric-component/20"
+      "aluminium-ingot/60"
+      "refined-uranium/10"
+  }
+]
+research: {
+    parent: "ze-ship-assembler"
+    requirements: [
+        "carbon/4600"
+"carbon-plates/5700"
+"aluminium/2560"
+"aluminium-ingot/1770"
+"refined-uranium/1000"
+"electric-component/20"
+      "zettium/510"
+      "zettiux-alloy/1630"
+      "maurixum/270"
+    ]
+	objectives: [
+	    {
+        type: OnSector
+		preset: "marzkit-corners"
+		}
+	]
+}
