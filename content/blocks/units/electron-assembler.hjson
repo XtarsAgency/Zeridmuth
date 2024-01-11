@@ -2,20 +2,24 @@ type: UnitFactory
 health: 748250
 size: 12
 category: units
-name: Z.E Ship Constructor Tier 3-4
-description: Produces Z.E Class ships (Zeridmuth Electric) Tier 3-4. to attack both enemy buildings and units. Uses significant power
+name: Z.E Ship Constructor Tier 5
+description: [red]This constructor creates the largest T5 To ever exist yet, please make units wisely, this unit is too strong to comprehend.
 
 configurable: false
 regionSuffix: "-dark"
 
 consumes: {
-power: 10.48
+power: 45.88
 }
 requirements: [
-    "carbon-plates/80"
-	"aluminium/205"
-  "aluminium-ingot/60"
-  "refined-uranium/10"
+    "carbon-plates/800"
+	"aluminium/2005"
+  "aluminium-ingot/1620"
+  "refined-uranium/1930"
+"uranium/620"
+"zettium/570"
+"zettiux-alloy/10"
+"maurixum/670"
 ]
 plans: [
   {
@@ -30,6 +34,8 @@ plans: [
 "zettium/820"
 "maurixum/100"
 "zettiux-alloy/120"
+"electric-component/10"
+
   }
 ]
 research: {
