@@ -3,7 +3,7 @@ health: 748250
 size: 12
 category: units
 name: Z.E Ship Constructor Tier 5
-description: [red]This constructor creates the largest T5 To ever exist yet, please make units wisely, this unit is too strong to comprehend.
+description: "[red]This constructor creates the largest T5 To ever exist yet, please make units wisely, this unit is too strong to comprehend."
 
 configurable: false
 regionSuffix: "-dark"
