@@ -35,9 +35,11 @@ plans: [
 "maurixum/100"
 "zettiux-alloy/120"
 "electric-component/10"
+ ]
+}
 
-  }
-]
+
+
 research: {
     parent: "ze-ship-assembler"
     requirements: [
