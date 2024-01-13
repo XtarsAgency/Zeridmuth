@@ -2,59 +2,60 @@ type: UnitFactory
 health: 748250
 size: 12
 category: units
-name: Z.E Ship Constructor Tier 5
+name: "Z.E Ship Constructor Tier 5"
 description: "[red]This constructor creates the largest T5 To ever exist yet, please make units wisely, this unit is too strong to comprehend."
 
 configurable: false
 regionSuffix: "-dark"
 
 consumes: {
-power: 45.88
+  power: 45.88
 }
 requirements: [
-    "carbon-plates/800"
-	"aluminium/2005"
-  "aluminium-ingot/1620"
-  "refined-uranium/1930"
-"uranium/620"
-"zettium/570"
-"zettiux-alloy/10"
-"maurixum/670"
+  "carbon-plates/800",
+  "aluminium/2005",
+  "aluminium-ingot/1620",
+  "refined-uranium/1930",
+  "uranium/620",
+  "zettium/570",
+  "zettiux-alloy/10",
+  "maurixum/670"
 ]
 plans: [
   {
-    unit: "electron"
-    time: 26428
+    unit: "electron",
+    time: 26428,
     requirements: [
-      "uranium/900"
-"carbon-plates/1530"
-"electric-component/20"
-      "aluminium-ingot/1630"
-      "refined-uranium/10"
-"zettium/820"
-"maurixum/100"
-"zettiux-alloy/120"
-"electric-component/10"
- ]
-}
+      "uranium/900",
+      "carbon-plates/1530",
+      "electric-component/20",
+      "aluminium-ingot/1630",
+      "refined-uranium/10",
+      "zettium/820",
+      "maurixum/100",
+      "zettiux-alloy/120",
+      "electric-component/10"
+    ]
+  }
+]
 
 research: {
-    parent: "ze-ship-assembler"
-    requirements: [
-        "carbon/4600"
-"carbon-plates/5700"
-"aluminium/2560"
-"aluminium-ingot/1770"
-"refined-uranium/1000"
-"electric-component/20"
-      "zettium/510"
-      "zettiux-alloy/1630"
-      "maurixum/270"
-    ]
-	objectives: [
-	    {
-        type: OnSector
-		preset: "contruction-base"
-		}
-	]
+  parent: "ze-ship-assembler",
+  requirements: [
+    "carbon/4600",
+    "carbon-plates/5700",
+    "aluminium/2560",
+    "aluminium-ingot/1770",
+    "refined-uranium/1000",
+    "electric-component/20",
+    "zettium/510",
+    "zettiux-alloy/1630",
+    "maurixum/270"
+  ],
+  objectives: [
+    {
+      type: "OnSector",
+      preset: "construction-base"
+    }
+  ]
 }
