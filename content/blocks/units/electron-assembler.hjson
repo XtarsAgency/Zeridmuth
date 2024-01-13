@@ -52,11 +52,11 @@ research: {
       "zettium/510"
       "zettiux-alloy/1630"
       "maurixum/270"
-    ]
+    ],
 	objectives: [
 	    {
         type: OnSector
-		preset: "construction-base"
-		}
+	    preset: "construction-base"
+	    }
 	]
 }
