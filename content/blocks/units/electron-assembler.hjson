@@ -40,15 +40,16 @@ plans: [
 
 
 
+
 research: {
-    parent: "ze-ship-assembler"
-	objectives: [
-	    {
-        type: OnSector
-	    preset: "construction-base"
-	    }
-	]
-}
+    parent: "ze-ship-assembler",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "construction-base"
+        }
+    ]
+},
 researchCost: [
         "carbon/4600"
 "carbon-plates/5700"
