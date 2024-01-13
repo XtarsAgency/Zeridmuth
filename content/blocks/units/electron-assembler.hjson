@@ -42,7 +42,14 @@ plans: [
 
 research: {
     parent: "ze-ship-assembler"
-    requirements: [
+	objectives: [
+	    {
+        type: OnSector
+	    preset: "construction-base"
+	    }
+	]
+}
+researchCost: [
         "carbon/4600"
 "carbon-plates/5700"
 "aluminium/2560"
@@ -51,12 +58,4 @@ research: {
 "electric-component/20"
       "zettium/510"
       "zettiux-alloy/1630"
-      "maurixum/270"
-    ],
-	objectives: [
-	    {
-        type: OnSector
-	    preset: "construction-base"
-	    }
-	]
-}
+      "maurixum/270" 
