@@ -2,8 +2,6 @@ type: UnitFactory
 health: 1180
 size: 2
 category: units
-name: Z.E Ship Constructor
-description: Produces Z.E Class ships (Zeridmuth Electric) to attack both enemy buildings and units. Outputs "Current" Units. Uses significant power
 
 configurable: false
 regionSuffix: "-top"
