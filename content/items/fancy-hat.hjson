@@ -1,2 +1,11 @@
 name: Fancy Hat
 description: Requested by Bog
+color: fc23fc
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+cost: 100000
+
+buildable: true
