@@ -1,6 +1,6 @@
 type: UnitFactory
 health: 748250
-size: 12
+size: 16
 category: units
 name: "Z.E Ship Constructor Tier 5"
 description: "[red]This constructor creates the largest T5 To ever exist yet, please make units wisely, this unit is too strong to comprehend."
@@ -28,13 +28,12 @@ plans: [
     requirements: [
       "uranium/900",
       "carbon-plates/1530",
-      "electric-component/20",
+      "electric-component/34",
       "aluminium-ingot/1630",
       "refined-uranium/10",
       "zettium/820",
       "maurixum/100",
       "zettiux-alloy/120",
-      "electric-component/10"
     ]
   }
 ]
