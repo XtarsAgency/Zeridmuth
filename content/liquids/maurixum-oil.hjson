@@ -1,0 +1,19 @@
+color: 00bcfd
+barColor: 00bcfc
+effect: "tarred"
+
+viscosity: 0.1
+temperature: 0
+heatCapacity: 5.6
+
+coolant: true
+
+particleEffect: {
+    particles: 7
+    length: 0
+    lifetime: 20
+    sizeFrom: 8
+    sizeTo: 0
+    colorFrom: 0000ff
+    colorTo: 00ceff00
+}
