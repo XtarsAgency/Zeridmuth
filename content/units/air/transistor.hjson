@@ -70,3 +70,11 @@ engines: [
         rotation: 0
     }
 ]
+research: {
+    parent: "ze-ship-assembler"
+    requirements: [
+        "carbon/200"
+"carbon-plates/55"
+"aluminium-ingot/20"
+    ]
+}
