@@ -84,3 +84,11 @@ engines: [
         rotation: 0
     }
 ]
+research: {
+    parent: "electron-assembler"
+    requirements: [
+        "carbon/200"
+"carbon-plates/55"
+"aluminium-ingot/20"
+    ]
+}
