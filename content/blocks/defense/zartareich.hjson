@@ -54,4 +54,10 @@ research: {
       "aluminium/2360"
       "maurixum/280"
 	]
+objectives: [
+	    {
+        type: OnSector
+		preset: "nord-zanedo"
+		}
+	]
 }
