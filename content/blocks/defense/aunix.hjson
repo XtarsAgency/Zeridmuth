@@ -7,10 +7,11 @@ reload: 60
 range: 980
 recoil: 7
 inaccuracy: 0
+shootSound: mediumCannon
 
 ammoTypes: {
 	maurixum: {
-		type: MissileBulletTypr
+		type: MissileBulletType
 		damage: 11280
 		speed: 13
 		lifetime: 127
@@ -44,6 +45,27 @@ ammoTypes: {
 	}
 }
 
+drawer:{
+ type: DrawTurret
+ parts: [
+     {
+         "type": "RegionPart",
+          "suffix": "-part3",
+         "mirror": true,
+         outline: false
+        "progress": {
+          "type": "warmup",
+          "op": "blend",
+          "other": "heat",
+          "amount": 0.15
+          }
+          "outlineLayerOffset": 0.001,
+         "moveX": -9,
+         "moveY": 1,
+             layerOffset: 0.02
+         }
+]
+}
 
 requirements: [
     "refined-uranium/130",
