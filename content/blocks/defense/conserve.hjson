@@ -4,7 +4,7 @@ size: 2
 health: 580
 
 reload: 7
-range: 450
+range: 365
 recoil: 1.8
 inaccuracy: 15
 
