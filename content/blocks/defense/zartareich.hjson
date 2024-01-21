@@ -1,0 +1,57 @@
+type: ItemTurret
+category: turret
+size: 5
+health: 183900
+
+reload: 100
+range: 4500
+recoil: 6.8
+
+ammoTypes: {
+	maurixum: {
+		type: MissileBulletType
+		damage: 36780
+		speed: 40
+		lifetime: 100
+		
+		width: 40
+		height: 60
+		
+		ammoMultiplier: 2
+	}
+
+	zettiux-alloy: {
+		type: MissileBulletType
+		damage: 125000
+		speed: 50
+		lifetime: 100
+		
+		width: 40
+		height: 80
+		
+		ammoMultiplier: 2
+	}
+}
+
+requirements: [
+    "carbon-plates/1050"
+  "aluminium-ingot/560"
+  "zettiux-alloy/120"
+  "zettium/630"
+  "refined-uranium/890"
+  "aluminium/1700"
+]
+
+research: {
+    parent: "etymology"
+    requirements: [
+        "carbon-plates/2300"
+      "aluminium-ingot/4500"
+      "carbon/1570"
+      "zettium/790"
+      "zettiux-alloy/450"
+      "refined-uranium/700"
+      "aluminium/2360"
+      "maurixum/280"
+	]
+}
