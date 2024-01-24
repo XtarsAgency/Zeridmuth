@@ -29,6 +29,8 @@ plans: [
       "refined-uranium/10"
     ]
   }
+]
+[
   {
     unit: "transistor",
     time: 13692,
