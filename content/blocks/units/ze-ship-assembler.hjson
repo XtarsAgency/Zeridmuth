@@ -28,7 +28,7 @@ plans: [
       "aluminium-ingot/60",
       "refined-uranium/10"
     ]
-  },
+  }
   {
     unit: "transistor",
     time: 13692,
