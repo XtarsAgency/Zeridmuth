@@ -17,7 +17,7 @@ requirements: [
   "aluminium-ingot/60",
   "refined-uranium/10"
 ]
-plans:
+plans: [
   {
     unit: "electricity",
     time: 9890,
@@ -28,19 +28,8 @@ plans:
       "aluminium-ingot/60",
       "refined-uranium/10"
     ]
-  },
-  {
-    unit: "transistor",
-    time: 13692,
-    requirements: [
-      "uranium/180",
-      "carbon-plates/300",
-      "electric-component/10",
-      "aluminium-ingot/120",
-      "refined-uranium/25",
-      "zettiux-alloy/10"
-]
   }
+]
 research: {
   parent: "reconstructor",
   requirements: [
