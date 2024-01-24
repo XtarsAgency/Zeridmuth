@@ -22,7 +22,7 @@ ammoTypes: {
 
 	zettiux-alloy: {
 		type: MissileBulletType
-		damage: 125000
+		damage: 42500
 		speed: 50
 		lifetime: 100
 		
