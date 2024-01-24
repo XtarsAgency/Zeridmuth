@@ -1,12 +1,11 @@
 sector: 14
-captureWave: 30
 planet: zeridmuth
 research: {
     parent: "deteriorated-lake"
 	objectives: [
 	    {
         type: SectorComplete
-		preset: "deteriorated-lake"
+		preset: "construction-base"
 		}
 	]
 }
