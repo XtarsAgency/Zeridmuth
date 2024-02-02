@@ -31,6 +31,7 @@ weapons: [
 	        lifetime: 60
 	        speed: 22
 pierce: 40
+pierceCap: 40
 			
 			width: 16
 		    height: 34
@@ -51,6 +52,7 @@ pierce: 40
             damage: 1080.5
 	        lifetime: 60
 	        speed: 16
+pierceCap: 5
 			
 			width: 10
 		    height: 20
