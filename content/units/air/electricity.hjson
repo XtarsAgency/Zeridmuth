@@ -30,6 +30,7 @@ weapons: [
             damage: 1950.5
 	        lifetime: 30
 	        speed: 20
+pierceCap: 7
 			
 			width: 10
 		    height: 14
