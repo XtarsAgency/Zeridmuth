@@ -30,6 +30,7 @@ weapons: [
             damage: 15780.5
 	        lifetime: 60
 	        speed: 22
+pierce: 40
 			
 			width: 16
 		    height: 34
@@ -38,8 +39,8 @@ weapons: [
 {
         name: electric-weapon
         top: true
-        x: 65
-        y: -48
+        x: 58
+        y: -50
 
 	    mirror: true
 	    alternate: true
@@ -58,8 +59,8 @@ weapons: [
   {
         name: missile-weapon
         top: true
-        x: 56
-        y: -17
+        x: 20
+        y: 5
 		
 	    mirror: true
 	    alternate: true
