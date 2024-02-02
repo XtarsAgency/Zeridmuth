@@ -1,16 +1,16 @@
 type: flying
 health: 955700
-armor: 156
+armor: 200
 hitSize: 267
 
 flying: true
 buildSpeed: 4.9
 itemCapacity: 2000
 
-speed: 1.78
+speed: 0.87
 accel: 1
 drag: 0.95
-rotateSpeed: 0.8
+rotateSpeed: 0.2
 
 outlineColor: 2d2f39
 
@@ -23,8 +23,8 @@ weapons: [
 		
 	    mirror: false
 	    alternate: false
-        reload: 86
-        shootSound: "laserBlast"
+        reload: 75
+        shootSound: "giantbang"
         bullet: {
             type: BasicBulletType
             damage: 15780.5
@@ -38,12 +38,12 @@ weapons: [
 {
         name: electric-weapon
         top: true
-        x: 49
+        x: 65
         y: -48
 
 	    mirror: true
 	    alternate: true
-        reload: 89
+        reload: 50
         shootSound: "largeCannon"
         bullet: {
             type: BasicBulletType
@@ -63,16 +63,16 @@ weapons: [
 		
 	    mirror: true
 	    alternate: true
-        reload: 29
-        shootSound: "largeExplosion"
+        reload: 10
+        shootSound: "pew"
         bullet: {
             type: MissileBulletType
-            damage: 5680.45
+            damage: 580.45
 	        lifetime: 345
 	        speed: 5
 			
-			width: 20
-		    height: 20
+			width: 8
+		    height: 16
 		}
 }
 ]
