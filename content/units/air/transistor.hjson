@@ -24,12 +24,13 @@ weapons: [
 	    mirror: false
 	    alternate: false
         reload: 75
-        shootSound: "pulseBlast"
+        shootSound: "giantbang"
         bullet: {
             type: BasicBulletType
             damage: 5780.5
 	        lifetime: 50
 	        speed: 20
+pierceCap: 15
 			
 			width: 14
 		    height: 34
