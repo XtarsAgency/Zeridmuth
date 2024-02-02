@@ -5,6 +5,7 @@ effect: "tarred"
 viscosity: 1.2
 temperature: 0
 heatCapacity: 0.8
+explosiveness: 1.1
 
 coolant: true
 
