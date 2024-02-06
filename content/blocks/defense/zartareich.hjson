@@ -1,16 +1,16 @@
 type: ItemTurret
 category: turret
 size: 5
-health: 183900
+health: 1900
 
 reload: 100
-range: 4500
+range: 1000
 recoil: 6.8
 
 ammoTypes: {
 	maurixum: {
 		type: MissileBulletType
-		damage: 36780
+		damage: 26780
 		speed: 40
 		lifetime: 100
 		
@@ -22,7 +22,7 @@ ammoTypes: {
 
 	zettiux-alloy: {
 		type: MissileBulletType
-		damage: 42500
+		damage: 32500
 		speed: 50
 		lifetime: 100
 		
