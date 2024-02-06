@@ -4,7 +4,7 @@ size: 3
 health: 2860
 
 reload: 140
-range: 2350
+range: 1150
 recoil: 3.8
 
 ammoTypes: {

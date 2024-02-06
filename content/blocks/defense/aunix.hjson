@@ -4,7 +4,7 @@ size: 5
 health: 4640
 
 reload: 60
-range: 980
+range: 880
 recoil: 7
 inaccuracy: 0
 shootSound: mediumCannon
