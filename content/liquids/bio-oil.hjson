@@ -11,8 +11,8 @@ coolant: true
 
 particleEffect: {
     particles: 3
-    length: 5
-    lifetime: 20
+    length: 2
+    lifetime: 2
     sizeFrom: 3
     sizeTo: 0
     colorFrom: 002300
