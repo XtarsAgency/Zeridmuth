@@ -6,6 +6,7 @@ viscosity: 1.2
 temperature: 0
 heatCapacity: 0.8
 explosiveness: 1.1
+flammability: 1
 
 coolant: true
 
@@ -17,4 +18,11 @@ particleEffect: {
     sizeTo: 0
     colorFrom: 002300
     colorTo: 00000000
+}
+
+research: {
+    parent: "core-nouvagrad"
+    requirements: [
+            carbon/1
+        ]
 }

@@ -6,6 +6,7 @@ viscosity: 0.1
 temperature: 0
 heatCapacity: 5.6
 explosiveness: 2.9
+flammability: 1
 
 coolant: true
 
@@ -17,4 +18,11 @@ particleEffect: {
     sizeTo: 0
     colorFrom: 0000ff
     colorTo: 00ceff00
+}
+
+research: {
+    parent: "bio-oil"
+    requirements: [
+            carbon/1
+        ]
 }
