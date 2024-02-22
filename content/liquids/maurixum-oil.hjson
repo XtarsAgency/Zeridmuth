@@ -1,16 +1,19 @@
-color: 00bcfd
-barColor: 00bcfc
-effect: "tarred"
+{
+    localizedName: Maurixum Oil
+    description: Oil created as a byproduct. Flammable.
+    color: 00bcfd
+    barColor: 00bcfc
+    effect: "tarred"
 
-viscosity: 0.1
-temperature: 0
-heatCapacity: 5.6
-explosiveness: 2.9
-flammability: 1
+    viscosity: 0.1
+    temperature: 1
+    heatCapacity: 5.6
+    explosiveness: 2.9
+    flammability: 0
 
-coolant: true
+    coolant: true
 
-particleEffect: {
+    particleEffect: {
     particles: 7
     length: 0
     lifetime: 20
@@ -18,11 +21,12 @@ particleEffect: {
     sizeTo: 0
     colorFrom: 0000ff
     colorTo: 00ceff00
-}
+    }
 
-research: {
+    research: {
     parent: "bio-oil"
     requirements: [
             carbon/1
         ]
+    }
 }
