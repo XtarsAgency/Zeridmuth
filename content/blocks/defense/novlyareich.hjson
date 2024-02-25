@@ -12,7 +12,7 @@ ammoTypes: {
 		type: BasicBulletType
 		damage: 947.80
 		speed: 19
-		lifetime: 100
+		lifetime: 60
 		
 		width: 35
 		height: 59
@@ -24,7 +24,7 @@ ammoTypes: {
 		type: MissileBulletType
 		damage: 2280.90
 		speed: 19
-		lifetime: 170
+		lifetime: 60
 		
 		width: 35
 		height: 59
@@ -35,7 +35,7 @@ ammoTypes: {
 		type: BasicBulletType
 		damage: 1897.25
 		speed: 19
-		lifetime: 100
+		lifetime: 60
 		
 		width: 35
 		height: 59
