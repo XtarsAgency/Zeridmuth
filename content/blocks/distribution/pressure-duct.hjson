@@ -4,7 +4,7 @@ size: 1
 health: 230
 
 speed: 11.7
-
+junctionReplacement: pressure-junction
 requirements: [
     "carbon/1"
 ]
