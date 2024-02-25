@@ -4,7 +4,7 @@ size: 1
 health: 450
 
 speed: 4.2
-junctionReplacement: pressure-junction
+bridgeReplacement: pressure-junction
 requirements: [
     "aluminium/1"
   "carbon-plates/1"
