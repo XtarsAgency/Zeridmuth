@@ -71,7 +71,7 @@ pierceCap: 5
         bullet: {
             type: MissileBulletType
             damage: 580.45
-	        lifetime: 345
+	        lifetime: 60
 	        speed: 5
 			
 			width: 8
