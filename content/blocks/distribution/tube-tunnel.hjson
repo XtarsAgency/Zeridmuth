@@ -1,6 +1,6 @@
 {
   "localizedName": "Tube Tunnel",
-  "description": "Transports materiel underground.",
+  "description": "Transports material underground.",
   "type": "BufferedItemBridge",
   "size": 1,
   "health": 300,
@@ -15,6 +15,9 @@
   ],
 
   "research": {
-    "parent": "pressure-duct,"
+    "parent": "pressure-duct",
+    "requirements": [
+      "carbon/20"
+    ]
   }
 }
