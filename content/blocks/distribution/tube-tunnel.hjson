@@ -1,6 +1,4 @@
 {
-  "localizedName": "Tube Tunnel",
-  "description": "Transports material underground.",
   "type": "BufferedItemBridge",
   "size": 1,
   "health": 300,
