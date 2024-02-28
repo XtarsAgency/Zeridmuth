@@ -13,6 +13,6 @@ research: {
 },
 category: liquid
 researchCost: [
-    carbon/65
+    ceramic/65
     aluminium/90
   ]
