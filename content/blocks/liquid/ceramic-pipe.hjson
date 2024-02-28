@@ -1,8 +1,8 @@
 type: Conduit
 health: 35
 requirements: [
-  carbon/1
   aluminium/2
+ceramic/1
   
 ]
 leaks: true
