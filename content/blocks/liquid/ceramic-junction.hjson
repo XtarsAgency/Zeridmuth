@@ -1,8 +1,8 @@
 type: LiquidJunction
 health: 50
 requirements: [
-  carbon/10
-  aluminium/5
+  aluminium/1
+ceramic/1
 ]
 research: {
     parent: "ceramic-pipe",
