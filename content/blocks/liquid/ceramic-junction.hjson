@@ -1,5 +1,5 @@
 type: LiquidJunction
-health: 50
+health: 75
 requirements: [
   aluminium/1
 ceramic/1
@@ -9,6 +9,6 @@ research: {
 },
 category: liquid
 researchCost: [
-    carbon/125
+    ceramic/125
     aluminium/75
   ]
