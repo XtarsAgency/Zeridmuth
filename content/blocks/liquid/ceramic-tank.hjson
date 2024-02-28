@@ -4,7 +4,7 @@ liquidCapacity: 350
 size: 2
 placeableLiquid: true
 requirements: [
-  carbon-plates/20
+  ceramic/20
   aluminium-ingot/8
 ]
 research: {
@@ -12,6 +12,6 @@ research: {
 },
 category: liquid
 researchCost: [
-    carbon-plates/135
+    ceramic/135
     aluminium-ingot/100
   ]
