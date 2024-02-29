@@ -1,0 +1,19 @@
+type: Incinerator
+health: 150
+size: 1
+hasPower: true
+power: 1.66
+consumes: {
+  "power": 1.66
+    }
+requirements: [
+  aluminium/20
+  carbon-plates/40
+]
+research: {
+    parent: "eva-duct"
+},
+researchCost: [
+    carbon-plates/200
+    aluminium/125
+  ]
