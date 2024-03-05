@@ -1,0 +1,37 @@
+type: flying
+health: 370
+armor: 4
+hitSize: 6
+
+flying: true
+itemCapacity: 30
+
+speed: 2
+accel: 0.2
+drag: 0.015
+rotateSpeed: 7
+
+outlineColor: 2d2f39
+
+weapons: [
+    {
+        name: memory-weapon
+        top: false
+        x: 0
+        y: 0.6
+		
+	    mirror: false
+	    alternate: false
+        reload: 0.004
+        shootSound: "flame"
+        bullet: {
+            type: BasicBulletType
+            damage: 0.08
+	        lifetime: 30
+	        speed: 10
+			
+			width: 4
+		    height: 8
+		}
+    }
+]
