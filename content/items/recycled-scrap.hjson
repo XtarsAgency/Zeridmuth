@@ -1,0 +1,17 @@
+color: 6d6d6d
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+cost: 2
+
+research: {
+    parent: "core-nouvagrad"
+}
+
+buildable: true
+hiddenOnPlanets: [
+    "serpulo"
+    "erekir"
+] 
