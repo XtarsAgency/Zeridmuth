@@ -1,16 +1,18 @@
 type: CoreBlock
 category: effect
-health: 100
+health: 4000
 size: 3
 
-itemCapacity: 950
+itemCapacity: 2000
 unitCapModifier: 15
-unitType: "zone"
+unitType: "zond"
 incinerateNonBuildable: true
 isFirstTier: false
 
 requirements: [
-    "carbon-plates/1"
+    "scrap/600"
+  "titanium/160"
+  "beryllium/145"
 ]
 
 research: {
@@ -19,4 +21,4 @@ research: {
 	planet: arvtom
 }
 
-alwaysUnlocked: false
+alwaysUnlocked: true
