@@ -1,7 +1,7 @@
 generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: 404241
-orbitRadius: 80
+orbitRadius: 7
 hasAtmosphere: false
 updateLighting: true
 atmosphereRadIn: 0
@@ -16,13 +16,13 @@ sectorSeed: 0
 startSector: 1
 sectorSize: 0.1
 
-clearSectorOnLose: true
+clearSectorOnLose: false
 allowSectorInvasion: false
 allowLaunchToNumbered: false
 	
 cloudMesh: {
     type: HexSkyMesh
-    planet: arvton
+    planet: arvtom
     seed: 1
     speed: 0.78
     radius: 0.12
@@ -36,13 +36,13 @@ cloudMesh: {
 	
 mesh: {
     type: NoiseMesh
-    planet: arvton
+    planet: arvtom
     seed: 3823
-    color1: 242424
-    color2: 404241
-    divisions: 3
-    radius: 1.2
-    octaves: 2
+    color1: 787424
+    color2: ff802b
+    divisions: 2
+    radius: 0.6
+    octaves: 3
     persistence: 1
     scl: 0.75
     mag: 1.2
@@ -51,21 +51,17 @@ mesh: {
 hiddenItems: [
     "copper"
     "lead"
-    "scrap"
     "graphite"
     "coal"
-    "titanium"
     "thorium"
     "silicon"
     "plastanium"
     "phase-fabric"
     "surge-alloy"
     "spore-pod"
-    "sand"
     "blast-compound"
     "pyratite"
     "metaglass"
-    "beryllium"
     "oxide"
     "tungsten"
     "carbide"
