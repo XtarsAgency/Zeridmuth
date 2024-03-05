@@ -1,0 +1,37 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 300
+
+craftTime: 105
+consumes: {
+    items: [
+        "scrap/2"
+	]
+}
+outputItem: "recycled-scrap/4"
+
+squareSprite: false
+
+requirements: [
+    "scrap/30"
+]
+
+research: {
+    parent: "core-anirav"
+    requirements: [
+        "scrap/85"
+    ]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+	{
+		type: DrawArcSmelt
+	}
+	{
+        type: DrawDefault
+    }
+]
