@@ -1,6 +1,6 @@
 type: flying
-health: 3720
-armor: 8
+health: 3100
+armor: 1
 hitSize: 34
 
 flying: true
@@ -26,7 +26,7 @@ weapons: [
         shootSound: "railgun"
         bullet: {
             type: BasicBulletType
-            damage: 670
+            damage: 98.8
 	        lifetime: 45
 	        speed: 9
 			
