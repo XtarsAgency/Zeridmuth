@@ -4,7 +4,7 @@ size: 3
 health: 2860
 
 reload: 140
-range: 1150
+range: 519
 recoil: 3.8
 
 ammoTypes: {
@@ -12,7 +12,7 @@ ammoTypes: {
 		type: BasicBulletType
 		damage: 947.80
 		speed: 19
-		lifetime: 60
+		lifetime: 31
 		
 		width: 35
 		height: 59
@@ -24,7 +24,7 @@ ammoTypes: {
 		type: MissileBulletType
 		damage: 2280.90
 		speed: 19
-		lifetime: 60
+		lifetime: 31
 		
 		width: 35
 		height: 59
@@ -35,7 +35,7 @@ ammoTypes: {
 		type: BasicBulletType
 		damage: 1897.25
 		speed: 19
-		lifetime: 60
+		lifetime: 31
 		
 		width: 35
 		height: 59
