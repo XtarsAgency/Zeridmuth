@@ -11,6 +11,7 @@ speed: 2.4
 accel: 0.3
 drag: 0.95
 rotateSpeed: 0.7
+fogRadius: 1000
 
 outlineColor: 2d2f39
 
