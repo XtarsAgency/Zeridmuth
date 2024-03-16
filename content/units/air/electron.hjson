@@ -33,7 +33,7 @@ weapons: [
 	        speed: 22
 pierce: 10
 pierceCap: 40
-pierceBuildings: true
+pierceBuilding: true
 			
 			width: 16
 		    height: 34
@@ -55,7 +55,7 @@ pierceBuildings: true
 	        lifetime: 60
 	        speed: 16
 pierceCap: 5
-pierceBuildings: true
+pierceBuilding: true
 			
 			width: 10
 		    height: 20
