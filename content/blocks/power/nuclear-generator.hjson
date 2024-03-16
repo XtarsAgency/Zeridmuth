@@ -22,7 +22,7 @@ consumes: {
 	]
 }
 research: {
-    parent: "peltier-generator"
+    parent: "large-peltier-generator"
     requirements: [
         "uranium/60"
 "aluminium/240"
