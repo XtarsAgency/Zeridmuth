@@ -5,7 +5,7 @@ charge: 4
 cost: 4
 
 research: {
-    parent: "electric-component"
+    parent: "carbon"
 }
 
 buildable: true
