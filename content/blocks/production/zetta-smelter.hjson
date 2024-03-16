@@ -24,7 +24,7 @@ requirements: [
 ]
 
 research: {
-    parent: "aluminium-smelter"
+    parent: "maurixum-extractor"
     requirements: [
         "carbon/1250"
       "aluminium-ingot/215"
