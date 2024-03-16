@@ -32,6 +32,7 @@ weapons: [
 	        speed: 22
 pierce: 10
 pierceCap: 40
+pierceBuildings: true
 			
 			width: 16
 		    height: 34
@@ -53,6 +54,7 @@ pierceCap: 40
 	        lifetime: 60
 	        speed: 16
 pierceCap: 5
+pierceBuildings: true
 			
 			width: 10
 		    height: 20
@@ -67,7 +69,7 @@ pierceCap: 5
 	    mirror: true
 	    alternate: true
         reload: 10
-        shootSound: "pew"
+        shootSound: "cannon"
         bullet: {
             type: MissileBulletType
             damage: 580.45
