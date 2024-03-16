@@ -1,0 +1,23 @@
+type: Wall
+name: Zettiux Wall 
+description: An extremely durable wall. Blocks Enemy Bullets
+category: defense
+size: 3
+health: 49900
+
+requirements: [
+    "zettiux-alloy/48"
+]
+
+research: {
+    parent: "zettiux-wall"
+    requirements: [
+        "zettiux-alloy/460"
+    ]
+      objectives: [
+        {
+            type: "OnSector",
+            preset: "detiorated-lake"
+        }
+    ]
+}
