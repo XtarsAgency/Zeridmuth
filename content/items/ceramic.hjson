@@ -7,7 +7,7 @@ charge: 0
 cost: 5
 
 research: {
-    parent: "carbon"
+    parent: "aluminium-ingot"
 }
 
 buildable: true
