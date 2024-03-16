@@ -31,6 +31,7 @@ weapons: [
 	        lifetime: 50
 	        speed: 20
 pierceCap: 15
+pierceBuildings: true
 			
 			width: 14
 		    height: 34
