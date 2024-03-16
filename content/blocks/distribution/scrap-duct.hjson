@@ -1,0 +1,20 @@
+type: Duct
+category: distribution
+size: 1
+health: 150
+
+speed: 5.9
+requirements: [
+    "scrap/1"
+]
+hasColor: true
+mapColor: cfcfcf
+research: {
+    parent: "core-anirav"
+    requirements: [
+        "scrap/5"
+    ]
+	objectives: [
+	    "scrap"
+	]
+}
