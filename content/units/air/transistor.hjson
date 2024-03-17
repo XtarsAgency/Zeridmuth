@@ -40,7 +40,7 @@ pierceBuilding: true
   {
         name: missile-weapon
         top: false
-        x: 33
+        x: 32
         y: 0
 		
 	    mirror: true
