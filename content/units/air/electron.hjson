@@ -19,12 +19,12 @@ weapons: [
     {
         name: railgun-weapon
         top: false
-        x: 0
+        x: 20
         y: 79
 		
-	    mirror: false
-	    alternate: false
-        reload: 75
+	    mirror: true
+	    alternate: true
+        reload: 50
         shootSound: "giantbang"
         bullet: {
             type: BasicBulletType
