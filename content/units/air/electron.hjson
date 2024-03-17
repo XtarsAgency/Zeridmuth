@@ -64,8 +64,8 @@ pierceBuilding: true
   {
         name: missile-weapon
         top: true
-        x: 20
-        y: 5
+        x: 36
+        y: 10
 		
 	    mirror: true
 	    alternate: true
@@ -91,13 +91,13 @@ engines: [
     }
 {
 x: 16
-y: -110
+y: -130
 radius: 6
 rotation: 90
 }
 {
 x: -16
-y: -110
+y: -130
 radius: 6
 rotation: 90
 }
