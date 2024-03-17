@@ -7,7 +7,7 @@ flying: true
 buildSpeed: 4.9
 itemCapacity: 2000
 
-speed: 2.4
+speed: 0.466
 accel: 0.3
 drag: 0.95
 rotateSpeed: 0.7
@@ -85,21 +85,21 @@ pierceBuilding: true
 engines: [
     {
         x: 0
-        y: -38
+        y: -39
         radius: 9
-        rotation: 0
+        rotation: 90
     }
 {
-x: 20
-y: -90
+x: 16
+y: -110
 radius: 6
-rotation: 0
+rotation: 90
 }
 {
-x: -20
-y: -90
+x: -16
+y: -110
 radius: 6
-rotation: 0
+rotation: 90
 }
 ]
 research: {
