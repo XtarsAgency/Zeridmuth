@@ -7,9 +7,9 @@ flying: true
 buildSpeed: 4.9
 itemCapacity: 2000
 
-speed: 0.466
-accel: 0.3
-drag: 0.95
+speed: 0.65
+accel: 0.06
+drag: 0.02
 rotateSpeed: 0.7
 fogRadius: 1000
 
@@ -28,11 +28,11 @@ weapons: [
         shootSound: "giantbang"
         bullet: {
             type: BasicBulletType
-            damage: 15780.5
+            damage: 21780.5
 	        lifetime: 60
 	        speed: 22
-pierce: 10
-pierceCap: 40
+pierce: 40
+pierceCap: 45
 pierceBuilding: true
 			
 			width: 16
@@ -54,7 +54,8 @@ pierceBuilding: true
             damage: 1080.5
 	        lifetime: 60
 	        speed: 16
-pierceCap: 5
+pierceCap: 10
+pierce: 10
 pierceBuilding: true
 			
 			width: 10
@@ -64,8 +65,8 @@ pierceBuilding: true
   {
         name: missile-weapon
         top: true
-        x: 36
-        y: 10
+        x: 37
+        y: 16
 		
 	    mirror: true
 	    alternate: true
@@ -90,15 +91,15 @@ engines: [
         rotation: 90
     }
 {
-x: 16
-y: -130
-radius: 6
+x: 10
+y: -125
+radius: 7
 rotation: 90
 }
 {
-x: -16
-y: -130
-radius: 6
+x: -10
+y: -125
+radius: 7
 rotation: 90
 }
 ]
