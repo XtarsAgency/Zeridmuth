@@ -40,12 +40,12 @@ pierceBuilding: true
   {
         name: missile-weapon
         top: false
-        x: 35
-        y: -2
+        x: 33
+        y: 0
 		
 	    mirror: true
 	    alternate: true
-        reload: 29
+        reload: 25
         shootSound: "missileLaunch"
         bullet: {
             type: MissileBulletType
@@ -61,14 +61,14 @@ pierceBuilding: true
 engines: [
     {
         x: 10
-        y: -50
-        radius: 8
+        y: -55
+        radius: 6
         rotation: 90
     }
 {
         x: -10
-        y: -50
-        radius: 8
+        y: -55
+        radius: 6
         rotation: 90
     }
 ]
