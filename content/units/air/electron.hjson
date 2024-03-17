@@ -89,6 +89,18 @@ engines: [
         radius: 9
         rotation: 0
     }
+{
+x: 20
+y: -90
+radius: 6
+rotation: 0
+}
+{
+x: -20
+y: -90
+radius: 6
+rotation: 0
+}
 ]
 research: {
     parent: "electron-assembler"
