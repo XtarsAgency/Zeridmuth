@@ -18,13 +18,13 @@ outlineColor: 2d2f39
 weapons: [
     {
         name: railgun-weapon
-        top: false
-        x: 20
+        top: true
+        x: 14
         y: 79
 		
 	    mirror: true
 	    alternate: true
-        reload: 50
+        reload: 78
         shootSound: "giantbang"
         bullet: {
             type: BasicBulletType
