@@ -6,6 +6,7 @@ health: 1900
 reload: 100
 range: 1000
 recoil: 6.8
+shootSound: giantbang
 
 ammoTypes: {
 	maurixum: {
