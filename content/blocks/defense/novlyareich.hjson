@@ -6,6 +6,7 @@ health: 2860
 reload: 140
 range: 519
 recoil: 3.8
+shootSound: cannon
 
 ammoTypes: {
 	aluminium-ingot: {
