@@ -27,13 +27,21 @@ weapons: [
         reload: 78
         shootSound: "giantbang"
         bullet: {
-            type: LaserBulletType
+            type: BasicBulletType
             damage: 21780.5
 	        lifetime: 60
 	        speed: 22
 pierce: 40
 pierceCap: 45
 pierceBuilding: true
+frag: true
+{
+type: BasicBulletType
+damage: 358.66
+lifetime: 30
+speed: 2
+}
+
 			
 			width: 16
 		    height: 34
