@@ -19,7 +19,7 @@ weapons: [
     {
         name: railgun-weapon
         top: true
-        x: 14
+        x: 5
         y: 79
 		
 	    mirror: true
@@ -27,7 +27,7 @@ weapons: [
         reload: 78
         shootSound: "giantbang"
         bullet: {
-            type: BasicBulletType
+            type: LaserBulletType
             damage: 21780.5
 	        lifetime: 60
 	        speed: 22
