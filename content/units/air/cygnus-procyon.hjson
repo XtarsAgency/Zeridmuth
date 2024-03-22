@@ -30,12 +30,12 @@ vulnerableWithPayloads: false
 weapons: [
     {
         type: RepairBeamWeapon
-		widthSinMag: 0.5
+		widthSinMag: 0.4
         x: 40
         y: 2
         mirror: true
         shootY: 0
-		beamWidth: 2
+		beamWidth: 0.7
         repairSpeed: 5.6
         fractionRepairSpeed: 1.11
         shootCone: 45
@@ -54,8 +54,21 @@ weapons: [
 engines: [
     {
         x: 0
-        y: -50
+        y: -55
         radius: 12
         rotation: 90
     }
+{
+x: 0
+y: -66
+radius: 8
+rotation: 90
+}
+{
+x: 10
+y: 60
+radius: 3
+rotation: 45
+mirror: true
+}
 ]
