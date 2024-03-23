@@ -54,21 +54,21 @@ weapons: [
 engines: [
     {
         x: 0
-        y: -55
+        y: -50
         radius: 12
-        rotation: 90
+        rotation: 270
     }
 {
 x: 0
-y: -66
+y: -69
 radius: 8
-rotation: 90
+rotation: 270
 }
 {
-x: 10
-y: 60
+x: 15
+y: 65
 radius: 3
-rotation: 45
+rotation: -45
 mirror: true
 }
 ]
