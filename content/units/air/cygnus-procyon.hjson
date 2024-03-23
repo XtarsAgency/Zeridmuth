@@ -50,6 +50,7 @@ weapons: [
 		    maxRange: 350
 		}
     }
+{
     type: RepairBeamWeapon
 		widthSinMag: 0.2
         x: -30
