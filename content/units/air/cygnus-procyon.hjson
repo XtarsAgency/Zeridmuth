@@ -54,7 +54,7 @@ weapons: [
     type: RepairBeamWeapon
 		widthSinMag: 0.2
         x: -30
-        y: 12
+        y: -60
         mirror: true
         shootY: 0
 		beamWidth: 0.65
@@ -82,14 +82,14 @@ engines: [
     }
 {
 x: 0
-y: -135
+y: -176
 radius: 8
 rotation: 270
 }
 {
 x: 0
-y: -155
-radius: 5
+y: -200
+radius: 8
 rotation: 270
 }
 ]
