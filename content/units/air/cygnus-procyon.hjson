@@ -1,6 +1,6 @@
 type: flying
 flying: true
-health: 1600000
+health: 5600000
 armor: 560
 hitSize: 200
 
@@ -10,10 +10,10 @@ mineFloor: true
 buildSpeed: 5.6
 itemCapacity: 20000
 
-speed: 0.25
-accel: 0.01
-drag: 0.01
-mineSpeed: 5
+speed: 0.6
+accel: 0.007
+drag: 0.007
+mineSpeed: 10
 mineTier: 10
 rotateSpeed: 0.4
 
@@ -21,24 +21,24 @@ crashDamageMultiplier: 1000
 hittable: true
 targetable: false
 fogRadius: 500
-outlineColor: 2d2f39
+outlineColor: f3a1a2
 
-payloadCapacity: 2500
+payloadCapacity: 5000
 pickupUnits: true
 vulnerableWithPayloads: false
 
 weapons: [
     {
         type: RepairBeamWeapon
-		widthSinMag: 0.4
-        x: 40
-        y: 2
+		widthSinMag: 0.2
+        x: 22
+        y: 10
         mirror: true
         shootY: 0
-		beamWidth: 0.7
+		beamWidth: 0.65
         repairSpeed: 5.6
         fractionRepairSpeed: 1.11
-        shootCone: 45
+        shootCone: 85
 		
         targetUnits: true
         targetBuildings: true
@@ -47,21 +47,48 @@ weapons: [
         laserColor: ff5080
         healColor: ff0600
 		bullet: {
-		    maxRange: 200
+		    maxRange: 350
+		}
+    }
+    type: RepairBeamWeapon
+		widthSinMag: 0.2
+        x: -30
+        y: 12
+        mirror: true
+        shootY: 0
+		beamWidth: 0.65
+        repairSpeed: 5.6
+        fractionRepairSpeed: 1.11
+        shootCone: 85
+		
+        targetUnits: true
+        targetBuildings: true
+        autoTarget: false
+        controllable: true
+        laserColor: ff5080
+        healColor: ff0600
+		bullet: {
+		    maxRange: 350
 		}
     }
 ]
 engines: [
     {
         x: 0
-        y: -110
+        y: -103
         radius: 12
         rotation: 270
     }
 {
 x: 0
-y: -102
+y: -135
 radius: 8
+rotation: 270
+}
+{
+x: 0
+y: -155
+radius: 5
 rotation: 270
 }
 ]
