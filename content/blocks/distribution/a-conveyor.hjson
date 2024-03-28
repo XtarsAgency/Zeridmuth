@@ -1,0 +1,11 @@
+type: Conveyor
+health: 40
+buildCostMultiplier: 0.0005
+requirements: [
+  carbon/1
+]
+category: distribution
+speed: 0.05
+displayedSpeed: 1.5
+hasColor: true
+mapColor: 000000
