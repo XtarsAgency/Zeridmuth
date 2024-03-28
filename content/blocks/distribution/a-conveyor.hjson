@@ -6,6 +6,6 @@ requirements: [
 ]
 category: distribution
 speed: 0.05
-displayedSpeed: 1.5
+displayedSpeed: 0.3
 hasColor: true
 mapColor: 000000
