@@ -1,16 +1,16 @@
 generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: 404241
-orbitRadius: 7
+orbitRadius: 68
 hasAtmosphere: false
 updateLighting: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.3
-atmosphereColor: 000001
+atmosphereRadOut: 0
+atmosphereColor: 00000000
 drawOrbit: true
 
 accessible: true
-alwaysUnlocked: true
+alwaysUnlocked: false
 defaultCore: "core-anirav"
 sectorSeed: 0
 startSector: 1
@@ -19,21 +19,7 @@ sectorSize: 0.1
 clearSectorOnLose: false
 allowSectorInvasion: false
 allowLaunchToNumbered: false
-	
-cloudMesh: {
-    type: HexSkyMesh
-    planet: arvtom
-    seed: 1
-    speed: 0.78
-    radius: 0.12
-    divisions: 1
-    color: 242424
-    octaves: 0
-    persistence: 1
-    scl: 2
-    thresh: 0.1
-}
-	
+
 mesh: {
     type: NoiseMesh
     planet: arvtom
