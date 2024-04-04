@@ -1,16 +1,15 @@
-type: Conduit
+type: Pump
 health: 1
+size: 2
+pumpAmount: 1
+squareSprite: false
+category: liquid
 requirements: [
   scrap/1
-  
 ]
-leaks: true
-liquidCapacity: 1
-liquidPressure: 1
 research: {
-    parent: "core-anirav",
+    parent: "core-anirav"
 },
-category: liquid
 researchCost: [
     scrap/1
   ]
