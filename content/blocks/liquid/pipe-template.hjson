@@ -1,0 +1,16 @@
+type: Conduit
+health: 1
+requirements: [
+  scrap/1
+  
+]
+leaks: true
+liquidCapacity: 1
+liquidPressure: 1
+research: {
+    parent: "core-anirav",
+},
+category: liquid
+researchCost: [
+    scrap/1
+  ]
