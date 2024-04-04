@@ -26,14 +26,14 @@ plans: [
     unit: "electron",
     time: 26428,
     requirements: [
-      "uranium/900",
+      "uranium/3000",
       "carbon-plates/1530",
-      "electric-component/34",
-      "aluminium-ingot/1630",
-      "refined-uranium/10",
-      "zettium/820",
-      "maurixum/100",
-      "zettiux-alloy/120",
+      "electric-component/450",
+      "aluminium-ingot/9500",
+      "refined-uranium/650",
+      "zettium/3890",
+      "maurixum/900",
+      "zettiux-alloy/2350",
     ]
   }
 ]
