@@ -22,12 +22,12 @@ plans: [
     unit: "transistor",
     time: 12460
     requirements: [
-      "uranium/120",
-      "carbon-plates/340",
-      "electric-component/20",
-      "aluminium-ingot/70",
-      "refined-uranium/80"
-      "carbon/720"
+      "uranium/1200",
+      "carbon-plates/1000",
+      "electric-component/50",
+      "aluminium-ingot/3900",
+      "refined-uranium/200"
+      "carbon/2860"
     ]
   }
 ]
