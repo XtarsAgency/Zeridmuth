@@ -22,11 +22,11 @@ plans: [
     unit: "electricity",
     time: 9890,
     requirements: [
-      "uranium/90",
-      "carbon-plates/150",
-      "electric-component/3",
-      "aluminium-ingot/60",
-      "refined-uranium/10"
+      "uranium/300",
+      "carbon-plates/450",
+      "electric-component/15",
+      "aluminium-ingot/600",
+      "refined-uranium/80"
     ]
   }
 ]
