@@ -5,8 +5,10 @@ health: 670
   
 consumes: {
     [
-      item: "isoz/2"
+      item: 
+"isoz/2"
       "beryllium/1"
+power: 1.22
       ]
 }
 outputLiquid: "liquified-isoz/0.16"
