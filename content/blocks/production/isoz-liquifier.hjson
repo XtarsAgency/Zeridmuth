@@ -1,0 +1,35 @@
+type: GenericCrafter
+category: crafting
+size: 3
+health: 670
+  
+consumes: {
+    [
+      item: "isoz/2"
+      "beryllium/1"
+      ]
+}
+outputLiquid: "liquified-isoz/0.16"
+
+squareSprite: false
+
+requirements: [
+    "beryllium/40"
+  "thorium/60"
+  "titanium/120"
+]
+
+research: {
+    parent: "scrap-recycler"
+    requirements: [
+        "beryllium/200"
+      "titanium/160"
+      "thorium/530"
+    ]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+]
