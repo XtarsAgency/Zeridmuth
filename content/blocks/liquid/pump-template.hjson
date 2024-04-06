@@ -1,15 +1,16 @@
 type: Pump
-health: 1
-size: 2
-pumpAmount: 1
+health: 300
+size: 1
+pumpAmount: 7.8
 squareSprite: false
 category: liquid
 requirements: [
-  scrap/1
+"recycled-scrap/5"
 ]
 research: {
     parent: "core-anirav"
 },
 researchCost: [
-    scrap/1
+    "scrap/10"
+"recycled-scrap/15"
   ]
