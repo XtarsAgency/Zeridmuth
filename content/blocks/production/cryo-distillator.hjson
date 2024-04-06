@@ -4,7 +4,7 @@ size: 2
 health: 450
   
 consumes: {
-    liquid: [
+    liquids: [
         cryofluid/12.7
 	]
 }
