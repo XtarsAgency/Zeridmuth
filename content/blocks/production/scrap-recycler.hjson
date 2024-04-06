@@ -35,3 +35,8 @@ drawer: [
         type: DrawDefault
     }
 ]
+research: {
+    parent: "core-anirav"
+    requirements: [
+        "scrap/110"
+    ]
