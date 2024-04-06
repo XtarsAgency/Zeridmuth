@@ -1,0 +1,32 @@
+type: Drill
+size: 4
+tier: 6
+drillTime: 70
+hardnessDrillMultiplier: 16
+liquidBoostIntensity: 1
+liquidCapacity: 55
+itemCapacity: 100
+category: production
+consumes: {
+  liquid: {
+    liquid: cryofluid
+    amount: 3
+    optional: false
+    booster: false
+  }
+}
+category: production
+requirements: [
+  recycled-scrap/120
+  beryllium/230
+  thorium/20
+]
+research: {
+parent: "geared-drill"
+requirements: [
+"recycled-scrap/400"
+"beryllium/130"
+"thorium/230"
+"scrap/25"
+]
+}
