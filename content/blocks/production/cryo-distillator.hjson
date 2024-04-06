@@ -1,0 +1,32 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 450
+  
+consumes: {
+    liquid: [
+        cryofluid/12.7
+	]
+}
+outputLiquid: "water/12.7"
+  outputItem: "titanium/2"
+
+squareSprite: false
+
+requirements: [
+    "scrap/40"
+  "recycled-scrap/60"
+]
+
+research: {
+    parent: "scrap-recycler"
+    requirements: [
+        "scrap/200"
+      "recycled-scrap/160"
+    ]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
