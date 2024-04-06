@@ -1,0 +1,19 @@
+type: Pump
+health: 780
+size: 2
+pumpAmount: 18.9
+squareSprite: false
+category: liquid
+requirements: [
+"recycled-scrap/120"
+  "titanium/50"
+  "beryllium/30"
+]
+research: {
+    parent: "scrap-pump"
+}
+researchCost: [
+"recycled-scrap/305"
+  "titanium/120"
+  "beryllium/220"
+  ]
