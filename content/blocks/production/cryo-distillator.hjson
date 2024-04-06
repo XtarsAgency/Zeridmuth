@@ -5,7 +5,7 @@ health: 450
   
 consumes: {
     liquids: [
-        cryofluid/12.7
+        "cryofluid/12.7"
 	]
 }
 outputLiquid: "water/12.7"
