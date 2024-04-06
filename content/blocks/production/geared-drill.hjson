@@ -1,0 +1,31 @@
+type: Drill
+size: 3
+tier: 3
+drillTime: 180
+liquidBoostIntensity: 2
+liquidCapacity: 30
+itemCapacity: 100
+category: production
+consumes: {
+  power: 8.66
+  liquid: {
+    liquid: water
+    amount: 1
+    optional: true
+    booster: true
+  }
+}
+category: production
+requirements: [
+recycled-scrap/120
+  titanium/230
+  scrap/90
+]
+research: {
+parent: "recycled-drill"
+requirements: [
+"recycled-scrap/400"
+"titanium/130"
+"scrap/15"
+]
+}
