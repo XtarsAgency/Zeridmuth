@@ -1,0 +1,28 @@
+color: ff00ff
+barColor: fc00ff
+effect: "melting"
+
+viscosity: 8.9
+temperature: 0
+heatCapacity: 0
+explosiveness: 13.7
+flammability: 0
+
+coolant: false
+
+particleEffect: {
+    particles: 5
+    length: 2
+    lifetime: 1
+    sizeFrom: 1
+    sizeTo: 0
+    colorFrom: 002300
+    colorTo: 00000000
+}
+
+research: {
+    parent: "core-nouvagrad"
+    requirements: [
+            carbon/1
+        ]
+}
