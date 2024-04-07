@@ -32,7 +32,7 @@ drawer: [
     },
     {
         type: DrawLiquidTile
-        drawLiquid: cryofuild
+        drawLiquid: "cryofluid"
         suffix: -liquid
     }
 ]
