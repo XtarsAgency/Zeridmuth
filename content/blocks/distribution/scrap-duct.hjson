@@ -3,7 +3,7 @@ category: distribution
 size: 1
 health: 150
 
-speed: 5.9
+speed: 0.98
 requirements: [
     "scrap/1"
 ]
