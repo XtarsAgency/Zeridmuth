@@ -5,7 +5,7 @@ health: 220
 size: 2
 tier: 1
 buildCostMultiplier: 3
-drillTime: 115
+drillTime: 211
 hasItems: true
 itemCapacity: 45
 requirements: [
