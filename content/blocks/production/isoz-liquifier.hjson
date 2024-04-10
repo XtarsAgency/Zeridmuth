@@ -10,7 +10,7 @@ consumes: {
 	]
 	power: 1.66
 }
-outputLiquid: "liquified-isoz/0.16"
+outputLiquid: "liquid-isoz/0.16"
 
 squareSprite: false
 
@@ -35,7 +35,7 @@ drawer: [
     }, 
     {
         type: DrawLiquidTile
-        drawLiquid: liquified-isoz
+        drawLiquid: liquid-isoz
         suffix: -liquid
     }
 ]
