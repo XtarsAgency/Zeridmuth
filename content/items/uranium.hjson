@@ -5,6 +5,7 @@ flammability: 0
 radioactivity: 1.25
 charge: 5
 cost: 3
+hardness: 2
 
 research: {
     parent: "carbon"
