@@ -9,7 +9,7 @@ isEnemy: false
 mineWalls: true
 mineFloor: true
 buildSpeed: 1.7
-itemCapacity: 45
+itemCapacity: 50
 
 speed: 4.5
 accel: 0.5
@@ -21,12 +21,12 @@ rotateSpeed: 7
 crashDamageMultiplier: 0
 hittable: false
 targetable: false
-fogRadius: 5
+fogRadius: 6
 coreUnitDock: true
 outlineColor: 2d2f39
 
-payloadCapacity: 25
-pickupUnits: false
+payloadCapacity: 100
+pickupUnits: true
 vulnerableWithPayloads: true
 
 weapons: [
@@ -38,9 +38,9 @@ weapons: [
         mirror: false
         shootY: 0
 		beamWidth: 0.3
-        repairSpeed: 3.1
-        fractionRepairSpeed: 0.06
-        shootCone: 15
+        repairSpeed: 4.4
+        fractionRepairSpeed: 0.24
+        shootCone: 45
 		
         targetUnits: false
         targetBuildings: true
