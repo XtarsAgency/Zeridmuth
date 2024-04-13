@@ -34,7 +34,7 @@ researchCost: [
  ]
 objectives: [
 	    {
-        type: OnSector
+        type: SectorComplete
 		preset: "construction-base"
 		}
 	]
