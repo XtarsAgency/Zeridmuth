@@ -10,22 +10,23 @@ mineFloor: true
 buildSpeed: 5.6
 itemCapacity: 20000
 
-speed: 0.6
-accel: 0.007
+speed: 1.1
+accel: 0.002
 drag: 0.007
 mineSpeed: 10
 mineTier: 10
-rotateSpeed: 0.4
+rotateSpeed: 0.15
 
-crashDamageMultiplier: 1000
+crashDamageMultiplier: 8000
 hittable: true
 targetable: false
-fogRadius: 500
+fogRadius: 5000
 outlineColor: f3a1a2
 
-payloadCapacity: 5000
+payloadCapacity: 25000
+pickupBlocks: true
 pickupUnits: true
-vulnerableWithPayloads: false
+vulnerableWithPayloads: true
 
 weapons: [
     {
@@ -44,10 +45,10 @@ weapons: [
         targetBuildings: true
         autoTarget: false
         controllable: true
-        laserColor: ff5080
+        laserColor: f9e806
         healColor: ff0600
 		bullet: {
-		    maxRange: 350
+		    maxRange: 390
 		}
     }
 {
@@ -66,10 +67,10 @@ weapons: [
         targetBuildings: true
         autoTarget: false
         controllable: true
-        laserColor: ff5080
+        laserColor: 06e8f9
         healColor: ff0600
 		bullet: {
-		    maxRange: 350
+		    maxRange: 460
 		}
     }
 ]
@@ -82,13 +83,13 @@ engines: [
     }
 {
 x: 0
-y: -176
+y: -195
 radius: 8
 rotation: 270
 }
 {
 x: 0
-y: -200
+y: -240
 radius: 8
 rotation: 270
 }
