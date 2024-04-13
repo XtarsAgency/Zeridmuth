@@ -42,7 +42,18 @@ ammoTypes: {
 		height: 23
 		
 		ammoMultiplier: 6
-	}
+	},
+zettiux-alloy: {
+		type: MissileBulletType
+		damage: 11270
+		speed: 13
+		lifetime: 70
+		
+		width: 18
+		height: 23
+		
+		ammoMultiplier: 4
+	},
 }
 
 drawer:{
@@ -75,10 +86,12 @@ requirements: [
 ]
 
 research: {
-    parent: "etymology"
+    parent: "nouvlyareich"
     requirements: [
-        "carbon/120"
-"aluminium/60"
+        "carbon-plates/120"
+"aluminium-ingot/80"
+"refined-uranium/110"
+"zettium/280"
     ]
 	objectives: [
 	    {
