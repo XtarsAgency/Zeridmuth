@@ -10,18 +10,18 @@ mineFloor: true
 buildSpeed: 5.6
 itemCapacity: 20000
 
-speed: 1.1
+speed: 6.1
 accel: 0.002
 drag: 0.007
 mineSpeed: 10
 mineTier: 10
-rotateSpeed: 0.15
+rotateSpeed: 0.18
 
 crashDamageMultiplier: 8000
 hittable: true
 targetable: false
 fogRadius: 5000
-outlineColor: f3a1a2
+outlineColor: d3a1a2
 
 payloadCapacity: 25000
 pickupBlocks: true
