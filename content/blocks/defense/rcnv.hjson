@@ -22,8 +22,8 @@ ammoTypes: {
 	}
   beryllium: {
 		type: BasicBulletType
-		damage: 
-		speed: 96.8
+		damage: 96.8
+		speed: 50
 		lifetime: 12
 		
 		width: 20
@@ -43,7 +43,7 @@ ammoTypes: {
 		ammoMultiplier: 2
       }
   isoz: {
-		type: BasicBulletType
+		type: LaserBulletType
 		damage: 320.7
 		speed: 50
 		lifetime: 12
