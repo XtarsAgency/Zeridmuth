@@ -19,7 +19,6 @@ squareSprite: false
 consumes: {
     itemRadioactive:{
 "uranium"
-"refined-uranium"
     }
 	]
 }
