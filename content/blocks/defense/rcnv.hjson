@@ -1,0 +1,74 @@
+type: ItemTurret
+category: turret
+size: 4
+health: 3400
+
+reload: 1
+range: 600
+recoil: 0.3
+  innacuracy: 0
+
+ammoTypes: {
+	titanium: {
+		type: BasicBulletType
+		damage: 148.6
+		speed: 50
+		lifetime: 12
+		
+		width: 20
+		height: 30
+		
+		ammoMultiplier: 2
+	}
+  beryllium: {
+		type: BasicBulletType
+		damage: 
+		speed: 96.8
+		lifetime: 12
+		
+		width: 20
+		height: 30
+		
+		ammoMultiplier: 2
+      }
+  thorium: {
+		type: BasicBulletType
+		damage: 249.6
+		speed: 50
+		lifetime: 12
+		
+		width: 20
+		height: 30
+		
+		ammoMultiplier: 2
+      }
+  isoz: {
+		type: BasicBulletType
+		damage: 320.7
+		speed: 50
+		lifetime: 12
+		
+		width: 20
+		height: 30
+		
+		ammoMultiplier: 2
+}
+}
+
+requirements: [
+    "thorium/100"
+  "recycled-scrap/560"
+  "titanium/220"
+"beryllium/230"
+]
+
+research: {
+    parent: "rdns"
+    requirements: [
+        "thorium/180"
+  "recycled-scrap/640"
+  "titanium/300"
+"beryllium/310"
+	]
+}
+      
