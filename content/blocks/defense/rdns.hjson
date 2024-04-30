@@ -1,0 +1,64 @@
+type: ItemTurret
+category: turret
+size: 3
+health: 2480
+
+reload: 0.6
+range: 600
+recoil: 0.8
+  innacuracy: 2
+
+ammoTypes: {
+	titanium: {
+		type: BasicBulletType
+		damage: 89.8
+		speed: 50
+		lifetime: 12
+		
+		width: 15
+		height: 20
+		
+		ammoMultiplier: 2
+	}
+  thorium: {
+		type: BasicBulletType
+		damage: 113.7
+		speed: 50
+		lifetime: 12
+		
+		width: 15
+		height: 20
+		
+		ammoMultiplier: 2
+      }
+  isoz: {
+		type: LaserBulletType
+		damage: 183.2
+		speed: 50
+		lifetime: 12
+		
+		width: 15
+		height: 20
+		
+		ammoMultiplier: 2
+      }
+}
+
+
+requirements: [
+    "titanium/85"
+  "beryllium/45"
+  "recycled-scrap/120"
+]
+
+research: {
+    parent: "polaroid"
+    requirements: [
+        "titanium/150"
+      "recycled-scrap/320"
+      "beryllium/220"
+//objectives: {
+      //OnSector:southern-crystal-station
+  //}
+	]
+}
