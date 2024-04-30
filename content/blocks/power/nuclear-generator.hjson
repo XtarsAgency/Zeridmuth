@@ -17,8 +17,10 @@ itemDuration: 170
 squareSprite: false
 
 consumes: {
-    items: [
-		"uranium/1"
+    itemRadioactive:{
+"uranium"
+"refined-uranium"
+    }
 	]
 }
 research: {
