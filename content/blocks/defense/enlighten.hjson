@@ -1,0 +1,40 @@
+type: LiquidTurret
+category: turret
+size: 4
+health: 4300
+
+reload: 0.01
+range: 100
+recoil: 0
+  innacuracy: 4
+
+ammoTypes: {
+	liquid-isoz: {
+		type: LaserBulletType
+		damage: 340
+		speed: 2
+		lifetime: 50
+		
+		width: 10
+		height: 40
+		
+		ammoMultiplier: 12
+	}
+}
+
+requirements: [
+    "titanium/100"
+  "isoz/120"
+  "thorium/220"
+  "beryllium/300"
+]
+
+research: {
+    parent: "rcnv"
+    requirements: [
+          "titanium/150"
+  "isoz/180"
+  "thorium/280"
+  "beryllium/305"
+	]
+}
