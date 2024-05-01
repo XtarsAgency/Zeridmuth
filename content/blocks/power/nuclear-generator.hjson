@@ -19,8 +19,7 @@ squareSprite: false
 consumes: {
     itemRadioactive:{
 "uranium"
-    }
-	]
+}
 }
 research: {
     parent: "large-peltier-generator"
