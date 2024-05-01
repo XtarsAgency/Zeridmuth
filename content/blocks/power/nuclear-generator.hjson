@@ -17,9 +17,9 @@ itemDuration: 170
 squareSprite: false
 
 consumes: {
-    itemRadioactive:{
-"uranium"
-}
+    item: [
+uranium/1
+]
 }
 research: {
     parent: "large-peltier-generator"
