@@ -1,6 +1,6 @@
 color: ff00ff
 barColor: fc00ff
-effect: "corroding"
+effect: "corroded"
 
 viscosity: 8.9
 temperature: 0
