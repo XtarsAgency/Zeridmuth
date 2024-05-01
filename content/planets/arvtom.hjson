@@ -1,39 +1,83 @@
-generator: SerpuloPlanetGenerator
+generator: {
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 190
+  radMax: 350
+  iceChance: 0.5
+  carbonChance: 0.5
+  berylChance: 0.1
+  ferricChance: 0.58
+} 
+defaultCore: core-anirav
 parent: sun
-iconColor: 404241
-orbitRadius: 68
-hasAtmosphere: false
 updateLighting: true
+sectorSize: 0.1
+startSector: 1
+radius: 3
+drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0
-atmosphereColor: 00000000
-drawOrbit: true
-
 accessible: true
-alwaysUnlocked: false
-defaultCore: "core-anirav"
-sectorSeed: 0
-startSector: 1
-sectorSize: 0.1
-
-clearSectorOnLose: false
-allowSectorInvasion: false
+updateLighting: false
+sectorSeed: 14513
+bloom: false
+visible: true
+atmosphereColor: 00000000
+iconColor: 
+hasAtmosphere: false
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+allowLaunchSchematics: false
 allowLaunchToNumbered: false
-
-mesh: {
+allowLaunchLoadout: false
+allowSectorInvasion: false
+alwaysUnlocked: true
+mesh: [
+ {
+    //gray
     type: NoiseMesh
     planet: arvtom
-    seed: 3823
-    color1: 787424
-    color2: ff802b
-    divisions: 2
-    radius: 0.6
-    octaves: 3
-    persistence: 1
-    scl: 0.75
-    mag: 1.2
-}
-	
+    divisions: 4
+    seed: 3828
+    radius: 2.28
+    color1: bfbfbf
+    color2: 5c5243
+    octaves: 2.7
+    persistence: 0.7
+  }
+  {
+    // green
+    type: NoiseMesh
+    planet: arvtom
+    divisions: 4
+    seed: 4842
+    radius: 2.13
+    color1: 4f6150
+    color2: 273327
+    octaves: 2
+    persistence: 0.9
+    scale: 0.75
+    mag: 1
+  }
+  {
+    // cyan
+    type: NoiseMesh
+    planet: arvtom
+    divisions: 4
+    seed: 381
+    radius: 2.22
+    color1: 11b0d4
+    color2: 68caf7
+    octaves: 2
+    persistence: 0.9
+  }
+]
 hiddenItems: [
     "copper"
     "lead"
