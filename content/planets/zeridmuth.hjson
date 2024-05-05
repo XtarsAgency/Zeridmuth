@@ -1,54 +1,84 @@
-generator: SerpuloPlanetGenerator
-parent: sun
-iconColor: 0bffff
+generator: {
+  octaves: 4
+  persistence: 0.52
+  scale: 19
+  mag: 0.739
+  thresh: 1.1
+  min: 100
+  max: 100
+  radMin: 259
+  radMax: 450
+  iceChance: 0.5
+  carbonChance: 0.5
+  berylChance: 0.1
+  ferricChance: 0.58
+} 
 orbitRadius: 62
-hasAtmosphere: true
+defaultCore: core-nouvagrad
+parent: sun
 updateLighting: false
+sectorSize: 1
+startSector: 4
+radius: 2.5
+drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.8
-atmosphereColor: 0bfbff
-drawOrbit: true
-
 accessible: true
-alwaysUnlocked: true
-defaultCore: "core-nouvagrad"
+updateLighting: false
 sectorSeed: 0
-startSector: 4
-sectorSize: 1
-
+bloom: false
+visible: true
+atmosphereColor: 0bfbff
+iconColor: 0bffff
+hasAtmosphere: true
+allowWaveSimulation: false
 clearSectorOnLose: true
-allowSectorInvasion: false
+allowWaves: true
+allowLaunchSchematics: false
 allowLaunchToNumbered: false
-	
-cloudMesh: {
-    type: HexSkyMesh
-    planet: zeridmuth
-    seed: 1
-    speed: 0.0027
-    radius: 0.15
-    divisions: 3
-    color: cfcfcfcf
-    octaves: 0
-    persistence: 1
-    scl: 2
-    thresh: 0.1
-}
-	
-mesh: {
+allowLaunchLoadout: false
+allowSectorInvasion: false
+alwaysUnlocked: true
+mesh: [
+ {
+    //gray
     type: NoiseMesh
     planet: zeridmuth
+    divisions: 4
+    seed: 19482
+    radius: 2.383
+    color1: 3d4747
+    color2: 474747
+    octaves: 2.7
+    persistence: 0.7
+  }
+  {
+    // cyan 1
+    type: NoiseMesh
+    planet: zeridmuth
+    divisions: 5
     seed: 331060
+    radius: 2.3836
     color1: 3d3d3d
     color2: 0bffff
-color3: 000bff
-    divisions: 5
-    radius: 0.9
-    octaves: 7
-    persistence: 1
-    scl: 0.75
-    mag: 1.2
-}
-	
+    octaves: 2
+    persistence: 0.9
+    scale: 0.75
+    mag: 1
+  }
+  {
+    // cyan 2
+    type: NoiseMesh
+    planet: zeridmuth
+    divisions: 4
+    seed: 9283
+    radius: 2.3834
+    color1: b1f4fa
+    color2: 5c9499
+    octaves: 2
+    persistence: 0.9
+  }
+]
 hiddenItems: [
     "copper"
     "lead"
@@ -73,3 +103,17 @@ hiddenItems: [
     "fissile-matter"
     "dormant-cyst"
 ]
+	
+cloudMesh: {
+    type: HexSkyMesh
+    planet: zeridmuth
+    seed: 1
+    speed: 0.0027
+    radius: 0.15
+    divisions: 3
+    color: cfcfcfcf
+    octaves: 0
+    persistence: 1
+    scl: 2
+    thresh: 0.1
+}
