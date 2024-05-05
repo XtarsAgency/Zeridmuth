@@ -16,7 +16,7 @@ generator: {
 defaultCore: core-anirav
 parent: sun
 updateLighting: true
-sectorSize: 0.1
+sectorSize: 0.95
 startSector: 1
 radius: 3
 drawOrbit: true
