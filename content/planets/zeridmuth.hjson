@@ -82,7 +82,7 @@ mesh: [
 ]
 }"
 
-"hiddenItems": [
+:"hiddenItems": [
     "copper"
     "lead"
     "scrap"
