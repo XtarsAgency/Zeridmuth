@@ -1,0 +1,56 @@
+generator: SerpuloPlanetGenerator
+parent: sun
+iconColor: 404241
+orbitRadius: 68
+hasAtmosphere: false
+updateLighting: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0
+atmosphereColor: 00000000
+drawOrbit: true
+
+accessible: true
+alwaysUnlocked: false
+defaultCore: "core-anirav"
+sectorSeed: 0
+startSector: 1
+sectorSize: 0.1
+
+clearSectorOnLose: false
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+
+mesh: {
+    type: NoiseMesh
+    planet: arvtom
+    seed: 3823
+    color1: 787424
+    color2: ff802b
+    divisions: 2
+    radius: 0.6
+    octaves: 3
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+}
+	
+hiddenItems: [
+    "copper"
+    "lead"
+    "graphite"
+    "coal"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "surge-alloy"
+    "spore-pod"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+]
