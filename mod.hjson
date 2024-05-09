@@ -1,18 +1,18 @@
 name: "zeridmuth"
 repo: "xtarsagency/zeridmuth"
 minGameVersion: 136
-version: "v1.336.8B"
+version: "v1.806ZA"
 
 displayName: "Zeridmuth: A New Beginning"
-author: "[red[]]Xtarsagency
-[yellow[]]Contributors: [cyan[]]ItzCraft, [green[]]Mitemi, [pink[]]CoCo1408"
-subtitle: "Last Release..."
+author: "[scarlet[]]XSA
+[yellow[]]Contributors: [cyan[]]ItzCraft, [green[]]Mitemi, [pink[]]CoCoSnow"
+subtitle: "Atlas? never heard of it"
 description:
 
 '''
 This mod adds a new set of campaign and content.
-Zeridmuth: A blue planet with a completed campaign
-Arvtom: (WIP) A Gray planet far away from the Sun
+2 new planets, a bunch of factories, turrets and units
+this description gets shorter every commit mann
 -----------------------------
 Our Discord Server: https://discord.com/invite/KuV5r39cpY
 '''
