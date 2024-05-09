@@ -10,7 +10,7 @@ recoil: 1
 
 ammoTypes: {
 	liquid-isoz: {
-		type: ContinuousLaserBulletType
+		ShootType: ContinuousLaserBulletType
 		damage: 1240
 		width: 25
 		height: 80
