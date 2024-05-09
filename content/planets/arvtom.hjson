@@ -80,7 +80,7 @@ mesh: [
   }
 ]
 }"
-hiddenItems: [
+:"hiddenItems": [
     "copper"
     "lead"
     "graphite"
