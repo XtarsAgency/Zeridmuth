@@ -39,6 +39,7 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 alwaysUnlocked: true
+{
 mesh: [
  {
     //gray
@@ -79,6 +80,7 @@ mesh: [
     persistence: 0.9
   }
 ]
+}
 hiddenItems: [
     "copper"
     "lead"
