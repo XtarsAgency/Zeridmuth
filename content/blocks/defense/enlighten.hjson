@@ -4,19 +4,19 @@ size: 4
 health: 4300
 
 reload: 0.01
-range: 100
+range: 300
 recoil: 0
-  innacuracy: 4
+  innacuracy: 5
 
 ammoTypes: {
 	liquid-isoz: {
 		type: LaserBulletType
 		damage: 340
-		speed: 2
-		lifetime: 50
+		speed: 10
+		lifetime: 30
 		
-		width: 10
-		height: 40
+		width: 25
+		height: 80
 		
 		ammoMultiplier: 12
 	}
