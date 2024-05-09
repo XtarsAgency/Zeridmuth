@@ -1,23 +1,18 @@
-type: LaserTurret
+"type": "LaserTurret"
 category: turret
 size: 4
 health: 6500
 
 reload: 0.01
 range: 700
-recoil: 1
+"recoil": 1
   innacuracy: 0
-
-ammoTypes: {
-	liquid-isoz: {
-		ShootType: ContinuousLaserBulletType
+		{
+"shootType": "ContinuousLaserBulletType"
 		damage: 1240
 		width: 25
 		height: 80
-shootDuration: 20
-		
-		ammoMultiplier: 12
-	}
+"shootDuration": 20
 }
 
 requirements: [
