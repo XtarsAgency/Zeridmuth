@@ -1,0 +1,77 @@
+generator: SerpuloPlanetGenerator
+parent: sun
+iconColor: 0bffff
+orbitRadius: 62
+hasAtmosphere: true
+updateLighting: false
+atmosphereRadIn: 0
+atmosphereRadOut: 0.8
+atmosphereColor: 0bfbff
+drawOrbit: true
+
+accessible: true
+alwaysUnlocked: true
+defaultCore: "core-nouvagrad"
+sectorSeed: 0
+startSector: 4
+sectorSize: 1
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+
+cloudMesh: {
+    type: HexSkyMesh
+    planet: zeridmuth
+    seed: 1
+    speed: 0.0027
+    radius: 0.15
+    divisions: 3
+    color: cfcfcfcf
+    octaves: 0
+    persistence: 1
+    scl: 2
+    thresh: 0.1
+}
+
+	
+
+mesh: {
+    type: NoiseMesh
+    planet: zeridmuth
+    seed: 331060
+    color1: 3d3d3d
+    color2: 0bffff
+    color3: 000bff
+    divisions: 5
+    radius: 0.9
+    octaves: 7
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+}
+
+hiddenItems: [
+    "copper"
+    "lead"
+    "scrap"
+    "graphite"
+    "coal"
+    "titanium"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "surge-alloy"
+    "spore-pod"
+    "sand"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+]
