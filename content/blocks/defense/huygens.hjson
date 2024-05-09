@@ -1,0 +1,37 @@
+type: LiquidTurret
+category: turret
+size: 4
+health: 6500
+
+reload: 0.01
+range: 700
+recoil: 1
+  innacuracy: 0
+
+ammoTypes: {
+	liquid-isoz: {
+		type: ContinousLaserType
+		damage: 1240
+		width: 25
+		height: 80
+		
+		ammoMultiplier: 12
+	}
+}
+
+requirements: [
+    "titanium/100"
+  "isoz/120"
+  "thorium/220"
+  "beryllium/300"
+]
+
+research: {
+    parent: "enlighten"
+    requirements: [
+          "titanium/150"
+  "isoz/180"
+  "thorium/280"
+  "beryllium/305"
+	]
+}
