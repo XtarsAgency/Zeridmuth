@@ -3,28 +3,28 @@ category: turret
 size: 4
 health: 3400
 
-reload: 1
+reload: 50
 range: 600
-recoil: 0.3
+recoil: 0.8
   innacuracy: 0
 
 ammoTypes: {
 	titanium: {
 		type: BasicBulletType
 		damage: 148.6
-		speed: 50
-		lifetime: 12
+		speed: 10
+		lifetime: 60
 		
 		width: 20
 		height: 30
 		
-		ammoMultiplier: 2
+		ammoMultiplier: 4
 	}
   beryllium: {
 		type: BasicBulletType
 		damage: 96.8
-		speed: 50
-		lifetime: 12
+		speed: 10
+		lifetime: 60
 		
 		width: 20
 		height: 30
@@ -34,24 +34,24 @@ ammoTypes: {
   thorium: {
 		type: BasicBulletType
 		damage: 249.6
-		speed: 50
-		lifetime: 12
+		speed: 10
+		lifetime: 60
 		
 		width: 20
 		height: 30
 		
-		ammoMultiplier: 2
+		ammoMultiplier: 6
       }
   isoz: {
 		type: LaserBulletType
 		damage: 320.7
-		speed: 50
-		lifetime: 12
+		speed: 60
+		lifetime: 10
 		
 		width: 20
 		height: 30
 		
-		ammoMultiplier: 2
+		ammoMultiplier: 1
 }
 }
 
