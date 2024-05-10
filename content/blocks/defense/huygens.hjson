@@ -1,0 +1,36 @@
+health: 5400
+size: 4
+type: LaserTurret
+range: 600
+liquidCapacity: 10
+category: turret
+coolantMultiplier: 15
+heatColor: ffa500
+recoil: 2
+reload: 0
+shootSound: bioLoop
+shootDuration: 1
+moveWhileCharging: true 
+consumes: {
+    power: 36.66
+    coolant: {
+        amount: 4.66
+    } 
+}
+ 
+shootType: {
+    type: ContinuousLaserBulletType
+    width: 10
+    damage: 1670
+    length: 600
+    ammoMultiplier: 1
+    status: melting, tarred
+}
+requirements: [
+    "thorium/1400"
+"isoz/240"
+"titanium/720"
+"beryllium/450"
+"scrap/90"
+]
+```
