@@ -24,7 +24,7 @@ shootType: {
     damage: 1670
     length: 600
     ammoMultiplier: 1
-    status: melting, tarred
+    status: melting
 }
 requirements: [
     "thorium/1400"
