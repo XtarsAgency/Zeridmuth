@@ -1,28 +1,28 @@
 type: ItemTurret
 category: turret
 size: 5
-health: 1900
+health: 23000
 
 reload: 100
 range: 1000
-recoil: 6.8
+recoil: 11.4
 shootSound: giantbang
 
 ammoTypes: {
 	maurixum: {
-		type: MissileBulletType
-		damage: 26780
+		type: BasicBulletType
+		damage: 21300
 		speed: 40
 		lifetime: 100
 		
 		width: 40
 		height: 60
 		
-		ammoMultiplier: 2
+		ammoMultiplier: 1
 	}
 
 	zettiux-alloy: {
-		type: MissileBulletType
+		type: BasicBulletType
 		damage: 32500
 		speed: 50
 		lifetime: 100
@@ -30,15 +30,26 @@ ammoTypes: {
 		width: 40
 		height: 80
 		
-		ammoMultiplier: 2
+		ammoMultiplier: 1
 	}
+electric-component: {
+type: MissileBulletType
+damage: 29800
+speed: 25
+lifetime: 200
+
+width: 40
+height: 80
+
+ammoMultiplier: 1
+}
 }
 
 requirements: [
     "carbon-plates/1050"
   "aluminium-ingot/560"
-  "zettiux-alloy/120"
-  "zettium/630"
+  "zettiux-alloy/320"
+  "zettium/980"
   "refined-uranium/890"
   "aluminium/1700"
 ]
