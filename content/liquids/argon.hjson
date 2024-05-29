@@ -1,0 +1,27 @@
+{
+    color: 0f85af
+    barColor: 0f85af
+
+    viscosity: 0
+    temperature: 0
+    heatCapacity: 0
+    explosiveness: 0
+    flammability: 0
+
+    particleEffect: {
+    particles: 10
+    length: 0
+    lifetime: 20
+    sizeFrom: 8
+    sizeTo: 0
+    colorFrom: 0f85af
+    colorTo: 00ceff00
+    }
+
+    research: {
+    parent: "bio-oil"
+    requirements: [
+            carbon/1
+        ]
+    }
+}
