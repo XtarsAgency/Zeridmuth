@@ -9,10 +9,8 @@ consumes: {
 	]
       liquids: [
         "cryofluid/0.161"
-	]
-[
-	power: 0.88
 ]
+	power: 0.88
 }
 outputLiquid: "argon/0.16"
 
