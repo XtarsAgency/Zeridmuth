@@ -1,13 +1,43 @@
 type: GenericCrafter
+category: crafting
 size: 3
-health: 560
+health: 900
 
-requirements: {
-items: [
-  "titanium/2"
-  "beryllium/1"
-  ]
-  }
-output: {
-"tiberium-alloy/1"
-  
+craftTime: 95
+consumes: {
+    items: [
+        "titanium/2"
+"beryllium/1"
+	]
+	power: 0.566
+}
+outputItem: "tiberium-alloy/1"
+
+squareSprite: false
+
+requirements: [
+    "beryllium/120"
+  "titanium/80"
+"recycled-scrap/170"
+]
+
+research: {
+    parent: "isoz-liquifier"
+    requirements: [
+        "beryllium/450"
+      "titanium/230"
+"recycled-scrap/560"
+    ]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+	{
+		type: DrawArcSmelt
+	}
+	{
+        type: DrawDefault
+    }
+] 
