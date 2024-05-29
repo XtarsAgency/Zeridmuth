@@ -1,0 +1,13 @@
+type: GenericCrafter
+size: 3
+health: 560
+
+requirements: {
+items: [
+  "titanium/2"
+  "beryllium/1"
+  ]
+  }
+output: {
+"tiberium-alloy/1"
+  
