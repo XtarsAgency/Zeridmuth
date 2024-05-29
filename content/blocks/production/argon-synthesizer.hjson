@@ -1,0 +1,44 @@
+type: GenericCrafter
+category: crafting
+size: 3
+health: 920
+  
+consumes: {
+    items: [
+"beryllium/1"
+	]
+      liquids: [
+"cryofluid: 0.22"
+      ]
+	power: 0.88
+}
+outputLiquid: "argon/0.16"
+
+squareSprite: false
+
+requirements: [
+    "beryllium/150"
+  "thorium/60"
+  "titanium/70"
+  "tiberium-alloy/40"
+]
+
+research: {
+    parent: "cryo-distillator"
+    requirements: [
+        "beryllium/340"
+      "titanium/780"
+      "thorium/530"
+    ]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }, 
+    {
+        type: DrawLiquidTile
+        drawLiquid: liquid-isoz
+        suffix: -liquid
+    }
+]
