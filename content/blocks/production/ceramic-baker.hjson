@@ -1,0 +1,41 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 750
+
+craftTime: 200
+consumes: {
+    items: [
+        "scrap/2"
+      "carbon-sand/8"
+	]
+	power: 1.22
+}
+outputItem: "ceramic/1"
+
+squareSprite: false
+
+requirements: [
+    "recycled-scrap/55"
+  "titanium/35"
+]
+
+research: {
+    parent: "scrap-recycler"
+    requirements: [
+           "recycled-scrap/155"
+  "titanium/95"
+    ]
+}
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+	{
+		type: DrawArcSmelt
+	}
+	{
+        type: DrawDefault
+    }
+]
