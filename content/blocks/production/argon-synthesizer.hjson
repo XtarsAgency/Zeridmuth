@@ -8,7 +8,8 @@ consumes: {
 "beryllium/1"
 	]
       liquids: [
-"cryofluid: 0.22"
+        "cryofluid/0.161"
+	]
       ]
 	power: 0.88
 }
