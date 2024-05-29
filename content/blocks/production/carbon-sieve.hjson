@@ -1,0 +1,28 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 750
+
+craftTime: 130
+consumes: {
+    items: [
+        "scrap/2"
+	]
+	power: 1.22
+}
+outputItem: "carbon-sand/1"
+
+squareSprite: false
+
+requirements: [
+    "recycled-scrap/50"
+  "beryllium/35"
+]
+
+research: {
+    parent: "scrap-recycler"
+    requirements: [
+           "recycled-scrap/155"
+  "titanium/95"
+    ]
+}
