@@ -32,7 +32,10 @@ drawer: [
 	{
         type: DrawRegion
         suffix: "-bottom"
-    }, 
+    }
+	{
+        type: DrawDefault
+    }
     {
         type: DrawLiquidTile
         drawLiquid: liquid-isoz
