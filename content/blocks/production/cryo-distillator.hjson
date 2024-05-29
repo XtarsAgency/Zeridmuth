@@ -29,10 +29,13 @@ drawer: [
 	{
         type: DrawRegion
         suffix: "-bottom"
-    },
+    }
+	{
+        type: DrawDefault
+    }
     {
         type: DrawLiquidTile
-        drawLiquid: "cryofluid"
+        drawLiquid: cryofluid
         suffix: -liquid
     }
 ]
