@@ -1,0 +1,15 @@
+type: Wall
+category: defense
+size: 2
+health: 4400
+
+requirements: [
+    "isoz/12"
+]
+
+research: {
+    parent: "isoz-wall"
+    requirements: [
+        "isoz/455"
+    ]
+}
