@@ -4,7 +4,7 @@ size: 2
 health: 4400
 
 requirements: [
-    "isoz/12"
+    "isoz/40"
 ]
 
 research: {
