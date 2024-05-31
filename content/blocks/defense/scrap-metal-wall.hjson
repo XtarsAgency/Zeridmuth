@@ -1,0 +1,15 @@
+type: Wall
+category: defense
+size: 1
+health: 625
+
+requirements: [
+    "recycled-scrap/4"
+]
+
+research: {
+    parent: "core-anirav"
+    requirements: [
+        "recycled-scrap/10"
+    ]
+}
