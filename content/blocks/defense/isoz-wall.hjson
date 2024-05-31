@@ -1,0 +1,15 @@
+type: Wall
+category: defense
+size: 1
+health: 1100
+
+requirements: [
+    "isoz/10"
+]
+
+research: {
+    parent: "scrap-metal-wall-large"
+    requirements: [
+        "isoz/100"
+    ]
+}
