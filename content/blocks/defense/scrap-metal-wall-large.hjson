@@ -1,0 +1,15 @@
+type: Wall
+category: defense
+size: 2
+health: 1900
+
+requirements: [
+    "recycled-scrap/16"
+]
+
+research: {
+    parent: "scrap-metal-wall"
+    requirements: [
+        "recycled-scrap/55"
+    ]
+}
