@@ -1,0 +1,21 @@
+type: Duct
+category: distribution
+size: 1
+health: 450
+
+speed: 3.6
+
+requirements: [
+    "titanium/1"
+  "beryllium/2"
+]
+hasColor: true
+mapColor: b0bac0
+research: {
+    parent: "scrap-duct"
+    requirements: [
+        "titanium/180"
+      "beryllium/310"
+      "recycled-scrap/220"
+    ]
+}
