@@ -10,7 +10,7 @@ atmosphereColor: 00000000
 drawOrbit: true
 
 accessible: true
-alwaysUnlocked: false
+alwaysUnlocked: true
 defaultCore: "core-anirav"
 sectorSeed: 0
 startSector: 1
