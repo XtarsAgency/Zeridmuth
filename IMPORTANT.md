@@ -12,4 +12,4 @@ notable exceptions that is allowed to take code is the Planets. You are not allo
 
 if you have any questions in this regard, contact into my email (grabacc13@gmail.com)
 through my discord name (fomahaultcoredemshau)
-or through my official Zeridmuth server (PENDING)
+or through my official Zeridmuth server (https://discord.com/invite/KuV5r39cpY)
