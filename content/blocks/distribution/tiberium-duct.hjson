@@ -1,4 +1,4 @@
-type: Duct
+3type: Duct
 category: distribution
 size: 1
 health: 890
@@ -6,7 +6,7 @@ health: 890
 speed: 5.5
 
 requirements: [
-    "tiberium-alloy/1"
+    "tiberium-alloy/1",
   "beryllium/2"
 ]
 hasColor: true
@@ -14,8 +14,8 @@ mapColor: b0bac0
 research: {
     parent: "exav-duct"
     requirements: [
-        "titanium/20"
-      "beryllium/10"
+        "titanium/20",
+      "beryllium/10",
       "tiberium/110"
     ]
 }
