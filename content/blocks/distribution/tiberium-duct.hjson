@@ -16,6 +16,6 @@ research: {
     requirements: [
         "titanium/20",
       "beryllium/10",
-      "tiberium/110"
+      "tiberium-alloy/110"
     ]
 }
