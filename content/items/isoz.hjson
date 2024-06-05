@@ -7,7 +7,7 @@ charge: 0
 cost: 10
 
 research: {
-    parent: "electric-component"
+    parent: "tiberium-alloy"
 }
 
 buildable: true
