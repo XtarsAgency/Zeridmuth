@@ -7,7 +7,7 @@ category: turret
 coolantMultiplier: 15
 heatColor: ffa500
 recoil: 2
-reload: 0
+reload: 80
 shootSound: bioLoop
 shootDuration: 1
 moveWhileCharging: true 
@@ -32,4 +32,5 @@ requirements: [
 "titanium/720"
 "beryllium/450"
 "scrap/90"
+"tiberium-alloy/650"
 ]
