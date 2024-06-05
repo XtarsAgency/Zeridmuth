@@ -53,6 +53,16 @@ ammoTypes: {
 		
 		ammoMultiplier: 1
 }
+tiberium-alloy: {
+type: BasicBulletType
+damage: 565.5
+speed: 60
+lifetime: 10
+
+width: 15
+height: 35
+
+ammoMultiplier: 1
 }
 
 requirements: [
@@ -60,6 +70,7 @@ requirements: [
   "recycled-scrap/560"
   "titanium/220"
 "beryllium/230"
+"tiberium-alloy/180"
 ]
 
 research: {
