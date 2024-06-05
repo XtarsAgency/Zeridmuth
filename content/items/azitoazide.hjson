@@ -1,0 +1,17 @@
+color: affcdf
+
+explosiveness: 2.56
+flammability: 1.66
+radioactivity: 0
+charge: 1
+cost: 15
+
+research: {
+    parent: "isoz"
+}
+
+buildable: true
+hiddenOnPlanets: [
+    "serpulo"
+    "erekir"
+]
