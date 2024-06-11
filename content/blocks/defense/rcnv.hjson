@@ -64,6 +64,7 @@ height: 35
 
 ammoMultiplier: 1
 }
+}
 
 requirements: [
     "thorium/100"
