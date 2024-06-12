@@ -1,6 +1,6 @@
 name: "zeridmuth"
 repo: "xtarsagency/zeridmuth"
-minGameVersion: 136
+minGameVersion: 145
 version: "v1.806ZA"
 
 displayName: "Zeridmuth: A New Beginning"
