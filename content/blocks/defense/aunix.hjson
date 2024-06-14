@@ -1,10 +1,10 @@
 type: ItemTurret
 category: turret
 size: 5
-health: 4640
+health: 4000
 
 reload: 60
-range: 880
+range: 65
 recoil: 7
 inaccuracy: 0
 shootSound: mediumCannon
@@ -12,7 +12,7 @@ shootSound: mediumCannon
 ammoTypes: {
 	maurixum: {
 		type: MissileBulletType
-		damage: 11280
+		damage: 2290
 		speed: 13
 		lifetime: 70
 		
@@ -23,7 +23,7 @@ ammoTypes: {
 	},
         zettium: {
 		type: BasicBulletType
-		damage: 9320
+		damage: 1200
 		speed: 13
 		lifetime: 70
 		
@@ -34,7 +34,7 @@ ammoTypes: {
 	},
         refined-uranium: {
 		type: MissileBulletType
-		damage: 7450
+		damage: 1000
 		speed: 13
 		lifetime: 70
 		
@@ -45,7 +45,7 @@ ammoTypes: {
 	},
 zettiux-alloy: {
 		type: MissileBulletType
-		damage: 11270
+		damage: 1750
 		speed: 13
 		lifetime: 70
 		
