@@ -4,16 +4,16 @@ size: 5
 health: 23000
 
 reload: 100
-range: 1000
+range: 450
 recoil: 11.4
 shootSound: giantbang
 
 ammoTypes: {
 	maurixum: {
 		type: BasicBulletType
-		damage: 21300
-		speed: 40
-		lifetime: 100
+		damage: 3450
+		speed: 20
+		lifetime: 65
 		
 		width: 40
 		height: 60
@@ -23,9 +23,9 @@ ammoTypes: {
 
 	zettiux-alloy: {
 		type: BasicBulletType
-		damage: 32500
-		speed: 50
-		lifetime: 100
+		damage: 4100
+		speed: 25
+		lifetime: 50
 		
 		width: 40
 		height: 80
@@ -34,9 +34,9 @@ ammoTypes: {
 	}
 electric-component: {
 type: MissileBulletType
-damage: 29800
+damage: 3750
 speed: 25
-lifetime: 200
+lifetime: 75
 
 width: 40
 height: 80
