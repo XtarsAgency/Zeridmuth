@@ -11,9 +11,9 @@ shootSound: cannon
 ammoTypes: {
 	aluminium-ingot: {
 		type: BasicBulletType
-		damage: 947.80
-		speed: 19
-		lifetime: 31
+		damage: 250.80
+		speed: 14
+		lifetime: 23
 		
 		width: 35
 		height: 59
@@ -23,9 +23,9 @@ ammoTypes: {
 
 	refined-uranium: {
 		type: MissileBulletType
-		damage: 2280.90
-		speed: 19
-		lifetime: 31
+		damage: 450.90
+		speed: 14
+		lifetime: 22
 		
 		width: 35
 		height: 59
@@ -34,9 +34,9 @@ ammoTypes: {
 	}
 	uranium: {
 		type: BasicBulletType
-		damage: 1897.25
-		speed: 19
-		lifetime: 31
+		damage: 325.25
+		speed: 14
+		lifetime: 22
 		
 		width: 35
 		height: 59
