@@ -1,2 +1,5 @@
 type: Floor
-variants: 2
+variants: 3
+blendGroup: {
+floor-bgrass
+}
