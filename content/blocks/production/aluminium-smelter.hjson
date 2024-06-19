@@ -1,14 +1,14 @@
 type: GenericCrafter
 category: crafting
 size: 2
-health: 470
+health: 500
 
-craftTime: 145
+craftTime: 115
 consumes: {
     items: [
         "aluminium/1"
 	]
-	power: 0.23
+	power: 0.35
 }
 outputItem: "aluminium-ingot/1"
 
@@ -38,3 +38,9 @@ drawer: [
         type: DrawDefault
     }
 ]
+objectives: [
+	    {
+        type: SectorComplete
+		preset: "blue-peaks"
+		}
+	]
