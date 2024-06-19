@@ -8,14 +8,15 @@
   "range": 6,
   
   "requirements": [
-    "carbon/6",
-    "aluminium/3"
+    "carbon/2",
+    "aluminium/4"
   ],
 
   "research": {
-    "parent": "pressure-duct",
+    "parent": "pressure-junction",
     "requirements": [
       "carbon/20"
+"aluminium/40"
     ]
   }
 }
