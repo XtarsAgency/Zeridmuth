@@ -25,6 +25,12 @@ research: {
         "carbon/85"
       "aluminium/25"
     ]
+objectives: [
+	    {
+        type: SectorComplete
+		preset: "blue-peaks"
+		}
+	]
 }
 drawer: [
 	{
@@ -38,9 +44,3 @@ drawer: [
         type: DrawDefault
     }
 ]
-objectives: [
-	    {
-        type: SectorComplete
-		preset: "blue-peaks"
-		}
-	]
