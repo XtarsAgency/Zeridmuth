@@ -6,7 +6,7 @@ requirements: [
   carbon/3
 ] 
 category: distribution
-research: pressure-duct
+research: duct-router
 researchCost: [
     carbon/25
   ]
