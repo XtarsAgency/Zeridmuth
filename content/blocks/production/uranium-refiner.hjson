@@ -28,6 +28,12 @@ research: {
       "aluminium-ingot/125"
       "uranium/90"
     ]
+objectives: [
+	    {
+        type: SectorComplete
+		preset: "irradiated-plains"
+		}
+	]
 }
 drawer: [
 	{
