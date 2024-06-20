@@ -51,7 +51,7 @@ requirements: [
 ]
 
 research: {
-    parent: "etymology"
+    parent: "conserve"
     requirements: [
         "carbon-plates/560"
       "aluminium-ingot/450"
