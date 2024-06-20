@@ -79,7 +79,5 @@ research: {
     requirements: [
         "carbon-plates/30"
 	]
-objectives:
-"carbon-plates"
 }
 
