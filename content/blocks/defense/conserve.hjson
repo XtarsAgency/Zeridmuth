@@ -6,20 +6,31 @@ health: 580
 reload: 7
 range: 365
 recoil: 1.8
-inaccuracy: 15
+inaccuracy: 10
 
 ammoTypes: {
 	carbon: {
 		type: BasicBulletType
-		damage: 17
+		damage: 18
 		speed: 8
 		lifetime: 38
 		
 		width: 7
-		height: 16
+		height: 15
 		
 		ammoMultiplier: 6
 	}
+uranium: {
+type: BasicBulletType
+damage: 45
+speed: 8
+lifetime: 38
+
+width: 5
+height: 15
+
+ammoMultiplier: 2
+}
 }
 drawer:{
  type: DrawTurret
@@ -57,7 +68,7 @@ research: {
 	objectives: [
 	    {
         type: OnSector
-		preset: "irradiated-plains"
+		preset: "blue-peaks"
 		}
 	]
 }
