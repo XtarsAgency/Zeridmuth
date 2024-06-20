@@ -57,4 +57,10 @@ research: {
       "aluminium-ingot/450"
       "carbon/1570"
 	]
+objectives: [
+	    {
+        type: SectorComplete
+		preset: "grassy-plains"
+		}
+	]
 }
