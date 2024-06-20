@@ -71,13 +71,15 @@ drawer:{
 }
 
 requirements: [
-    "carbon-plates/35"
+    "carbon-plates/20"
 ]
 
 research: {
     parent: "core-nouvagrad"
     requirements: [
-        "carbon-plates/90"
+        "carbon-plates/30"
 	]
+objectives:
+"carbon-plates"
 }
 
