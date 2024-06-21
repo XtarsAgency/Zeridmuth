@@ -1,6 +1,4 @@
 type: Drill
-name: Aluminium-Ceramic Drill
-description: A drill used to mine faster and efficiently. Is able to mine Uranium
 health: 690
 size: 3
 tier: 4
