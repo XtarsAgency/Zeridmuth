@@ -19,7 +19,7 @@ parent: sun
 updateLighting: false
 sectorSize: 3
 startSector: 4
-radius: 5
+radius: 3.8
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 3
@@ -46,7 +46,7 @@ mesh: [
     planet: zeridmuth
     divisions: 4
     seed: 19482
-    radius: 4.655
+    radius: 3.5997
     color1: 5a5b53
     color2: 53c7fc
     octaves: 6
@@ -60,7 +60,7 @@ mesh: [
     planet: zeridmuth
     divisions: 4
     seed: 331060
-    radius: 4.65
+    radius: 3.65
     color1: 4a4b43
     color2: 43f7fc
     octaves: 2
@@ -73,7 +73,7 @@ cloudMesh: {
     planet: zeridmuth
     seed: 133
     speed: 0.2
-    radius: 5
+    radius: 4
     divisions: 2
     color: caffffbb
     octaves: 2
