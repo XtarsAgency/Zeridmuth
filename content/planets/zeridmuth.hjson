@@ -19,14 +19,14 @@ parent: sun
 updateLighting: false
 sectorSize: 1
 startSector: 4
-radius: 2.5
+radius: 3.5
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.8
 accessible: true
 updateLighting: false
 sectorSeed: 0
-bloom: false
+bloom: true
 visible: true
 atmosphereColor: 0bfbff
 iconColor: 0bffff
@@ -36,7 +36,7 @@ clearSectorOnLose: true
 allowWaves: true
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
-allowLaunchLoadout: false
+allowLaunchLoadout: true
 allowSectorInvasion: false
 alwaysUnlocked: true
 mesh: [
@@ -61,9 +61,9 @@ mesh: [
     radius: 2.3836
     color1: 3d3d3d
     color2: 0bffff
-    octaves: 2
-    persistence: 0.9
-    scale: 0.75
+    octaves: 6
+    persistence: 1.5
+    scale: 0.5
     mag: 1
   }
   {
@@ -76,7 +76,7 @@ mesh: [
     color1: b1f4fa
     color2: 5c9499
     octaves: 2
-    persistence: 0.9
+    persistence: 0.1
   }
 ]
 hiddenItems: [
@@ -107,12 +107,12 @@ hiddenItems: [
 cloudMesh: {
     type: HexSkyMesh
     planet: zeridmuth
-    seed: 1
-    speed: 0.0027
-    radius: 0.15
-    divisions: 3
-    color: cfcfcfcf
-    octaves: 0
+    seed: 133
+    speed: 0.2
+    radius: 0.1
+    divisions: 2
+    color: cfcfcf33
+    octaves: 2
     persistence: 1
     scl: 2
     thresh: 0.1
