@@ -1,7 +1,7 @@
 type: ItemTurret
 category: turret
 size: 5
-health: 4000
+health: 8500
 
 reload: 60
 range: 65
@@ -23,7 +23,7 @@ ammoTypes: {
 	},
         zettium: {
 		type: BasicBulletType
-		damage: 1200
+		damage: 9200
 		speed: 13
 		lifetime: 70
 		
@@ -34,7 +34,7 @@ ammoTypes: {
 	},
         refined-uranium: {
 		type: MissileBulletType
-		damage: 1000
+		damage: 15100
 		speed: 13
 		lifetime: 70
 		
@@ -45,7 +45,7 @@ ammoTypes: {
 	},
 zettiux-alloy: {
 		type: MissileBulletType
-		damage: 1750
+		damage: 17500
 		speed: 13
 		lifetime: 70
 		
