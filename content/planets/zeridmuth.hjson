@@ -72,11 +72,11 @@ cloudMesh: {
     type: HexSkyMesh
     planet: zeridmuth
     seed: 1
-    speed: 0.05
-    radius: 2.7
-    divisions: 5
-    color: 8cdcfccf
-    octaves: 2
+    speed: 0.1
+    radius: 4.2
+    divisions: 3
+    color: 80e0f0cf
+    octaves: 0
     persistence: 1
     scl: 2
     thresh: 0.1
