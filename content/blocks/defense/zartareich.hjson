@@ -4,7 +4,7 @@ size: 5
 health: 23000
 
 reload: 100
-range: 450
+range: 1200
 recoil: 11.4
 shootSound: giantbang
 
