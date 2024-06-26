@@ -48,9 +48,11 @@ mesh: [
     seed: 19482
     radius: 4.655
     color1: 5a5b53
-    color2: 53677c
+    color2: 53c7fc
     octaves: 6
     persistence: 1.5
+    scale: 0.5
+    mag: 1
   }
   {
     // grass and carbon
@@ -60,7 +62,7 @@ mesh: [
     seed: 331060
     radius: 4.65
     color1: 4a4b43
-    color2: 43576c
+    color2: 43f7fc
     octaves: 2
     persistence: 0.4
     scale: 0.5
