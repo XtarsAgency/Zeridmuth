@@ -25,17 +25,17 @@ atmosphereRadOut: 0
 accessible: false
 updateLighting: false
 sectorSeed: 14513
-bloom: false
+bloom: true
 visible: true
 atmosphereColor: 00000000
-iconColor: 
+iconColor: cf8ccf
 hasAtmosphere: false
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
-allowLaunchLoadout: false
+allowLaunchLoadout: true
 allowSectorInvasion: false
 alwaysUnlocked: true
 
@@ -73,8 +73,8 @@ mesh: [
     divisions: 4
     seed: 381
     radius: 2.22
-    color1: 11b0d4
-    color2: 68caf7
+    color1: efcaef
+    color2: af66af
     octaves: 2
     persistence: 0.9
   }
