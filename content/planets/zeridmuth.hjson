@@ -44,13 +44,13 @@ mesh: [
     //cliffs
     type: NoiseMesh
     planet: zeridmuth
-    divisions: 5
+    divisions: 4
     seed: 19482
-    radius: 4.75
+    radius: 4.655
     color1: 5a5b53
     color2: 53677c
-    octaves: 2.7
-    persistence: 1.3
+    octaves: 6
+    persistence: 1.5
   }
   {
     // grass and carbon
@@ -61,11 +61,25 @@ mesh: [
     radius: 4.65
     color1: 4a4b43
     color2: 43576c
-    octaves: 6
-    persistence: 0.05
+    octaves: 2
+    persistence: 0.4
     scale: 0.5
   }
 ]
+cloudMesh: {
+    type: HexSkyMesh
+    planet: zeridmuth
+    seed: 133
+    speed: 0.2
+    radius: 5
+    divisions: 2
+    color: caffffbb
+    octaves: 2
+    persistence: 1
+    scl: 2
+    thresh: 0.1
+}
+
 hiddenItems: [
     "copper"
     "lead"
@@ -90,17 +104,3 @@ hiddenItems: [
     "fissile-matter"
     "dormant-cyst"
 ]
-	
-cloudMesh: {
-    type: HexSkyMesh
-    planet: zeridmuth
-    seed: 133
-    speed: 0.2
-    radius: 5
-    divisions: 2
-    color: caffffbb
-    octaves: 2
-    persistence: 1
-    scl: 2
-    thresh: 0.1
-}
