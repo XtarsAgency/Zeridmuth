@@ -11,7 +11,7 @@ shootSound: giantbang
 ammoTypes: {
 	maurixum: {
 		type: BasicBulletType
-		damage: 3450
+		damage: 13450
 		speed: 20
 		lifetime: 65
 		
@@ -23,7 +23,7 @@ ammoTypes: {
 
 	zettiux-alloy: {
 		type: BasicBulletType
-		damage: 4100
+		damage: 34100
 		speed: 25
 		lifetime: 50
 		
@@ -34,7 +34,7 @@ ammoTypes: {
 	}
 electric-component: {
 type: MissileBulletType
-damage: 3750
+damage: 23750
 speed: 25
 lifetime: 75
 
