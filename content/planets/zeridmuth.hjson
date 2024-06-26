@@ -54,7 +54,7 @@ mesh: [
     scale: 0.5
   }
 {
-    //cliffs
+    //lakes
     type: NoiseMesh
     planet: zeridmuth
     divisions: 4
@@ -63,9 +63,9 @@ mesh: [
     color1: 5a5b53
     color2: 53c7fc
     octaves: 6
-    persistence: 1.5
-    scale: 0.5
-    mag: 1
+    persistence: 1
+    scale: 1
+    mag: 1.5
 }
 ]
 cloudMesh: {
@@ -73,7 +73,7 @@ cloudMesh: {
     planet: zeridmuth
     seed: 1
     speed: 0.1
-    radius: 4.2
+    radius: 1
     divisions: 3
     color: 80e0f0cf
     octaves: 0
