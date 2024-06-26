@@ -60,8 +60,8 @@ mesh: [
     divisions: 4
     seed: 19482
     radius: 2.3
-    color1: 5a5b53
-    color2: 53c7fc
+    color1: 5abbee
+    color2: 5acbfc
     octaves: 6
     persistence: 1
     scale: 1
@@ -73,9 +73,9 @@ cloudMesh: {
     planet: zeridmuth
     seed: 1
     speed: 0.1
-    radius: 0.15
+    radius: 0.1
     divisions: 3
-    color: 80e0f077
+    color: 80efff57
     octaves: 0
     persistence: 1
     scl: 2
