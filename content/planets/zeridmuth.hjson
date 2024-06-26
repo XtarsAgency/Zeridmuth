@@ -17,14 +17,14 @@ orbitRadius: 62
 defaultCore: core-nouvagrad
 parent: sun
 updateLighting: false
-sectorSize: 1
+sectorSize: 3
 startSector: 4
-radius: 3.5
+radius: 5
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.8
+atmosphereRadOut: 3
 accessible: true
-updateLighting: false
+updateLighting: true
 sectorSeed: 0
 bloom: true
 visible: true
@@ -46,7 +46,7 @@ mesh: [
     planet: zeridmuth
     divisions: 2
     seed: 19482
-    radius: 2.383
+    radius: 5.125
     color1: 3d4747
     color2: 474747
     octaves: 2.7
@@ -58,25 +58,13 @@ mesh: [
     planet: zeridmuth
     divisions: 5
     seed: 331060
-    radius: 2.3836
+    radius: 5
     color1: 3d3d3d
     color2: 0bffff
     octaves: 6
-    persistence: 0.1
+    persistence: 0.05
     scale: 0.5
     mag: 1
-  }
-  {
-    // cyan 2
-    type: NoiseMesh
-    planet: zeridmuth
-    divisions: 4
-    seed: 20114
-    radius: 2.45
-    color1: b1f4fa
-    color2: 5c9499
-    octaves: 2
-    persistence: 0.05
   }
 ]
 hiddenItems: [
@@ -109,7 +97,7 @@ cloudMesh: {
     planet: zeridmuth
     seed: 133
     speed: 0.2
-    radius: 0.1
+    radius: 3
     divisions: 2
     color: caffffbb
     octaves: 2
