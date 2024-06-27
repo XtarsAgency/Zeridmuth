@@ -13,7 +13,7 @@ cooldown: 200
 max: 280
 radius: 40
 angle: 270
-regen: 5
+regen: 0.2
 width: 10
 whenShooting: true
 }
