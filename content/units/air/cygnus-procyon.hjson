@@ -10,9 +10,9 @@ mineWalls: true
 mineFloor: true
 buildSpeed: 1.7
 itemCapacity: 10000
-speed: 10
-accel: 0.05
-drag: 0.003
+speed: 8
+accel: 0.005
+drag: 0.06
 mineSpeed: 10
 mineTier: 10
 rotateSpeed: 0.18
