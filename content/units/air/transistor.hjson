@@ -7,6 +7,19 @@ flying: true
 buildSpeed: 2.7
 itemCapacity: 590
 
+abilities: [
+{
+type: ShieldArcAbility
+cooldown: 200
+max: 6000
+radius: 240
+angle: 270
+regen: 25
+width: 25
+whenShooting: true
+}
+]
+
 speed: 1
 accel: 0.9
 drag: 0.5
