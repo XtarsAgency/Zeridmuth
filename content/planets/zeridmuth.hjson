@@ -29,6 +29,7 @@ bloom: true
 visible: true
 atmosphereColor: 0bfbff
 iconColor: 0bffff
+landCloudColor: 00ffff
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
