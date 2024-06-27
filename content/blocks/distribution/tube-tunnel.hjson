@@ -17,6 +17,11 @@
     "requirements": [
       "carbon/20"
 "aluminium/40"
-    ]
-  }
+]
+	objectives: [
+	    {
+        type: SectorComplete
+		preset: "a-new-beginning"
+		}
+	]
 }
