@@ -46,7 +46,7 @@ mesh: [
     planet: zeridmuth
     divisions: 3
     seed: 331060
-    radius: 2.4
+    radius: 2.43
     color1: 4d4d7c
     color2: 24edff
     octaves: 6
