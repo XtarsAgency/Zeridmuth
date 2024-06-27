@@ -40,7 +40,7 @@ allowSectorInvasion: false
 alwaysUnlocked: true
 mesh: [
   {
-    // grass and carbon
+    // grass, carbon, snow
     type: NoiseMesh
     planet: zeridmuth
     divisions: 4
@@ -48,23 +48,24 @@ mesh: [
     radius: 2.65
     color1: 4a4b43
     color2: 43f7fc
+    color3: daeaff
     octaves: 2
-    persistence: 1
+    persistence: 1.5
     scale: 0.8
+    mag: 0.8
   }
 {
-    //lakes
+    //sea
     type: NoiseMesh
     planet: zeridmuth
     divisions: 4
     seed: 19482
-    radius: 2.4
+    radius: 2.65
     color1: 5abbee
     color2: 5acbfc
     octaves: 6
-    persistence: 0.8
+    persistence: 0.005
     scale: 1
-    mag: 0.8
 }
 ]
 cloudMesh: {
