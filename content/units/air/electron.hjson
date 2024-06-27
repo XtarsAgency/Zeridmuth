@@ -35,7 +35,7 @@ pierce: 40
 pierceCap: 45
 pierceBuilding: true
 fragOnHit: true
-fragBullet: BasicBulletType
+fragBullets: 80
 
 width: 16
 height: 34
