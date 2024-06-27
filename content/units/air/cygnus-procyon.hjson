@@ -36,6 +36,8 @@ radius: 50
 regen: 25
 rotation: 0
 sides: 12
+}
+]
 
 weapons: [
     {
