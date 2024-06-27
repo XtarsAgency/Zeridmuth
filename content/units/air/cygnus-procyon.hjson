@@ -18,7 +18,7 @@ mineTier: 10
 rotateSpeed: 0.23
 crashDamageMultiplier: 80000
 hittable: true
-targetable: false
+targetable: falsfal
 fogRadius: 5000
 outlineColor: d3a1a2
 
@@ -29,13 +29,36 @@ vulnerableWithPayloads: false
 
 abilities: [
 {
+//center shield
 type: ForceFieldAbility
-cooldown: 240
-max: 340000
-radius: 200
-regen: 7500
+cooldown: 300
+max: 350000
+radius: 180
+regen: 100
 rotation: 72
 sides: 36
+}
+{
+//first ring
+type: ShieldArcAbility
+cooldown: 260
+max: 50000
+radius: 360
+angle: 90
+regen: 25
+width: 30
+whenShooting: false
+}
+{
+//second ring
+type: ShieldArcAbility
+cooldown: 220
+max: 30000
+radius: 300
+angle: 360
+regen: 25
+width: 20
+whenShooting: false
 }
 {
 type: RepairFieldAbility
