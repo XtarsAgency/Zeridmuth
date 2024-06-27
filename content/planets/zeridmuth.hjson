@@ -75,11 +75,11 @@ cloudMesh: {
     seed: 1
     speed: 0.1
     radius: 0.11
-    divisions: 6
-    color: f0efff
+    divisions: 4
+    color: f0efff88
     octaves: 0
     persistence: 1
-    scl: 2
+    scl: 0.2
     thresh: 0.1
 }
 hiddenItems: [
