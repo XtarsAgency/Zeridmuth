@@ -1,32 +1,41 @@
 type: flying
 flying: true
-health: 5600000
+health: 6500000
 armor: 560
 hitSize: 200
 
+controller: BuilderAI
 isEnemy: false
 mineWalls: true
 mineFloor: true
-buildSpeed: 5.6
-itemCapacity: 20000
-
-speed: 6.1
+buildSpeed: 1.7
+itemCapacity: 50
+speed: 10
 accel: 0.002
-drag: 0.007
+drag: 0.05
 mineSpeed: 10
 mineTier: 10
 rotateSpeed: 0.18
-
 crashDamageMultiplier: 8000
 hittable: true
 targetable: false
 fogRadius: 5000
 outlineColor: d3a1a2
 
-payloadCapacity: 25000
-pickupBlocks: true
+payloadCapacity: 50000
 pickupUnits: true
-vulnerableWithPayloads: true
+pickupBlocks: true
+vulnerableWithPayloads: false
+
+abilities: [
+{
+type: ForceFieldAbility
+cooldown: 240
+max: 500
+radius: 50
+regen: 25
+rotation: 0
+sides: 12
 
 weapons: [
     {
@@ -77,19 +86,19 @@ weapons: [
 engines: [
     {
         x: 0
-        y: -103
+        y: -110
         radius: 12
         rotation: 270
     }
 {
 x: 0
-y: -175
+y: -165
 radius: 8
 rotation: 270
 }
 {
 x: 0
-y: -210
+y: -250
 radius: 8
 rotation: 270
 }
