@@ -44,12 +44,12 @@ mesh: [
     // grass, carbon
     type: NoiseMesh
     planet: zeridmuth
-    divisions: 3
+    divisions: 3.5
     seed: 331060
-    radius: 2.43
+    radius: 2.45
     color1: 4d4d7c
     color2: 24edff
-    octaves: 6
+    octaves: 4
     persistence: 1.8
     scale: 0.35
     mag: 0.85
