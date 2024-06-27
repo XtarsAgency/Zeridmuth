@@ -34,9 +34,11 @@ weapons: [
 pierce: 40
 pierceCap: 45
 pierceBuilding: true
+fragOnHit: true
+fragBullet: BasicBulletType
 
-			width: 16
-		    height: 34
+width: 16
+height: 34
 		}
     } 
 {
@@ -44,6 +46,7 @@ pierceBuilding: true
         top: true
         x: 58
         y: -50
+recoil: 8
 
 	    mirror: true
 	    alternate: true
@@ -71,7 +74,7 @@ pierceBuilding: true
 	    mirror: true
 	    alternate: true
         reload: 10
-        shootSound: "cannon"
+        shootSound: "altilery"
         bullet: {
             type: MissileBulletType
             damage: 580.45
@@ -107,7 +110,7 @@ research: {
     parent: "electron-assembler"
     requirements: [
         "carbon/200"
-"carbon-plates/55"
+"electric-component/55"
 "aluminium-ingot/20"
     ]
 }
