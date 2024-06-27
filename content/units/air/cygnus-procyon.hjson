@@ -88,19 +88,19 @@ weapons: [
 engines: [
     {
         x: 0
-        y: -110
+        y: -105
         radius: 12
         rotation: 270
     }
 {
 x: 0
-y: -165
+y: -170
 radius: 8
 rotation: 270
 }
 {
 x: 0
-y: -250
+y: -230
 radius: 8
 rotation: 270
 }
