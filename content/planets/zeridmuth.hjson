@@ -18,7 +18,7 @@ defaultCore: core-nouvagrad
 parent: sun
 sectorSize: 1.5
 startSector: 4
-radius: 2.8
+radius: 2
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.8
@@ -49,10 +49,10 @@ mesh: [
     radius: 2.3
     color1: 4d4d7c
     color2: 24edff
-    octaves: 4
-    persistence: 2
+    octaves: 5
+    persistence: 1.8
     scale: 0.1
-    mag: 1.6
+    mag: 1.1
   }
 {
     //sea
