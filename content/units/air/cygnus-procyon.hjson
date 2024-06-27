@@ -32,10 +32,10 @@ abilities: [
 type: ForceFieldAbility
 cooldown: 240
 max: 340000
-radius: 300
+radius: 200
 regen: 7500
 rotation: 72
-sides: 12
+sides: 36
 }
 {
 type: RepairFieldAbility
