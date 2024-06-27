@@ -6,6 +6,18 @@ hitSize: 34
 flying: true
 itemCapacity: 140
 
+abilities: [
+{
+type: ShieldArcAbility
+cooldown: 200
+max: 280
+radius: 40
+angle: 270
+regen: 5
+width: 10
+whenShooting: true
+}
+]
 speed: 1.3
 accel: 0.2
 drag: 0.015
