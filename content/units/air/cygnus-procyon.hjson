@@ -9,10 +9,10 @@ isEnemy: false
 mineWalls: true
 mineFloor: true
 buildSpeed: 1.7
-itemCapacity: 50
+itemCapacity: 10000
 speed: 10
-accel: 0.002
-drag: 0.05
+accel: 0.05
+drag: 0.003
 mineSpeed: 10
 mineTier: 10
 rotateSpeed: 0.18
@@ -31,11 +31,11 @@ abilities: [
 {
 type: ForceFieldAbility
 cooldown: 240
-max: 500
-radius: 50
+max: 340000
+radius: 960
 regen: 25
 rotation: 0
-sides: 12
+sides: 10
 }
 ]
 
