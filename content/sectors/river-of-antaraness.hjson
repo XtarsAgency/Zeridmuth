@@ -1,0 +1,13 @@
+sector: 1
+planet: zeridmuth
+captureWave: 12
+research: {
+    parent: "a-new-beginning"
+	objectives: [
+	    {
+        type: SectorComplete
+		preset: "a-new-beginning"
+		}
+	]
+}
+difficulty: 2
