@@ -6,7 +6,8 @@ research: {
 	objectives: [
 	    {
         type: SectorComplete
-		preset: "river-of-antaraness		}
-	]
+		preset: "river-of-antaraness
+	}
+]
 }
 difficulty: 2
