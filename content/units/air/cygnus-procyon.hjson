@@ -37,6 +37,12 @@ regen: 7500
 rotation: 120
 sides: 3
 }
+{
+type: RepairFieldAbility
+amount: 1500
+reload: 10
+range: 180
+}
 ]
 
 weapons: [
@@ -94,8 +100,8 @@ engines: [
     }
 {
 x: 0
-y: -170
-radius: 8
+y: -165
+radius: 10
 rotation: 270
 }
 {
