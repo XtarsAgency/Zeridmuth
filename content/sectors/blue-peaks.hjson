@@ -1,13 +1,13 @@
 sector: 3
 planet: zeridmuth
-captureWave: 20
+captureWave: 25
 research: {
     parent: "a-new-beginning"
 	objectives: [
 	    {
         type: SectorComplete
 		preset: "river-of-antaraness
-	}
+}
 ]
 }
 difficulty: 2
