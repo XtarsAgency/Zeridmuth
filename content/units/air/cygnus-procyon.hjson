@@ -35,12 +35,12 @@ max: 340000
 radius: 300
 regen: 7500
 rotation: 72
-sides: 5
+sides: 12
 }
 {
 type: RepairFieldAbility
 amount: 1500
-reload: 10
+reload: 50
 range: 300
 }
 ]
