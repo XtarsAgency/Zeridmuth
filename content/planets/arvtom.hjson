@@ -18,7 +18,7 @@ parent: sun
 updateLighting: true
 sectorSize: 0.95
 startSector: 1
-radius: 3
+radius: 1
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0
@@ -41,12 +41,12 @@ alwaysUnlocked: true
 
 mesh: [
  {
-    //gray
+    //ground
     type: NoiseMesh
     planet: arvtom
     divisions: 4
     seed: 3828
-    radius: 2.28
+    radius: 0.77
     color1: bfbfbf
     color2: 5c5243
     octaves: 2.7
@@ -58,7 +58,7 @@ mesh: [
     planet: arvtom
     divisions: 4
     seed: 4842
-    radius: 2.13
+    radius: 0.75
     color1: 4f6150
     color2: 273327
     octaves: 2
@@ -67,16 +67,16 @@ mesh: [
     mag: 1
   }
   {
-    // cyan
+    //isoz
     type: NoiseMesh
     planet: arvtom
     divisions: 4
     seed: 381
-    radius: 2.22
+    radius: 0.8
     color1: efcaef
     color2: af66af
     octaves: 2
-    persistence: 0.9
+    persistence: 0.005
   }
 ]
 "hiddenItems": [
