@@ -16,13 +16,12 @@ generator: {
 orbitRadius: 60
 defaultCore: core-nouvagrad
 parent: sun
-updateLighting: false
 sectorSize: 1.5
 startSector: 4
 radius: 2.8
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 3
+atmosphereRadOut: 0.8
 accessible: true
 updateLighting: true
 sectorSeed: 0
@@ -31,7 +30,7 @@ visible: true
 atmosphereColor: 0bfbff
 iconColor: 0bffff
 hasAtmosphere: true
-allowWaveSimulation: false
+allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 allowLaunchSchematics: false
