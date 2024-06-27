@@ -32,10 +32,10 @@ abilities: [
 type: ForceFieldAbility
 cooldown: 240
 max: 340000
-radius: 960
-regen: 25
-rotation: 0
-sides: 10
+radius: 200
+regen: 7500
+rotation: 120
+sides: 3
 }
 ]
 
