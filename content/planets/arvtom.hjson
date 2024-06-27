@@ -48,7 +48,7 @@ mesh: [
     seed: 3828
     radius: 0.77
     color1: bfbfbf
-    color2: 5c5243
+    color2: 661fa6
     octaves: 2.7
     persistence: 0.7
   }
@@ -73,10 +73,11 @@ mesh: [
     divisions: 4
     seed: 381
     radius: 0.8
-    color1: efcaef
+    color1: ff13ff
     color2: af66af
     octaves: 2
     persistence: 0.005
+    mag: 0.001
   }
 ]
 "hiddenItems": [
