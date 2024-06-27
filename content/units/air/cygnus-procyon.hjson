@@ -15,8 +15,8 @@ accel: 0.005
 drag: 0.06
 mineSpeed: 10
 mineTier: 10
-rotateSpeed: 0.18
-crashDamageMultiplier: 8000
+rotateSpeed: 0.23
+crashDamageMultiplier: 80000
 hittable: true
 targetable: false
 fogRadius: 5000
@@ -32,16 +32,16 @@ abilities: [
 type: ForceFieldAbility
 cooldown: 240
 max: 340000
-radius: 200
+radius: 300
 regen: 7500
-rotation: 120
-sides: 3
+rotation: 72
+sides: 5
 }
 {
 type: RepairFieldAbility
 amount: 1500
 reload: 10
-range: 180
+range: 300
 }
 ]
 
