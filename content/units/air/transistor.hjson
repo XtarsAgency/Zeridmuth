@@ -12,7 +12,7 @@ abilities: [
 type: ShieldArcAbility
 cooldown: 200
 max: 6000
-radius: 220
+radius: 130
 angle: 270
 regen: 25
 width: 25
