@@ -51,8 +51,8 @@ mesh: [
     color2: 24edff
     octaves: 4
     persistence: 2
-    scale: 0.2
-    mag: 2
+    scale: 0.1
+    mag: 1.6
   }
 {
     //sea
