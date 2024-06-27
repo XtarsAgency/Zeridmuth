@@ -43,8 +43,8 @@ sides: 36
 type: ShieldArcAbility
 cooldown: 260
 max: 50000
-radius: 360
-angle: 90
+radius: 250
+angle: 362
 regen: 25
 width: 30
 whenShooting: false
@@ -55,7 +55,7 @@ type: ShieldArcAbility
 cooldown: 220
 max: 30000
 radius: 300
-angle: 360
+angle: 362
 regen: 25
 width: 20
 whenShooting: false
