@@ -57,14 +57,15 @@ mesh: [
     //sea
     type: NoiseMesh
     planet: zeridmuth
-    divisions: 6
+    divisions: 2.5
     seed: 0
     radius: 2.65
     color1: 5abbee
-    color2: ffaaff
+    color2: 18a6ff
     octaves: 1
     persistence: 0.001
-    scale: 1
+    scale: 0.5
+    mag: 0
 }
 ]
 cloudMesh: {
