@@ -34,7 +34,7 @@ type: ForceFieldAbility
 cooldown: 300
 max: 350000
 radius: 180
-regen: 100
+regen: 32
 rotation: 72
 sides: 36
 }
@@ -45,7 +45,7 @@ cooldown: 260
 max: 50000
 radius: 250
 angle: 362
-regen: 25
+regen: 4.62
 width: 30
 whenShooting: false
 }
@@ -56,7 +56,7 @@ cooldown: 220
 max: 30000
 radius: 300
 angle: 362
-regen: 25
+regen: 4.1
 width: 20
 whenShooting: false
 }
