@@ -38,6 +38,7 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: true
 allowSectorInvasion: false
 alwaysUnlocked: true
+//GO KYS↓↓↓
 mesh: [
   {
     // grass, carbon
@@ -45,7 +46,7 @@ mesh: [
     planet: zeridmuth
     divisions: 4
     seed: 331060
-    radius: 2.65
+    radius: 2.71
     color1: 45fafe
     color2: 43f7fc
     octaves: 8
