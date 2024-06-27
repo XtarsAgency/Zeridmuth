@@ -25,7 +25,7 @@ atmosphereRadOut: 0.8
 accessible: true
 updateLighting: true
 sectorSeed: 0
-bloom: true
+bloom: false
 visible: true
 atmosphereColor: 0bfbff
 iconColor: 0bffff
@@ -58,11 +58,11 @@ mesh: [
     //sea
     type: NoiseMesh
     planet: zeridmuth
-    divisions: 3
+    divisions: 4
     seed: 0
     radius: 2.65
-    color1: 5abbee
-    color2: 18a6ff
+    color1: 1a18ff
+    color2: 1816ff
     octaves: 6
     persistence: 0.001
     scale: 0.5
