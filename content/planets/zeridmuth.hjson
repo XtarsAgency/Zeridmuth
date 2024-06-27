@@ -50,8 +50,8 @@ mesh: [
     color1: 4d4d7c
     color2: 24edff
     octaves: 4
-    persistence: 4
-    scale: 0.9
+    persistence: 2
+    scale: 0.2
     mag: 2
   }
 {
