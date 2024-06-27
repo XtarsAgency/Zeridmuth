@@ -63,39 +63,24 @@ mesh: [
     color1: 5abbee
     color2: 5acbfc
     octaves: 6
-    persistence: 1.6
+    persistence: 0.8
     scale: 1
-    mag: 1.5
+    mag: 0.8
 }
 ]
-cloudMesh: [
-{
+cloudMesh: {
     type: HexSkyMesh
     planet: zeridmuth
     seed: 1
     speed: 0.1
     radius: 0.11
     divisions: 6
-    color: 80efff57
+    color: f0efff57
     octaves: 0
     persistence: 1
     scl: 2
     thresh: 0.1
 }
-{
-    type: GenericSkyMesh
-    planet: zeridmuth
-    seed: 37
-    speed: 0.2
-    radius: 0.07
-    divisions: 6
-    color: ffffff57
-    octaves: 0
-    persistence: 1
-    scl: 2
-    thresh: 0.1
-}
-]
 hiddenItems: [
     "copper"
     "lead"
