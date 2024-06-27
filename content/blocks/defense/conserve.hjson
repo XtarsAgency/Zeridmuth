@@ -20,7 +20,7 @@ ammoTypes: {
 		
 		ammoMultiplier: 6
 	}
-uranium: {
+ceramic: {
 type: BasicBulletType
 damage: 45
 speed: 8
