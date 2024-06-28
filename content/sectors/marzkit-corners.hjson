@@ -5,7 +5,7 @@ research: {
 	objectives: [
 	    {
         type: SectorComplete
-		preset: "dense-forest"
+		preset: "coastal-forest"
 		}
 	]
 }
