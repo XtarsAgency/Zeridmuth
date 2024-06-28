@@ -1,7 +1,8 @@
-sector: 14
+sector: 16
 planet: zeridmuth
+captureWave: 50
 research: {
-    parent: "deteriorated-lake"
+    parent: "a-new-beginning"
 	objectives: [
 	    {
         type: SectorComplete
