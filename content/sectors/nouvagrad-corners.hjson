@@ -1,11 +1,11 @@
-sector: 7
+sector: 13
 planet: zeridmuth
 research: {
     parent: "dense-forest"
 	objectives: [
 	    {
         type: SectorComplete
-		preset: "dense-forest"
+		preset: "coastal-forest"
 		}
 	]
 }
