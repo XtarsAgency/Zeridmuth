@@ -36,6 +36,6 @@ drawer: [
     {
         type: DrawLiquidTile
         drawLiquid: cryofluid
-        suffix: -liquid
+        suffix: "-bottom"
     }
 ]
