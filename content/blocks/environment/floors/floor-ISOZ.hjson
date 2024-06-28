@@ -1,0 +1,8 @@
+type: Floor
+name: ISOZ tile
+isLiquid: true
+variants: 0
+liquidDrop: liquid-isoz
+cacheLayer: water
+liquidMultiplier: 1
+albedo: 1
