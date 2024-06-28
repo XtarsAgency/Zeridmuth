@@ -1,4 +1,4 @@
-sector: 8
+sector: 10
 planet: zeridmuth
 research: {
     parent: "grassy-plains"
