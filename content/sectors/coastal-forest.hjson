@@ -1,4 +1,4 @@
-sector: 9
+sector: 11
 planet: zeridmuth
 research: {
     parent: "dense-forest"
