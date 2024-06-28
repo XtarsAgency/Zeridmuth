@@ -1,4 +1,4 @@
-sector: 1
+sector: 9
 planet: zeridmuth
 research: {
     parent: "irradiated-plains"
