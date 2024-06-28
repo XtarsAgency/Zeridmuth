@@ -1,4 +1,4 @@
-sector: 13
+sector: 14
 planet: zeridmuth
 research: {
     parent: "nouvagrad-corners"
