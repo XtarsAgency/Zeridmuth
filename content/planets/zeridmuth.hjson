@@ -21,7 +21,7 @@ startSector: 4
 radius: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.8
+atmosphereRadOut: 1.8
 accessible: true
 updateLighting: false
 sectorSeed: 0
