@@ -18,12 +18,12 @@ defaultCore: core-nouvagrad
 parent: sun
 sectorSize: 1.5
 startSector: 4
-radius: 1.5
+radius: 2
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.5
+atmosphereRadOut: 1.5
 accessible: true
-updateLighting: false
+updateLighting: true
 sectorSeed: 0
 bloom: true
 visible: true
