@@ -21,7 +21,7 @@ startSector: 4
 radius: 2
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 1.5
+atmosphereRadOut: 3
 accessible: true
 updateLighting: true
 sectorSeed: 0
@@ -75,7 +75,7 @@ cloudMesh: {
     planet: zeridmuth
     seed: 1
     speed: 0.1
-    radius: 0.11
+    radius: 0.1
     divisions: 4
     color: f0efff88
     octaves: 0
