@@ -18,7 +18,7 @@ defaultCore: core-nouvagrad
 parent: sun
 sectorSize: 2
 startSector: 4
-radius: 1.8
+radius: 1.5
 drawOrbit: true
 atmosphereRadIn: 1.5
 atmosphereRadOut: 3.5
