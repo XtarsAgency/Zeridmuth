@@ -18,9 +18,9 @@ defaultCore: core-nouvagrad
 parent: sun
 sectorSize: 1.5
 startSector: 4
-radius: 2
+radius: 1.5
 drawOrbit: true
-atmosphereRadIn: 0
+atmosphereRadIn: 2
 atmosphereRadOut: 3
 accessible: true
 updateLighting: true
@@ -77,7 +77,7 @@ cloudMesh: {
     speed: 0.1
     radius: 0.1
     divisions: 4
-    color: f0efff88
+    color: 00efff88
     octaves: 0
     persistence: 1
     scl: 0.2
