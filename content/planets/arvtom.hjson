@@ -46,12 +46,12 @@ mesh: [
     planet: arvtom
     divisions: 4
     seed: 3828
-    radius: 0.77
+    radius: 0.72
     color1: 226922
     color2: D06666
     octaves: 4
-    persistence: 0.7
-    mag: 0.9
+    persistence: 1
+    mag: 2
   }
   {
     //isoz ocean
