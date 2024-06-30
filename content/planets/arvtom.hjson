@@ -41,39 +41,26 @@ alwaysUnlocked: true
 
 mesh: [
  {
-    //ground
+    //ground 
     type: NoiseMesh
     planet: arvtom
     divisions: 4
     seed: 3828
     radius: 0.77
-    color1: bfbfbf
-    color2: 661fa6
-    octaves: 2.7
+    color1: 226922
+    color2: D06666
+    octaves: 4
     persistence: 0.7
+    mag: 0.9
   }
   {
-    // green
-    type: NoiseMesh
-    planet: arvtom
-    divisions: 4
-    seed: 4842
-    radius: 0.75
-    color1: 4f6150
-    color2: 273327
-    octaves: 2
-    persistence: 0.9
-    scale: 0.75
-    mag: 1
-  }
-  {
-    //isoz
+    //isoz ocean
     type: NoiseMesh
     planet: arvtom
     divisions: 4
     seed: 381
     radius: 0.8
-    color1: ff13ff
+    color1: ad00ad
     color2: af66af
     octaves: 2
     persistence: 0.005
