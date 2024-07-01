@@ -1,9 +1,9 @@
 color: 3d3d3d
 
-explosiveness: 0
+explosiveness: 0.55
 flammability: 0
 radioactivity: 0
-charge: 0
+charge: 0.45
 cost: 4
 
 research: {
