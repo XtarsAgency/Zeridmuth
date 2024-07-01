@@ -1,6 +1,6 @@
 type: flying
-health: 200
-armor: 2
+health: 230
+armor: 1
 hitSize: 11
 
 flying: true
@@ -28,7 +28,7 @@ weapons: [
             type: BasicBulletType
             damage: 35
 	        lifetime: 30
-	        speed: 5
+	        speed: 3.5
 			
 			width: 1.5
 		    height: 3
