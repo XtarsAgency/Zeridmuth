@@ -1,9 +1,9 @@
 color: affcdf
 
-explosiveness: 2.56
-flammability: 1.66
+explosiveness: 0.64
+flammability: 0.44
 radioactivity: 0
-charge: 1
+charge: 0.25
 cost: 15
 
 research: {

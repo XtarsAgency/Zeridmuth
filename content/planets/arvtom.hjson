@@ -47,8 +47,9 @@ mesh: [
     divisions: 4
     seed: 3828
     radius: 0.66
-    color1: 226922
-    color2: D06666
+    color1: 125912
+    color2: 226932
+    color3: b04646
     octaves: 4
     persistence: 1
     mag: 2

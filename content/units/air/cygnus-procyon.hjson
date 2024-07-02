@@ -20,7 +20,7 @@ crashDamageMultiplier: 80000
 hittable: true
 targetable: falsfal
 fogRadius: 5000
-outlineColor: d3a1a2
+outlineColor: afa1a2
 
 payloadCapacity: 50000
 pickupUnits: true
@@ -85,8 +85,8 @@ weapons: [
         targetBuildings: true
         autoTarget: false
         controllable: true
-        laserColor: f9e806
-        healColor: ff0600
+        laserColor: f94846
+        healColor: ff9690
 		bullet: {
 		    maxRange: 390
 		}
@@ -107,8 +107,8 @@ weapons: [
         targetBuildings: true
         autoTarget: false
         controllable: true
-        laserColor: 06e8f9
-        healColor: ff0600
+        laserColor: f94846
+        healColor: ff9690
 		bullet: {
 		    maxRange: 460
 		}

@@ -1,7 +1,7 @@
 explosiveness: 0
 flammability: 0
-radioactivity: 3
-charge: 6
+radioactivity: 1.75
+charge: 3.15
 cost: 10
 
 research: {
