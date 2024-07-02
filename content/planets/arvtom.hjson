@@ -18,7 +18,7 @@ parent: sun
 updateLighting: true
 sectorSize: 2.5
 startSector: 1
-radius: 1
+radius: 0.85
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0
@@ -30,7 +30,7 @@ visible: true
 atmosphereColor: 00000000
 iconColor: cf8ccf
 hasAtmosphere: false
-allowWaveSimulation: true
+allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: true
 allowLaunchSchematics: false
@@ -47,9 +47,8 @@ mesh: [
     divisions: 4
     seed: 3828
     radius: 0.66
-    color1: 125912
-    color2: 226932
-    color3: b04646
+    color1: 8b8db1
+    color2: 256942
     octaves: 4
     persistence: 1
     mag: 2
@@ -60,7 +59,7 @@ mesh: [
     planet: arvtom
     divisions: 4
     seed: 381
-    radius: 0.8
+    radius: 0.6
     color1: ad00ad
     color2: af66af
     octaves: 2
