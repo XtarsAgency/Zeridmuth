@@ -1,6 +1,6 @@
 type: flying
 health: 3100
-armor: 1
+armor: 3
 hitSize: 34
 
 flying: true
@@ -9,12 +9,12 @@ itemCapacity: 140
 abilities: [
 {
 type: ShieldArcAbility
-cooldown: 200
-max: 280
-radius: 40
+cooldown: 215
+max: 320
+radius: 45
 angle: 270
-regen: 0.2
-width: 10
+regen: 0.35
+width: 15
 whenShooting: true
 }
 ]
@@ -42,16 +42,16 @@ weapons: [
 	        lifetime: 45
 	        speed: 9
 			
-			width: 5
-		    height: 9
+			width: 8
+		    height: 12
 		}
     }
 ]
 research: {
     parent: "reconstructor"
     requirements: [
-        "carbon/200"
-"carbon-plates/55"
-"aluminium-ingot/20"
+        "carbon/210"
+"carbon-plates/65"
+"aluminium-ingot/30"
     ]
 }
