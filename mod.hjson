@@ -4,18 +4,28 @@ minGameVersion: 145
 version: "v1.806ZA"
 
 displayName: "Zeridmuth: A New Beginning"
-author: "[scarlet[]]XSA
-[yellow[]]Contributors: [cyan[]]ItzCraft, [green[]]Mitemi, [pink[]]CoCo1408"
+author: 
+
+'''
+Developers: {
+XSA, ItzCraft, Mitemi
+}
+Others: {
+N4H4N, CoCo1481
+}
+'''
+
 subtitle: "Atlas? never heard of it"
 description:
 
 '''
+
 WARNING: Mod is currently under rework, Expect some broken things. 
 
 Available in:
-Indonesian
-English 
-Russian (WIP)
+[scarlet]Indo[white]nesian
+[blue]Eng[red]li[white]sh 
+[red]Russ[blue]ian [red](WIP)
 -----------------------------
 Our Discord Server: https://discord.com/invite/KuV5r39cpY
 '''
