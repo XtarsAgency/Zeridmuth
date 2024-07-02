@@ -53,7 +53,7 @@ engines: [
         x: 0
         y: -19
         radius: 5
-        rotation: 90
+        rotation: 360
     }
 ]
 
