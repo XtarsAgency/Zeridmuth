@@ -18,7 +18,7 @@ parent: sun
 updateLighting: true
 sectorSize: 2.5
 startSector: 1
-radius: 1
+radius: 0.85
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0
@@ -30,7 +30,7 @@ visible: true
 atmosphereColor: 00000000
 iconColor: cf8ccf
 hasAtmosphere: false
-allowWaveSimulation: true
+allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: true
 allowLaunchSchematics: false
