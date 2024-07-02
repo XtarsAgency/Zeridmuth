@@ -47,7 +47,7 @@ mesh: [
     divisions: 4
     seed: 3828
     radius: 0.66
-    color1: 125912
+    color1: 8b8db1
     color2: 226932
     color3: b04646
     octaves: 4
@@ -60,7 +60,7 @@ mesh: [
     planet: arvtom
     divisions: 4
     seed: 381
-    radius: 0.8
+    radius: 0.6
     color1: ad00ad
     color2: af66af
     octaves: 2
