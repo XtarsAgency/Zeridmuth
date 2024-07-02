@@ -18,7 +18,7 @@ parent: sun
 updateLighting: true
 sectorSize: 2.5
 startSector: 1
-radius: 0.85
+radius: 0.95
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0
@@ -59,9 +59,9 @@ mesh: [
     planet: arvtom
     divisions: 4
     seed: 381
-    radius: 0.6
+    radius: 0.7
     color1: ad00ad
-    color2: af66af
+    color2: ab66ab
     octaves: 2
     persistence: 0.005
     mag: 0.001
