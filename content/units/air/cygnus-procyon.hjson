@@ -20,7 +20,7 @@ crashDamageMultiplier: 80000
 hittable: true
 targetable: falsfal
 fogRadius: 5000
-outlineColor: afa1a2
+outlineColor: 5f5152
 
 payloadCapacity: 50000
 pickupUnits: true
@@ -41,23 +41,23 @@ sides: 36
 {
 //first ring
 type: ShieldArcAbility
-cooldown: 260
+cooldown: 300
 max: 50000
 radius: 250
 angle: 362
 regen: 4.62
-width: 30
+width: 24
 whenShooting: false
 }
 {
 //second ring
 type: ShieldArcAbility
-cooldown: 220
+cooldown: 270
 max: 30000
 radius: 300
 angle: 362
 regen: 4.1
-width: 20
+width: 18
 whenShooting: false
 }
 {
