@@ -3,28 +3,28 @@ category: turret
 size: 2
 health: 580
 
-reload: 7
-range: 365
+reload: 5.75
+range: 315
 recoil: 1.8
-inaccuracy: 10
+inaccuracy: 13
 
 ammoTypes: {
 	carbon: {
 		type: BasicBulletType
 		damage: 18
 		speed: 8
-		lifetime: 38
+		lifetime: 34
 		
 		width: 7
 		height: 15
 		
-		ammoMultiplier: 6
+		ammoMultiplier: 4
 	}
 ceramic: {
 type: BasicBulletType
-damage: 45
+damage: 35
 speed: 8
-lifetime: 38
+lifetime: 30
 
 width: 5
 height: 15
