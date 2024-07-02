@@ -47,6 +47,16 @@ weapons: [
 		}
     }
 ]
+
+engines: [
+    {
+        x: 0
+        y: -39
+        radius: 9
+        rotation: 90
+    }
+]
+
 research: {
     parent: "reconstructor"
     requirements: [
