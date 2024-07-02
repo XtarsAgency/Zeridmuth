@@ -3,7 +3,7 @@ category: turret
 size: 2
 health: 458
 
-reload: 30
+reload: 35
 range: 235
 recoil: 1.2
 
@@ -11,7 +11,7 @@ ammoTypes: {
 	carbon: {
 		type: BasicBulletType
 		damage: 37
-		speed: 8
+		speed: 10
 		lifetime: 38
 		
 		width: 11
