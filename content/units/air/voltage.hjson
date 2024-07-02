@@ -14,14 +14,14 @@ max: 320
 radius: 45
 angle: 270
 regen: 0.35
-width: 15
+width: 12
 whenShooting: true
 }
 ]
-speed: 1.3
-accel: 0.2
+speed: 1.5
+accel: 0.15
 drag: 0.015
-rotateSpeed: 5
+rotateSpeed: 6
 
 outlineColor: 2d2f39
 
@@ -51,8 +51,8 @@ weapons: [
 engines: [
     {
         x: 0
-        y: -29
-        radius: 5.5
+        y: -24
+        radius: 4.25
         rotation: 270
     }
 ]
