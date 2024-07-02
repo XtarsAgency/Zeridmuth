@@ -4,8 +4,8 @@ size: 4
 health: 4300
 
 reload: 0.01
-range: 300
-recoil: 0
+range: 275
+recoil: 0.1
   innacuracy: 5
 
 ammoTypes: {
@@ -13,12 +13,12 @@ ammoTypes: {
 		type: LaserBulletType
 		damage: 340
 		speed: 10
-		lifetime: 30
+		lifetime: 48
 		
 		width: 25
 		height: 80
 		
-		ammoMultiplier: 12
+		ammoMultiplier: 9
 	}
 }
 
