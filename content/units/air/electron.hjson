@@ -10,8 +10,8 @@ itemCapacity: 2000
 abilities: [
 {
 type: ShieldArcAbility
-cooldown: 200
-max: 50000
+cooldown: 310
+max: 40000
 radius: 220
 angle: 270
 regen: 6.9 
