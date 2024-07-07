@@ -9,8 +9,8 @@ itemCapacity: 160
 abilities: [
 {
 type: ShieldArcAbility
-cooldown: 23500
-max: 520
+cooldown: 11000
+max: 480
 radius: 45
 angle: 270
 regen: 0.25
@@ -18,7 +18,7 @@ width: 13
 whenShooting: true
 }
 ]
-speed: 1.2
+speed: 1.4
 accel: 0.15
 drag: 0.025
 rotateSpeed: 5
@@ -30,17 +30,17 @@ weapons: [
         name: voltyear-weapon
         top: false
         x: 0
-        y: -8
+        y: -5
 		
 	    mirror: false
 	    alternate: false
-        reload: 60
+        reload: 75
         shootSound: "railgun"
         bullet: {
             type: BasicBulletType
-            damage: 198.8
-	        lifetime: 35
-	        speed: 15
+            damage: 238.5
+	        lifetime: 34
+	        speed: 13
 			
 			width: 8
 		    height: 12
@@ -51,7 +51,7 @@ weapons: [
 engines: [
     {
         x: 0
-        y: -26
+        y: -23
         radius: 5.5
         rotation: 270
     }
@@ -60,8 +60,8 @@ engines: [
 research: {
     parent: "reconstructor"
     requirements: [
-        "carbon/1400"
-"carbon-plates/950"
-"aluminium-ingot/500"
+        "carbon/1430"
+"carbon-plates/970"
+"aluminium-ingot/520"
     ]
 }
