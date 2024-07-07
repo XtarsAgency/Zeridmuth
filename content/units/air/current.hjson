@@ -41,6 +41,6 @@ research: {
     requirements: [
         "carbon/40"
 "carbon-plates/10"
-"aluminium/1o"
+"aluminium/10"
     ]
 }
