@@ -4,18 +4,24 @@ minGameVersion: 145
 version: "v1.806ZA"
 
 displayName: "Zeridmuth: A New Beginning"
-author: "[scarlet[]]XSA
-[yellow[]]Contributors: [cyan[]]ItzCraft, [green[]]Mitemi, [pink[]]CoCo1408"
-subtitle: "Atlas? never heard of it"
+author: 
+
+'''
+[scarlet]XSA, [cyan]ItzCraft, [green]Mitemi
+[gray]N4H4N, [pink]CoCo1481
+'''
+
+subtitle: "I'm Replaced. But dayum he cooking"
 description:
 
 '''
+
 WARNING: Mod is currently under rework, Expect some broken things. 
 
 Available in:
 Indonesian
-English 
-Russian (WIP)
+English
+Russian
 -----------------------------
 Our Discord Server: https://discord.com/invite/KuV5r39cpY
 '''
