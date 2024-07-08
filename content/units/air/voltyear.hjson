@@ -9,18 +9,18 @@ itemCapacity: 160
 abilities: [
 {
 type: ShieldArcAbility
-cooldown: 11000
+cooldown: 4300
 max: 480
 radius: 45
 angle: 270
 regen: 0.25
-width: 13
+width: 9
 whenShooting: true
 }
 ]
 speed: 1.4
 accel: 0.15
-drag: 0.025
+drag: 0.15
 rotateSpeed: 5
 
 outlineColor: 2d2f39
@@ -39,9 +39,9 @@ weapons: [
         bullet: {
             type: BasicBulletType
             damage: 238.5
-	        lifetime: 34
-	        speed: 13
-		recoil: 1
+	        lifetime: 30
+	        speed: 13.5
+		recoil: 0.5
 			
 			width: 8
 		    height: 12
