@@ -20,7 +20,7 @@ whenShooting: true
 ]
 speed: 1.4
 accel: 0.15
-drag: 0.15
+drag: 0.1
 rotateSpeed: 5
 
 outlineColor: 2d2f39
@@ -34,7 +34,7 @@ weapons: [
 		
 	    mirror: false
 	    alternate: false
-        reload: 75
+        reload: 55
         shootSound: "railgun"
         bullet: {
             type: BasicBulletType
