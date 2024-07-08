@@ -41,6 +41,7 @@ weapons: [
             damage: 238.5
 	        lifetime: 34
 	        speed: 13
+		recoil: 1
 			
 			width: 8
 		    height: 12
