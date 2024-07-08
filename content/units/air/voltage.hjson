@@ -1,46 +1,47 @@
 type: flying
-health: 3100
-armor: 3
-hitSize: 34
+health: 2950
+armor: 5
+hitSize: 35
 
 flying: true
-itemCapacity: 140
+itemCapacity: 160
 
 abilities: [
 {
 type: ShieldArcAbility
-cooldown: 215
-max: 320
+cooldown: 4300
+max: 480
 radius: 45
 angle: 270
-regen: 0.35
-width: 12
+regen: 0.25
+width: 9
 whenShooting: true
 }
 ]
-speed: 1.5
+speed: 1.4
 accel: 0.15
-drag: 0.015
-rotateSpeed: 6
+drag: 0.1
+rotateSpeed: 5
 
 outlineColor: 2d2f39
 
 weapons: [
     {
-        name: voltage-weapon
+        name: voltyear-weapon
         top: false
         x: 0
-        y: 3
+        y: -5
 		
 	    mirror: false
 	    alternate: false
-        reload: 30
+        reload: 55
         shootSound: "railgun"
         bullet: {
             type: BasicBulletType
-            damage: 98.8
-	        lifetime: 45
-	        speed: 9
+            damage: 238.5
+	        lifetime: 30
+	        speed: 13.5
+		recoil: 0.5
 			
 			width: 8
 		    height: 12
@@ -51,8 +52,8 @@ weapons: [
 engines: [
     {
         x: 0
-        y: -24
-        radius: 4.25
+        y: -23
+        radius: 5.5
         rotation: 270
     }
 ]
@@ -60,8 +61,8 @@ engines: [
 research: {
     parent: "reconstructor"
     requirements: [
-        "carbon/210"
-"carbon-plates/65"
-"aluminium-ingot/30"
+        "carbon/1430"
+"carbon-plates/970"
+"aluminium-ingot/520"
     ]
 }
