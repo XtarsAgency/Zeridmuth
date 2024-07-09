@@ -1,7 +1,7 @@
 {
     color: 0f85af
     barColor: 0f85af
-
+    gas: true
     viscosity: 0
     temperature: 0
     heatCapacity: 0
