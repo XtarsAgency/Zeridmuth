@@ -38,7 +38,15 @@ weapons: [
         shootSound: "railgun"
         bullet: {
             type: BasicBulletType
-            damage: 238.5
+	FragOnHit: true
+	fragBullets: 1
+	fragBullet:{
+	type: ExplosionBulletType
+	killShooter: false   
+	splashDamage: 134
+	splashDamageRadius: 13.4
+	}
+		damage: 238.5
 	        lifetime: 30
 	        speed: 13.5
 		recoil: 0.5
