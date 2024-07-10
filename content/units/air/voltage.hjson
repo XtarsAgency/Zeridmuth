@@ -44,7 +44,7 @@ weapons: [
 	type: ExplosionBulletType
 	killShooter: false   
 	splashDamage: 134
-	splashDamageRadius: 13.4
+	splashDamageRadius: 67
 	}
 		damage: 238.5
 	        lifetime: 30
