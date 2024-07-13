@@ -54,6 +54,8 @@ pietceBuilding: true
 name: missile-launcher,
       reload: 40,
       x: 18,
+mirror: true
+alternate: true
       y: 2,
       shoot: {
         ShootMulti: {
