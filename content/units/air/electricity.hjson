@@ -59,7 +59,7 @@ name: missile-launcher,
         ShootMulti: {
           ShootPattern: {
             shots: 15,
-            shotDelay: 4.5
+            shotDelay: 40
           }
         }
       },
