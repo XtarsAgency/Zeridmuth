@@ -51,6 +51,7 @@ pietceBuilding: true
 		}
     },
 {      
+{
 name: missile-launcher,
       reload: 40,
       x: 18,
@@ -76,6 +77,7 @@ name: missile-launcher,
         }
       }
 },
+}
 
 ]
 
