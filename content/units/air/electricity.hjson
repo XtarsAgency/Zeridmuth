@@ -55,10 +55,13 @@ pietceBuilding: true
         top: false
         x: 18
         y: 2
-		
+	shootPattern: {
+shots: 15
+shootDelay: 3
+firstShotDelay: 40
+}
 	    mirror: true
 	    alternate: true
-        reload: 90
         shootSound: "missileLaunch"
         bullet: {
             type: MissileBulletType
@@ -70,26 +73,7 @@ pietceBuilding: true
 		    height: 14
 		}
     }
-{
-        name: rocket-weapon
-        top: false
-        x: 25
-        y: 2
-		
-	    mirror: true
-	    alternate: true
-        reload: 90
-        shootSound: "laser"
-        bullet: {
-            type: missileBulletType
-            damage: 180.5
-	        lifetime: 45
-	        speed: 15
-			
-			width: 10
-		    height: 14
-		}
-    }
+
 ]
 engines: [
     {
