@@ -55,12 +55,16 @@ pietceBuilding: true
         top: false
         x: 18
         y: 2
-	shootPattern: {
+	
+reload: 60
+shoot: {
+type: ShootMulti
+shootPattern: [
 shots: 15
 shootDelay: 3
 firstShotDelay: 40
+]
 }
-reload: 60
 	    mirror: true
 	    alternate: true
         shootSound: "missileLaunch"
