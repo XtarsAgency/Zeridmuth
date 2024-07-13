@@ -51,43 +51,34 @@ pietceBuilding: true
 		}
     }
 {
-        name: rocket-weapon
-        top: false
-        x: 18
-        y: 2
-	
-reload: 60
-	    mirror: true
-	    alternate: true
-  "shoot": {
-    "ShootMulti": {
-      "ShootBarrel": {
-        "shots": 3,
-        "barrels": [
-          -96, 0, 0,
-          -82, 0, 0,
-          -110, 0, 0
-        ]
+    {
+      name: missile-launcher,
+      reload: 40,
+      x: 18,
+      y: 2,
+      shoot: {
+        ShootMulti: {
+          ShootPattern: {
+            shots: 15,
+            shotDelay: 4.5
+          }
+        }
       },
-      "ShootPattern": {
-        "shots": 15,
-        "shotDelay": 4.5
+      shootSound: MissileLaunch,
+      bullet: {
+       type: MissileBulletType: {
+          speed: 9.2,
+          damage: 360,
+          width: 6,
+          height: 16,
+          homingPower: 0.08,
+          homingDelay: 5,
+          lifetime: 12,          
+        }
       }
     }
-  }
+}
 
-
-shootSound: "missileLaunch"
-        bullet: {
-            type: MissileBulletType
-            damage: 280.5
-	        lifetime: 45
-	        speed: 15
-			
-			width: 10
-		    height: 14
-		}
-    }
 
 ]
 engines: [
