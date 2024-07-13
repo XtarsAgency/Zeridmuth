@@ -57,16 +57,7 @@ pietceBuilding: true
       shootY: 75,
       x: 0,
       y: 0,
-      layerOffset: 0.002,
-      shoot: {
-        ShootMulti: {
-          ShootPattern: {
-            shots: 15,
-            shotDelay: 4.5
-          }
-        }
-      },
-      velocityRnd: 0.05
+      velocityRnd: 0.1
       bullet: {
         type: MissileBulletType: {
           speed: 9.2,
