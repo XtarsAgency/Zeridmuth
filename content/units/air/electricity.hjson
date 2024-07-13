@@ -50,35 +50,36 @@ pietceBuilding: true
 		    height: 14
 		}
     },
-"{
-name: missile-launcher,
-      reload: 40,
-      x: 18,
-mirror: true
-alternate: true
-      y: 2,
+    {
+      name: missile-launcher,
+      reload: 240,
+      xRand: 10,
+      shootY: 75,
+      x: 0,
+      y: 0,
+      layerOffset: 0.002,
       shoot: {
         ShootMulti: {
           ShootPattern: {
             shots: 15,
-            shotDelay: 40
+            shotDelay: 4.5
           }
         }
       },
-      shootSound: MissileLaunch,
+      velocityRnd: 0.05
       bullet: {
-       type: MissileBulletType: {
+        type: MissileBulletType: {
           speed: 9.2,
-          damage: 360,
+          damage: 500,
           width: 6,
           height: 16,
+          shrinkY: 0,
           homingPower: 0.08,
           homingDelay: 5,
-          lifetime: 12,          
+          lifetime: 120,
         }
       }
-}"
-
+    }
 ]
 
 engines: [
