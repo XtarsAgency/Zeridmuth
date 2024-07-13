@@ -59,14 +59,23 @@ pietceBuilding: true
 reload: 60
 	    mirror: true
 	    alternate: true
-shoot: {
-ShootPattern: [ 
-shoot: ShootMulti
-shots: 15
-shotDelay: 4
-firstShotDelay: 20
-]
-}
+  "shoot": {
+    "ShootMulti": {
+      "ShootBarrel": {
+        "shots": 3,
+        "barrels": [
+          -96, 0, 0,
+          -82, 0, 0,
+          -110, 0, 0
+        ]
+      },
+      "ShootPattern": {
+        "shots": 15,
+        "shotDelay": 4.5
+      }
+    }
+  }
+
 
 shootSound: "missileLaunch"
         bullet: {
