@@ -49,8 +49,8 @@ pietceBuilding: true
 			width: 10
 		    height: 14
 		}
-    }
-      
+    },
+{      
 name: missile-launcher,
       reload: 40,
       x: 18,
@@ -75,6 +75,7 @@ name: missile-launcher,
           lifetime: 12,          
         }
       }
+},
 
 ]
 
