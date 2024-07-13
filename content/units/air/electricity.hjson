@@ -75,7 +75,7 @@ pietceBuilding: true
           lifetime: 12,          
         }
       }
-},
+}
 ]
 
 engines: [
