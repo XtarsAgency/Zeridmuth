@@ -57,18 +57,16 @@ pietceBuilding: true
         y: 2
 	
 reload: 60
-shoot: {
-type: ShootMulti
-source: "rocket-weapon"
-shootPattern: [
-shots: 15
-shootDelay: 3
-firstShotDelay: 40
-]
-}
 	    mirror: true
 	    alternate: true
-        shootSound: "missileLaunch"
+shootPattern: {
+shoot: ShootMulti
+shots: 15
+shotDelay: 4
+firstShotDelay: 20
+}
+
+shootSound: "missileLaunch"
         bullet: {
             type: MissileBulletType
             damage: 280.5
