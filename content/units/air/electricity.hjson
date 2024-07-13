@@ -50,7 +50,6 @@ pietceBuilding: true
 		    height: 14
 		}
     }
-{
     {
       name: missile-launcher,
       reload: 40,
@@ -77,8 +76,6 @@ pietceBuilding: true
         }
       }
     }
-}
-
 
 ]
 engines: [
