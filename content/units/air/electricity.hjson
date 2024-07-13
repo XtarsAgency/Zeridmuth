@@ -50,8 +50,8 @@ pietceBuilding: true
 		    height: 14
 		}
     }
-{
-      name: missile-launcher,
+      
+name: missile-launcher,
       reload: 40,
       x: 18,
       y: 2,
@@ -75,7 +75,7 @@ pietceBuilding: true
           lifetime: 12,          
         }
       }
-}
+
 ]
 
 engines: [
