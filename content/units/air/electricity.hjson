@@ -59,6 +59,7 @@ pietceBuilding: true
 reload: 60
 shoot: {
 type: ShootMulti
+source: "rocket-weapon"
 shootPattern: [
 shots: 15
 shootDelay: 3
