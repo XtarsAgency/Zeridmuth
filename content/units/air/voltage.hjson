@@ -43,8 +43,8 @@ weapons: [
 	fragBullet:{
 	type: ExplosionBulletType
 	killShooter: false   
-	splashDamage: 1340
-	splashDamageRadius: 134
+	splashDamage: 120
+	splashDamageRadius: 34
 	}
 		damage: 238.5
 	        lifetime: 30
