@@ -6,7 +6,6 @@ health: 4300
 reload: 0.01
 range: 275
 recoil: 0.1
-  innacuracy: 5
 
 ammoTypes: {
 	liquid-isoz: {

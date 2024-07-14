@@ -49,48 +49,30 @@ pietceBuilding: true
 			width: 10
 		    height: 14
 		}
-    }
-{
-        name: rocket-weapon
-        top: false
-        x: 18
-        y: 2
-		
-	    mirror: true
-	    alternate: true
-        reload: 90
-        shootSound: "missileLaunch"
-        bullet: {
-            type: MissileBulletType
-            damage: 280.5
-	        lifetime: 45
-	        speed: 15
-			
-			width: 10
-		    height: 14
-		}
-    }
-{
-        name: rocket-weapon
-        top: false
-        x: 25
-        y: 2
-		
-	    mirror: true
-	    alternate: true
-        reload: 90
-        shootSound: "laser"
-        bullet: {
-            type: missileBulletType
-            damage: 180.5
-	        lifetime: 45
-	        speed: 15
-			
-			width: 10
-		    height: 14
-		}
-    }
+    },
+    "{
+      name: missile-launcher,
+      reload: 240,
+      xRand: 10,
+      shootY: 75,
+      x: 0,
+      y: 0,
+      velocityRnd: 0.1
+      bullet: {
+        type: MissileBulletType: {
+          speed: 9.2,
+          damage: 500,
+          width: 6,
+          height: 16,
+          shrinkY: 0,
+          homingPower: 0.08,
+          homingDelay: 5,
+          lifetime: 120,
+        }
+      }
+    }"
 ]
+
 engines: [
     {
         x: 0
