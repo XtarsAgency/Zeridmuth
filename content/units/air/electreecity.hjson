@@ -1,0 +1,91 @@
+type: flying
+health: 35680
+armor: 8
+hitSize: 75
+
+flying: true
+buildSpeed: 1.5
+itemCapacity: 590
+
+abilities: [
+{
+type: ShieldArcAbility
+cooldown: 5000
+max: 3400
+radius: 100
+angle: 270
+regen: 0.944
+width: 10
+whenShooting: true
+}
+]
+
+speed: 1
+accel: 0.1
+drag: 0.15
+rotateSpeed: 0.9
+
+outlineColor: 2d2f39
+
+weapons: [
+    {
+        name: electreecity-weapon
+        top: false
+        x: 0
+        y: 8
+		
+	    mirror: false
+	    alternate: false
+        reload: 75
+        shootSound: "railgun"
+        bullet: {
+            type: BasicBulletType
+            damage: 1950.5
+	        lifetime: 30
+	        speed: 20
+pierceCap: 7
+pietceBuilding: true
+			
+			width: 10
+		    height: 14
+		}
+    },
+    "{
+      name: missile-launcher,
+      reload: 240,
+      xRand: 10,
+      shootY: 75,
+      x: 0,
+      y: 0,
+      velocityRnd: 0.1
+      bullet: {
+        type: MissileBulletType: {
+          speed: 9.2,
+          damage: 500,
+          width: 6,
+          height: 16,
+          shrinkY: 0,
+          homingPower: 0.08,
+          homingDelay: 5,
+          lifetime: 120,
+        }
+      }
+    }"
+]
+
+engines: [
+    {
+        x: 0
+        y: -50
+        radius: 8
+        rotation: 0
+    }
+]
+research: {
+    parent: "ze-ship-assembler"
+    requirements: [
+        "carbon/200"
+"carbon-plates/55"
+"aluminium-ingot/20"
+    ]
+}
