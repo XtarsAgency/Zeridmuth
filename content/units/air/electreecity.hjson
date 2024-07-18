@@ -31,6 +31,8 @@ radius: 10,
 hollow: true,
 haloRotationSpeed: 2,
 color: #ffffff
+}
+]
 
 speed: 1
 accel: 0.1
