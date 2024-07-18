@@ -21,16 +21,14 @@ whenShooting: true
 ]
 
 parts: [
-{
 type: HaloPart
 sides: 3
 shapes: 3
 haloRadius: 40
-radius: 10
+radius: 100
 hollow: true
 haloRotationSpeed: 2
 color: #ffffff
-}
 ]
 
 speed: 1
