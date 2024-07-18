@@ -21,7 +21,6 @@ whenShooting: true
 ]
 
 parts: [
-
 { 
 type: HaloPart,
 sides: 3,
