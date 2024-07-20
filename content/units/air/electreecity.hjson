@@ -1,31 +1,31 @@
 type: flying
-health: 35680
+health: 15710
 armor: 8
 hitSize: 75
 
 flying: true
-buildSpeed: 1.5
+buildSpeed: 0.8
 itemCapacity: 590
 
 abilities: [
 {
 type: ShieldArcAbility
-cooldown: 5000
-max: 3400
-radius: 100
+cooldown: 5600
+max: 2980
+radius: 95
 angle: 270
 regen: 0.944
-width: 10
+width: 12
 whenShooting: true
 }
 ]
 
-speed: 1
+speed: 0.9
 accel: 0.1
 drag: 0.15
 rotateSpeed: 0.9
 
-outlineColor: 2d2f39
+outlineColor: 353741
 
 weapons: [
     {
@@ -36,13 +36,13 @@ weapons: [
 		
 	    mirror: false
 	    alternate: false
-        reload: 75
+        reload: 150
         shootSound: "railgun"
         bullet: {
             type: BasicBulletType
-            damage: 1950.5
-	        lifetime: 30
-	        speed: 20
+            damage: 980.5
+	        lifetime: 35
+	        speed: 15
 pierceCap: 7
 pietceBuilding: true
 			
@@ -52,7 +52,7 @@ pietceBuilding: true
     },
     "{
       name: missile-launcher,
-      reload: 240,
+      reload: 80,
       xRand: 10,
       shootY: 75,
       x: 0,
@@ -61,13 +61,13 @@ pietceBuilding: true
       bullet: {
         type: MissileBulletType: {
           speed: 9.2,
-          damage: 500,
+          damage: 460,
           width: 6,
           height: 16,
           shrinkY: 0,
-          homingPower: 0.08,
+          homingPower: 0.32,
           homingDelay: 5,
-          lifetime: 120,
+          lifetime: 800,
         }
       }
     }"
@@ -78,7 +78,7 @@ engines: [
         x: 0
         y: -50
         radius: 8
-        rotation: 0
+        rotation: 270
     }
 ]
 research: {
