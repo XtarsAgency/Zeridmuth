@@ -25,7 +25,7 @@ accel: 0.1
 drag: 0.15
 rotateSpeed: 0.9
 
-outlineColor: 2d2f39
+outlineColor: ffffff00
 
 weapons: [
     {
