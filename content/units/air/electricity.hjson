@@ -41,36 +41,40 @@ weapons: [
         bullet: {
             type: BasicBulletType
             damage: 1950.5
-	        lifetime: 30
+	        lifetime: 50
 	        speed: 20
 pierceCap: 7
-pietceBuilding: true
+pierceBuilding: true
 			
 			width: 10
 		    height: 14
 		}
     },
-    "{
-      name: missile-launcher,
-      reload: 240,
-      xRand: 10,
-      shootY: 75,
-      x: 0,
-      y: 0,
-      velocityRnd: 0.1
-      bullet: {
-        type: MissileBulletType: {
-          speed: 9.2,
-          damage: 500,
-          width: 6,
-          height: 16,
-          shrinkY: 0,
-          homingPower: 0.08,
-          homingDelay: 5,
-          lifetime: 120,
-        }
-      }
-    }"
+{
+        name: missile-weapon
+        top: false
+        x: 8
+        y: -2
+		
+	    mirror: true
+	    alternate: true
+        reload: 100
+        shootSound: "missileLaunch"
+rotation: 90
+shoot:{
+  shots: 8
+  shotDelay: 1
+}
+        bullet: {
+            type: MissileBulletType
+            damage: 135.5
+	        lifetime: 200
+	        speed: 5
+
+			width: 4
+		    height: 8
+		}
+    },
 ]
 
 engines: [
