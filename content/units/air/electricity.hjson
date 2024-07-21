@@ -61,7 +61,10 @@ pierceBuilding: true
         reload: 35
         shootSound: "missile"
 shots: 10
-burstSpacing: 0.01
+burstSpacing: 0.5
+cooldown: 35
+restitution: 0.03
+
         bullet: {
             type: MissileBulletType
             damage: 135.5
