@@ -20,12 +20,12 @@ whenShooting: true
 }
 ]
 
-speed: 0.9
+speed: 0.85
 accel: 0.1
 drag: 0.15
 rotateSpeed: 0.9
 
-outlineColor: 353741
+outlineColor: 151721
 
 weapons: [
     {
@@ -43,7 +43,7 @@ weapons: [
             damage: 980.5
 	        lifetime: 30
 	        speed: 15
-pierceCap: 7
+pierceCap: 3
 pierceBuilding: true
 			
 			width: 10
