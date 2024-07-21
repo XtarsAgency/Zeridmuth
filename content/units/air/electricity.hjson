@@ -60,11 +60,9 @@ pierceBuilding: true
 	    alternate: true
         reload: 35
         shootSound: "missile"
-shoot: {
-shots: 10
-burstSpacing: 0.5
-cooldown: 35
-restitution: 0.03
+shoot:{
+  shots: 10
+  shotDelay: 3
 }
         bullet: {
             type: MissileBulletType
