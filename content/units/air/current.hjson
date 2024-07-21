@@ -8,7 +8,7 @@ itemCapacity: 30
 
 speed: 3.5
 accel: 0.2
-drag: 0.015
+drag: 0.045
 rotateSpeed: 5
 
 outlineColor: 2d2f39
