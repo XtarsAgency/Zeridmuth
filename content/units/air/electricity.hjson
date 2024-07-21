@@ -41,8 +41,8 @@ weapons: [
         bullet: {
             type: BasicBulletType
             damage: 1950.5
-	        lifetime: 30
-	        speed: 20
+	        lifetime: 160
+	        speed: 5
 pierceCap: 7
 pierceBuilding: true
 			
