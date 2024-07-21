@@ -57,17 +57,17 @@ pierceBuilding: true
       y: 0,
 mirror: true
 alternate: true
-      velocityRnd: 0.5
       bullet: {
-        type: MissileBulletType: {
-          speed: 9.2,
-          damage: 500,
-          width: 6,
-          height: 16,
-          shots: 10,
-          lifetime: 120,
-damage: 121.7,
-        }
+type: MissileBulletType
+            damage: 150.5
+	        lifetime: 30
+	        speed: 20
+velocityRnd: 0.8
+shots: 10
+burstSpacing: 0.24
+			
+			width: 10
+		    height: 14
       }
 }"
 ]
