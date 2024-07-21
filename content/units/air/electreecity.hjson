@@ -10,7 +10,7 @@ itemCapacity: 590
 abilities: [
 {
 type: ShieldArcAbility
-cooldown: 5600
+cooldown: 5800
 max: 2980
 radius: 95
 angle: 270
@@ -41,10 +41,10 @@ weapons: [
         bullet: {
             type: BasicBulletType
             damage: 980.5
-	        lifetime: 35
+	        lifetime: 30
 	        speed: 15
 pierceCap: 7
-pietceBuilding: true
+pierceBuilding: true
 			
 			width: 10
 		    height: 14
