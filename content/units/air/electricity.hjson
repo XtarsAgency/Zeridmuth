@@ -1,18 +1,18 @@
 type: flying
-health: 35680
+health: 13680
 armor: 8
 hitSize: 75
 
 flying: true
-buildSpeed: 1.5
+buildSpeed: 0.65
 itemCapacity: 590
 
 abilities: [
 {
 type: ShieldArcAbility
-cooldown: 200
-max: 3400
-radius: 100
+cooldown: 5800
+max: 2650
+radius: 90
 angle: 270
 regen: 0.944
 width: 10
@@ -36,12 +36,12 @@ weapons: [
 		
 	    mirror: false
 	    alternate: false
-        reload: 75
+        reload: 225
         shootSound: "railgun"
         bullet: {
             type: BasicBulletType
-            damage: 1950.5
-	        lifetime: 50
+            damage: 1050.5
+	        lifetime: 40
 	        speed: 20
 pierceCap: 7
 pierceBuilding: true
@@ -53,23 +53,23 @@ pierceBuilding: true
 {
         name: missile-weapon
         top: false
-        x: 8
-        y: -2
+        x: 97
+        y: -88
 		
 	    mirror: true
 	    alternate: true
-        reload: 100
+        reload: 120
         shootSound: "missileLaunch"
-rotation: 90
+rotation: 225
 shoot:{
   shots: 8
-  shotDelay: 1
+  shotDelay: 3
 }
         bullet: {
             type: MissileBulletType
             damage: 135.5
-	        lifetime: 200
-	        speed: 5
+	        lifetime: 280
+	        speed: 3.4
 
 			width: 4
 		    height: 8
@@ -80,16 +80,20 @@ shoot:{
 engines: [
     {
         x: 0
-        y: -50
-        radius: 8
-        rotation: 0
+        y: -35
+        radius: 9.5
+        rotation: 270
     }
 ]
 research: {
     parent: "ze-ship-assembler"
     requirements: [
-        "carbon/200"
-"carbon-plates/55"
-"aluminium-ingot/20"
+        "carbon/3800"
+"carbon-plates/13500"
+"aluminium-ingot/15900"
+"electric-component/2500"
+"aluminium/3140"
+"uranium/8700"
+"refined-uranium/3130"
     ]
 }
