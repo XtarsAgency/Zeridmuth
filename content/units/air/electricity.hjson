@@ -50,26 +50,28 @@ pierceBuilding: true
 		    height: 14
 		}
     },
-    "{
-      name: missile-launcher,
-      reload: 240,
-      x: 8,
-      y: 0,
-mirror: true
-alternate: true
-      bullet: {
-type: MissileBulletType
-            damage: 150.5
-	        lifetime: 30
-	        speed: 20
-velocityRnd: 0.8
+{
+        name: missile-weapon
+        top: false
+        x: 8
+        y: -2
+		
+	    mirror: true
+	    alternate: true
+        reload: 75
+        shootSound: "missile"
 shots: 10
-burstSpacing: 0.24
-			
+burstSpacing: 0.4
+        bullet: {
+            type: MissileBulletType
+            damage: 135.5
+	        lifetime: 30
+	        speed: 5
+
 			width: 10
 		    height: 14
-      }
-}"
+		}
+    },
 ]
 
 engines: [
