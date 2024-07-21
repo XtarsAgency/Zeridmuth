@@ -58,12 +58,12 @@ pierceBuilding: true
 		
 	    mirror: true
 	    alternate: true
-        reload: 150
-        shootSound: "missile"
+        reload: 100
+        shootSound: "missileLaunch"
 rotation: 90
 shoot:{
-  shots: 6
-  shotDelay: 20
+  shots: 8
+  shotDelay: 1
 }
         bullet: {
             type: MissileBulletType
