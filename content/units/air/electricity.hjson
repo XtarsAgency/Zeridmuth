@@ -58,15 +58,15 @@ pierceBuilding: true
 		
 	    mirror: true
 	    alternate: true
-        reload: 75
+        reload: 35
         shootSound: "missile"
 shots: 10
-burstSpacing: 0.4
+burstSpacing: 0.01
         bullet: {
             type: MissileBulletType
             damage: 135.5
-	        lifetime: 30
-	        speed: 5
+	        lifetime: 80
+	        speed: 15
 
 			width: 10
 		    height: 14
