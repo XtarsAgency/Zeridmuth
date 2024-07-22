@@ -38,29 +38,13 @@ weapons: [
 	    alternate: false
         reload: 135
         shootSound: "largeCannon"
-effect: {
-shootPattern: {
-effect: ShootHelix
-mag: 45
-offset: 0
-scl: 45
-}
-despawnEffect: {
-effect: ExplosionEffect
-smokeColor: 9a42ff
-smokeRad: 100
-smokes: 30
-smokeSize: 45
-smokeSizeBase: 100
-}
-}
-       
+
 bullet: {
             type: BasicBulletType
             damage: 550.5
 	        lifetime: 32
 	        speed: 25
-pierceCap: 5
+pierceCap: 7
 pierceBuilding: true
 			
 			width: 10
@@ -88,9 +72,9 @@ shoot:{
             type: MissileBulletType
             damage: 85.7
 	        lifetime: 85
-	        speed: 10
+	        speed: 8
 homingRange: 9000000
-homingPower: 0.3
+homingPower: 0.05
 homingDelay: 10
 
 			width: 4
