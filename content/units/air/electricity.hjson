@@ -25,7 +25,7 @@ accel: 0.1
 drag: 0.15
 rotateSpeed: 0.9
 
-outlineColor: ffffff00
+outlineColor: 14112101
 
 weapons: [
     {
@@ -36,14 +36,14 @@ weapons: [
 		
 	    mirror: false
 	    alternate: false
-        reload: 225
-        shootSound: "railgun"
+        reload: 270
+        shootSound: "largeCannon"
         bullet: {
             type: BasicBulletType
-            damage: 1050.5
-	        lifetime: 40
-	        speed: 20
-pierceCap: 7
+            damage: 850.5
+	        lifetime: 32
+	        speed: 25
+pierceCap: 5
 pierceBuilding: true
 			
 			width: 10
@@ -53,26 +53,26 @@ pierceBuilding: true
 {
         name: missile-weapon
         top: false
-        x: 97
-        y: -88
+        x: 24.25
+        y: -22
 		
 	    mirror: true
 	    alternate: true
-        reload: 120
+        reload: 180
         shootSound: "missileLaunch"
-rotation: 225
+rotation: 315
 shoot:{
   shots: 8
-  shotDelay: 3
+  shotDelay: 4.5
 }
         bullet: {
             type: MissileBulletType
-            damage: 135.5
+            damage: 105.5
 	        lifetime: 280
 	        speed: 3.4
 
 			width: 4
-		    height: 8
+		    height: 1
 		}
     },
 ]
