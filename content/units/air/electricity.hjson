@@ -70,7 +70,7 @@ smokeSizeBase: 100
         shootSound: "missileLaunch"
 baseRotation: 45
 shootCone: 180
-homingRange: 900
+homingRange: 9000000
 homingPower: 0.3
 inaccuracy: 10
 homingDelay: 10
@@ -81,8 +81,8 @@ shoot:{
         bullet: {
             type: MissileBulletType
             damage: 85.7
-	        lifetime: 150
-	        speed: 15
+	        lifetime: 85
+	        speed: 10
 
 			width: 4
 		    height: 1
