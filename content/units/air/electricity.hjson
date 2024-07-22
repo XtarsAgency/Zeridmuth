@@ -70,14 +70,14 @@ scl: 45
 {
         name: missile-weapon
         top: false
-        x: 24.25
-        y: -22
+        x: 26.25
+        y: -20.50
 		
 	    mirror: true
 	    alternate: true
         reload: 180
         shootSound: "missileLaunch"
-baseRotation: 45
+baseRotation: -45
 shootCone: 180
 homingRange: 9000000
 homingPower: 0.3
