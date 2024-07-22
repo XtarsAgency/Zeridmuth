@@ -45,6 +45,14 @@ weapons: [
 	        speed: 25
 pierceCap: 5
 pierceBuilding: true
+hitEffect: {
+effect: ExplosionEffect
+smokeColor: 9152fa
+smokeRad: 10
+smokes: 10
+smokeSize: 6
+smokeSizeBase: 6
+}
 			
 			width: 10
 		    height: 14
