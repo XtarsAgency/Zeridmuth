@@ -38,6 +38,7 @@ weapons: [
 	    alternate: false
         reload: 135
         shootSound: "largeCannon"
+effect: {
 shootPattern: {
 effect: ShootHelix
 mag: 45
@@ -51,6 +52,7 @@ smokeRad: 100
 smokes: 30
 smokeSize: 45
 smokeSizeBase: 100
+}
 }
        
 bullet: {
