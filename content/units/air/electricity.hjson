@@ -46,13 +46,12 @@ weapons: [
 pierceCap: 5
 pierceBuilding: true
 hitEffect: {
-effect: ExplosionEffect {
+effect: ExplosionEffect
 smokeColor: 9a42ff
 smokeRad: 100
 smokes: 30
 smokeSize: 45
 smokeSizeBase: 100
-}
 }
 			
 			width: 10
