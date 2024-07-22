@@ -102,8 +102,8 @@ shoot:{
 engines: [
     {
         x: 0
-        y: -35
-        radius: 9.5
+        y: -40
+        radius: 10
         rotation: 270
     }
 ]
