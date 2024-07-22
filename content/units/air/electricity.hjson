@@ -73,6 +73,7 @@ alwaysShooting: true
 homingRange: 10000
 homingPower: 0.8
 inaccuracy: 25
+homingDelay: 10
 shoot:{
   shots: 8
   shotDelay: 4.5
