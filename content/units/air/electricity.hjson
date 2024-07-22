@@ -36,22 +36,22 @@ weapons: [
 		
 	    mirror: false
 	    alternate: false
-        reload: 270
+        reload: 135
         shootSound: "largeCannon"
         bullet: {
             type: BasicBulletType
-            damage: 850.5
+            damage: 550.5
 	        lifetime: 32
 	        speed: 25
 pierceCap: 5
 pierceBuilding: true
 hitEffect: {
 effect: ExplosionEffect
-smokeColor: 9152fa
-smokeRad: 10
-smokes: 10
-smokeSize: 6
-smokeSizeBase: 6
+smokeColor: 9a42ff
+smokeRad: 100
+smokes: 30
+smokeSize: 45
+smokeSizeBase: 100
 }
 			
 			width: 10
@@ -68,7 +68,7 @@ smokeSizeBase: 6
 	    alternate: true
         reload: 180
         shootSound: "missileLaunch"
-rotation: 315
+baseRotation: 45
 shoot:{
   shots: 8
   shotDelay: 4.5
