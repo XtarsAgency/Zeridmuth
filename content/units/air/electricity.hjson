@@ -39,7 +39,7 @@ weapons: [
         reload: 135
         shootSound: "largeCannon"
 shoot: {
-hitEffect: {
+despawnEffect: {
 effect: ExplosionEffect
 smokeColor: 9a42ff
 smokeRad: 100
