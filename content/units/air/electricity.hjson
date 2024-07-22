@@ -46,12 +46,13 @@ weapons: [
 pierceCap: 5
 pierceBuilding: true
 hitEffect: {
-effect: ExplosionEffect
+effect: ExplosionEffect {
 smokeColor: 9a42ff
 smokeRad: 100
 smokes: 30
 smokeSize: 45
 smokeSizeBase: 100
+}
 }
 			
 			width: 10
@@ -70,17 +71,17 @@ smokeSizeBase: 100
         shootSound: "missileLaunch"
 baseRotation: 45
 alwaysShooting: true
-homingRange: 10000
-homingPower: 0.8
-inaccuracy: 25
+homingRange: 900
+homingPower: 0.3
+inaccuracy: 20
 homingDelay: 10
 shoot:{
-  shots: 8
-  shotDelay: 4.5
+  shots: 45
+  shotDelay: 2
 }
         bullet: {
             type: MissileBulletType
-            damage: 105.5
+            damage: 85.7
 	        lifetime: 280
 	        speed: 3.4
 
