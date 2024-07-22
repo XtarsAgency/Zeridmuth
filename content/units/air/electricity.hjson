@@ -69,6 +69,9 @@ smokeSizeBase: 100
         reload: 180
         shootSound: "missileLaunch"
 baseRotation: 45
+alwaysShooting: true
+homingRange: 10000
+homingPower: 0.8
 shoot:{
   shots: 8
   shotDelay: 4.5
