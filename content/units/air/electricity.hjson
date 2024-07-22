@@ -38,19 +38,15 @@ weapons: [
 	    alternate: false
         reload: 135
         shootSound: "largeCannon"
-shootPattern: {
-effect: ShootHelix
-mag: 45
-offset: 0
-scl: 45
-}
-        bullet: {
+       
+bullet: {
             type: BasicBulletType
             damage: 550.5
 	        lifetime: 32
 	        speed: 25
 pierceCap: 5
 pierceBuilding: true
+shoot: {
 hitEffect: {
 effect: ExplosionEffect
 smokeColor: 9a42ff
@@ -58,6 +54,13 @@ smokeRad: 100
 smokes: 30
 smokeSize: 45
 smokeSizeBase: 100
+}
+shootPattern: {
+effect: ShootHelix
+mag: 45
+offset: 0
+scl: 45
+}
 }
 			
 			width: 10
