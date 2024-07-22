@@ -54,8 +54,8 @@ pierceBuilding: true
 {
         name: missile-weapon
         top: false
-        x: 26.25
-        y: -20.25
+        x: 25.25
+        y: -21.25
 		
 	    mirror: true
 	    alternate: true
@@ -78,7 +78,7 @@ homingRange: 9000000
 homingPower: 0.05
 homingDelay: 10
 
-			width: 4
+			width: 8
 		    height: 12
 		}
     },
