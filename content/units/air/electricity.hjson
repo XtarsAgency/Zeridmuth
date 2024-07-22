@@ -70,6 +70,7 @@ shoot:{
 }
         bullet: {
             type: MissileBulletType
+	sprite: electricity-missile
             damage: 85.7
 	        lifetime: 85
 	        speed: 8
