@@ -55,13 +55,13 @@ pierceBuilding: true
         name: missile-weapon
         top: false
         x: 26.25
-        y: -20.50
+        y: -20.25
 		
 	    mirror: true
 	    alternate: true
         reload: 180
         shootSound: "missileLaunch"
-baseRotation: -20
+baseRotation: -45
 shootCone: 180
 inaccuracy: 5
 shoot:{
