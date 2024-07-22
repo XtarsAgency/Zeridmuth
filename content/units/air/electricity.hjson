@@ -37,7 +37,7 @@ weapons: [
 	    mirror: false
 	    alternate: false
         reload: 270
-        shootSound: "railgun"
+        shootSound: "largeCannon"
         bullet: {
             type: BasicBulletType
             damage: 850.5
@@ -53,26 +53,26 @@ pierceBuilding: true
 {
         name: missile-weapon
         top: false
-        x: 97
-        y: -88
+        x: 24.25
+        y: -22
 		
 	    mirror: true
 	    alternate: true
         reload: 180
         shootSound: "missileLaunch"
-rotation: 225
+rotation: 315
 shoot:{
   shots: 8
   shotDelay: 4.5
 }
         bullet: {
             type: MissileBulletType
-            damage: 135.5
+            damage: 105.5
 	        lifetime: 280
 	        speed: 3.4
 
 			width: 4
-		    height: 8
+		    height: 1
 		}
     },
 ]
