@@ -53,6 +53,12 @@ smokes: 30
 smokeSize: 45
 smokeSizeBase: 100
 }
+shootPattern: {
+effect: ShootHelix
+mag: 45
+offset: 0
+scl: 45
+}
 			
 			width: 10
 		    height: 14
@@ -85,7 +91,7 @@ shoot:{
 	        speed: 10
 
 			width: 4
-		    height: 1
+		    height: 12
 		}
     },
 ]
