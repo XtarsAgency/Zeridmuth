@@ -38,14 +38,6 @@ weapons: [
 	    alternate: false
         reload: 135
         shootSound: "largeCannon"
-       
-bullet: {
-            type: BasicBulletType
-            damage: 550.5
-	        lifetime: 32
-	        speed: 25
-pierceCap: 5
-pierceBuilding: true
 shoot: {
 hitEffect: {
 effect: ExplosionEffect
@@ -62,6 +54,14 @@ offset: 0
 scl: 45
 }
 }
+       
+bullet: {
+            type: BasicBulletType
+            damage: 550.5
+	        lifetime: 32
+	        speed: 25
+pierceCap: 5
+pierceBuilding: true
 			
 			width: 10
 		    height: 14
