@@ -77,15 +77,15 @@ pierceBuilding: true
 	    alternate: true
         reload: 180
         shootSound: "missileLaunch"
-baseRotation: -45
+baseRotation: -20
 shootCone: 180
-homingRange: 9000000
+homingRange: 900000000
 homingPower: 0.3
-inaccuracy: 10
+inaccuracy: 5
 homingDelay: 10
 shoot:{
   shots: 45
-  shotDelay: 2
+  shotDelay: 1.2
 }
         bullet: {
             type: MissileBulletType
