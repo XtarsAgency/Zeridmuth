@@ -60,7 +60,7 @@ height: 34
         top: true
         x: 58
         y: -50
-recoil: 8
+shootecoil: 8
 
 	    mirror: true
 	    alternate: true
@@ -79,26 +79,37 @@ pierceBuilding: true
 		    height: 20
 		}
     }
-  {
-        name: missile-weapon
-        top: true
-        x: 37
-        y: 16
+{ 
+name: missile-weapon
+        top: false
+        x: 48.5
+        y: -11.25
 		
 	    mirror: true
 	    alternate: true
-        reload: 10
-        shootSound: "altilery"
+        reload: 180
+        shootSound: "shootSmite"
+baseRotation: -45
+shootCone: 360
+inaccuracy: 10
+shoot:{
+  shots: 100
+  shotDelay: 1
+}
         bullet: {
             type: MissileBulletType
-            damage: 580.45
-	        lifetime: 60
-	        speed: 5
-			
-			width: 8
-		    height: 16
+	backSprite: "electricity-missile"
+            damage: 285.7
+	        lifetime: 90
+	        speed: 8
+homingRange: 9000000
+homingPower: 0.05
+homingDelay: 10
+
+			width: 12
+		    height: 28
 		}
-}
+    },
 ]
 
 engines: [
