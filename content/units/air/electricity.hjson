@@ -1,5 +1,5 @@
 type: flying
-health: 13680
+health: 14680
 armor: 8
 hitSize: 75
 
@@ -54,7 +54,7 @@ type: RadialEffect
 amount: 6
 spacing: 12
 lenghtOffset: 0
-    ],
+    ]
 {
        name: missile-weapon
         top: false
