@@ -32,7 +32,7 @@ weapons: [
         name: electricity-weapon
         top: false
         x: 0
-        y: 8
+        y: 18
 		
 	    mirror: false
 	    alternate: false
@@ -69,9 +69,9 @@ despawnEffect: {
   region: circle
   particles: 12
   lengthOffset: 24
-  sizeFrom: 4
+  sizeFrom: 40
   sizeTo: 0
-  lifetime: 40
+  lifetime: 300
   lightColor: fafc51
   colorFrom: bababa
   colorTo: 000000
@@ -84,7 +84,7 @@ hitEffect: {
   lengthOffset: 24
   sizeFrom: 6
   sizeTo: 0
-  lifetime: 40
+  lifetime: 300
   lightColor: fafc51
   colorFrom: bababa
   colorTo: 812613
