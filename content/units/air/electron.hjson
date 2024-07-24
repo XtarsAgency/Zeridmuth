@@ -82,7 +82,7 @@ pierceBuilding: true
 { 
 name: missile-weapon
         top: false
-        x: 48.5
+        x: 34.5
         y: -11.25
 		
 	    mirror: true
@@ -93,7 +93,7 @@ baseRotation: -45
 shootCone: 360
 inaccuracy: 10
 shoot:{
-  shots: 100
+  shots: 10
   shotDelay: 1
 }
         bullet: {
@@ -106,8 +106,39 @@ homingRange: 9000000
 homingPower: 0.05
 homingDelay: 10
 
-			width: 12
-		    height: 28
+			width: 6
+		    height: 10
+		}
+    },
+{ 
+name: missile-weapon
+        top: false
+        x: 55.5
+        y: -21.25
+		
+	    mirror: true
+	    alternate: true
+        reload: 180
+        shootSound: "shootSmite"
+baseRotation: -5
+shootCone: 360
+inaccuracy: 5
+shoot:{
+  shots: 10
+  shotDelay: 1
+}
+        bullet: {
+            type: MissileBulletType
+	backSprite: "electricity-missile"
+            damage: 285.7
+	        lifetime: 90
+	        speed: 8
+homingRange: 9000000
+homingPower: 0.05
+homingDelay: 10
+
+			width: 6
+		    height: 10
 		}
     },
 ]
