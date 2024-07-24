@@ -55,6 +55,7 @@ amount: 6
 spacing: 12
 lenghtOffset: 0
     ]
+}
 {
        name: missile-weapon
         top: false
