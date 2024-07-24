@@ -1,5 +1,5 @@
 type: flying
-health: 13680
+health: 14680
 armor: 8
 hitSize: 75
 
@@ -15,7 +15,7 @@ max: 2650
 radius: 90
 angle: 270
 regen: 0.944
-width: 10
+width: 15
 whenShooting: true
 }
 ]
@@ -50,9 +50,16 @@ pierceBuilding: true
 			width: 10
 		    height: 14
 		}
-    },
+warmup: 1
+effect: [
+type: RadialEffect
+amount: 6
+spacing: 12
+lenghtOffset: 0
+    ]
+}
 {
-        name: missile-weapon
+       name: missile-weapon
         top: false
         x: 25.25
         y: -21.25
