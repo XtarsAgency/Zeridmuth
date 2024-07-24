@@ -8,14 +8,16 @@ buildSpeed: 0.65
 itemCapacity: 590
 
 abilities: [
+{
 type: ShieldArcAbility
 cooldown: 5800
 max: 2650
 radius: 90
 angle: 270
 regen: 0.944
-width: 10
+width: 15
 whenShooting: true
+}
 ]
 
 speed: 1
