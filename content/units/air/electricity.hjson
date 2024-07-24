@@ -8,7 +8,6 @@ buildSpeed: 0.65
 itemCapacity: 590
 
 abilities: [
-{
 type: ShieldArcAbility
 cooldown: 5800
 max: 2650
@@ -50,9 +49,14 @@ pierceBuilding: true
 			width: 10
 		    height: 14
 		}
+warmup: 1
+effect: RadialEffect {
+amount: 6
+spacing: 12
+lenghtOffset: 0
     },
 {
-        name: missile-weapon
+       name: missile-weapon
         top: false
         x: 25.25
         y: -21.25
