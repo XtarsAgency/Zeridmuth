@@ -50,18 +50,6 @@ pierceBuilding: true
 			width: 10
 		    height: 14
 		}
-}
-{
-    name: railgun-effect
-        top: false
-        x: 2
-        y: 18
-		
-	    mirror: true
-	    alternate: false
-        reload: 110
-        shootSound: "laserBlast"
-
 bullet: {
             type: LaserBulletType
             damage: 550.5
