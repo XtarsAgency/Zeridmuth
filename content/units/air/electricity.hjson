@@ -16,7 +16,6 @@ angle: 270
 regen: 0.944
 width: 10
 whenShooting: true
-}
 ]
 
 speed: 1
@@ -50,11 +49,12 @@ pierceBuilding: true
 		    height: 14
 		}
 warmup: 1
-effect: RadialEffect {
+effect: [
+type: RadialEffect
 amount: 6
 spacing: 12
 lenghtOffset: 0
-    },
+    ],
 {
        name: missile-weapon
         top: false
