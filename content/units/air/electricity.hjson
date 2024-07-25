@@ -36,7 +36,7 @@ weapons: [
 		
 	    mirror: false
 	    alternate: false
-        reload: 135
+        reload: 110
         shootSound: "largeCannon"
 
 bullet: {
@@ -50,46 +50,13 @@ pierceBuilding: true
 			width: 10
 		    height: 14
 		}
-shootEffect: {
-  type: ParticleEffect
-  region: circle
-  particles: 6
-  cone: 40
-  lengthOffset: 32
-  sizeFrom: 3
-  sizeTo: 0
-  lifetime: 60
-  lightColor: ffffff
-  colorFrom: efef00
-  colorTo: 00000000
-}
-
-despawnEffect: {
-  type: ParticleEffect
-  region: circle
-  particles: 12
-  lengthOffset: 24
-  sizeFrom: 40
-  sizeTo: 0
-  lifetime: 300
-  lightColor: fafc51
-  colorFrom: bababa
-  colorTo: 000000
-}
-
-hitEffect: {
-  type: ParticleEffect
-  region: circle
-  particles: 12
-  lengthOffset: 24
-  sizeFrom: 6
-  sizeTo: 0
-  lifetime: 300
-  lightColor: fafc51
-  colorFrom: bababa
-  colorTo: 812613
-}
-
+bullet: {
+            type: LaserBulletType
+            damage: 550.5
+	        lifetime: 10
+	        speed: 0
+			width: 10
+		}
 }
 {
        name: missile-weapon
