@@ -37,10 +37,7 @@ objectives: [
 }
 drawer: [
 	{
-        type: DrawMulti
-    drawers: [
-      {
-        type: DrawRegion
+	type: DrawRegion
         suffix: "-bottom"
       }
       {
