@@ -103,7 +103,7 @@ research: {
     parent: "ze-ship-assembler"
     requirements: [
         "carbon/3800"
-"carbon-plates/13500"
+"carbon-plates/9500"
 "aluminium-ingot/7840"
 "electric-component/1980"
 "aluminium/3140"
