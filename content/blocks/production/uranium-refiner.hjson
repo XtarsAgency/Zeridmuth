@@ -3,30 +3,30 @@ category: crafting
 size: 4
 health: 879
 
-craftTime: 145
+craftTime: 320
 consumes: {
     items: [
-        "aluminium-ingot/1"
-      "uranium/3"
+        "aluminium-ingot/3"
+      "uranium/7"
 	]
 	power: 0.76
 }
-outputItem: "refined-uranium/1"
+outputItem: "refined-uranium/2"
 
 squareSprite: false
 
 requirements: [
-    "carbon-plates/180"
-  "aluminium/60"
-  "uranium/90"
+    "carbon-plates/210"
+  "aluminium/100"
+  "uranium/105"
 ]
 
 research: {
     parent: "aluminium-smelter"
     requirements: [
-        "carbon-plates/115"
-      "aluminium-ingot/125"
-      "uranium/90"
+        "carbon-plates/1150"
+      "aluminium-ingot/1205"
+      "uranium/900"
     ]
 objectives: [
 	    {
@@ -45,13 +45,13 @@ drawer: [
         color: 70e9bcef
         alpha: 0.4
         blending: additive
-        particleSize: 3.5
+        particleSize: 4
         reverse: true
         particleRad: 12
-        particles: 28
+        particles: 42
         fadeMargin: 1
         rotateScl: 7
-        particleLife: 50
+        particleLife: 60
       }
 {
 type: DrawGlowRegion
