@@ -37,12 +37,25 @@ objectives: [
 }
 drawer: [
 	{
+        type: DrawMulti
+    drawers: [
+      {
         type: DrawRegion
         suffix: "-bottom"
-    }
-	{
-		type: DrawArcSmelt
-	}
+      }
+      {
+        type: DrawParticles
+        color: 70e9bcef
+        alpha: 0.4
+        blending: additive
+        particleSize: 4.5
+        reverse: true
+        particleRad: 9
+        particles: 36
+        fadeMargin: 1
+        rotateScl: 7
+        particleLife: 50
+      }
 {
 type: DrawPulseShape
 color: f09626
