@@ -69,8 +69,8 @@ engines: [
 research: {
     parent: "reconstructor"
     requirements: [
-        "carbon/1430"
-"carbon-plates/970"
-"aluminium-ingot/520"
+        "carbon/1030"
+"carbon-plates/870"
+"aluminium-ingot/420"
     ]
 }
