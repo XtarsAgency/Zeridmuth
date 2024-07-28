@@ -45,23 +45,29 @@ drawer: [
         color: 70e9bcef
         alpha: 0.4
         blending: additive
-        particleSize: 4.5
+        particleSize: 3.5
         reverse: true
-        particleRad: 9
-        particles: 36
+        particleRad: 12
+        particles: 28
         fadeMargin: 1
         rotateScl: 7
         particleLife: 50
       }
 {
-type: DrawPulseShape
-color: f09626
-minStroke: 4
-radiusScl: 5.5
-stroke: 5
-timeScl: 5
+type: WaveEffect
+        lifetime: 80
+        sizeFrom: 0
+        sizeTo: 42
+        strokeFrom: 3.5
+        strokeTo: 0
+        colorFrom: 60d9acdf
+        colorTo: 54b782df
 }
-
+{
+type: DrawGlowRegion
+suffix: -glow
+color: 80f9ccaf
+}
 	{
         type: DrawDefault
     }
