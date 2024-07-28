@@ -43,6 +43,15 @@ drawer: [
 	{
 		type: DrawArcSmelt
 	}
+{
+type: DrawPulseShape
+color: f09626
+minStroke: 4
+radiusScl: 5.5
+stroke: 5
+timeScl: 5
+}
+
 	{
         type: DrawDefault
     }
