@@ -16,9 +16,9 @@ outputItem: "refined-uranium/1"
 squareSprite: false
 
 requirements: [
-    "carbon-plates/30"
-  "aluminium/10"
-  "uranium/15"
+    "carbon-plates/180"
+  "aluminium/60"
+  "uranium/90"
 ]
 
 research: {
@@ -56,7 +56,7 @@ drawer: [
 {
 type: DrawGlowRegion
 suffix: "-glow"
-color: 80f9ccaf
+color: 80f9cc8f
 }
 	{
         type: DrawDefault
