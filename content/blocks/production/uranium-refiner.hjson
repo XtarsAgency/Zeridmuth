@@ -43,6 +43,14 @@ drawer: [
 	{
 		type: DrawArcSmelt
 	}
+{
+type: DrawFlame
+flameColor: f09626
+flameRadius: 5
+flameRadiusIn: 4
+flameRadiusMag: 5.5
+}
+
 	{
         type: DrawDefault
     }
