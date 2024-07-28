@@ -44,11 +44,12 @@ drawer: [
 		type: DrawArcSmelt
 	}
 {
-type: DrawFlame
-flameColor: f09626
-flameRadius: 5
-flameRadiusIn: 4
-flameRadiusMag: 5.5
+type: DrawPulseShape
+color: f09626
+minStroke: 4
+radiusScl: 5.5
+stroke: 5
+timeScl: 5
 }
 
 	{
