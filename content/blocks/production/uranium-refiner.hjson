@@ -1,17 +1,18 @@
 type: GenericCrafter
 category: crafting
 size: 4
-health: 879
+health: 980
 
-craftTime: 320
+craftTime: 300
+itemCapacity: 28
 consumes: {
     items: [
         "aluminium-ingot/3"
-      "uranium/7"
+      "uranium/9"
 	]
 	power: 0.76
 }
-outputItem: "refined-uranium/2"
+outputItem: "refined-uranium/3"
 
 squareSprite: false
 
@@ -24,9 +25,9 @@ requirements: [
 research: {
     parent: "aluminium-smelter"
     requirements: [
-        "carbon-plates/1150"
-      "aluminium-ingot/1205"
-      "uranium/900"
+        "carbon-plates/850"
+      "aluminium-ingot/1005"
+      "uranium/700"
     ]
 objectives: [
 	    {
