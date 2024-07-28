@@ -65,7 +65,7 @@ type: WaveEffect
 }
 {
 type: DrawGlowRegion
-suffix: -glow
+suffix: "-glow"
 color: 80f9ccaf
 }
 	{
