@@ -55,7 +55,8 @@ drawer: [
         particleLife: 60
       }
 	{
-	type: DrawArcSmelt
+	type: DrawFlame
+	flameColor: 78f3d69f
 }
 {
 type: DrawGlowRegion
