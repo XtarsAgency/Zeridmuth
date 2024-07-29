@@ -46,18 +46,14 @@ drawer: [
         color: 70e9bcef
         alpha: 0.4
         blending: additive
-        particleSize: 4
+        particleSize: 4.5
         reverse: true
-        particleRad: 12
+        particleRad: 12.2
         particles: 42
         fadeMargin: 1
         rotateScl: 7
         particleLife: 60
-      }
-	{
-	type: DrawFlame
-	flameColor: 78f3d69f
-}
+      }	
 {
 type: DrawGlowRegion
 suffix: "-glow"
@@ -66,4 +62,8 @@ color: 78f1c488
 	{
         type: DrawDefault
     }
+{
+	type: DrawFlame
+	flameColor: 78f3d69f
+}
 ]
