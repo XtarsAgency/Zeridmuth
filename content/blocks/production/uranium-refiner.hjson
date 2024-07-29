@@ -54,6 +54,9 @@ drawer: [
         rotateScl: 7
         particleLife: 60
       }
+	{
+	type: DrawArcSmelt
+}
 {
 type: DrawGlowRegion
 suffix: "-glow"
