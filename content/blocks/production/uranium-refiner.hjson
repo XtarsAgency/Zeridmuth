@@ -1,32 +1,33 @@
 type: GenericCrafter
 category: crafting
 size: 4
-health: 879
+health: 980
 
-craftTime: 145
+craftTime: 300
+itemCapacity: 28
 consumes: {
     items: [
-        "aluminium-ingot/1"
-      "uranium/3"
+        "aluminium-ingot/3"
+      "uranium/9"
 	]
 	power: 0.76
 }
-outputItem: "refined-uranium/1"
+outputItem: "refined-uranium/3"
 
 squareSprite: false
 
 requirements: [
-    "carbon-plates/30"
-  "aluminium/10"
-  "uranium/15"
+    "carbon-plates/210"
+  "aluminium/100"
+  "uranium/105"
 ]
 
 research: {
     parent: "aluminium-smelter"
     requirements: [
-        "carbon-plates/115"
-      "aluminium-ingot/125"
-      "uranium/90"
+        "carbon-plates/850"
+      "aluminium-ingot/1005"
+      "uranium/700"
     ]
 objectives: [
 	    {
@@ -37,22 +38,32 @@ objectives: [
 }
 drawer: [
 	{
-        type: DrawRegion
+	type: DrawRegion
         suffix: "-bottom"
-    }
-	{
-		type: DrawArcSmelt
-	}
+      }
+      {
+        type: DrawParticles
+        color: 70e9bcef
+        alpha: 0.4
+        blending: additive
+        particleSize: 4.5
+        reverse: true
+        particleRad: 12.2
+        particles: 42
+        fadeMargin: 1
+        rotateScl: 7
+        particleLife: 60
+      }	
 {
-type: DrawPulseShape
-color: f09626
-minStroke: 4
-radiusScl: 5.5
-stroke: 5
-timeScl: 5
+type: DrawGlowRegion
+suffix: "-glow"
+color: 78f1c488
 }
-
 	{
         type: DrawDefault
     }
+{
+	type: DrawFlame
+	flameColor: 78f3d6ff
+}
 ]
