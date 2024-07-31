@@ -32,6 +32,7 @@ drawer: [
 	{
 	type: DrawRegion
 	suffix: "-bottom"
+	}
 	{
 	type: DrawLiquidTile
 	drawLiquid: Oil
@@ -58,6 +59,7 @@ drawer: [
 	colorTo: 463625
 	cone: 15
 	}
+	]
 ResearchCost: [
         carbon/230
 carbon-plates/120
