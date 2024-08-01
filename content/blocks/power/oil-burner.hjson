@@ -36,7 +36,7 @@ drawer: [
 	{
 	type: DrawLiquidTile
 	drawLiquid: oil
-	suffix: "-bottom"
+	suffix: "-mid"
 	}
 	{
 	type: DrawRegion
