@@ -1,11 +1,11 @@
-color: ff0fb0
+color: 90b69f
 
 explosiveness: 0
 flammability: 0
 radioactivity: 1.25
-charge: 0
+charge: 0.1
 cost: 3
-hardness: 2
+hardness: 3
 
 research: {
     parent: "carbon"
