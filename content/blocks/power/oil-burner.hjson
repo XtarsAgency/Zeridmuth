@@ -10,7 +10,7 @@ requirements: [
 ]
 
 hasPower: true
-powerProduction: 11.8
+powerProduction: 9.0
 liquidCapacity: 110
 squareSprite: false
 
