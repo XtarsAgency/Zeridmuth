@@ -48,7 +48,7 @@ drawer: [
 	suffix: "-mid"
 	}
 	{
-	type: drawParticle
+	type: DrawParticle
 	color: e3ae6f
 	alpha: 0.6
 	blending: additive
@@ -62,7 +62,7 @@ drawer: [
 	suffix: "-mid"
 	}
 	{
-	type: drawParticle
+	type: DrawParticle
 	color: d57c65
 	alpha: 0.6
 	blending: additive
