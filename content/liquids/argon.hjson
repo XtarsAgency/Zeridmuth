@@ -1,12 +1,12 @@
 {
-    color: 0f85af
+    color: 5fb5ff
     barColor: 0f85af
     gas: true
     viscosity: 0
-    temperature: 0
-    heatCapacity: 0
+    temperature: -0.25
+    heatCapacity: 1
     explosiveness: 0
-    flammability: 0
+    flammability: 0.2
 
     research: {
     parent: "bio-oil"
