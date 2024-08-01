@@ -41,11 +41,11 @@ drawer: [
 	padding: 2
 	}
 	{
-	type: DrawRegion
-	suffix: "-mid"
+	type: DrawDefault
 	}
 	{
-	type: DrawDefault
+	type: DrawRegion
+	suffix: "-mid"
 	}
 	{
 	type: drawParticle
@@ -59,6 +59,7 @@ drawer: [
 	fadeMargin: 1
 	rotateScl: 3
 	particleLife: 90
+	suffix: "-mid"
 	}
 	{
 	type: drawParticle
@@ -72,6 +73,7 @@ drawer: [
 	fadeMargin: 1
 	rotateScl: 3.5
 	particleLife: 60
+	suffix: "-mid"
 	}
 	{
 	type: DrawGlowRegion
