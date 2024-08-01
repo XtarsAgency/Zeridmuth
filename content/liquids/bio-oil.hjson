@@ -1,5 +1,5 @@
-color: 002308
-barColor: 002302
+color: 204328
+barColor: 204322
 effect: "tarred"
 
 viscosity: 1.2
@@ -16,7 +16,7 @@ particleEffect: {
     lifetime: 5
     sizeFrom: 3
     sizeTo: 0
-    colorFrom: 002300
+    colorFrom: 204320
     colorTo: 00000000
 }
 
