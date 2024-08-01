@@ -53,7 +53,7 @@ drawer: [
 	length: 70
 	lifetime: 72
 	offset: 90
-	interp: fastSlow
+	interp: "fastSlow"
 	lightColor: 413230
 	colorFrom: 564635
 	colorTo: 463625
