@@ -41,11 +41,11 @@ drawer: [
 	padding: 2
 	}
 	{
-	type: DrawDefault
-	}
-	{
 	type: DrawRegion
 	suffix: "-mid"
+	}
+	{
+	type: DrawDefault
 	}
 	{
 	type: drawParticle
