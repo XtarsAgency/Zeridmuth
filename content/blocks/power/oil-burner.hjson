@@ -49,6 +49,7 @@ drawer: [
 	type: DrawGlowRegion
 	suffix: "-glow"
 	color: ffec82ef
+	}
 	]
 ResearchCost: [
         carbon/230
