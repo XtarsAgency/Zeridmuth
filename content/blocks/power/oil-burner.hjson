@@ -48,6 +48,32 @@ drawer: [
 	type: DrawDefault
 	}
 	{
+	type: drawParticle
+	color: e3ae6f
+	alpha: 0.6
+	blending: additive
+	particleSize: 2.25
+	reverse: true
+	particleRad: 9
+	particles: 32
+	fadeMargin: 1
+	rotateScl: 3
+	particleLife: 90
+	}
+	{
+	type: drawParticle
+	color: d57c65
+	alpha: 0.6
+	blending: additive
+	particleSize: 4.5
+	reverse: true
+	particleRad: 11
+	particles: 10
+	fadeMargin: 1
+	rotateScl: 3.5
+	particleLife: 60
+	}
+	{
 	type: DrawGlowRegion
 	suffix: "-glow"
 	color: ffec82ef
@@ -63,26 +89,28 @@ effects: [
 	sizeTo: 24
 	length: 24
 	offset: 45
+	lightOpacity: 0
 	interp: fastSlow
 	lifetime: 90
 	cone: 15
 	}
 	{
 	type: ParticleEffect
-	particles: 45
+	particles: 30
 	colorFrom: 413F31C8
 	colorTo: 312F2100
 	sizeFrom: 16
 	sizeTo: 12
 	length: 12
 	offset: 45
+	lightOpacity: 0
 	interp: fastSlow
-	lifetime: 45
+	lifetime: 80
 	cone: 24
 	}
 	]
 ResearchCost: [
-        carbon/230
-carbon-plates/120
-aluminium-ingot/70
+        carbon/2300
+carbon-plates/1200
+aluminium-ingot/700
 ] 
