@@ -35,7 +35,7 @@ drawer: [
 	}
 	{
 	type: DrawLiquidTile
-	drawLiquid: Oil
+	drawLiquid: oil
 	suffix: "-bottom"
 	}
 		{
