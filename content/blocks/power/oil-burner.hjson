@@ -37,6 +37,8 @@ drawer: [
 	type: DrawLiquidTile
 	drawLiquid: zeridmuth-bio-oil
 	suffix: "-bottom"
+	alpha: 0.8
+	padding: 2
 	}
 	{
 	type: DrawRegion
