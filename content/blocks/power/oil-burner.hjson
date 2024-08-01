@@ -10,13 +10,13 @@ requirements: [
 ]
 
 hasPower: true
-powerProduction: 9.8
-liquidCapacity: 70
+powerProduction: 11.8
+liquidCapacity: 110
 squareSprite: false
 
 consumes: {
     liquids: [
-         "bio-oil/0.3"
+         "bio-oil/0.5"
 	]
 }
 research: {
@@ -51,6 +51,34 @@ drawer: [
 	type: DrawGlowRegion
 	suffix: "-glow"
 	color: ffec82ef
+	}
+	]
+effects: [
+	{
+	type: ParticleEffect
+	particles: 45
+	colorFrom: 413F31FF
+	colorTo: 312F2100
+	sizeFrom: 32
+	sizeTo: 24
+	length: 24
+	offset: 45
+	interp: fastSlow
+	lifetime: 90
+	cone: 15
+	}
+	{
+	type: ParticleEffect
+	particles: 45
+	colorFrom: 413F31C8
+	colorTo: 312F2100
+	sizeFrom: 16
+	sizeTo: 12
+	length: 12
+	offset: 45
+	interp: fastSlow
+	lifetime: 45
+	cone: 24
 	}
 	]
 ResearchCost: [
