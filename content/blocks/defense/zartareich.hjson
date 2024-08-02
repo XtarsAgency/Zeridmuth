@@ -12,8 +12,8 @@ ammoTypes: {
 	maurixum: {
 		type: BasicBulletType
 		damage: 13450
-		speed: 10
-		lifetime: 60
+		speed: 25
+		lifetime: 50
 		
 		width: 40
 		height: 60
@@ -24,8 +24,8 @@ ammoTypes: {
 	zettiux-alloy: {
 		type: BasicBulletType
 		damage: 34100
-		speed: 10
-		lifetime: 60
+		speed: 25
+		lifetime: 50
 		
 		width: 40
 		height: 80
@@ -35,8 +35,8 @@ ammoTypes: {
 electric-component: {
 type: MissileBulletType
 damage: 23750
-speed: 10
-lifetime: 60
+speed: 25
+lifetime: 50
 
 width: 40
 height: 80
@@ -46,15 +46,15 @@ ammoMultiplier: 1
 hitEffect: {
 type: ExplosionEffect
 smokeColor: FF6952
-smokeRad: 8.5
+smokeRad: 30
 smokes: 16
-smokeSize: 5
-smokeSizeBase: 3.5
+smokeSize: 15
+smokeSizeBase: 28
 sparkColor: FFFF00
 sparkLen: 2
 sparks: 20
-waveRad: 15
-waveLife: 30
+waveRad: 60
+waveLife: 60
 }
 
 trailColor: DEDE00FF
