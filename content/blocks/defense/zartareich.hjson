@@ -45,17 +45,18 @@ ammoMultiplier: 1
 
 hitEffect: {
 type: ExplosionEffect
-smokeColor: FF6952
+smokeColor: FF6952DE
 smokeRad: 50
-smokes: 16
-smokeSize: 6
-smokeSizeBase: 5
+smokes: 25
+smokeSize: 8
+smokeSizeBase: 8
 sparkColor: FFFF00
 sparkLen: 2
 sparkRad: 75
 sparks: 20
 waveRad: 60
 waveLife: 60
+lifetime: 80
 }
 
 trailColor: DEDE00FF
