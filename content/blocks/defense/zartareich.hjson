@@ -3,17 +3,17 @@ category: turret
 size: 5
 health: 23000
 
-reload: 100
-range: 1200
-recoil: 11.4
+reload: 95
+range: 680
+recoil: 18
 shootSound: giantbang
 
 ammoTypes: {
 	maurixum: {
 		type: BasicBulletType
 		damage: 13450
-		speed: 20
-		lifetime: 65
+		speed: 10
+		lifetime: 60
 		
 		width: 40
 		height: 60
@@ -24,8 +24,8 @@ ammoTypes: {
 	zettiux-alloy: {
 		type: BasicBulletType
 		damage: 34100
-		speed: 25
-		lifetime: 50
+		speed: 10
+		lifetime: 60
 		
 		width: 40
 		height: 80
@@ -35,8 +35,8 @@ ammoTypes: {
 electric-component: {
 type: MissileBulletType
 damage: 23750
-speed: 25
-lifetime: 75
+speed: 10
+lifetime: 60
 
 width: 40
 height: 80
@@ -56,7 +56,20 @@ trailColor: DEDE00FF
         colorFrom: DEDE00FF
         colorTo: A4A400FF
       }
-
+fragBullets: 10
+      fragLifeMin: 25
+      fragAngle: 30
+      fragBullet: {
+        speed: 10
+        damage: 0
+        collidesGround: true
+        collidesAir: true
+        collides: true
+        lifetime: 40
+        lightOpacity: 1
+        shootEffect: none
+        height: 10
+        width: 5
 }
 }
 
