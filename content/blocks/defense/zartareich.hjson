@@ -48,13 +48,13 @@ type: ExplosionEffect
 smokeColor: FF6952A0
 smokeRad: 190
 smokes: 50
-smokeSize: 25
-smokeSizeBase:10
+smokeSize: 12
+smokeSizeBase: 12
 sparkColor: FFFF00
-sparkLen: 10
-sparkStroke: 55
-sparkRad: 230
-sparks: 20
+sparkLen: 2
+sparkStroke: 60
+sparkRad: 250
+sparks: 50
 waveRad: 200
 waveLife: 20
 lifetime: 800
