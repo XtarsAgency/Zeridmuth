@@ -43,6 +43,20 @@ height: 80
 
 ammoMultiplier: 1
 
+hitEffect: {
+type: ExplosionEffect
+smokeColor: FF6952
+smokeRad: 8.5
+smokes: 16
+smokeSize: 5
+smokeSizeBase: 3.5
+sparkColor: FFFF00
+sparkLen: 2
+sparks: 20
+waveRad: 15
+waveLife: 30
+}
+
 trailColor: DEDE00FF
       trailParam: 5
       trailLength: 15
@@ -56,17 +70,16 @@ trailColor: DEDE00FF
         colorFrom: DEDE00FF
         colorTo: A4A400FF
       }
-fragBullets: 10
+fragBullets: 25
       fragLifeMin: 25
-      fragAngle: 30
+      fragAngle: 10
       fragBullet: {
         speed: 10
-        damage: 0
+        lifetime: 10
         collidesGround: true
         collidesAir: true
         collides: true
-        lifetime: 40
-        lightOpacity: 1
+        damage: 260
         shootEffect: none
         height: 10
         width: 5
