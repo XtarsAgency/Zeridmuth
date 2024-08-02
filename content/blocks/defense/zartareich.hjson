@@ -71,15 +71,15 @@ trailColor: DEDE00FF
         colorTo: A4A400FF
       }
 fragBullets: 25
-      fragLifeMin: 25
-      fragAngle: 10
+      fragLifeMin: 1
+      fragAngle: 5
       fragBullet: {
         speed: 10
-        lifetime: 10
+        lifetime: 3
         collidesGround: true
         collidesAir: true
         collides: true
-        damage: 260
+        damage: 450
         shootEffect: none
         height: 10
         width: 5
