@@ -8,7 +8,7 @@
   ],
   "category": "distribution",
   "research": {
-    "parent": "duct-router",
+    "parent": "pressure-duct",
     "requirements": [
       "carbon/20"
     ]
