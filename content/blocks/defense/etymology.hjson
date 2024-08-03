@@ -1,10 +1,10 @@
 type: ItemTurret
 category: turret
 size: 2
-health: 458
+health: 450
 
 reload: 35
-range: 235
+range: 250
 recoil: 1.2
 
 ammoTypes: {
@@ -12,7 +12,7 @@ ammoTypes: {
 		type: BasicBulletType
 		damage: 37
 		speed: 10
-		lifetime: 38
+		lifetime: 18
 		
 		width: 11
 		height: 20
@@ -26,8 +26,8 @@ trailColor: 070719
 aluminium: {
 		type: BasicBulletType
 		damage: 45
-		speed: 8
-		lifetime: 45
+		speed: 10
+		lifetime: 25
 		
 		width: 11
 		height: 20
@@ -37,6 +37,7 @@ trailColor: ACCACAFF
       trailParam: 5
       trailLength: 5
       trailWidth: 1
+}
 }
 drawer:{
 
