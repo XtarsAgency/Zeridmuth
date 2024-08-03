@@ -51,8 +51,8 @@ smokes: 50
 smokeSize: 12
 smokeSizeBase: 12
 sparkColor: AAFFAA
-sparkLen: 0.5
-sparkStroke: 60
+sparkLen: 20
+sparkStroke: 5
 sparkRad: 250
 sparks: 50
 waveRad: 200
