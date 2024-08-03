@@ -1,13 +1,13 @@
 type: ItemTurret
 category: turret
 size: 5
-health: 8500
+health: 9100
 
-reload: 60
-range: 250
-recoil: 7
+reload: 100
+range: 760
+recoil: 11
 inaccuracy: 0
-shootSound: mediumCannon
+shootSound: largeCannon
 
 ammoTypes: {
 	maurixum: {
