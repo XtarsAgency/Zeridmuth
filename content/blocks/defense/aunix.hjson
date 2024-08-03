@@ -20,6 +20,10 @@ ammoTypes: {
 		height: 23
 		
 		ammoMultiplier: 4
+trailColor: 840BDB
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
 	},
         zettium: {
 		type: BasicBulletType
@@ -31,6 +35,10 @@ ammoTypes: {
 		height: 23
 		
 		ammoMultiplier: 2
+trailColor: 07BBFFFF
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
 	},
         refined-uranium: {
 		type: MissileBulletType
@@ -42,6 +50,22 @@ ammoTypes: {
 		height: 23
 		
 		ammoMultiplier: 6
+hitEffect: {
+type: ExplosionEffect
+smokeColor: 57ED409F
+smokeRad: 190
+smokes: 50
+smokeSize: 12
+smokeSizeBase: 12
+sparkColor: AAFFAA
+sparkLen: 20
+sparkStroke: 5
+sparkRad: 250
+sparks: 50
+waveRad: 200
+waveLife: 20
+lifetime: 120
+}
 	},
 zettiux-alloy: {
 		type: MissileBulletType
@@ -53,6 +77,19 @@ zettiux-alloy: {
 		height: 23
 		
 		ammoMultiplier: 4
+trailColor: 00CFBBFF
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
+      trailEffect: {
+        type: ParticleEffect
+        particles: 5
+        length: 2
+        lifetime: 25
+        sizeFrom: 5
+        colorFrom: FFFFFFFF
+        colorTo: A4A400FF
+      }
 	},
 }
 
