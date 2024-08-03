@@ -42,7 +42,7 @@ weapons: [
         shootSound: "giantbang"
         bullet: {
             type: BasicBulletType
-            damage: 21780.5
+            damage: 21470.5
 	        lifetime: 60
 	        speed: 22
 pierce: 40
@@ -53,6 +53,20 @@ fragBullets: 80
 
 width: 16
 height: 34
+
+trailColor: DEDE00FF
+      trailParam: 5
+      trailLength: 25
+      trailWidth: 8
+      trailEffect: {
+        type: ParticleEffect
+        particles: 5
+        length: 2
+        lifetime: 25
+        sizeFrom: 5
+        colorFrom: FFFFFFFF
+        colorTo: A4A400FF
+      }
 		}
     } 
 {
@@ -60,7 +74,6 @@ height: 34
         top: true
         x: 58
         y: -50
-shootecoil: 8
 
 	    mirror: true
 	    alternate: true
@@ -86,7 +99,7 @@ name: missile-weapon
         y: -11.25
 		
 	    mirror: true
-	    alternate: true
+	    alternate: false
         reload: 180
         shootSound: "shootSmite"
 baseRotation: -45
@@ -117,7 +130,7 @@ name: missile-weapon
         y: -21.25
 		
 	    mirror: true
-	    alternate: true
+	    alternate: false
         reload: 180
         shootSound: "shootSmite"
 baseRotation: -5
