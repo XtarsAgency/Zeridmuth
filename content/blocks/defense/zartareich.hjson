@@ -20,6 +20,7 @@ ammoTypes: {
 		height: 60
 		
 		ammoMultiplier: 1
+                buildingDamageMultiplier: 0 
 trailColor: 840BDBFF
       trailParam: 5
       trailLength: 15
@@ -59,6 +60,7 @@ trailColor: 840BDBFF
 		height: 80
 		
 		ammoMultiplier: 1
+                buildingDamageMultiplier: 0.01
 trailColor: 00BBCBFF
       trailParam: 5
       trailLength: 15
@@ -75,6 +77,7 @@ width: 40
 height: 80
 
 ammoMultiplier: 1
+buildingDamageMultiplier: 0.02
 
 trailColor: DEDE00FF
       trailParam: 5
