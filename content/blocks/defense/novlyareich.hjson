@@ -13,7 +13,7 @@ ammoTypes: {
 		type: BasicBulletType
 		damage: 250.80
 		speed: 15
-		lifetime: 20
+		lifetime: 60
 		
 		width: 35
 		height: 59
@@ -28,8 +28,8 @@ trailColor: ACACAC
 	refined-uranium: {
 		type: MissileBulletType
 		damage: 450.90
-		speed: 14
-		lifetime: 22
+		speed: 15
+		lifetime: 60
 		
 		width: 35
 		height: 59
@@ -52,8 +52,8 @@ trailColor: 2E7B2A
 	uranium: {
 		type: BasicBulletType
 		damage: 325.25
-		speed: 14
-		lifetime: 22
+		speed: 15
+		lifetime: 60
 		
 		width: 35
 		height: 59
