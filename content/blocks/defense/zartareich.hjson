@@ -20,7 +20,34 @@ ammoTypes: {
 		height: 60
 		
 		ammoMultiplier: 1
+trailColor: 840BDBFF
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
+      trailEffect: {
+        type: ParticleEffect
+        particles: 5
+        length: 2
+        lifetime: 25
+        sizeFrom: 5
+        colorFrom: FFFFFFFF
+        colorTo: A4A400FF
+      }      
+      fragBullets: 60
+      fragLifeMin: 5
+      fragAngle: 6
+      fragBullet: {
+        speed: 10
+        lifetime: 25
+        collidesGround: true
+        collidesAir: true
+        collides: true
+        damage: 550
+        shootEffect: none
+        height: 5
+        width: 35
 	}
+}
 
 	zettiux-alloy: {
 		type: BasicBulletType
@@ -32,7 +59,12 @@ ammoTypes: {
 		height: 80
 		
 		ammoMultiplier: 1
+trailColor: 00BBCBFF
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
 	}
+
 electric-component: {
 type: MissileBulletType
 damage: 23750
@@ -43,23 +75,6 @@ width: 40
 height: 80
 
 ammoMultiplier: 1
-
-hitEffect: {
-type: ExplosionEffect
-smokeColor: 57ED409F
-smokeRad: 190
-smokes: 50
-smokeSize: 12
-smokeSizeBase: 12
-sparkColor: AAFFAA
-sparkLen: 20
-sparkStroke: 5
-sparkRad: 250
-sparks: 50
-waveRad: 200
-waveLife: 20
-lifetime: 120
-}
 
 trailColor: DEDE00FF
       trailParam: 5
@@ -74,21 +89,7 @@ trailColor: DEDE00FF
         colorFrom: FFFFFFFF
         colorTo: A4A400FF
       }
-fragBullets: 60
-      fragLifeMin: 5
-      fragAngle: 6
-      fragBullet: {
-        speed: 10
-        lifetime: 25
-        collidesGround: true
-        collidesAir: true
-        collides: true
-        damage: 550
-        shootEffect: none
-        height: 5
-        width: 35
     }
-}
 }
 
 requirements: [
