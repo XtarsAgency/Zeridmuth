@@ -49,7 +49,7 @@ pierceBuilding: true
 			
 			width: 10
 		    height: 14
-trailColor: DEDE00FF
+trailColor: AEAE00FF
       trailParam: 5
       trailLength: 15
       trailWidth: 5
@@ -90,9 +90,9 @@ shoot:{
 homingRange: 9000000
 homingPower: 0.05
 homingDelay: 10
-trailColor: DEDE00FF
+trailColor: BE2000FF
       trailParam: 5
-      trailLength: 10
+      trailLength: 190
       trailWidth: 2
 
 			width: 6
