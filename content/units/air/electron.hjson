@@ -31,7 +31,7 @@ outlineColor: 2d2f39
 
 weapons: [
     {
-        name: railgun-weapon
+        name: big-railgun-weapon
         top: true
         x: 5
         y: 79
@@ -54,10 +54,10 @@ fragBullets: 80
 width: 16
 height: 34
 
-trailColor: DEDE00FF
+trailColor: AEAE00FF
       trailParam: 5
       trailLength: 25
-      trailWidth: 8
+      trailWidth: 6
       trailEffect: {
         type: ParticleEffect
         particles: 5
@@ -100,7 +100,7 @@ name: missile-weapon
 		
 	    mirror: true
 	    alternate: false
-        reload: 180
+        reload: 90
         shootSound: "shootSmite"
 baseRotation: -45
 shootCone: 360
@@ -131,7 +131,7 @@ name: missile-weapon
 		
 	    mirror: true
 	    alternate: false
-        reload: 180
+        reload: 60
         shootSound: "shootSmite"
 baseRotation: -5
 shootCone: 360
@@ -180,8 +180,8 @@ rotation: 90
 research: {
     parent: "electron-assembler"
     requirements: [
-        "carbon/200"
-"electric-component/55"
-"aluminium-ingot/20"
+        "zettiux-alloy/200"
+"electric-component/550"
+"zettium/210"
     ]
 }
