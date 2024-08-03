@@ -51,13 +51,15 @@ smokes: 50
 smokeSize: 12
 smokeSizeBase: 12
 sparkColor: FFFF00
-sparkLen: 2
+sparkLen: 0.5
 sparkStroke: 60
 sparkRad: 250
 sparks: 50
 waveRad: 200
 waveLife: 20
-lifetime: 800
+lifetime: 200
+startDelay: 20
+hitSound: largeCannon
 }
 
 trailColor: DEDE00FF
