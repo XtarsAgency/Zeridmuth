@@ -7,6 +7,7 @@ reload: 95
 range: 680
 recoil: 18
 shootSound: giantbang
+hitSound: laserblast
 
 ammoTypes: {
 	maurixum: {
@@ -59,7 +60,6 @@ waveRad: 200
 waveLife: 20
 lifetime: 120
 startDelay: 20
-hitSound: laserblast
 }
 
 trailColor: DEDE00FF
@@ -72,7 +72,7 @@ trailColor: DEDE00FF
         length: 2
         lifetime: 25
         sizeFrom: 5
-        colorFrom: DEDE00FF
+        colorFrom: FFFFFFFF
         colorTo: A4A400FF
       }
 fragBullets: 25
@@ -80,14 +80,14 @@ fragBullets: 25
       fragAngle: 5
       fragBullet: {
         speed: 10
-        lifetime: 3
+        lifetime: 10
         collidesGround: true
         collidesAir: true
         collides: true
         damage: 450
         shootEffect: none
-        height: 10
-        width: 5
+        height: 5
+        width: 35
     }
 }
 }
