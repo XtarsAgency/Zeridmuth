@@ -59,7 +59,6 @@ sparks: 50
 waveRad: 200
 waveLife: 20
 lifetime: 120
-startDelay: 20
 }
 
 trailColor: DEDE00FF
@@ -75,16 +74,16 @@ trailColor: DEDE00FF
         colorFrom: FFFFFFFF
         colorTo: A4A400FF
       }
-fragBullets: 25
-      fragLifeMin: 1
-      fragAngle: 5
+fragBullets: 60
+      fragLifeMin: 5
+      fragAngle: 6
       fragBullet: {
         speed: 10
-        lifetime: 10
+        lifetime: 25
         collidesGround: true
         collidesAir: true
         collides: true
-        damage: 450
+        damage: 550
         shootEffect: none
         height: 5
         width: 35
