@@ -18,6 +18,10 @@ ammoTypes: {
 		height: 20
 		
 		ammoMultiplier: 2
+trailColor: 070719
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
 	}
 aluminium: {
 		type: BasicBulletType
@@ -29,44 +33,31 @@ aluminium: {
 		height: 20
 		
 		ammoMultiplier: 3
-	}
+trailColor: ACCACAFF
+      trailParam: 5
+      trailLength: 5
+      trailWidth: 1
 }
 drawer:{
 
  type: DrawTurret
 
  parts: [
-
      {
-
-         "type": "RegionPart",
-
-          "suffix": "-part1",
-
-         "mirror": false,
-
+         type: RegionPart
+         suffix: -part1
+         mirror: false
          outline: false
-
-        "progress": {
-
-          "type": "warmup",
-
-          "op": "blend",
-
-          "other": "heat",
-
-          "amount": 0.15
-
+        progress: {
+          type: warmup
+          op: blend
+          other: heat
+          amount: 0.15
           }
-
-          "outlineLayerOffset": 0.001,
-
-         "moveY": 5,
-
+          outlineLayerOffset: 0.001
+          moveY: 5
              layerOffset: 0.02
-
          }
-
 ]
 }
 
