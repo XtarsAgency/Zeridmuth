@@ -54,7 +54,8 @@ trailColor: 00BBCBFF
       trailParam: 5
       trailLength: 15
       trailWidth: 5
-      fragBullet: {
+fragBullets: 60     
+fragBullet: {
         speed: 5
         lifetime: 25
         collidesGround: true
