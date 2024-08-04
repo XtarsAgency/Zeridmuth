@@ -87,18 +87,17 @@ trailColor: AEAE00FF
 hitEffect: {
 type: ExplosionEffect
 smokeColor: F7ED40FF
-smokeRad: 220
+smokeRad: 65
 smokes: 50
-smokeSize: 12
-smokeSizeBase: 12
+smokeSize: 5
 sparkColor: FFFFAAFF
 sparkLen: 20
 sparkStroke: 5
 sparkRad: 250
 sparks: 50
 waveRad: 200
-waveLife: 20
-lifetime: 120
+waveLife: 60
+lifetime: 100
 }
 		}
     } 
