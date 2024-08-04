@@ -56,16 +56,16 @@ fragBullets: 10
         collidesGround: true
         collidesAir: true
         collides: true
-        damage: 350
+        damage: 300
         shootEffect: none
         height: 25
-        width: 10
+        width: 5
         pierce: 20
         pierceCap: 20
 trailColor: FEFE0CFF
       trailParam: 5
-      trailLength: 20
-      trailWidth: 8
+      trailLength: 90
+      trailWidth: 4
 	}
 
 width: 16
@@ -87,17 +87,17 @@ trailColor: AEAE00FF
 hitEffect: {
 type: ExplosionEffect
 smokeColor: F7ED40FF
-smokeRad: 65
-smokes: 50
+smokeRad: 45
+smokes: 45
 smokeSize: 5
 sparkColor: FFFFAAFF
-sparkLen: 20
-sparkStroke: 5
-sparkRad: 250
+sparkLen: 10
+sparkStroke: 2
+sparkRad: 85
 sparks: 50
 waveRad: 200
 waveLife: 60
-lifetime: 100
+lifetime: 180
 }
 		}
     } 
@@ -138,7 +138,7 @@ baseRotation: -45
 shootCone: 360
 inaccuracy: 10
 shoot:{
-  shots: 40
+  shots: 20
   shotDelay: 1
 }
         bullet: {
@@ -163,19 +163,19 @@ name: missile-weapon
 		
 	    mirror: true
 	    alternate: false
-        reload: 60
+        reload: 45
         shootSound: "shootSmite"
 baseRotation: -5
 shootCone: 360
 inaccuracy: 5
 shoot:{
-  shots: 40
+  shots: 20
   shotDelay: 1
 }
         bullet: {
             type: MissileBulletType
 	backSprite: "electricity-missile"
-            damage: 285.7
+            damage: 142.7
 	        lifetime: 90
 	        speed: 8
 homingRange: 9000000
