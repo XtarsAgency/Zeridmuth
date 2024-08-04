@@ -38,18 +38,34 @@ weapons: [
 		
 	    mirror: true
 	    alternate: true
-        reload: 78
+        reload: 70
         shootSound: "giantbang"
         bullet: {
             type: BasicBulletType
-            damage: 21470.5
-	        lifetime: 60
-	        speed: 22
+            damage: 24570.5
+	        lifetime: 50
+	        speed: 20
 pierce: 40
 pierceCap: 45
 pierceBuilding: true
-fragOnHit: true
-fragBullets: 80
+fragBullets: 90
+      fragBullet: {
+        speed: 10
+        lifetime: 50
+        collidesGround: true
+        collidesAir: true
+        collides: true
+        damage: 870
+        shootEffect: none
+        height: 25
+        width: 10
+        pierce: 15
+        pierceCap: 20
+trailColor: CECE0CFF
+      trailParam: 5
+      trailLength: 20
+      trailWidth: 8
+	}
 
 width: 16
 height: 34
@@ -77,11 +93,11 @@ trailColor: AEAE00FF
 
 	    mirror: true
 	    alternate: true
-        reload: 50
+        reload: 25
         shootSound: "largeCannon"
         bullet: {
             type: BasicBulletType
-            damage: 1080.5
+            damage: 1478
 	        lifetime: 60
 	        speed: 16
 pierceCap: 10
@@ -106,7 +122,7 @@ baseRotation: -45
 shootCone: 360
 inaccuracy: 10
 shoot:{
-  shots: 10
+  shots: 40
   shotDelay: 1
 }
         bullet: {
@@ -137,7 +153,7 @@ baseRotation: -5
 shootCone: 360
 inaccuracy: 5
 shoot:{
-  shots: 10
+  shots: 40
   shotDelay: 1
 }
         bullet: {
