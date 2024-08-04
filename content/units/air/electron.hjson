@@ -47,7 +47,7 @@ weapons: [
 	        lifetime: 50
 	        speed: 20
 pierce: 40
-pierceCap: 0
+pierceCap: 40
 pierceBuilding: true
 fragBullets: 10
       fragBullet: {
@@ -80,17 +80,17 @@ trailColor: AEAE00FF
         particles: 5
         length: 2
         lifetime: 25
-        sizeFrom: 5
+        sizeFrom: 15
         colorFrom: FFFFFFFF
         colorTo: A4A400FF
 hitEffect: {
 type: ExplosionEffect
-smokeColor: 57ED409F
+smokeColor: F7ED40FF
 smokeRad: 190
 smokes: 50
 smokeSize: 12
 smokeSizeBase: 12
-sparkColor: AAFFAA
+sparkColor: AAFFAAFF
 sparkLen: 20
 sparkStroke: 5
 sparkRad: 250
