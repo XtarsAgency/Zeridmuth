@@ -52,7 +52,7 @@ pierceBuilding: true
 fragBullets: 10
       fragBullet: {
         speed: 10
-        lifetime: 30
+        lifetime: 15
         collidesGround: true
         collidesAir: true
         collides: true
