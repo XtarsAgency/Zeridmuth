@@ -23,15 +23,16 @@ weapons: [
 	    mirror: false
 	    alternate: false
         reload: 20
-        shootSound: "laserBlast"
+        shootSound: "railgun"
         bullet: {
             type: BasicBulletType
             damage: 35
 	        lifetime: 30
 	        speed: 3.5
+trailColor: EEEF00FF
 			
-			width: 3.5
-		    height: 7
+			width: 5
+		    height: 5
 		}
     }
 ]
