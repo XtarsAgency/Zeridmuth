@@ -37,17 +37,6 @@ trailColor: 840BDBFF
       fragBullets: 60
       fragLifeMin: 5
       fragAngle: 6
-      fragBullet: {
-        speed: 10
-        lifetime: 25
-        collidesGround: true
-        collidesAir: true
-        collides: true
-        damage: 550
-        shootEffect: none
-        height: 5
-        width: 35
-	}
 }
 
 	zettiux-alloy: {
@@ -65,6 +54,22 @@ trailColor: 00BBCBFF
       trailParam: 5
       trailLength: 15
       trailWidth: 5
+      fragBullet: {
+        speed: 5
+        lifetime: 25
+        collidesGround: true
+        collidesAir: true
+        collides: true
+        damage: 550
+        shootEffect: none
+        height: 5
+        width: 35
+        buildingDamageMultiplier: 0.01
+trailColor: 00BBCBFF
+      trailParam: 5
+      trailLength: 5
+      trailWidth: 5
+	}
 	}
 
 electric-component: {
