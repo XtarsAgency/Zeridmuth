@@ -40,6 +40,7 @@ weapons: [
 	    alternate: true
         reload: 70
         shootSound: "giantbang"
+
         bullet: {
             type: BasicBulletType
             damage: 24570.5
@@ -49,22 +50,6 @@ pierce: 40
 pierceCap: 0
 pierceBuilding: true
 fragBullets: 10
-hitEffect: {
-type: ExplosionEffect
-smokeColor: 57ED40DF
-smokeRad: 450
-smokes: 60
-smokeSize: 20
-smokeSizeBase: 12
-sparkColor: AAFFAA
-sparkLen: 20
-sparkStroke: 5
-sparkRad: 250
-sparks: 50
-waveRad: 700
-waveLife: 340
-lifetime: 120
-}
       fragBullet: {
         speed: 10
         lifetime: 30
@@ -98,6 +83,22 @@ trailColor: AEAE00FF
         sizeFrom: 5
         colorFrom: FFFFFFFF
         colorTo: A4A400FF
+hitEffect: {
+type: ExplosionEffect
+smokeColor: 57ED409F
+smokeRad: 190
+smokes: 50
+smokeSize: 12
+smokeSizeBase: 12
+sparkColor: AAFFAA
+sparkLen: 20
+sparkStroke: 5
+sparkRad: 250
+sparks: 50
+waveRad: 200
+waveLife: 20
+lifetime: 120
+}
       }
 		}
     } 
