@@ -43,7 +43,7 @@ weapons: [
 
         bullet: {
             type: BasicBulletType
-            damage: 24570.5
+            damage: 21470.5
 	        lifetime: 50
 	        speed: 20
 pierce: 40
@@ -56,7 +56,7 @@ fragBullets: 10
         collidesGround: true
         collidesAir: true
         collides: true
-        damage: 870
+        damage: 350
         shootEffect: none
         height: 25
         width: 10
@@ -91,7 +91,7 @@ smokeRad: 220
 smokes: 50
 smokeSize: 12
 smokeSizeBase: 12
-sparkColor: AAFFAAFF
+sparkColor: FFFFAAFF
 sparkLen: 20
 sparkStroke: 5
 sparkRad: 250
