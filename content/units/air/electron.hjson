@@ -46,6 +46,8 @@ weapons: [
             damage: 21470.5
 	        lifetime: 50
 	        speed: 20
+hitSound: largeExplosion
+hitSoundVolume: 2
 pierce: 40
 pierceCap: 40
 pierceBuilding: true
@@ -88,16 +90,16 @@ hitEffect: {
 type: ExplosionEffect
 smokeColor: F7ED40FF
 smokeRad: 45
-smokes: 45
+smokes: 22
 smokeSize: 5
 sparkColor: FFFFAAFF
 sparkLen: 10
 sparkStroke: 2
-sparkRad: 85
-sparks: 50
-waveRad: 200
-waveLife: 60
-lifetime: 180
+sparkRad: 55
+sparks: 80
+waveRad: 20
+waveLife: 20
+lifetime: 120
 }
 		}
     } 
@@ -122,6 +124,7 @@ pierceBuilding: true
 			
 			width: 10
 		    height: 20
+
 		}
     }
 { 
