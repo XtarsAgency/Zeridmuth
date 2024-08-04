@@ -20,10 +20,11 @@ ammoTypes: {
 		height: 23
 		
 		ammoMultiplier: 4
-trailColor: 840BDB
+trailColor: 840BDBFF
       trailParam: 5
       trailLength: 15
       trailWidth: 5
+buildingDamageMultiplier: 0
 	},
         zettium: {
 		type: BasicBulletType
@@ -39,6 +40,7 @@ trailColor: 07BBFFFF
       trailParam: 5
       trailLength: 15
       trailWidth: 5
+buildingDamageMultiplier: 0
 	},
         refined-uranium: {
 		type: MissileBulletType
@@ -50,6 +52,7 @@ trailColor: 07BBFFFF
 		height: 23
 		
 		ammoMultiplier: 6
+buildingDamageMultiplier: 0
 hitEffect: {
 type: ExplosionEffect
 smokeColor: 57ED409F
@@ -77,6 +80,7 @@ zettiux-alloy: {
 		height: 23
 		
 		ammoMultiplier: 4
+buildingDamageMultiplier: 0.01
 trailColor: 00CFBBFF
       trailParam: 5
       trailLength: 15
@@ -90,6 +94,22 @@ trailColor: 00CFBBFF
         colorFrom: FFFFFFFF
         colorTo: A4A400FF
       }
+      fragBullet: {
+        speed: 10
+        lifetime: 10
+        collidesGround: true
+        collidesAir: true
+        collides: true
+        damage: 65
+        shootEffect: none
+        height: 2
+        width: 15
+        buildingDamageMultiplier: 0.01
+trailColor: 00BBCBFF
+      trailParam: 5
+      trailLength: 5
+      trailWidth: 2.5
+	}
 	},
 }
 
