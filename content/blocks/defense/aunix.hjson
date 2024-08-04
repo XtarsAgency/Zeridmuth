@@ -94,7 +94,8 @@ trailColor: 00CFBBFF
         colorFrom: FFFFFFFF
         colorTo: A4A400FF
       }
-      fragBullet: {
+fragBullets: 50     
+fragBullet: {
         speed: 10
         lifetime: 10
         collidesGround: true
