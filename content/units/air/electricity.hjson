@@ -91,7 +91,7 @@ shoot:{
 homingRange: 9000000
 homingPower: 0.05
 homingDelay: 10
-trailColor: 64952f66
+trailColor: c4953f36
       trailParam: 5
       trailLength: 190
       trailWidth: 2
