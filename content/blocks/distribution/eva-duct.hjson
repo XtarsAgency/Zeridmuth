@@ -18,4 +18,10 @@ research: {
         "carbon-plates/120"
       "aluminium/230"
     ]
+objectives: [
+	    {
+        type: OnSector
+		preset: "river-of-antaraness"
+		}
+	]
 }
