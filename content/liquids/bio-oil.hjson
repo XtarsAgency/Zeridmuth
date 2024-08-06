@@ -1,11 +1,11 @@
-color: 002308
-barColor: 002302
+color: 204328
+barColor: 103312
 effect: "tarred"
 
 viscosity: 1.2
 temperature: 0
 heatCapacity: 0.8
-explosiveness: 1.1
+explosiveness: 0.9
 flammability: 1
 
 coolant: true
@@ -13,10 +13,10 @@ coolant: true
 particleEffect: {
     particles: 3
     length: 0
-    lifetime: 22
+    lifetime: 5
     sizeFrom: 3
     sizeTo: 0
-    colorFrom: 002300
+    colorFrom: 204320
     colorTo: 00000000
 }
 

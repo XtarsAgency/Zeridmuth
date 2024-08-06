@@ -1,11 +1,11 @@
-color: ff00ff
+color: cf34bf
 barColor: fc00ff
 effect: "corroded"
 
-viscosity: 8.9
+viscosity: 0.9
 temperature: 0
 heatCapacity: 0
-explosiveness: 13.7
+explosiveness: 8.7
 flammability: 0
 
 coolant: false

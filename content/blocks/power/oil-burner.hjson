@@ -4,19 +4,19 @@ type: consumeGenerator
   size: 3
 
 requirements: [
-    "carbon/57"
-  "carbon-plates/30"
-"aluminium-ingot/17"
+    "carbon/171"
+  "carbon-plates/90"
+"aluminium-ingot/51"
 ]
 
 hasPower: true
-powerProduction: 9.8
-liquidCapacity: 70
+powerProduction: 9.0
+liquidCapacity: 110
 squareSprite: false
 
 consumes: {
     liquids: [
-         "bio-oil/0.3"
+         "bio-oil/0.5"
 	]
 }
 research: {
@@ -28,8 +28,71 @@ research: {
         }
 ]
 }
+drawer: [
+	{
+	type: DrawRegion
+	suffix: "-bottom"
+	}
+	{
+	type: DrawLiquidTile
+	drawLiquid: zeridmuth-bio-oil
+	suffix: "-bottom"
+	alpha: 0.8
+	padding: 2
+	}
+	{
+	type: DrawRegion
+	suffix: "-mid"
+	}
+	{
+	type: DrawDefault
+	}
+	{
+	type: DrawGlowRegion
+	suffix: "-glow2"
+	color: e3a658af
+	}
+	{
+	type: DrawGlowRegion
+	suffix: "-glow"
+	color: ffec82e0
+	}
+	]
+generateEffect: {
+type: MultiEffect
+effects: [
+	{
+	type: ParticleEffect
+	particles: 45
+	colorFrom: 413F31FF
+	colorTo: 312F2100
+	sizeFrom: 4.5
+	sizeTo: 1.5
+	length: 24
+	offset: 45
+	lightOpacity: 3
+	interp: fastSlow
+	lifetime: 135
+	cone: 30
+	}
+	{
+	type: ParticleEffect
+	particles: 30
+	colorFrom: 413F31C8
+	colorTo: 312F2100
+	sizeFrom: 3
+	sizeTo: 1
+	length: 12
+	offset: 45
+	lightOpacity: 3
+	interp: fastSlow
+	lifetime: 120
+	cone: 48
+	}
+	]
+	}
 ResearchCost: [
-        carbon/230
-carbon-plates/120
-aluminium-ingot/70
+        carbon/2300
+carbon-plates/1200
+aluminium-ingot/700
 ] 
