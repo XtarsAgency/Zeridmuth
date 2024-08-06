@@ -12,5 +12,11 @@
     "requirements": [
       "carbon/20"
     ]
+objectives: [
+	    {
+        type: OnSector
+		preset: "river-of-antaraness"
+		}
+	]
   }
 }
