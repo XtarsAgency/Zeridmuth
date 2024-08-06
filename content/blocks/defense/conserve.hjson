@@ -19,6 +19,7 @@ ammoTypes: {
 		height: 15
 		
 		ammoMultiplier: 4
+buildingDamageMultiplier: 0.1
 	}
 ceramic: {
 type: BasicBulletType
@@ -28,8 +29,25 @@ lifetime: 30
 
 width: 5
 height: 15
+buildingDamageMultiplier: 0.2
 
 ammoMultiplier: 2
+      fragBullet: {
+        speed: 5
+        lifetime: 10
+        collidesGround: true
+        collidesAir: true
+        collides: true
+        damage: 5
+        shootEffect: none
+        height: 3
+        width: 1
+        buildingDamageMultiplier: 0.01
+trailColor: ACACACFF
+      trailParam: 2
+      trailLength: 2
+      trailWidth: 1
+	}
 }
 }
 drawer:{

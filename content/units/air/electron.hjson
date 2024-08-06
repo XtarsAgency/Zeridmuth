@@ -31,28 +31,76 @@ outlineColor: 2d2f39
 
 weapons: [
     {
-        name: railgun-weapon
+        name: big-railgun-weapon
         top: true
         x: 5
         y: 79
 		
 	    mirror: true
 	    alternate: true
-        reload: 78
+        reload: 70
         shootSound: "giantbang"
+
         bullet: {
             type: BasicBulletType
-            damage: 21780.5
-	        lifetime: 60
-	        speed: 22
+            damage: 21470.5
+	        lifetime: 50
+	        speed: 20
+hitSound: largeExplosion
+hitSoundVolume: 2
 pierce: 40
-pierceCap: 45
+pierceCap: 40
 pierceBuilding: true
-fragOnHit: true
-fragBullets: 80
+fragBullets: 10
+      fragBullet: {
+        speed: 10
+        lifetime: 15
+        collidesGround: true
+        collidesAir: true
+        collides: true
+        damage: 300
+        shootEffect: none
+        height: 25
+        width: 5
+        pierce: 20
+        pierceCap: 20
+trailColor: FEFE0CFF
+      trailParam: 5
+      trailLength: 90
+      trailWidth: 4
+	}
 
 width: 16
 height: 34
+
+trailColor: AEAE00FF
+      trailParam: 5
+      trailLength: 25
+      trailWidth: 6
+      trailEffect: {
+        type: ParticleEffect
+        particles: 5
+        length: 2
+        lifetime: 25
+        sizeFrom: 15
+        colorFrom: FFFFFFFF
+        colorTo: A4A400FF
+      }
+hitEffect: {
+type: ExplosionEffect
+smokeColor: F7ED40FF
+smokeRad: 45
+smokes: 22
+smokeSize: 5
+sparkColor: FFFFAAFF
+sparkLen: 10
+sparkStroke: 2
+sparkRad: 55
+sparks: 80
+waveRad: 20
+waveLife: 20
+lifetime: 120
+}
 		}
     } 
 {
@@ -60,15 +108,14 @@ height: 34
         top: true
         x: 58
         y: -50
-shootecoil: 8
 
 	    mirror: true
 	    alternate: true
-        reload: 50
+        reload: 25
         shootSound: "largeCannon"
         bullet: {
             type: BasicBulletType
-            damage: 1080.5
+            damage: 1478
 	        lifetime: 60
 	        speed: 16
 pierceCap: 10
@@ -77,6 +124,7 @@ pierceBuilding: true
 			
 			width: 10
 		    height: 20
+
 		}
     }
 { 
@@ -86,14 +134,14 @@ name: missile-weapon
         y: -11.25
 		
 	    mirror: true
-	    alternate: true
-        reload: 180
+	    alternate: false
+        reload: 90
         shootSound: "shootSmite"
 baseRotation: -45
 shootCone: 360
 inaccuracy: 10
 shoot:{
-  shots: 10
+  shots: 20
   shotDelay: 1
 }
         bullet: {
@@ -117,20 +165,20 @@ name: missile-weapon
         y: -21.25
 		
 	    mirror: true
-	    alternate: true
-        reload: 180
+	    alternate: false
+        reload: 45
         shootSound: "shootSmite"
 baseRotation: -5
 shootCone: 360
 inaccuracy: 5
 shoot:{
-  shots: 10
+  shots: 20
   shotDelay: 1
 }
         bullet: {
             type: MissileBulletType
 	backSprite: "electricity-missile"
-            damage: 285.7
+            damage: 142.7
 	        lifetime: 90
 	        speed: 8
 homingRange: 9000000
@@ -167,8 +215,8 @@ rotation: 90
 research: {
     parent: "electron-assembler"
     requirements: [
-        "carbon/200"
-"electric-component/55"
-"aluminium-ingot/20"
+        "zettiux-alloy/200"
+"electric-component/550"
+"zettium/210"
     ]
 }

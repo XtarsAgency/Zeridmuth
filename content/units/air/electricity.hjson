@@ -49,13 +49,19 @@ pierceBuilding: true
 			
 			width: 10
 		    height: 14
-		}
-bullet: {
-            type: LaserBulletType
-            damage: 550.5
-	        lifetime: 10
-	        speed: 0
-			width: 10
+trailColor: AEAE00FF
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
+      trailEffect: {
+        type: ParticleEffect
+        particles: 5
+        length: 2
+        lifetime: 25
+        sizeFrom: 5
+        colorFrom: FFFFFFFF
+        colorTo: A4A400FF
+      }
 		}
 }
 {
@@ -84,6 +90,10 @@ shoot:{
 homingRange: 9000000
 homingPower: 0.05
 homingDelay: 10
+trailColor: BE2000FF
+      trailParam: 5
+      trailLength: 190
+      trailWidth: 2
 
 			width: 6
 		    height: 10

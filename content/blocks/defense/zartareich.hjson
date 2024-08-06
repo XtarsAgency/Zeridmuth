@@ -3,23 +3,41 @@ category: turret
 size: 5
 health: 23000
 
-reload: 100
-range: 1200
-recoil: 11.4
+reload: 95
+range: 680
+recoil: 18
 shootSound: giantbang
+hitSound: laserblast
 
 ammoTypes: {
 	maurixum: {
 		type: BasicBulletType
 		damage: 13450
-		speed: 20
-		lifetime: 65
+		speed: 25
+		lifetime: 50
 		
 		width: 40
 		height: 60
 		
 		ammoMultiplier: 1
-	}
+                buildingDamageMultiplier: 0 
+trailColor: 840BDBFF
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
+      trailEffect: {
+        type: ParticleEffect
+        particles: 5
+        length: 2
+        lifetime: 25
+        sizeFrom: 5
+        colorFrom: FFFFFFFF
+        colorTo: A4A400FF
+      }      
+      fragBullets: 60
+      fragLifeMin: 5
+      fragAngle: 6
+}
 
 	zettiux-alloy: {
 		type: BasicBulletType
@@ -31,18 +49,56 @@ ammoTypes: {
 		height: 80
 		
 		ammoMultiplier: 1
+                buildingDamageMultiplier: 0.01
+trailColor: 00BBCBFF
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
+fragBullets: 60     
+fragBullet: {
+        speed: 5
+        lifetime: 25
+        collidesGround: true
+        collidesAir: true
+        collides: true
+        damage: 550
+        shootEffect: none
+        height: 5
+        width: 35
+        buildingDamageMultiplier: 0.01
+trailColor: 00BBCBFF
+      trailParam: 5
+      trailLength: 5
+      trailWidth: 5
 	}
+	}
+
 electric-component: {
 type: MissileBulletType
 damage: 23750
 speed: 25
-lifetime: 75
+lifetime: 50
 
 width: 40
 height: 80
 
 ammoMultiplier: 1
-}
+buildingDamageMultiplier: 0.02
+
+trailColor: DEDE00FF
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
+      trailEffect: {
+        type: ParticleEffect
+        particles: 5
+        length: 2
+        lifetime: 25
+        sizeFrom: 5
+        colorFrom: FFFFFFFF
+        colorTo: A4A400FF
+      }
+    }
 }
 
 requirements: [

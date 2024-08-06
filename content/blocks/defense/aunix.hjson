@@ -1,13 +1,13 @@
 type: ItemTurret
 category: turret
 size: 5
-health: 8500
+health: 9100
 
-reload: 60
-range: 250
-recoil: 7
+reload: 100
+range: 760
+recoil: 11
 inaccuracy: 0
-shootSound: mediumCannon
+shootSound: largeCannon
 
 ammoTypes: {
 	maurixum: {
@@ -20,6 +20,11 @@ ammoTypes: {
 		height: 23
 		
 		ammoMultiplier: 4
+trailColor: 840BDBFF
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
+buildingDamageMultiplier: 0
 	},
         zettium: {
 		type: BasicBulletType
@@ -31,6 +36,11 @@ ammoTypes: {
 		height: 23
 		
 		ammoMultiplier: 2
+trailColor: 07BBFFFF
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
+buildingDamageMultiplier: 0
 	},
         refined-uranium: {
 		type: MissileBulletType
@@ -42,6 +52,23 @@ ammoTypes: {
 		height: 23
 		
 		ammoMultiplier: 6
+buildingDamageMultiplier: 0
+hitEffect: {
+type: ExplosionEffect
+smokeColor: 57ED409F
+smokeRad: 190
+smokes: 50
+smokeSize: 12
+smokeSizeBase: 12
+sparkColor: AAFFAA
+sparkLen: 20
+sparkStroke: 5
+sparkRad: 250
+sparks: 50
+waveRad: 200
+waveLife: 20
+lifetime: 120
+}
 	},
 zettiux-alloy: {
 		type: MissileBulletType
@@ -53,6 +80,37 @@ zettiux-alloy: {
 		height: 23
 		
 		ammoMultiplier: 4
+buildingDamageMultiplier: 0.01
+trailColor: 00CFBBFF
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
+      trailEffect: {
+        type: ParticleEffect
+        particles: 5
+        length: 2
+        lifetime: 25
+        sizeFrom: 5
+        colorFrom: FFFFFFFF
+        colorTo: A4A400FF
+      }
+fragBullets: 50     
+fragBullet: {
+        speed: 10
+        lifetime: 10
+        collidesGround: true
+        collidesAir: true
+        collides: true
+        damage: 65
+        shootEffect: none
+        height: 2
+        width: 15
+        buildingDamageMultiplier: 0.01
+trailColor: 00BBCBFF
+      trailParam: 5
+      trailLength: 5
+      trailWidth: 2.5
+	}
 	},
 }
 
