@@ -4,9 +4,9 @@ type: consumeGenerator
   size: 3
 
 requirements: [
-    "carbon/57"
-  "carbon-plates/30"
-"aluminium-ingot/17"
+    "carbon/171"
+  "carbon-plates/90"
+"aluminium-ingot/51"
 ]
 
 hasPower: true
@@ -41,76 +41,56 @@ drawer: [
 	padding: 2
 	}
 	{
-	type: DrawDefault
-	}
-	{
 	type: DrawRegion
 	suffix: "-mid"
 	}
 	{
-	type: DrawParticle
-	color: e3ae6f
-	alpha: 0.6
-	blending: additive
-	particleSize: 2.25
-	reverse: true
-	particleRad: 9
-	particles: 32
-	fadeMargin: 1
-	rotateScl: 3
-	particleLife: 90
-	suffix: "-mid"
+	type: DrawDefault
 	}
 	{
-	type: DrawParticle
-	color: d57c65
-	alpha: 0.6
-	blending: additive
-	particleSize: 4.5
-	reverse: true
-	particleRad: 11
-	particles: 10
-	fadeMargin: 1
-	rotateScl: 3.5
-	particleLife: 60
-	suffix: "-mid"
+	type: DrawGlowRegion
+	suffix: "-glow2"
+	color: e3a658af
 	}
 	{
 	type: DrawGlowRegion
 	suffix: "-glow"
-	color: ffec82ef
+	color: ffec82e0
 	}
 	]
+generateEffect: {
+type: MultiEffect
 effects: [
 	{
 	type: ParticleEffect
 	particles: 45
 	colorFrom: 413F31FF
 	colorTo: 312F2100
-	sizeFrom: 32
-	sizeTo: 24
+	sizeFrom: 4.5
+	sizeTo: 1.5
 	length: 24
 	offset: 45
-	lightOpacity: 0
+	lightOpacity: 3
 	interp: fastSlow
-	lifetime: 90
-	cone: 15
+	lifetime: 135
+	cone: 30
 	}
 	{
 	type: ParticleEffect
 	particles: 30
 	colorFrom: 413F31C8
 	colorTo: 312F2100
-	sizeFrom: 16
-	sizeTo: 12
+	sizeFrom: 3
+	sizeTo: 1
 	length: 12
 	offset: 45
-	lightOpacity: 0
+	lightOpacity: 3
 	interp: fastSlow
-	lifetime: 80
-	cone: 24
+	lifetime: 120
+	cone: 48
 	}
 	]
+	}
 ResearchCost: [
         carbon/2300
 carbon-plates/1200
