@@ -79,6 +79,7 @@ baseRotation: -45
 shootCone: 180
 inaccuracy: 5
 shoot:{
+  firstShotDelay: 5
   shots: 45
   shotDelay: 1.2
 }
@@ -91,7 +92,7 @@ shoot:{
 homingRange: 9000000
 homingPower: 0.05
 homingDelay: 10
-trailColor: c4953f36
+trailColor: 80786e36
       trailParam: 5
       trailLength: 190
       trailWidth: 2
