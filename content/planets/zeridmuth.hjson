@@ -45,14 +45,14 @@ mesh: [
     // terrain
     type: NoiseMesh
     planet: zeridmuth
-    divisions: 3
+    divisions: 5
     seed: 988233
     radius: 1.28
     color1: 4d4d7c
     color2: 1279b5
     octaves: 8
-    persistence: 0.5
-    scale: 3.8
+    persistence: 0.35
+    scale: 4.8
     mag: 0.8
   }
 {
