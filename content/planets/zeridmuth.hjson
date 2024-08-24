@@ -28,8 +28,8 @@ sectorSeed: 0
 bloom: true
 visible: true
 atmosphereColor: 00ffff
-iconColor: 0bffff
-landCloudColor: a0ffff
+iconColor: 1283a9
+landCloudColor: 00d8f1
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
@@ -47,7 +47,7 @@ mesh: [
     planet: zeridmuth
     divisions: 4
     seed: 331060
-    radius: 1.2
+    radius: 1.28
     color1: 4d4d7c
     color2: 1279b5
     octaves: 6
