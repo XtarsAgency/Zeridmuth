@@ -19,7 +19,7 @@
     carbon-plates/20
     aluminium-ingot/5
   ],
-  "category": "craftinh",
+  "category": "crafting",
   "outputLiquid": "bio-oil/0.50"
 research: {
     parent: "biomass-extractor"
