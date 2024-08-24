@@ -19,7 +19,13 @@
   "category": "production",
   "outputItem": "biomass/1"
 research: {
-    parent: "aluminium-smelter"
+    parent: "core-nouvagrad"
+objectives: [
+	    {
+        type: SectorComplete
+		preset: "dense-forest"
+		}
+	]
       
 },
 researchCost: [
