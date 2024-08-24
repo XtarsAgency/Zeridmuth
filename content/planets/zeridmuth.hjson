@@ -51,7 +51,7 @@ mesh: [
     color1: 4d4d7c
     color2: 1279b5
     octaves: 8
-    persistence: 0.1
+    persistence: 0.65
     scale: 1.5
     mag: 0.3
   }
