@@ -47,13 +47,13 @@ mesh: [
     planet: zeridmuth
     divisions: 4
     seed: 988233
-    radius: 1.2
+    radius: 1.24
     color1: 4d4d7c
     color2: 1279b5
     octaves: 8
     persistence: 0.5
     scale: 3.8
-    mag: 1.95
+    mag: 1.2
   }
 {
     //sea
