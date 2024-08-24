@@ -61,7 +61,7 @@ mesh: [
     planet: zeridmuth
     divisions: 4.5
     seed: 0
-    radius: 1.42
+    radius: 1.36
     color1: 1a18ff
     color2: 1816ff
     octaves: 6
