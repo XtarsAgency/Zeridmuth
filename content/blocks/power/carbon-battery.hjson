@@ -1,5 +1,3 @@
-name: Carbon Battery
-description: Stores Power
 type: Battery
 category: power
 size: 1
@@ -11,12 +9,12 @@ consumes: {
 }
 
 requirements: [
-    "carbon/5"
+    "carbon/10"
   "aluminium/2"
 ]
 
 research: {
-    parent: "peltier-generator"
+    parent: "power-node"
     requirements: [
         "carbon/20"
       "aluminium/18"
