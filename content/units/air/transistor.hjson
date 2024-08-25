@@ -86,7 +86,7 @@ engines: [
     }
 ]
 research: {
-    parent: "ze-ship-assembler"
+    parent: "ze-ship-large"
     requirements: [
         "carbon/200"
 "carbon-plates/55"
