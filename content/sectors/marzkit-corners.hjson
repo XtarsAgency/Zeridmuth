@@ -5,7 +5,7 @@ research: {
 	objectives: [
 	    {
         type: SectorComplete
-		preset: "grassy-plains"
+		preset: "coastal-forest"
 		}
 	]
 }
