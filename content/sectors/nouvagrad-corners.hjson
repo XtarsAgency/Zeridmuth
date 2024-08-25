@@ -1,7 +1,7 @@
 sector: 13
 planet: zeridmuth
 research: {
-    parent: "coastal-forest"
+    parent: "grassy-plains"
 	objectives: [
 	    {
         type: SectorComplete
