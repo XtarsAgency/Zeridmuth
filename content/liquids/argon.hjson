@@ -9,7 +9,7 @@
     flammability: 0.2
 
     research: {
-    parent: "bio-oil"
+    parent: "liquid-isoz"
     requirements: [
             carbon/1
         ]
