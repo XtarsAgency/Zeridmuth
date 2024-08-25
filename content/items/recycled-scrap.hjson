@@ -7,7 +7,7 @@ charge: 0
 cost: 2
 
 research: {
-    parent: "core-nouvagrad"
+    parent: "core-anirav"
 }
 
 buildable: true
