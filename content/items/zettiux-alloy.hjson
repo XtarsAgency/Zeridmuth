@@ -5,7 +5,7 @@ charge: 3.15
 cost: 10
 
 research: {
-    parent: "maurixum"
+    parent: "electric-component"
 }
 
 buildable: true
