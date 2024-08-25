@@ -6,7 +6,7 @@ health: 580
 reload: 5.75
 range: 315
 recoil: 1.8
-inaccuracy: 13
+inaccuracy: 10
 
 ammoTypes: {
 	carbon: {
