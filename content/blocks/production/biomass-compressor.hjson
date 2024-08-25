@@ -23,6 +23,12 @@
   "outputLiquid": "bio-oil/0.50"
 research: {
     parent: "biomass-extractor"
+objectives: [
+	    {
+        type: SectorComplete
+		preset: "dense-forest"
+		}
+	]
 },
 researchCost: [
     carbon-plates/250
