@@ -1,5 +1,3 @@
-name: Carbon Node
-description: Transmits power to nearby buildings
 type: BeamNode
 category: power
 size: 1
@@ -9,16 +7,16 @@ consumesPower: true
 outputsPower: true
 range: 5
 consumes: {
-  powerBuffered: 20
+  powerBuffered: 100
 }
 
 requirements: [
-    "carbon/1"
+    "carbon/4"
   "aluminium/1"
 ]
 
 research: {
-    parent: "peltier-generator"
+    parent: "core-nouvagrad"
     requirements: [
         "carbon/40"
       "aluminium/70"
