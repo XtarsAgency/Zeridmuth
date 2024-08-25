@@ -1,11 +1,9 @@
-name: Electric Assembler
-description: Assembles Electric Component to be used for unit creation, outputs 2 items. Requires large amount of power.
 type: GenericCrafter
 category: crafting
 size: 3
 health: 950
 
-craftTime: 228
+craftTime: 210
 consumes: {
     items: [
         "aluminium-ingot/5"
@@ -13,12 +11,10 @@ consumes: {
       "carbon-plates/10"
       "refined-uranium/1"
 	]
-	power: 1.88
+	power: 2
 }
 outputItem: "electric-component/2"
-
 squareSprite: false
-
 requirements: [
     "carbon-plates/200"
   "aluminium-ingot/110"
@@ -34,6 +30,12 @@ research: {
       "uranium/90"
       "refined-uranium/20"
     ]
+objectives: [
+	    {
+        type: SectorComplete
+		preset: "construction-base"
+		}
+	]
 }
 drawer: [
 	{
