@@ -21,8 +21,8 @@ particleEffect: {
 }
 
 research: {
-    parent: "core-nouvagrad"
+    parent: "core-anirav"
     requirements: [
-            carbon/1
+            "isoz/1"
         ]
 }

@@ -1,7 +1,7 @@
 sector: 13
 planet: zeridmuth
 research: {
-    parent: "dense-forest"
+    parent: "marzkit-corners"
 	objectives: [
 	    {
         type: SectorComplete

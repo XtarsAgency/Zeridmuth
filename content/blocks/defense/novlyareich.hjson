@@ -80,8 +80,8 @@ research: {
 	]
 objectives: [
 	    {
-        type: SectorComplete
-		preset: "grassy-plains"
+        type: OnSector
+		preset: "coastal-forest"
 		}
 	]
 }

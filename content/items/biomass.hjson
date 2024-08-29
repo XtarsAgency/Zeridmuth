@@ -7,7 +7,7 @@ charge: 0
 cost: 2
 
 research: {
-    parent: "carbon-plates"
+    parent: "carbon"
 }
 
 buildable: true

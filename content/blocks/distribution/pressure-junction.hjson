@@ -8,9 +8,15 @@
   ],
   "category": "distribution",
   "research": {
-    "parent": "pressure-duct",
+    "parent": "duct-router",
     "requirements": [
       "carbon/20"
     ]
+objectives: [
+	    {
+        type: OnSector
+		preset: "river-of-antaraness"
+		}
+	]
   }
 }

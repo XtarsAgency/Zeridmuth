@@ -1,6 +1,6 @@
 category: power
 type: consumeGenerator
-  health: 422
+  health: 800
   size: 3
 
 requirements: [
@@ -20,10 +20,10 @@ consumes: {
 	]
 }
 research: {
-    parent: "nuclear-generator"
+    parent: "large-peltier-generator"
     objectives: [
         {
-            type: "OnSector",
+            type: "SectorComplete",
             preset: "coastal-forest"
         }
 ]

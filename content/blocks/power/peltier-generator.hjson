@@ -1,19 +1,17 @@
 category: power
-health: 198
+health: 200
 size: 1
-name: Peltier Generator
-description: Generates power through Peltier effect. due to low sunlight this is how to make power on Zeridmuth
 type: SolarGenerator
 
 powerProduction: 0.13
 
 requirements: [
     "carbon/3"
-  "aluminium/9"
+  "aluminium/10"
 ]
 
 research: {
-    parent: "core-nouvagrad"
+    parent: "power-node"
     requirements: [
         "carbon/140"
       "aluminium/98"

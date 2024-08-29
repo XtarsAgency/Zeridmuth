@@ -7,7 +7,7 @@ charge: 0
 cost: 4
 
 research: {
-    parent: "carbon-plates"
+    parent: "core-anirav"
 }
 
 buildable: true

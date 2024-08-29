@@ -22,12 +22,18 @@ requirements: [
 ]
 
 research: {
-    parent: "uranium-refiner"
+    parent: "aluminium-smelter"
     requirements: [
         "carbon-plates/125"
       "aluminium/105"
       "aluminium-ingot/70"
     ]
+objectives: [
+	    {
+        type: SectorComplete
+		preset: "blue-caldera"
+		}
+	]
 }
 drawer: [
 	{

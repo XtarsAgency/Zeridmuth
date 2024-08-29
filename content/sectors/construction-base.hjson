@@ -1,11 +1,11 @@
 sector: 15
 planet: zeridmuth
 research: {
-    parent: "coastal-forest"
+    parent: "nouvagrad-corners"
 	objectives: [
 	    {
         type: SectorComplete
-		preset: "nouvagrad-corners"
+		preset: "coastal-forest"
 		}
 	]
 }

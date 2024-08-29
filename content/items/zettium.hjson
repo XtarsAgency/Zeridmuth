@@ -5,7 +5,7 @@ charge: 4.25
 cost: 4
 
 research: {
-    parent: "carbon"
+    parent: "uranium"
 }
 
 buildable: true

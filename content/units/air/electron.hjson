@@ -25,7 +25,7 @@ speed: 0.65
 accel: 0.06
 drag: 0.02
 rotateSpeed: 0.7
-fogRadius: 1000
+fogRadius: 50
 
 outlineColor: 2d2f39
 
@@ -150,7 +150,7 @@ shoot:{
             damage: 285.7
 	        lifetime: 90
 	        speed: 8
-homingRange: 9000000
+homingRange: 90
 homingPower: 0.05
 homingDelay: 10
 
@@ -181,7 +181,7 @@ shoot:{
             damage: 142.7
 	        lifetime: 90
 	        speed: 8
-homingRange: 9000000
+homingRange: 90
 homingPower: 0.05
 homingDelay: 10
 
