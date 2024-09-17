@@ -8,10 +8,6 @@ research: {
         type: SectorComplete
 		preset: [
 "deteriorated-lake"
-"nouvagrad-corners"
-"marzkit-corners"
-"construction-base"
-"a-new-beginning"
 ]
 		}
 	]
