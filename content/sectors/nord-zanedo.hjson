@@ -6,9 +6,7 @@ research: {
 	objectives: [
 	    {
         type: SectorComplete
-		preset: [
-"deteriorated-lake"
-]
+		preset: "deteriorated-lake"
 		}
 	]
 }
