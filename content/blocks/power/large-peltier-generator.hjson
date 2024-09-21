@@ -1,8 +1,6 @@
 category: power
 health: 256
 size: 2
-name: Large Peltier Generator
-description: It is 4× more surface area, but generates 5× more power with better heat conductions!
 type: SolarGenerator
 
 powerProduction: 0.65

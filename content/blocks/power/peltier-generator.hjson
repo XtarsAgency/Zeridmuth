@@ -12,7 +12,13 @@ requirements: [
 
 research: {
     parent: "power-node"
-    requirements: [
+ objectives: [
+	    {
+        type: SectorComplete
+		preset: "blue-peaks"
+		}
+	]  
+requirements: [
         "carbon/140"
       "aluminium/98"
     ]
