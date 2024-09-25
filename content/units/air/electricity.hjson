@@ -41,15 +41,24 @@ weapons: [
 
 bullet: {
             type: BasicBulletType
+	FragOnHit: true
+	fragBullets: 5
+	fragBullet:{
+	type: ExplosionBulletType
+	killShooter: false   
+	splashDamage: 72
+	splashDamageRadius: 14.4
+	}
             damage: 550.5
 	        lifetime: 32
 	        speed: 25
+		recoil: 0.5
 pierceCap: 7
 pierceBuilding: true
 			
 			width: 10
 		    height: 14
-trailColor: AEAE00FF
+trailColor: feb380df
       trailParam: 5
       trailLength: 15
       trailWidth: 5
@@ -59,8 +68,8 @@ trailColor: AEAE00FF
         length: 2
         lifetime: 25
         sizeFrom: 5
-        colorFrom: FFFFFFFF
-        colorTo: A4A400FF
+        colorFrom: de9360ff
+        colorTo: feb38000
       }
 		}
 }
@@ -78,6 +87,7 @@ baseRotation: -45
 shootCone: 180
 inaccuracy: 5
 shoot:{
+  firstShotDelay: 5
   shots: 45
   shotDelay: 1.2
 }
@@ -90,7 +100,7 @@ shoot:{
 homingRange: 9000000
 homingPower: 0.05
 homingDelay: 10
-trailColor: BE2000FF
+trailColor: 80786e36
       trailParam: 5
       trailLength: 190
       trailWidth: 2
