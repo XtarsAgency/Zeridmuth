@@ -62,7 +62,7 @@ mesh: [
     divisions: 5.5
     seed: 33193
     radius: 1.247
-    color1: 154047
+    color1: 99b4c9
     color2: 256e25
     octaves: 8
     persistence: 0.5
@@ -75,7 +75,7 @@ mesh: [
     planet: zeridmuth
     divisions: 4.5
     seed: 0
-    radius: 1.3
+    radius: 1.33
     color1: 1a18ff
     color2: 1816ff
     octaves: 6
