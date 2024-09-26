@@ -20,16 +20,16 @@ sectorSize: 2
 startSector: 4
 radius: 1.5
 drawOrbit: true
-atmosphereRadIn: 0.5
-atmosphereRadOut: 3
+atmosphereRadIn: 1.5
+atmosphereRadOut: 3.5
 accessible: true
-updateLighting: true
-sectorSeed: 0
+updateLighting: false
+sectorSeed: 28
 bloom: true
 visible: true
-atmosphereColor: 00ffffff
-iconColor: 1283a9
-landCloudColor: 00d8f1
+atmosphereColor: 00afff
+iconColor: 00afff
+landCloudColor: a0afcf
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
@@ -70,19 +70,31 @@ mesh: [
     mag: 0.001
 }
 ]
-cloudMesh: {
-    type: HexSkyMesh
-    planet: zeridmuth
-    seed: 1
-    speed: 0.2
-    radius: 0.6
-    divisions: 4
-    color: 00a9d5aa
-    octaves: 0
-    persistence: 1
-    scl: 0.2
-    thresh: 0.1
-}
+cloudMesh: [
+  {
+   type: HexSkyMesh
+   planet: zeridmuth
+   speed: 1.9
+   radius: 0.23
+   divisions: 7
+   color: 99b4c9dc
+   octaves: 3
+   persistence: 0.2
+   scl: 1
+   thresh: 0.3
+  }
+    {
+   type: HexSkyMesh
+   planet: zeridmuth
+   speed: 1.2
+   radius: 0.21
+   divisions: 7
+   color: 99b4c9ac
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.2
+  }
 hiddenItems: [
     "copper"
     "lead"
