@@ -1,6 +1,4 @@
-type: Wall
-name: Zettiux Wall 
-description: An extremely durable wall. Blocks Enemy Bullets
+constype: Wall
 category: defense
 size: 2
 health: 12600
@@ -16,8 +14,8 @@ research: {
     ]
       objectives: [
         {
-            type: "OnSector",
-            preset: "dense-forest"
+            type: "SectorComplete",
+            preset: "construction-base"
         }
     ]
 }
