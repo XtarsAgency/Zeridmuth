@@ -20,14 +20,14 @@ sectorSize: 2
 startSector: 4
 radius: 1.5
 drawOrbit: true
-atmosphereRadIn: 1.4
-atmosphereRadOut: 2
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.3
 accessible: true
 updateLighting: false
 sectorSeed: 28
 bloom: true
 visible: true
-atmosphereColor: 00afff
+atmosphereColor: 00afff8c
 iconColor: 00afff
 landCloudColor: a0afcf
 hasAtmosphere: true
