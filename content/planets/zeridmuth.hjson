@@ -21,7 +21,7 @@ startSector: 4
 radius: 1.5
 drawOrbit: true
 atmosphereRadIn: 1.5
-atmosphereRadOut: 3.5
+atmosphereRadOut: 4
 accessible: true
 updateLighting: false
 sectorSeed: 28
@@ -75,7 +75,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: zeridmuth
    speed: 1.9
-   radius: 0.23
+   radius: 0.15
    divisions: 7
    color: 99b4c9dc
    octaves: 3
@@ -86,14 +86,14 @@ cloudMesh: [
     {
    type: HexSkyMesh
    planet: zeridmuth
-   speed: 1.2
-   radius: 0.21
+   speed: 0.7
+   radius: 0.1
    divisions: 7
    color: 99b4c9ac
    octaves: 3
    persistence: 0.3
    scl: 1
-   thresh: 0.2
+   thresh: 0.5
   }
 hiddenItems: [
     "copper"
