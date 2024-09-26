@@ -1,10 +1,10 @@
 type: Wall
 category: defense
 size: 2
-health: 5870
+health: 5500
 
 requirements: [
-    "uranium/24"
+    "uranium/32"
 ]
 
 research: {
