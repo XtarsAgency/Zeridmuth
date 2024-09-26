@@ -39,6 +39,7 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: true
 allowSectorInvasion: false
 alwaysUnlocked: true
+prebuildBase: true
 //GO KYS↓↓↓
 mesh: [
   {
@@ -90,7 +91,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: zeridmuth
    speed: 1.9
-   radius: 0.04
+   radius: 0.01
    divisions: 6
    color: 99b4c9dc
    octaves: 3
@@ -103,7 +104,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: zeridmuth
    speed: 0.7
-   radius: 0.02
+   radius: 0.03
    divisions: 6
    color: 45c0d6ac
    octaves: 3
