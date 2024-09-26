@@ -1,6 +1,4 @@
 type: Wall
-name: Large Uranium Wall 
-description: Blocks Enemy Bullets
 category: defense
 size: 2
 health: 5870
@@ -16,7 +14,7 @@ research: {
     ]
       objectives: [
         {
-            type: "OnSector",
+            type: "SectorComplete",
             preset: "irradiated-plains"
         }
     ]
