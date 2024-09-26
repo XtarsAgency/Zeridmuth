@@ -56,6 +56,20 @@ mesh: [
     mag: 0.6
   }
 {
+    // more terrain
+    type: NoiseMesh
+    planet: zeridmuth
+    divisions: 5.5
+    seed: 33193
+    radius: 1.2
+    color1: 154047
+    color2: 256e25
+    octaves: 8
+    persistence: 0.5
+    scale: 1.5
+    mag: 0.6
+  }
+{
     //sea
     type: NoiseMesh
     planet: zeridmuth
@@ -72,11 +86,12 @@ mesh: [
 ]
 cloudMesh: [
   {
+// small fast
    type: HexSkyMesh
    planet: zeridmuth
    speed: 1.9
-   radius: 0.09
-   divisions: 7
+   radius: 0.04
+   divisions: 6
    color: 99b4c9dc
    octaves: 3
    persistence: 0.2
@@ -84,11 +99,12 @@ cloudMesh: [
    thresh: 0.3
   }
     {
+//slow big
    type: HexSkyMesh
    planet: zeridmuth
    speed: 0.7
-   radius: 0.06
-   divisions: 7
+   radius: 0.02
+   divisions: 6
    color: 45c0d6ac
    octaves: 3
    persistence: 0.3
