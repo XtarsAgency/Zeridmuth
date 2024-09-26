@@ -25,7 +25,7 @@ atmosphereRadOut: 0
 accessible: false
 updateLighting: false
 sectorSeed: 14513
-bloom: true
+bloom: false
 visible: true
 atmosphereColor: 00000000
 iconColor: cf8ccf
@@ -33,7 +33,7 @@ hasAtmosphere: false
 allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: true
-allowLaunchSchematics: false
+allowLaunchSchematics: true
 allowLaunchToNumbered: false
 allowLaunchLoadout: true
 allowSectorInvasion: false
@@ -44,14 +44,14 @@ mesh: [
     //ground 
     type: NoiseMesh
     planet: arvtom
-    divisions: 4
+    divisions: 5
     seed: 3828
     radius: 0.66
-    color1: 8b8db1
-    color2: 256942
+    color1: 825030
+    color2: 8c6511
     octaves: 4
-    persistence: 1
-    mag: 2
+    persistence: 0.6
+    mag: 1
   }
   {
     //isoz ocean
