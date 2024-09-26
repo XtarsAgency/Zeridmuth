@@ -18,7 +18,7 @@ defaultCore: core-nouvagrad
 parent: sun
 sectorSize: 2
 startSector: 4
-radius: 1.5
+radius: 1.3
 drawOrbit: true
 atmosphereRadIn: 0.02
 atmosphereRadOut: 0.3
@@ -75,7 +75,7 @@ mesh: [
     planet: zeridmuth
     divisions: 4.5
     seed: 0
-    radius: 1.33
+    radius: 1.32
     color1: 1a18ff
     color2: 1816ff
     octaves: 6
