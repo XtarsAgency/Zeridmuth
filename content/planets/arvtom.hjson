@@ -53,13 +53,26 @@ mesh: [
     persistence: 0.6
     mag: 1
   }
+ {
+    //moar ground 
+    type: NoiseMesh
+    planet: arvtom
+    divisions: 5
+    seed: 17313
+    radius: 0.66
+    color1: b05537
+    color2: 371a54
+    octaves: 4
+    persistence: 0.6
+    mag: 1
+  }
   {
     //isoz ocean
     type: NoiseMesh
     planet: arvtom
     divisions: 4
     seed: 381
-    radius: 0.7
+    radius: 0.73
     color1: ad00ad
     color2: ab66ab
     octaves: 2
