@@ -1,22 +1,20 @@
 type: Wall
-name: Uranium Wall
-description: Blocks Enemy Bullets
 category: defense
 size: 1
 health: 1350
 
 requirements: [
-    "uranium/6"
+    "uranium/8"
 ]
 
 research: {
-    parent: "carbon-wall-large"
+    parent: "carbon-wall"
     requirements: [
-        "uranium/75"
+        "uranium/105"
     ]
       objectives: [
         {
-            type: "OnSector",
+            type: "SectorComplete",
             preset: "irradiated-plains"
         }
     ]
