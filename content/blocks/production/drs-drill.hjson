@@ -24,7 +24,7 @@ requirements: [
   refined-uranium/20
 ]
 research: {
-parent: "carbon-ceramic-drill"
+parent: "aluminium-ceramic-drill"
 requirements: [
 "carbon/400"
 "aluminium-ingot/130"
