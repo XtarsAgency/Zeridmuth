@@ -1,5 +1,3 @@
-name: Nuclear Generator
-description: Generates power via Nuclear Reaction, uses significant amounts of uranium
 category: power
 type: consumeGenerator
   health: 650
@@ -23,7 +21,13 @@ consumes: {
 }
 research: {
     parent: "large-peltier-generator"
-    requirements: [
+objectives: [
+	    {
+        type: SectorComplete
+		preset: "dense-forest"
+		}
+	]    
+requirements: [
         "uranium/60"
 "aluminium/240"
 "carbon-plates/90"
