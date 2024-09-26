@@ -1,23 +1,23 @@
 type: Wall
-name: Huge Zettiux Wall 
-description: An extremely durable wall. Blocks Enemy Bullets
 category: defense
 size: 3
 health: 49900
 
 requirements: [
     "zettiux-alloy/48"
+"ceramic/20"
 ]
 
 research: {
     parent: "zettiux-wall"
     requirements: [
         "zettiux-alloy/460"
+"ceramic/240"
     ]
       objectives: [
         {
-            type: "OnSector",
-            preset: "deteriorated-lake"
+            type: "SectorComplete",
+            preset: "construction-baae"
         }
     ]
 }
