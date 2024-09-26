@@ -144,7 +144,7 @@ requirements: [
 ]
 
 research: {
-    parent: "nouvlyareich"
+    parent: "novlyareich"
     requirements: [
         "carbon-plates/120"
 "aluminium-ingot/80"
