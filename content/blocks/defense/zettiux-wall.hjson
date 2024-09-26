@@ -5,16 +5,18 @@ health: 12600
 
 requirements: [
     "zettiux-alloy/24"
+"ceramic/10"
 ]
 
 research: {
     parent: "uranium-wall-large"
     requirements: [
-        "zettiux-alloy/52"
+        "zettiux-alloy/148"
+"ceramic/50"
     ]
       objectives: [
         {
-            type: "SectorComplete",
+            type: "SectorComplete"
             preset: "construction-base"
         }
     ]
