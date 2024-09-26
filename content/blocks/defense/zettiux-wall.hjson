@@ -9,7 +9,7 @@ requirements: [
 ]
 
 research: {
-    parent: "uranium-wall-large"
+    parent: "uranium-wall"
     requirements: [
         "zettiux-alloy/148"
 "ceramic/50"
