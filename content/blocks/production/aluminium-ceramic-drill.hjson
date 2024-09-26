@@ -19,10 +19,11 @@ research: {
 "aluminium/60"
 "aluminium-ingot/20"
     ]
-}
+
 objectives: [
 	    {
         type: OnSector
 		preset: "irradiated-plains"
 		}
 	]
+}
