@@ -17,7 +17,7 @@ research: {
       objectives: [
         {
             type: "SectorComplete",
-            preset: "construction-baae"
+            preset: "construction-base"
         }
     ]
 }
