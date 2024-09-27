@@ -31,7 +31,7 @@ research: {
 objectives: [
 	    {
         type: SectorComplete
-		preset: "blue-caldera"
+		preset: "blue-peaks
 		}
 	]
 }
