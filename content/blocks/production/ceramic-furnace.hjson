@@ -39,7 +39,7 @@ drawer: [
 	{
 		type: DrawArcSmelt
 	}
-	{
+{
         type: DrawDefault
     }
 ]
