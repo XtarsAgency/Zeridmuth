@@ -1,7 +1,5 @@
 type: Router
 category: distribution
-name: Duct Router
-description: Seperates Duct inputs into 3 sides equally
 size: 1
 health: 170
 
