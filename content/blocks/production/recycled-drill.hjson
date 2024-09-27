@@ -1,6 +1,4 @@
 type: Drill
-name: Recycled Drill
-description: A Drill made from recycled Scrap. Slowly drills ores
 health: 220
 size: 2
 tier: 1
