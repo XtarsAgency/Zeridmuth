@@ -34,7 +34,7 @@ research: {
 	objectives: [
 	    {
         type: OnSector
-		preset: "marzkit-corners"
+		preset: "grassy-plains"
 		}
 	]
 }
