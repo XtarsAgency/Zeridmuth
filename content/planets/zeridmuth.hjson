@@ -48,8 +48,8 @@ mesh: [
     divisions: 6
     seed: 177113
     radius: 1.25
-    color1: 4d4d7c
-    color2: 0f5c0c
+    color1: 128bc7
+    color2: 71afd7
     octaves: 10
     persistence: 0.5
     scale: 1.5
@@ -63,7 +63,7 @@ mesh: [
     seed: 33193
     radius: 1.247
     color1: 22252e
-    color2: 71afd7
+    color2: 7
     octaves: 10
     persistence: 0.5
     scale: 1.5
@@ -95,8 +95,8 @@ cloudMesh: [
    color: 99b4c9cc
    octaves: 3
    persistence: 0.2
-   scl: 1
-   thresh: 0.15
+   scl: 0.7
+   thresh: 0.2
   }
     {
 //slow big
@@ -109,7 +109,20 @@ cloudMesh: [
    octaves: 3
    persistence: 0.3
    scl: 1
-   thresh: 0.3
+   thresh: 0.45
+  }
+   {
+//cirrus cloud
+   type: HexSkyMesh
+   planet: zeridmuth
+   speed: 0.05
+   radius: 0.13
+   divisions: 5
+   color: 8ccbed
+   octaves: 6
+   persistence: 0.3
+   scl: 1
+   thresh: 0.35
   }
 hiddenItems: [
     "copper"
