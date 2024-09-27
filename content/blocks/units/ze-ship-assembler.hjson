@@ -2,9 +2,6 @@ type: UnitFactory
 health: 2670
 size: 6
 category: units
-name: Z.E Ship Constructor Tier 3
-description: Produces Z.E Class ships (Zeridmuth Electric) Tier 3. to attack both enemy buildings and units. Uses significant power
-
 configurable: false
 regionSuffix: "-dark"
 
