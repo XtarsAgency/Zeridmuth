@@ -1,0 +1,51 @@
+type: flying
+health: 400
+armor: 0
+hitSize: 6
+
+flying: true
+itemCapacity: 50
+
+speed: 2
+accel: 0.2
+drag: 0.015
+rotateSpeed: 5
+hittable: true
+targetable: false
+isEnemy: false
+controller: DefenderAI
+
+outlineColor: 2d2f39
+
+weapons: [
+    {
+        type: RepairBeamWeapon
+		widthSinMag: 0.11
+        x: 0
+        y: 2
+        mirror: false
+        shootY: 0
+	beamWidth: 0.3
+        repairSpeed: 5
+        fractionRepairSpeed: 0.40
+        shootCone: 60
+		
+        targetUnits: false
+        targetBuildings: true
+        autoTarget: false
+        controllable: true
+        laserColor: cfa600
+        healColor: 00bfff
+		bullet: {
+		    maxRange: 60
+		}
+    }
+]
+research: {
+    parent: "current"
+    requirements: [
+        "carbon/100"
+"carbon-plates/85"
+"aluminium-ingots/50"
+    ]
+}
