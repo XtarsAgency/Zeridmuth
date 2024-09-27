@@ -29,7 +29,7 @@ research: {
     objectives: [
         {
             type: "sectorComplete",
-            preset: "dense-forest"
+            preset: "coastal-forest"
         }
     ]
 },
