@@ -7,7 +7,7 @@ charge: 2
 cost: 7
 
 research: {
-    parent: "uranium"
+    parent: "ceramic"
 }
 
 buildable: true
