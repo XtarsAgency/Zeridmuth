@@ -1,6 +1,4 @@
 type: Drill
-name: Carbon Drill
-description: A drill used to mine soft carbon ores
 health: 450
 size: 2
 tier: 1
