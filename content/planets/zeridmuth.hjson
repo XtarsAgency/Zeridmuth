@@ -26,9 +26,9 @@ accessible: true
 updateLighting: false
 sectorSeed: 28
 visible: true
-atmosphereColor: 00afff8c
+atmosphereColor: 00afff00
 iconColor: 00afff
-landCloudColor: a0afcf
+landCloudColor: 99b4c9
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
@@ -63,7 +63,7 @@ mesh: [
     seed: 33193
     radius: 1.247
     color1: 22252e
-    color2: 256e25
+    color2: 71afd7
     octaves: 10
     persistence: 0.5
     scale: 1.5
