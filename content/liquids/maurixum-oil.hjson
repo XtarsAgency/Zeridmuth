@@ -1,6 +1,4 @@
 {
-    localizedName: Maurixum Oil
-    description: Oil created as a byproduct. Flammable.
     color: 00bcfd
     barColor: 00bcfc
     effect: "tarred"
