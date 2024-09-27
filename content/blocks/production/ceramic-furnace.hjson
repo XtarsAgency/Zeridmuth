@@ -1,3 +1,4 @@
+{
 type: GenericCrafter
 category: crafting
 size: 2
@@ -43,3 +44,4 @@ type: DrawArcSmelt
 type: DrawDefault
 }
 ]
+}
