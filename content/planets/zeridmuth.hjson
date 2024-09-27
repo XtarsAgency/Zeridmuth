@@ -21,7 +21,7 @@ startSector: 4
 radius: 1.3
 drawOrbit: true
 atmosphereRadIn: 0.02
-atmosphereRadOut: 0.6
+atmosphereRadOut: 0.7
 accessible: true
 updateLighting: false
 sectorSeed: 28
@@ -45,12 +45,12 @@ mesh: [
     // terrain
     type: NoiseMesh
     planet: zeridmuth
-    divisions: 5.5
+    divisions: 6
     seed: 177113
     radius: 1.25
     color1: 4d4d7c
-    color2: 1279b5
-    octaves: 8
+    color2: 0f5c0c
+    octaves: 10
     persistence: 0.5
     scale: 1.5
     mag: 0.6
@@ -59,12 +59,12 @@ mesh: [
     // more terrain
     type: NoiseMesh
     planet: zeridmuth
-    divisions: 5.5
+    divisions: 6
     seed: 33193
     radius: 1.247
-    color1: 99b4c9
+    color1: 22252e
     color2: 256e25
-    octaves: 8
+    octaves: 10
     persistence: 0.5
     scale: 1.5
     mag: 0.6
@@ -73,12 +73,12 @@ mesh: [
     //sea
     type: NoiseMesh
     planet: zeridmuth
-    divisions: 4.5
+    divisions: 7
     seed: 0
     radius: 1.32
     color1: 1a18ff
     color2: 1816ff
-    octaves: 6
+    octaves: 2
     persistence: 0.001
     scale: 0.5
     mag: 0.001
@@ -89,27 +89,27 @@ cloudMesh: [
 // small fast
    type: HexSkyMesh
    planet: zeridmuth
-   speed: 1.9
+   speed: 0.9
    radius: 0.06
-   divisions: 6
-   color: 99b4c9dc
+   divisions: 5
+   color: 99b4c9cc
    octaves: 3
    persistence: 0.2
    scl: 1
-   thresh: 0.3
+   thresh: 0.15
   }
     {
 //slow big
    type: HexSkyMesh
    planet: zeridmuth
-   speed: 0.7
+   speed: 0.2
    radius: 0.09
-   divisions: 6
-   color: 45c0d6ac
+   divisions: 5
+   color: 45c0d6aa
    octaves: 3
    persistence: 0.3
    scl: 1
-   thresh: 0.5
+   thresh: 0.3
   }
 hiddenItems: [
     "copper"
