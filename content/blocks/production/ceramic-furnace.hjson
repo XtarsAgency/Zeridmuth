@@ -36,10 +36,10 @@ objectives: [
 	]
 }
 drawer: [
-	{
-		type: DrawArcSmelt
-	}
 {
-        type: DrawDefault
-    }
+type: DrawArcSmelt
+}
+{
+type: DrawDefault
+}
 ]
