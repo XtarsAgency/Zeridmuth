@@ -2,7 +2,7 @@ sector: 6
 planet: zeridmuth
 captureWave: 25
 research: {
-    parent: "a-new-beginning"
+    parent: "river-of-antaraness"
 	objectives: [
 	    {
         type: SectorComplete
