@@ -39,7 +39,7 @@ drawer: [
 	{
         type: DrawRegion
         suffix: "-bottom"
-    }
+}
 	{
 		type: DrawArcSmelt
 	}
