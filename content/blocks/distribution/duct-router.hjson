@@ -1,7 +1,7 @@
 type: Router
 category: distribution
 size: 1
-health: 170
+health: 60
 
 requirements: [
     "carbon/3"
