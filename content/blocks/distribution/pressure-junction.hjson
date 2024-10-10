@@ -14,7 +14,7 @@
     ]
 objectives: [
 	    {
-        type: OnSector
+        type: SectorComplete
 		preset: "river-of-antaraness"
 		}
 	]
