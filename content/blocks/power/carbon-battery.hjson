@@ -19,4 +19,10 @@ research: {
         "carbon/20"
       "aluminium/18"
     ]
+objectives: [
+	    {
+        type: SectorComplete
+		preset: "blue-peaks"
+		}
+	]
 }
