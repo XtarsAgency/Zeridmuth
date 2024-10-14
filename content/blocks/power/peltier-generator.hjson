@@ -14,7 +14,7 @@ research: {
     parent: "power-node"
  objectives: [
 	    {
-        type: SectorComplete
+        type: OnSector
 		preset: "blue-peaks"
 		}
 	]  
