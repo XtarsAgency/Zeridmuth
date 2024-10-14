@@ -21,4 +21,10 @@ research: {
         "carbon/40"
       "aluminium/70"
     ]
+objectives: [
+	    {
+        type: OnSector
+		preset: "blue-peaks"
+		}
+	]
 }
