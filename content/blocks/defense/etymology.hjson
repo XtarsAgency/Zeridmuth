@@ -10,7 +10,7 @@ recoil: 1.2
 ammoTypes: {
 	carbon: {
 		type: BasicBulletType
-		damage: 37
+		damage: 28.5
 		speed: 10
 		lifetime: 18
 		
@@ -25,7 +25,7 @@ trailColor: 070719FF
 	}
 aluminium: {
 		type: BasicBulletType
-		damage: 45
+		damage: 38.7
 		speed: 10
 		lifetime: 25
 		
