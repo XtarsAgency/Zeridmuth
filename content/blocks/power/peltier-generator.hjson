@@ -11,7 +11,7 @@ requirements: [
 ]
 
 research: {
-    parent: "power-node"
+    parent: "ppower-node"
  objectives: [
 	    {
         type: OnSector
