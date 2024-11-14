@@ -4,7 +4,7 @@ size: 5
 health: 9100
 
 reload: 100
-range: 760
+range: 910
 recoil: 11
 inaccuracy: 0
 shootSound: largeCannon
