@@ -1,4 +1,4 @@
-constype: Wall
+type: Wall
 category: defense
 size: 2
 health: 12600
