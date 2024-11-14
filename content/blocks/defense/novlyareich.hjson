@@ -4,7 +4,7 @@ size: 3
 health: 2800
 
 reload: 140
-range: 200
+range: 750
 recoil: 3.8
 shootSound: cannon
 
