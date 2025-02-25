@@ -1,7 +1,7 @@
 type: flying
-health: 955700
-armor: 200
-hitSize: 267
+health: 950000
+armor: 210
+hitSize: 270
 
 flying: true
 buildSpeed: 4.9
@@ -43,7 +43,7 @@ weapons: [
 
         bullet: {
             type: BasicBulletType
-            damage: 21470.5
+            damage: 20000.5
 	        lifetime: 50
 	        speed: 20
 hitSound: largeExplosion
@@ -115,7 +115,7 @@ lifetime: 120
         shootSound: "largeCannon"
         bullet: {
             type: BasicBulletType
-            damage: 1478
+            damage: 1140
 	        lifetime: 60
 	        speed: 16
 pierceCap: 10
@@ -147,7 +147,7 @@ shoot:{
         bullet: {
             type: MissileBulletType
 	backSprite: "electricity-missile"
-            damage: 285.7
+            damage: 150
 	        lifetime: 90
 	        speed: 8
 homingRange: 90
@@ -178,7 +178,7 @@ shoot:{
         bullet: {
             type: MissileBulletType
 	backSprite: "electricity-missile"
-            damage: 142.7
+            damage: 150
 	        lifetime: 90
 	        speed: 8
 homingRange: 90
