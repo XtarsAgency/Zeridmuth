@@ -53,8 +53,8 @@ pierceBuilding: true
   {
         name: missile-weapon
         top: false
-        x: 30
-        y: -20
+        x: 23
+        y: -17
 		
 	    mirror: true
 	    alternate: true
@@ -62,20 +62,20 @@ pierceBuilding: true
         shootSound: "missileLaunch"
         bullet: {
             type: MissileBulletType
-            damage: 95.5
-	        lifetime: 50
+            damage: 110.5
+	        lifetime: 70
 	        speed: 10
 homingRange: 90
-homingPower: 0.05
+homingPower: 0.1
 homingDelay: 10
 trailColor: FCAFAF66
       trailParam: 1
       trailLength: 10
-      trailWidth: 5
+      trailWidth: 1
 			width: 5
 		    height: 15
 		}
-baseRotation: -90
+baseRotation: -45
 shootCone: 360
 inaccuracy: 25
 shoot:{
@@ -87,8 +87,8 @@ shoot:{
 engines: [
     {
         x: 0
-        y: -10
-        radius: 6
+        y: -30
+        radius: 10
         rotation: 90
     }
 ]
