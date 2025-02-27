@@ -58,7 +58,7 @@ pierceBuilding: true
 		
 	    mirror: true
 	    alternate: true
-        reload: 25
+        reload: 60
         shootSound: "missileLaunch"
         bullet: {
             type: MissileBulletType
@@ -79,17 +79,17 @@ baseRotation: -45
 shootCone: 360
 inaccuracy: 25
 shoot:{
-  shots: 90
-  shotDelay: 2
+  shots: 60
+  shotDelay: 0.5
 }
 }
 ]
 engines: [
     {
         x: 0
-        y: -30
-        radius: 10
-        rotation: 90
+        y: -25
+        radius: 7
+        rotation: -90
     }
 ]
 research: {
