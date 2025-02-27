@@ -29,7 +29,7 @@ outlineColor: 2d2f39
 
 weapons: [
     {
-        name: transistor-weapon
+        name: transistor-railgun
         top: false
         x: 0
         y: 18
@@ -40,7 +40,7 @@ weapons: [
         shootSound: "giantbang"
         bullet: {
             type: BasicBulletType
-            damage: 5780.5
+            damage: 4250
 	        lifetime: 50
 	        speed: 20
 pierceCap: 15
@@ -53,8 +53,8 @@ pierceBuilding: true
   {
         name: missile-weapon
         top: false
-        x: 32
-        y: 0
+        x: 30
+        y: -20
 		
 	    mirror: true
 	    alternate: true
@@ -62,25 +62,32 @@ pierceBuilding: true
         shootSound: "missileLaunch"
         bullet: {
             type: MissileBulletType
-            damage: 1050.5
+            damage: 95.5
 	        lifetime: 50
 	        speed: 10
-			
-			width: 10
-		    height: 14
+homingRange: 90
+homingPower: 0.05
+homingDelay: 10
+trailColor: FCAFAF66
+      trailParam: 1
+      trailLength: 10
+      trailWidth: 5
+			width: 5
+		    height: 15
 		}
+baseRotation: -90
+shootCone: 360
+inaccuracy: 25
+shoot:{
+  shots: 90
+  shotDelay: 2
+}
 }
 ]
 engines: [
     {
-        x: 10
-        y: -55
-        radius: 6
-        rotation: 90
-    }
-{
-        x: -10
-        y: -55
+        x: 0
+        y: -10
         radius: 6
         rotation: 90
     }
