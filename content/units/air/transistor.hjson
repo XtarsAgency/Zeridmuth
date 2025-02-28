@@ -1,6 +1,6 @@
 type: flying
-health: 55700
-armor: 35
+health: 55000
+armor: 40
 hitSize: 120
 
 flying: true
@@ -32,7 +32,7 @@ weapons: [
         name: transistor-railgun
         top: false
         x: 0
-        y: 18
+        y: 20
 		
 	    mirror: false
 	    alternate: false
@@ -53,8 +53,8 @@ pierceBuilding: true
   {
         name: missile-weapon
         top: false
-        x: 23
-        y: -17
+        x: 21
+        y: -20
 		
 	    mirror: true
 	    alternate: true
@@ -80,7 +80,7 @@ shootCone: 360
 inaccuracy: 25
 shoot:{
   shots: 60
-  shotDelay: 0.5
+  shotDelay: 0.2
 }
 }
 ]
