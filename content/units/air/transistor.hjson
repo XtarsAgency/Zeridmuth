@@ -36,7 +36,7 @@ weapons: [
 		
 	    mirror: false
 	    alternate: false
-        reload: 75
+        reload: 120
         shootSound: "giantbang"
         bullet: {
             type: BasicBulletType
@@ -48,6 +48,10 @@ pierceBuilding: true
 			
 			width: 14
 		    height: 34
+trailColor: fef380df
+      trailParam: 5
+      trailLength: 15
+      trailWidth: 5
 		}
     } 
   {
