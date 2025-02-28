@@ -1,6 +1,5 @@
 type: flying
-health: 14680
-armor: 8
+health: 14500
 hitSize: 75
 
 flying: true
@@ -88,8 +87,8 @@ shootCone: 180
 inaccuracy: 5
 shoot:{
   firstShotDelay: 5
-  shots: 45
-  shotDelay: 1.2
+  shots: 10
+  shotDelay: 0.85
 }
         bullet: {
             type: MissileBulletType
