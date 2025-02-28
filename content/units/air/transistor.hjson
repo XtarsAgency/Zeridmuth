@@ -54,8 +54,23 @@ trailColor: fef380df
       trailWidth: 5
 		}
     } 
+{
+name: lazer-wowowo
+top: true
+x: 15
+y: 20
+mirror: true
+	    alternate: true
+        reload: 10
+        shootSound: "malignShoot"
+        bullet: {
+            type: LaserBulletType
+            damage: 256.2
+	        length: 20
+		}
+}
   {
-        name: missile-weapon
+       name: missile-weapon
         top: false
         x: 21
         y: -20
