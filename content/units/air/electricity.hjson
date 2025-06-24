@@ -48,9 +48,9 @@ bullet: {
 	splashDamage: 72
 	splashDamageRadius: 14.4
 	}
-            damage: 550.5
-	        lifetime: 32
-	        speed: 25
+            damage: 505.5
+	        lifetime: 28
+	        speed: 20
 		recoil: 0.5
 pierceCap: 7
 pierceBuilding: true
