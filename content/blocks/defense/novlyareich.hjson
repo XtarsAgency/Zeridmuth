@@ -81,7 +81,7 @@ research: {
 objectives: [
 	    {
         type: OnSector
-		preset: "coastal-forest"
+		preset: "dense-forest"
 		}
 	]
 }
