@@ -14,7 +14,7 @@ requirements: [
 ]
 
 research: {
-    parent: "power-node"
+    parent: "ppower-node"
     requirements: [
         "carbon/20"
       "aluminium/18"
