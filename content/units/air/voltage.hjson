@@ -47,7 +47,7 @@ weapons: [
 	splashDamageRadius: 34
 	}
 		damage: 238.5
-	        lifetime: 30
+	        lifetime: 20
 	        speed: 13.5
 		recoil: 0.5
 			
